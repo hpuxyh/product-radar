@@ -1,0 +1,622 @@
+{
+  "date": "2026-05-28",
+  "candidates": [
+    {
+      "source": "GitHub Trending",
+      "title": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "score": 123,
+      "category": "值得跟进",
+      "why": [
+        "今日新增 4.7k stars，总计 66k stars",
+        "GitHub daily trending",
+        "关键词：cli, video, 生成, 视频"
+      ],
+      "details": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "meta": {
+        "language": "Python",
+        "forks": 9512
+      }
+    },
+    {
+      "source": "X/Twitter",
+      "title": "@jackfriks: i made an app that feeds you to the sharks if you don't publicly launch your own product ...",
+      "url": "https://x.com/jackfriks/status/2058977146266366151",
+      "score": 118,
+      "category": "可试用产品",
+      "why": [
+        "命中发布/产品线索：launch, launched, i made, made an app",
+        "互动信号：1.1k likes / 701 bookmarks",
+        "来自 X 源 2026-05-25_to_2026-05-27"
+      ],
+      "details": "i made an app that feeds you to the sharks if you don't publicly launch your own product in 30 days. no more of this: \"dude i just 100x'ed my workflow with this new AI model\"... meanwhile... 0 projects launched 0 revenue 0 users 100 x 0 = still 0. it's time t...",
+      "meta": {
+        "handle": "jackfriks",
+        "kind": "原创",
+        "note": "独立应用",
+        "xSourceFile": "../ai-x-digest/output/weekly_source_2026-05-25_to_2026-05-27_full_noreplies.json"
+      }
+    },
+    {
+      "source": "GitHub Search",
+      "title": "langchain4j/langchain4j",
+      "url": "https://github.com/langchain4j/langchain4j",
+      "score": 112,
+      "category": "开发者工具/工程基础设施",
+      "why": [
+        "12k stars，近 7 天仍活跃",
+        "搜索命中：vector-db",
+        "关键词：app, tool, agent, open-source, api"
+      ],
+      "details": "LangChain4j is an idiomatic, open-source Java library for building LLM-powered applications on the JVM. It offers a unified API over popular LLM providers and vector stores, and makes implementing tool calling (including MCP support), agents and RAG easy. It ...",
+      "meta": {
+        "language": "Java",
+        "pushedAt": "2026-05-28T15:47:19Z"
+      }
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "Lum1104/Understand-Anything",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "score": 111,
+      "category": "值得跟进",
+      "why": [
+        "今日新增 3.8k stars，总计 42k stars",
+        "GitHub daily trending",
+        "关键词：copilot, cli"
+      ],
+      "details": "Graphs that teach &gt; graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "meta": {
+        "language": "TypeScript",
+        "forks": 3366
+      }
+    },
+    {
+      "source": "GitHub Search",
+      "title": "safishamsi/graphify",
+      "url": "https://github.com/safishamsi/graphify",
+      "score": 106,
+      "category": "AI 创作/多模态产品",
+      "why": [
+        "55k stars，近 7 天仍活跃",
+        "搜索命中：rag",
+        "关键词：app, assistant, cli, image, video"
+      ],
+      "details": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructu...",
+      "meta": {
+        "language": "Python",
+        "pushedAt": "2026-05-28T13:53:48Z"
+      }
+    },
+    {
+      "source": "GitHub Search",
+      "title": "iOfficeAI/AionUi",
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "score": 106,
+      "category": "开发者工具/工程基础设施",
+      "why": [
+        "27k stars，近 7 天仍活跃",
+        "搜索命中：ai-agent",
+        "关键词：app, agent, assistant, open-source, cli"
+      ],
+      "details": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!",
+      "meta": {
+        "language": "TypeScript",
+        "pushedAt": "2026-05-28T14:03:27Z"
+      }
+    },
+    {
+      "source": "X/Twitter",
+      "title": "@jackfriks: this app is basically a roadmap to try and get more people on the path i got put on 3 yea...",
+      "url": "https://x.com/jackfriks/status/2058979566278910409",
+      "score": 106,
+      "category": "可试用产品",
+      "why": [
+        "命中发布/产品线索：launch, launched, i made",
+        "互动信号：131 likes / 116 bookmarks",
+        "来自 X 源 2026-05-25_to_2026-05-27"
+      ],
+      "details": "this app is basically a roadmap to try and get more people on the path i got put on 3 years ago (from $0 to now near $40K/month) back then i didn't know how to code. i didn't know how to make something worth paying for... i was trying hard but going nowhere (...",
+      "meta": {
+        "handle": "jackfriks",
+        "kind": "引用",
+        "note": "独立应用",
+        "xSourceFile": "../ai-x-digest/output/weekly_source_2026-05-25_to_2026-05-27_full_noreplies.json"
+      }
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "score": 105,
+      "category": "值得跟进",
+      "why": [
+        "今日新增 1.4k stars，总计 197k stars",
+        "GitHub daily trending",
+        "关键词：agent"
+      ],
+      "details": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "meta": {
+        "language": "JavaScript",
+        "forks": 30288
+      }
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "twentyhq/twenty",
+      "url": "https://github.com/twentyhq/twenty",
+      "score": 105,
+      "category": "值得跟进",
+      "why": [
+        "今日新增 495 stars，总计 48k stars",
+        "GitHub daily trending",
+        "关键词：design"
+      ],
+      "details": "The open alternative to Salesforce, designed for AI.",
+      "meta": {
+        "language": "TypeScript",
+        "forks": 6767
+      }
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "score": 105,
+      "category": "值得跟进",
+      "why": [
+        "今日新增 1.3k stars，总计 127k stars",
+        "GitHub daily trending",
+        "关键词：tool"
+      ],
+      "details": "Python tool for converting files and office documents to Markdown.",
+      "meta": {
+        "language": "Python",
+        "forks": 8695
+      }
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "score": 105,
+      "category": "开发者工具/工程基础设施",
+      "why": [
+        "今日新增 1.7k stars，总计 211k stars",
+        "GitHub daily trending",
+        "关键词：agent"
+      ],
+      "details": "An agentic skills framework &amp; software development methodology that works.",
+      "meta": {
+        "language": "Shell",
+        "forks": 18760
+      }
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "score": 105,
+      "category": "值得跟进",
+      "why": [
+        "今日新增 686 stars，总计 143k stars",
+        "GitHub daily trending",
+        "关键词：agent"
+      ],
+      "details": "Public repository for Agent Skills",
+      "meta": {
+        "language": "Python",
+        "forks": 16831
+      }
+    },
+    {
+      "source": "Hugging Face",
+      "title": "Jackrong/Qwopus3.6-27B-v2-GGUF",
+      "url": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF",
+      "score": 104,
+      "category": "模型/多模态能力",
+      "why": [
+        "165 likes / 24k downloads",
+        "任务：image-text-to-text",
+        "关键词：tool, agent, image"
+      ],
+      "details": "transformers, gguf, llama.cpp, image-text-to-text, vision, multimodal, text-generation-inference, unsloth, conversational, image",
+      "meta": {
+        "lastModified": "2026-05-28T04:14:57.000Z",
+        "author": "Jackrong"
+      }
+    },
+    {
+      "source": "Hugging Face",
+      "title": "Jackrong/Qwopus3.6-27B-v2-MTP-GGUF",
+      "url": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF",
+      "score": 104,
+      "category": "模型/多模态能力",
+      "why": [
+        "146 likes / 66k downloads",
+        "任务：image-text-to-text",
+        "关键词：tool, agent, image"
+      ],
+      "details": "transformers, gguf, llama.cpp, image-text-to-text, vision, multimodal, text-generation-inference, unsloth, conversational, mtp",
+      "meta": {
+        "lastModified": "2026-05-28T04:25:49.000Z",
+        "author": "Jackrong"
+      }
+    },
+    {
+      "source": "X/Twitter",
+      "title": "@jackfriks: almost 3 years ago i bought this guys product and it changed my life. he is the sole reas...",
+      "url": "https://x.com/jackfriks/status/2059093819790881231",
+      "score": 104,
+      "category": "可试用产品",
+      "why": [
+        "命中发布/产品线索：launch",
+        "互动信号：289 likes / 41 bookmarks",
+        "来自 X 源 2026-05-25_to_2026-05-27"
+      ],
+      "details": "almost 3 years ago i bought this guys product and it changed my life. he is the sole reason i am where i am today. now today we launching an app together",
+      "meta": {
+        "handle": "jackfriks",
+        "kind": "引用",
+        "note": "独立应用",
+        "xSourceFile": "../ai-x-digest/output/weekly_source_2026-05-25_to_2026-05-27_full_noreplies.json"
+      }
+    },
+    {
+      "source": "X/Twitter",
+      "title": "@godofprompt: Perplexity just open-sourced their internal security scanner. It's called Bumblebee. It s...",
+      "url": "https://x.com/godofprompt/status/2059548217285713933",
+      "score": 104,
+      "category": "开发者工具/工程基础设施",
+      "why": [
+        "命中发布/产品线索：github, open-sourced",
+        "互动信号：54 likes / 87 bookmarks",
+        "来自 X 源 2026-05-25_to_2026-05-27"
+      ],
+      "details": "Perplexity just open-sourced their internal security scanner. It's called Bumblebee. It scans your machine for compromised packages, malicious browser extensions, infected editor extensions (VS Code, Cursor, Windsurf), and MCP server configs. Read-only. Doesn...",
+      "meta": {
+        "handle": "godofprompt",
+        "kind": "原创",
+        "note": "提示词工程",
+        "xSourceFile": "../ai-x-digest/output/weekly_source_2026-05-25_to_2026-05-27_full_noreplies.json"
+      }
+    },
+    {
+      "source": "X/Twitter",
+      "title": "@egeberkina: Most AI video workflows still feel fragmented to me. However, I’ve found an incredible ag...",
+      "url": "https://x.com/egeberkina/status/2058975894002356566",
+      "score": 103,
+      "category": "开发者工具/工程基础设施",
+      "why": [
+        "命中发布/产品线索：i made",
+        "互动信号：63 likes / 77 bookmarks",
+        "来自 X 源 2026-05-25_to_2026-05-27"
+      ],
+      "details": "Most AI video workflows still feel fragmented to me. However, I’ve found an incredible agent product. Even if you’ve never touched AI before, you can still make videos like this. Flova works like a Director + Editor + Motion Team + AI Models inside one worksp...",
+      "meta": {
+        "handle": "egeberkina",
+        "kind": "原创",
+        "note": "人工智能图像生成",
+        "xSourceFile": "../ai-x-digest/output/weekly_source_2026-05-25_to_2026-05-27_full_noreplies.json"
+      }
+    },
+    {
+      "source": "X/Twitter",
+      "title": "@_adishj: Today, we're introducing Motion Design Systems. One .md file and @motion_so remembers you...",
+      "url": "https://x.com/_adishj/status/2059303495061352780",
+      "score": 101,
+      "category": "AI 创作/多模态产品",
+      "why": [
+        "命中发布/产品线索：launch, introducing",
+        "互动信号：63 likes / 53 bookmarks",
+        "来自 X 源 2026-05-25_to_2026-05-27"
+      ],
+      "details": "Today, we're introducing Motion Design Systems. One .md file and @motion_so remembers your logos, typographies, colors, and branding forever. This launch video was made using Claude's design md and a single prompt👇🏽 Make consistent videos, every time.",
+      "meta": {
+        "handle": "_adishj",
+        "kind": "原创",
+        "note": "",
+        "xSourceFile": "../ai-x-digest/output/weekly_source_2026-05-25_to_2026-05-27_full_noreplies.json"
+      }
+    },
+    {
+      "source": "GitHub Search",
+      "title": "CherryHQ/cherry-studio",
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "score": 100,
+      "category": "可试用产品",
+      "why": [
+        "46k stars，近 7 天仍活跃",
+        "搜索命中：ai-agent",
+        "关键词：product, agent, assistant, studio"
+      ],
+      "details": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+      "meta": {
+        "language": "TypeScript",
+        "pushedAt": "2026-05-28T15:33:52Z"
+      }
+    },
+    {
+      "source": "GitHub Search",
+      "title": "zhayujie/CowAgent",
+      "url": "https://github.com/zhayujie/CowAgent",
+      "score": 100,
+      "category": "值得跟进",
+      "why": [
+        "45k stars，近 7 天仍活跃",
+        "搜索命中：ai-agent",
+        "关键词：tool, agent, assistant, open-source"
+      ],
+      "details": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, autonomously grows with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install (formerly chatgpt-on-wechat).",
+      "meta": {
+        "language": "Python",
+        "pushedAt": "2026-05-28T11:09:57Z"
+      }
+    },
+    {
+      "source": "GitHub Search",
+      "title": "HKUDS/nanobot",
+      "url": "https://github.com/HKUDS/nanobot",
+      "score": 100,
+      "category": "值得跟进",
+      "why": [
+        "43k stars，近 7 天仍活跃",
+        "搜索命中：ai-agent",
+        "关键词：tool, workflow, agent, open-source"
+      ],
+      "details": "Lightweight, open-source AI agent for your tools, chats, and workflows.",
+      "meta": {
+        "language": "Python",
+        "pushedAt": "2026-05-28T15:47:58Z"
+      }
+    },
+    {
+      "source": "GitHub Search",
+      "title": "activepieces/activepieces",
+      "url": "https://github.com/activepieces/activepieces",
+      "score": 100,
+      "category": "开发者工具/工程基础设施",
+      "why": [
+        "22k stars，近 7 天仍活跃",
+        "搜索命中：ai-agent",
+        "关键词：workflow, automation, agent, mcp"
+      ],
+      "details": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
+      "meta": {
+        "language": "TypeScript",
+        "pushedAt": "2026-05-27T23:36:55Z"
+      }
+    },
+    {
+      "source": "X/Twitter",
+      "title": "@EXM7777: one underrated obsidian use case nobody talks about: it's a memory layer for the tools yo...",
+      "url": "https://x.com/EXM7777/status/2058609483790836095",
+      "score": 100,
+      "category": "开发者工具/工程基础设施",
+      "why": [
+        "命中发布/产品线索：i built",
+        "互动信号：490 likes / 752 bookmarks",
+        "来自 X 源 2026-05-25_to_2026-05-27"
+      ],
+      "details": "one underrated obsidian use case nobody talks about: it's a memory layer for the tools you find but never use... let me explain every day on X, you see a new agent framework, a CLI, an MCP, an API that could be useful one day most people bookmark it and forge...",
+      "meta": {
+        "handle": "EXM7777",
+        "kind": "原创",
+        "note": "人工智能运维与系统",
+        "xSourceFile": "../ai-x-digest/output/weekly_source_2026-05-25_to_2026-05-27_full_noreplies.json"
+      }
+    },
+    {
+      "source": "X/Twitter",
+      "title": "@AmirMushich: Figma-to-video is real now (GitHub repo) we just open-sourced VibeMotion-1 (pre-alpha): t...",
+      "url": "https://x.com/AmirMushich/status/2059321893732163616",
+      "score": 100,
+      "category": "AI 创作/多模态产品",
+      "why": [
+        "命中发布/产品线索：github, open-sourced",
+        "互动信号：170 likes / 186 bookmarks",
+        "来自 X 源 2026-05-25_to_2026-05-27"
+      ],
+      "details": "Figma-to-video is real now (GitHub repo) we just open-sourced VibeMotion-1 (pre-alpha): the video editing tool that can > auto-edit your videos > import your Figma frames + all layers > animate layers by prompt > animate images using LTX-2.3 AI model (local, ...",
+      "meta": {
+        "handle": "AmirMushich",
+        "kind": "引用",
+        "note": "人工智能广告策略",
+        "xSourceFile": "../ai-x-digest/output/weekly_source_2026-05-25_to_2026-05-27_full_noreplies.json"
+      }
+    },
+    {
+      "source": "X/Twitter",
+      "title": "@jackfriks: you don't have to spend days and $1000-$10,000 on your launch video!!! 22 hours since lau...",
+      "url": "https://x.com/jackfriks/status/2059309243124068763",
+      "score": 100,
+      "category": "可试用产品",
+      "why": [
+        "命中发布/产品线索：launch, launched, i made",
+        "互动信号：543 likes / 780 bookmarks",
+        "来自 X 源 2026-05-25_to_2026-05-27"
+      ],
+      "details": "you don't have to spend days and $1000-$10,000 on your launch video!!! 22 hours since launched, and over $26,000 in revenue for @shipordie_ with a launch video i made in 1 hour for $3 bucks here is how i made the launch video (with code) and how you can make ...",
+      "meta": {
+        "handle": "jackfriks",
+        "kind": "引用",
+        "note": "独立应用",
+        "xSourceFile": "../ai-x-digest/output/weekly_source_2026-05-25_to_2026-05-27_full_noreplies.json"
+      }
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "score": 99,
+      "category": "值得跟进",
+      "why": [
+        "今日新增 2.2k stars，总计 26k stars",
+        "GitHub daily trending",
+        "社区热度明显"
+      ],
+      "details": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "meta": {
+        "language": "Shell",
+        "forks": 1950
+      }
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "hardikpandya/stop-slop",
+      "url": "https://github.com/hardikpandya/stop-slop",
+      "score": 99,
+      "category": "值得跟进",
+      "why": [
+        "今日新增 755 stars，总计 6.2k stars",
+        "GitHub daily trending",
+        "社区热度明显"
+      ],
+      "details": "A skill file for removing AI tells from prose",
+      "meta": {
+        "language": "",
+        "forks": 458
+      }
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "DigitalPlatDev/FreeDomain",
+      "url": "https://github.com/DigitalPlatDev/FreeDomain",
+      "score": 99,
+      "category": "值得跟进",
+      "why": [
+        "今日新增 1.8k stars，总计 170k stars",
+        "GitHub daily trending",
+        "社区热度明显"
+      ],
+      "details": "DigitalPlat FreeDomain: Free Domain For Everyone",
+      "meta": {
+        "language": "HTML",
+        "forks": 3267
+      }
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "byoungd/English-level-up-tips",
+      "url": "https://github.com/byoungd/English-level-up-tips",
+      "score": 99,
+      "category": "值得跟进",
+      "why": [
+        "今日新增 2.0k stars，总计 48k stars",
+        "GitHub daily trending",
+        "社区热度明显"
+      ],
+      "details": "An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语",
+      "meta": {
+        "language": "",
+        "forks": 5047
+      }
+    },
+    {
+      "source": "GitHub Trending",
+      "title": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "score": 99,
+      "category": "值得跟进",
+      "why": [
+        "今日新增 739 stars，总计 506k stars",
+        "GitHub daily trending",
+        "社区热度明显"
+      ],
+      "details": "Master programming by recreating your favorite technologies from scratch.",
+      "meta": {
+        "language": "Markdown",
+        "forks": 48074
+      }
+    },
+    {
+      "source": "X/Twitter",
+      "title": "@jackfriks: launching new app today, my fiancee and mom both said its cool so hopefully everyone else...",
+      "url": "https://x.com/jackfriks/status/2058950253735194840",
+      "score": 98,
+      "category": "可试用产品",
+      "why": [
+        "命中发布/产品线索：launch, new app",
+        "互动信号：386 likes / 19 bookmarks",
+        "来自 X 源 2026-05-25_to_2026-05-27"
+      ],
+      "details": "launching new app today, my fiancee and mom both said its cool so hopefully everyone else on planet earth agrees",
+      "meta": {
+        "handle": "jackfriks",
+        "kind": "原创",
+        "note": "独立应用",
+        "xSourceFile": "../ai-x-digest/output/weekly_source_2026-05-25_to_2026-05-27_full_noreplies.json"
+      }
+    },
+    {
+      "source": "Hacker News",
+      "title": "I think Anthropic and OpenAI have found product-market fit",
+      "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
+      "score": 98,
+      "category": "可试用产品",
+      "why": [
+        "1019 points / 1129 comments",
+        "HN 社区讨论热度",
+        "关键词：product"
+      ],
+      "meta": {
+        "hnUrl": "https://news.ycombinator.com/item?id=48296794",
+        "author": "simonw",
+        "createdAt": "2026-05-27T16:39:13Z"
+      }
+    },
+    {
+      "source": "X/Twitter",
+      "title": "@levelsio: Personally I think better to not demonetize but just silently funnel all revenue to the o...",
+      "url": "https://x.com/levelsio/status/2058963383378944303",
+      "score": 98,
+      "category": "值得跟进",
+      "why": [
+        "命中发布/产品线索：demo",
+        "互动信号：296 likes / 36 bookmarks",
+        "来自 X 源 2026-05-25_to_2026-05-27"
+      ],
+      "details": "Personally I think better to not demonetize but just silently funnel all revenue to the original content owner That's what YouTube does for over a decade Copyright owners get paid, people repost videos and that just results in more money for original content ...",
+      "meta": {
+        "handle": "levelsio",
+        "kind": "引用",
+        "note": "初创公司风向",
+        "xSourceFile": "../ai-x-digest/output/weekly_source_2026-05-25_to_2026-05-27_full_noreplies.json"
+      }
+    },
+    {
+      "source": "Hugging Face",
+      "title": "bytedance-research/Lance",
+      "url": "https://huggingface.co/bytedance-research/Lance",
+      "score": 95,
+      "category": "模型/多模态能力",
+      "why": [
+        "950 likes / 2.5k downloads",
+        "任务：any-to-any",
+        "关键词：image, video"
+      ],
+      "details": "Lance, safetensors, multimodal, image-generation, video-generation, image-editing, video-understanding, any-to-any, arxiv:2605.18678, base_model:Qwen/Qwen2.5-VL-3B-Instruct",
+      "meta": {
+        "lastModified": "2026-05-28T06:25:28.000Z",
+        "author": "bytedance-research"
+      }
+    },
+    {
+      "source": "GitHub Search",
+      "title": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "score": 94,
+      "category": "可试用产品",
+      "why": [
+        "143k stars，近 7 天仍活跃",
+        "搜索命中：llm",
+        "关键词：product, workflow, agent"
+      ],
+      "details": "Production-ready platform for agentic workflow development.",
+      "meta": {
+        "language": "TypeScript",
+        "pushedAt": "2026-05-28T12:57:03Z"
+      }
+    }
+  ]
+}

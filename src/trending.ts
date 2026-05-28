@@ -90,11 +90,11 @@ async function fetchGitHubTrending(): Promise<{ repos: TrendingRepo[]; success: 
         const todayStars = todayMatch?.[1] ? parseInt(todayMatch[1].replace(/,/g, ""), 10) : 0;
 
         // total stars — look for link with /stargazers
-        const totalMatch = block.match(/href="\/[^"]+\/stargazers"[^>]*>\s*<[^>]+>\s*([\d,]+)/);
+        const totalMatch = block.match(/href="\/[^"]+\/stargazers"[\s\S]*?<\/svg>\s*([\d,]+)/);
         const totalStars = totalMatch?.[1] ? parseInt(totalMatch[1].replace(/,/g, ""), 10) : 0;
 
         // forks
-        const forkMatch = block.match(/href="\/[^"]+\/forks"[^>]*>\s*<[^>]+>\s*([\d,]+)/);
+        const forkMatch = block.match(/href="\/[^"]+\/forks"[\s\S]*?<\/svg>\s*([\d,]+)/);
         const forks = forkMatch?.[1] ? parseInt(forkMatch[1].replace(/,/g, ""), 10) : 0;
 
         repos.push({

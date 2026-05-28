@@ -2,6 +2,27 @@
 
 English | [中文](./README.zh.md)
 
+## 本地产品/工程雷达
+
+这个仓库已经整理成一个本地可运行的产品与工程发现工具，目标是每天从 GitHub、X/Twitter、Hacker News、Hugging Face 等来源里筛出像 LifeManga 这种有产品形态、能试用、能 fork、能改造的项目线索。
+
+本地运行：
+
+```bash
+corepack pnpm scout
+```
+
+常用输出：
+
+- `scout/latest.html`：中文卡片浏览版
+- `scout/latest.mhtml`：单文件归档版
+- `scout/latest.md`：Markdown 摘要
+- `LOCAL_SCOUT.md`：本地使用说明
+
+专有名词会保留原文，标题、摘要和信号说明会尽量整理成自然中文。
+
+---
+
 A GitHub Actions workflow that runs every morning at 08:00 CST. It aggregates AI ecosystem signals from 10 data sources, then publishes bilingual (Chinese + English) daily digests as GitHub Issues and committed Markdown files. Weekly and monthly rollup reports are also generated automatically.
 
 ### Data Sources

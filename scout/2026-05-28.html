@@ -1,0 +1,1058 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product & Engineering Scout - 2026-05-28</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f4ef;
+      --surface: #fffdf8;
+      --surface-2: #f0f7f3;
+      --ink: #202124;
+      --muted: #66706b;
+      --line: #d8d7cf;
+      --accent: #0f766e;
+      --accent-2: #b45309;
+      --accent-3: #5b5bd6;
+      --hot: #c2410c;
+      --strong: #0f766e;
+      --watch: #4f46e5;
+      --shadow: 0 18px 50px rgba(34, 31, 25, 0.10);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      color: var(--ink);
+      background:
+        linear-gradient(180deg, rgba(15,118,110,0.08), rgba(180,83,9,0.05) 42%, transparent 70%),
+        var(--bg);
+    }
+    a { color: inherit; text-decoration: none; }
+    .page { max-width: 1180px; margin: 0 auto; padding: 28px 22px 48px; }
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.65fr);
+      gap: 22px;
+      align-items: stretch;
+      margin-bottom: 22px;
+    }
+    .hero-main {
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+    .eyebrow { margin: 0 0 8px; color: var(--accent); font-weight: 750; font-size: 13px; }
+    h1 {
+      margin: 0;
+      max-width: 780px;
+      font-size: clamp(30px, 4vw, 54px);
+      line-height: 1.02;
+      letter-spacing: 0;
+    }
+    .hero-copy { margin: 16px 0 0; max-width: 720px; color: var(--muted); font-size: 16px; line-height: 1.75; }
+    .hero-side {
+      display: grid;
+      gap: 12px;
+    }
+    .metric {
+      min-height: 104px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255,253,248,0.86);
+    }
+    .metric span { display: block; color: var(--muted); font-size: 13px; }
+    .metric strong { display: block; margin-top: 8px; font-size: 30px; line-height: 1; }
+    .toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      margin: 0 0 20px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255,253,248,0.94);
+      backdrop-filter: blur(16px);
+      display: grid;
+      grid-template-columns: minmax(220px, 1fr) auto;
+      gap: 12px;
+      align-items: center;
+    }
+    .search {
+      width: 100%;
+      height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 0 12px;
+      font: inherit;
+      background: white;
+      color: var(--ink);
+    }
+    .source-pills { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
+    .source-pill {
+      height: 34px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 0 11px;
+      background: white;
+      color: var(--ink);
+      cursor: pointer;
+      font: inherit;
+      font-size: 13px;
+    }
+    .source-pill.active { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+    .source-pill strong {
+      min-width: 22px;
+      height: 22px;
+      display: inline-grid;
+      place-items: center;
+      border-radius: 999px;
+      background: var(--surface-2);
+      color: var(--accent);
+      font-size: 12px;
+    }
+    .section-title {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      margin: 24px 0 12px;
+    }
+    .section-title h2 { margin: 0; font-size: 20px; }
+    .section-title span { color: var(--muted); font-size: 13px; }
+    .top-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+    .candidate-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .candidate-card {
+      min-height: 280px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-left: 5px solid var(--accent);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: 0 10px 30px rgba(34, 31, 25, 0.06);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .candidate-card.hot { border-left-color: var(--hot); }
+    .candidate-card.strong { border-left-color: var(--strong); }
+    .candidate-card.watch { border-left-color: var(--watch); }
+    .candidate-card.hidden { display: none; }
+    .card-topline {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      min-height: 28px;
+    }
+    .rank {
+      width: 36px;
+      height: 26px;
+      display: inline-grid;
+      place-items: center;
+      border-radius: 999px;
+      background: #1f2937;
+      color: white;
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .source, .category {
+      min-height: 26px;
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 0 10px;
+      font-size: 12px;
+      color: var(--muted);
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .candidate-card h2 {
+      margin: 0;
+      font-size: 19px;
+      line-height: 1.3;
+      letter-spacing: 0;
+      overflow-wrap: anywhere;
+    }
+    .candidate-card h2 a:hover { color: var(--accent); }
+    .score-row {
+      display: grid;
+      grid-template-columns: 46px 1fr;
+      gap: 10px;
+      align-items: center;
+    }
+    .score-number { font-weight: 850; font-size: 22px; color: var(--accent-2); }
+    .score-track {
+      height: 9px;
+      border-radius: 999px;
+      background: #ebe7dd;
+      overflow: hidden;
+    }
+    .score-track span {
+      display: block;
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+    }
+    .signals {
+      margin: 0;
+      padding: 0 0 0 18px;
+      color: #3f4742;
+      font-size: 14px;
+      line-height: 1.55;
+    }
+    .signals li + li { margin-top: 5px; }
+    .details {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.65;
+      overflow-wrap: anywhere;
+    }
+    .card-actions { margin-top: auto; display: flex; justify-content: flex-end; }
+    .open-link {
+      height: 34px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 6px;
+      padding: 0 14px;
+      background: #202124;
+      color: white;
+      font-size: 13px;
+      font-weight: 750;
+    }
+    .empty {
+      display: none;
+      padding: 28px;
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      color: var(--muted);
+      background: rgba(255,255,255,0.55);
+      text-align: center;
+    }
+    .empty.visible { display: block; }
+    .footer-note {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+    @media (max-width: 900px) {
+      .hero, .candidate-grid, .top-grid { grid-template-columns: 1fr; }
+      .toolbar { grid-template-columns: 1fr; }
+      .source-pills { justify-content: flex-start; }
+    }
+    @media (max-width: 560px) {
+      .page { padding: 16px 12px 34px; }
+      .hero-main { padding: 20px; }
+      .candidate-card { min-height: 0; }
+      .metric { min-height: 88px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="hero-main">
+        <p class="eyebrow">Product & Engineering Scout / 2026-05-28</p>
+        <h1>今天值得点开的产品和工程线索</h1>
+        <p class="hero-copy">按 “像 LifeManga 一样有产品形态、能试用、能 fork、能改造” 的口味重新整理。优先看高分卡片，再按来源筛选。</p>
+      </div>
+      <div class="hero-side">
+        <div class="metric"><span>候选条目</span><strong>35</strong></div>
+        <div class="metric"><span>覆盖来源</span><strong>5</strong></div>
+        <div class="metric"><span>最高分</span><strong>123</strong></div>
+      </div>
+    </section>
+
+    <section class="toolbar" aria-label="筛选">
+      <input class="search" id="search" placeholder="搜索项目、来源、关键词..." autocomplete="off">
+      <div class="source-pills">
+        <button class="source-pill active" type="button" data-source="all"><span>全部</span><strong>35</strong></button>
+        
+        <button class="source-pill" type="button" data-source="GitHub Trending">
+          <span>GitHub Trending</span>
+          <strong>12</strong>
+        </button>
+      
+        <button class="source-pill" type="button" data-source="X/Twitter">
+          <span>X/Twitter</span>
+          <strong>11</strong>
+        </button>
+      
+        <button class="source-pill" type="button" data-source="GitHub Search">
+          <span>GitHub Search</span>
+          <strong>8</strong>
+        </button>
+      
+        <button class="source-pill" type="button" data-source="Hugging Face">
+          <span>Hugging Face</span>
+          <strong>3</strong>
+        </button>
+      
+        <button class="source-pill" type="button" data-source="Hacker News">
+          <span>Hacker News</span>
+          <strong>1</strong>
+        </button>
+      
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">
+        <h2>优先看这 3 个</h2>
+        <span>11 条偏产品/可体验线索</span>
+      </div>
+      <div class="top-grid">
+        
+    <article class="candidate-card hot" data-source="GitHub Trending" data-query="harry0703/moneyprinterturbo github trending 值得跟进 利用ai大模型，一键生成高清短视频 generate short videos with one click using ai llm.">
+      <div class="card-topline">
+        <span class="rank">#1</span>
+        <span class="source">GitHub Trending</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/harry0703/MoneyPrinterTurbo" target="_blank" rel="noreferrer">harry0703/MoneyPrinterTurbo</a></h2>
+      <div class="score-row">
+        <span class="score-number">123</span>
+        <div class="score-track"><span style="width: 88%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 4.7k stars，总计 66k stars</li><li>GitHub daily trending</li><li>关键词：cli, video, 生成, 视频</li>
+      </ul>
+      <p class="details">利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/harry0703/MoneyPrinterTurbo" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card hot" data-source="X/Twitter" data-query="@jackfriks: i made an app that feeds you to the sharks if you don&#39;t publicly launch your own product ... x/twitter 可试用产品 i made an app that feeds you to the sharks if you don&#39;t publicly launch your own product in 30 days. no more of this: &quot;dude i just 100x&#39;ed my workflow with this new ai model&quot;... meanwhile... 0 projects launched 0 revenue 0 users 100 x 0 = still 0. it&#39;s time t...">
+      <div class="card-topline">
+        <span class="rank">#2</span>
+        <span class="source">X/Twitter</span>
+        <span class="category">可试用产品</span>
+      </div>
+      <h2><a href="https://x.com/jackfriks/status/2058977146266366151" target="_blank" rel="noreferrer">@jackfriks: i made an app that feeds you to the sharks if you don&#39;t publicly launch your own product ...</a></h2>
+      <div class="score-row">
+        <span class="score-number">118</span>
+        <div class="score-track"><span style="width: 84%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：launch, launched, i made, made an app</li><li>互动信号：1.1k likes / 701 bookmarks</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">i made an app that feeds you to the sharks if you don&#39;t publicly launch your own product in 30 days. no more of this: &quot;dude i just 100x&#39;ed my workflow with this new AI model&quot;... meanwhile... 0 projects launched 0 revenue 0 users 100 x 0 = still 0. it&#39;s time t...</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/jackfriks/status/2058977146266366151" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub Search" data-query="langchain4j/langchain4j github search 开发者工具/工程基础设施 langchain4j is an idiomatic, open-source java library for building llm-powered applications on the jvm. it offers a unified api over popular llm providers and vector stores, and makes implementing tool calling (including mcp support), agents and rag easy. it ...">
+      <div class="card-topline">
+        <span class="rank">#3</span>
+        <span class="source">GitHub Search</span>
+        <span class="category">开发者工具/工程基础设施</span>
+      </div>
+      <h2><a href="https://github.com/langchain4j/langchain4j" target="_blank" rel="noreferrer">langchain4j/langchain4j</a></h2>
+      <div class="score-row">
+        <span class="score-number">112</span>
+        <div class="score-track"><span style="width: 80%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>12k stars，近 7 天仍活跃</li><li>搜索命中：vector-db</li><li>关键词：app, tool, agent, open-source, api</li>
+      </ul>
+      <p class="details">LangChain4j is an idiomatic, open-source Java library for building LLM-powered applications on the JVM. It offers a unified API over popular LLM providers and vector stores, and makes implementing tool calling (including MCP support), agents and RAG easy. It ...</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/langchain4j/langchain4j" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">
+        <h2>完整候选</h2>
+        <span id="visible-count">35 条</span>
+      </div>
+      <div class="candidate-grid" id="candidate-grid">
+        
+    <article class="candidate-card hot" data-source="GitHub Trending" data-query="harry0703/moneyprinterturbo github trending 值得跟进 利用ai大模型，一键生成高清短视频 generate short videos with one click using ai llm.">
+      <div class="card-topline">
+        <span class="rank">#1</span>
+        <span class="source">GitHub Trending</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/harry0703/MoneyPrinterTurbo" target="_blank" rel="noreferrer">harry0703/MoneyPrinterTurbo</a></h2>
+      <div class="score-row">
+        <span class="score-number">123</span>
+        <div class="score-track"><span style="width: 88%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 4.7k stars，总计 66k stars</li><li>GitHub daily trending</li><li>关键词：cli, video, 生成, 视频</li>
+      </ul>
+      <p class="details">利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/harry0703/MoneyPrinterTurbo" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card hot" data-source="X/Twitter" data-query="@jackfriks: i made an app that feeds you to the sharks if you don&#39;t publicly launch your own product ... x/twitter 可试用产品 i made an app that feeds you to the sharks if you don&#39;t publicly launch your own product in 30 days. no more of this: &quot;dude i just 100x&#39;ed my workflow with this new ai model&quot;... meanwhile... 0 projects launched 0 revenue 0 users 100 x 0 = still 0. it&#39;s time t...">
+      <div class="card-topline">
+        <span class="rank">#2</span>
+        <span class="source">X/Twitter</span>
+        <span class="category">可试用产品</span>
+      </div>
+      <h2><a href="https://x.com/jackfriks/status/2058977146266366151" target="_blank" rel="noreferrer">@jackfriks: i made an app that feeds you to the sharks if you don&#39;t publicly launch your own product ...</a></h2>
+      <div class="score-row">
+        <span class="score-number">118</span>
+        <div class="score-track"><span style="width: 84%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：launch, launched, i made, made an app</li><li>互动信号：1.1k likes / 701 bookmarks</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">i made an app that feeds you to the sharks if you don&#39;t publicly launch your own product in 30 days. no more of this: &quot;dude i just 100x&#39;ed my workflow with this new AI model&quot;... meanwhile... 0 projects launched 0 revenue 0 users 100 x 0 = still 0. it&#39;s time t...</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/jackfriks/status/2058977146266366151" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub Search" data-query="langchain4j/langchain4j github search 开发者工具/工程基础设施 langchain4j is an idiomatic, open-source java library for building llm-powered applications on the jvm. it offers a unified api over popular llm providers and vector stores, and makes implementing tool calling (including mcp support), agents and rag easy. it ...">
+      <div class="card-topline">
+        <span class="rank">#3</span>
+        <span class="source">GitHub Search</span>
+        <span class="category">开发者工具/工程基础设施</span>
+      </div>
+      <h2><a href="https://github.com/langchain4j/langchain4j" target="_blank" rel="noreferrer">langchain4j/langchain4j</a></h2>
+      <div class="score-row">
+        <span class="score-number">112</span>
+        <div class="score-track"><span style="width: 80%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>12k stars，近 7 天仍活跃</li><li>搜索命中：vector-db</li><li>关键词：app, tool, agent, open-source, api</li>
+      </ul>
+      <p class="details">LangChain4j is an idiomatic, open-source Java library for building LLM-powered applications on the JVM. It offers a unified API over popular LLM providers and vector stores, and makes implementing tool calling (including MCP support), agents and RAG easy. It ...</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/langchain4j/langchain4j" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub Trending" data-query="lum1104/understand-anything github trending 值得跟进 graphs that teach &amp;gt; graphs that impress. turn any code into an interactive knowledge graph you can explore, search, and ask questions about. works with claude code, codex, cursor, copilot, gemini cli, and more.">
+      <div class="card-topline">
+        <span class="rank">#4</span>
+        <span class="source">GitHub Trending</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/Lum1104/Understand-Anything" target="_blank" rel="noreferrer">Lum1104/Understand-Anything</a></h2>
+      <div class="score-row">
+        <span class="score-number">111</span>
+        <div class="score-track"><span style="width: 79%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 3.8k stars，总计 42k stars</li><li>GitHub daily trending</li><li>关键词：copilot, cli</li>
+      </ul>
+      <p class="details">Graphs that teach &amp;gt; graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/Lum1104/Understand-Anything" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub Search" data-query="safishamsi/graphify github search ai 创作/多模态产品 ai coding assistant skill (claude code, codex, opencode, cursor, gemini cli, and more). turn any folder of code, sql schemas, r scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. app code + database schema + infrastructu...">
+      <div class="card-topline">
+        <span class="rank">#5</span>
+        <span class="source">GitHub Search</span>
+        <span class="category">AI 创作/多模态产品</span>
+      </div>
+      <h2><a href="https://github.com/safishamsi/graphify" target="_blank" rel="noreferrer">safishamsi/graphify</a></h2>
+      <div class="score-row">
+        <span class="score-number">106</span>
+        <div class="score-track"><span style="width: 76%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>55k stars，近 7 天仍活跃</li><li>搜索命中：rag</li><li>关键词：app, assistant, cli, image, video</li>
+      </ul>
+      <p class="details">AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructu...</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/safishamsi/graphify" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub Search" data-query="iofficeai/aionui github search 开发者工具/工程基础设施 free, local, open-source 24/7 cowork app for openclaw, hermes agent, claude code, codex, opencode, gemini cli and 20+ more cli | customize your assistants | star if you like it!">
+      <div class="card-topline">
+        <span class="rank">#6</span>
+        <span class="source">GitHub Search</span>
+        <span class="category">开发者工具/工程基础设施</span>
+      </div>
+      <h2><a href="https://github.com/iOfficeAI/AionUi" target="_blank" rel="noreferrer">iOfficeAI/AionUi</a></h2>
+      <div class="score-row">
+        <span class="score-number">106</span>
+        <div class="score-track"><span style="width: 76%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>27k stars，近 7 天仍活跃</li><li>搜索命中：ai-agent</li><li>关键词：app, agent, assistant, open-source, cli</li>
+      </ul>
+      <p class="details">Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/iOfficeAI/AionUi" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="X/Twitter" data-query="@jackfriks: this app is basically a roadmap to try and get more people on the path i got put on 3 yea... x/twitter 可试用产品 this app is basically a roadmap to try and get more people on the path i got put on 3 years ago (from $0 to now near $40k/month) back then i didn&#39;t know how to code. i didn&#39;t know how to make something worth paying for... i was trying hard but going nowhere (...">
+      <div class="card-topline">
+        <span class="rank">#7</span>
+        <span class="source">X/Twitter</span>
+        <span class="category">可试用产品</span>
+      </div>
+      <h2><a href="https://x.com/jackfriks/status/2058979566278910409" target="_blank" rel="noreferrer">@jackfriks: this app is basically a roadmap to try and get more people on the path i got put on 3 yea...</a></h2>
+      <div class="score-row">
+        <span class="score-number">106</span>
+        <div class="score-track"><span style="width: 76%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：launch, launched, i made</li><li>互动信号：131 likes / 116 bookmarks</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">this app is basically a roadmap to try and get more people on the path i got put on 3 years ago (from $0 to now near $40K/month) back then i didn&#39;t know how to code. i didn&#39;t know how to make something worth paying for... i was trying hard but going nowhere (...</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/jackfriks/status/2058979566278910409" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub Trending" data-query="affaan-m/ecc github trending 值得跟进 the agent harness performance optimization system. skills, instincts, memory, security, and research-first development for claude code, codex, opencode, cursor and beyond.">
+      <div class="card-topline">
+        <span class="rank">#8</span>
+        <span class="source">GitHub Trending</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/affaan-m/ECC" target="_blank" rel="noreferrer">affaan-m/ECC</a></h2>
+      <div class="score-row">
+        <span class="score-number">105</span>
+        <div class="score-track"><span style="width: 75%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 1.4k stars，总计 197k stars</li><li>GitHub daily trending</li><li>关键词：agent</li>
+      </ul>
+      <p class="details">The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/affaan-m/ECC" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub Trending" data-query="twentyhq/twenty github trending 值得跟进 the open alternative to salesforce, designed for ai.">
+      <div class="card-topline">
+        <span class="rank">#9</span>
+        <span class="source">GitHub Trending</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/twentyhq/twenty" target="_blank" rel="noreferrer">twentyhq/twenty</a></h2>
+      <div class="score-row">
+        <span class="score-number">105</span>
+        <div class="score-track"><span style="width: 75%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 495 stars，总计 48k stars</li><li>GitHub daily trending</li><li>关键词：design</li>
+      </ul>
+      <p class="details">The open alternative to Salesforce, designed for AI.</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/twentyhq/twenty" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub Trending" data-query="microsoft/markitdown github trending 值得跟进 python tool for converting files and office documents to markdown.">
+      <div class="card-topline">
+        <span class="rank">#10</span>
+        <span class="source">GitHub Trending</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/microsoft/markitdown" target="_blank" rel="noreferrer">microsoft/markitdown</a></h2>
+      <div class="score-row">
+        <span class="score-number">105</span>
+        <div class="score-track"><span style="width: 75%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 1.3k stars，总计 127k stars</li><li>GitHub daily trending</li><li>关键词：tool</li>
+      </ul>
+      <p class="details">Python tool for converting files and office documents to Markdown.</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/microsoft/markitdown" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub Trending" data-query="obra/superpowers github trending 开发者工具/工程基础设施 an agentic skills framework &amp;amp; software development methodology that works.">
+      <div class="card-topline">
+        <span class="rank">#11</span>
+        <span class="source">GitHub Trending</span>
+        <span class="category">开发者工具/工程基础设施</span>
+      </div>
+      <h2><a href="https://github.com/obra/superpowers" target="_blank" rel="noreferrer">obra/superpowers</a></h2>
+      <div class="score-row">
+        <span class="score-number">105</span>
+        <div class="score-track"><span style="width: 75%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 1.7k stars，总计 211k stars</li><li>GitHub daily trending</li><li>关键词：agent</li>
+      </ul>
+      <p class="details">An agentic skills framework &amp;amp; software development methodology that works.</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/obra/superpowers" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub Trending" data-query="anthropics/skills github trending 值得跟进 public repository for agent skills">
+      <div class="card-topline">
+        <span class="rank">#12</span>
+        <span class="source">GitHub Trending</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/anthropics/skills" target="_blank" rel="noreferrer">anthropics/skills</a></h2>
+      <div class="score-row">
+        <span class="score-number">105</span>
+        <div class="score-track"><span style="width: 75%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 686 stars，总计 143k stars</li><li>GitHub daily trending</li><li>关键词：agent</li>
+      </ul>
+      <p class="details">Public repository for Agent Skills</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/anthropics/skills" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="Hugging Face" data-query="jackrong/qwopus3.6-27b-v2-gguf hugging face 模型/多模态能力 transformers, gguf, llama.cpp, image-text-to-text, vision, multimodal, text-generation-inference, unsloth, conversational, image">
+      <div class="card-topline">
+        <span class="rank">#13</span>
+        <span class="source">Hugging Face</span>
+        <span class="category">模型/多模态能力</span>
+      </div>
+      <h2><a href="https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF" target="_blank" rel="noreferrer">Jackrong/Qwopus3.6-27B-v2-GGUF</a></h2>
+      <div class="score-row">
+        <span class="score-number">104</span>
+        <div class="score-track"><span style="width: 74%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>165 likes / 24k downloads</li><li>任务：image-text-to-text</li><li>关键词：tool, agent, image</li>
+      </ul>
+      <p class="details">transformers, gguf, llama.cpp, image-text-to-text, vision, multimodal, text-generation-inference, unsloth, conversational, image</p>
+      <div class="card-actions"><a class="open-link" href="https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="Hugging Face" data-query="jackrong/qwopus3.6-27b-v2-mtp-gguf hugging face 模型/多模态能力 transformers, gguf, llama.cpp, image-text-to-text, vision, multimodal, text-generation-inference, unsloth, conversational, mtp">
+      <div class="card-topline">
+        <span class="rank">#14</span>
+        <span class="source">Hugging Face</span>
+        <span class="category">模型/多模态能力</span>
+      </div>
+      <h2><a href="https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF" target="_blank" rel="noreferrer">Jackrong/Qwopus3.6-27B-v2-MTP-GGUF</a></h2>
+      <div class="score-row">
+        <span class="score-number">104</span>
+        <div class="score-track"><span style="width: 74%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>146 likes / 66k downloads</li><li>任务：image-text-to-text</li><li>关键词：tool, agent, image</li>
+      </ul>
+      <p class="details">transformers, gguf, llama.cpp, image-text-to-text, vision, multimodal, text-generation-inference, unsloth, conversational, mtp</p>
+      <div class="card-actions"><a class="open-link" href="https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="X/Twitter" data-query="@jackfriks: almost 3 years ago i bought this guys product and it changed my life. he is the sole reas... x/twitter 可试用产品 almost 3 years ago i bought this guys product and it changed my life. he is the sole reason i am where i am today. now today we launching an app together">
+      <div class="card-topline">
+        <span class="rank">#15</span>
+        <span class="source">X/Twitter</span>
+        <span class="category">可试用产品</span>
+      </div>
+      <h2><a href="https://x.com/jackfriks/status/2059093819790881231" target="_blank" rel="noreferrer">@jackfriks: almost 3 years ago i bought this guys product and it changed my life. he is the sole reas...</a></h2>
+      <div class="score-row">
+        <span class="score-number">104</span>
+        <div class="score-track"><span style="width: 74%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：launch</li><li>互动信号：289 likes / 41 bookmarks</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">almost 3 years ago i bought this guys product and it changed my life. he is the sole reason i am where i am today. now today we launching an app together</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/jackfriks/status/2059093819790881231" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="X/Twitter" data-query="@godofprompt: perplexity just open-sourced their internal security scanner. it&#39;s called bumblebee. it s... x/twitter 开发者工具/工程基础设施 perplexity just open-sourced their internal security scanner. it&#39;s called bumblebee. it scans your machine for compromised packages, malicious browser extensions, infected editor extensions (vs code, cursor, windsurf), and mcp server configs. read-only. doesn...">
+      <div class="card-topline">
+        <span class="rank">#16</span>
+        <span class="source">X/Twitter</span>
+        <span class="category">开发者工具/工程基础设施</span>
+      </div>
+      <h2><a href="https://x.com/godofprompt/status/2059548217285713933" target="_blank" rel="noreferrer">@godofprompt: Perplexity just open-sourced their internal security scanner. It&#39;s called Bumblebee. It s...</a></h2>
+      <div class="score-row">
+        <span class="score-number">104</span>
+        <div class="score-track"><span style="width: 74%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：github, open-sourced</li><li>互动信号：54 likes / 87 bookmarks</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">Perplexity just open-sourced their internal security scanner. It&#39;s called Bumblebee. It scans your machine for compromised packages, malicious browser extensions, infected editor extensions (VS Code, Cursor, Windsurf), and MCP server configs. Read-only. Doesn...</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/godofprompt/status/2059548217285713933" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="X/Twitter" data-query="@egeberkina: most ai video workflows still feel fragmented to me. however, i’ve found an incredible ag... x/twitter 开发者工具/工程基础设施 most ai video workflows still feel fragmented to me. however, i’ve found an incredible agent product. even if you’ve never touched ai before, you can still make videos like this. flova works like a director + editor + motion team + ai models inside one worksp...">
+      <div class="card-topline">
+        <span class="rank">#17</span>
+        <span class="source">X/Twitter</span>
+        <span class="category">开发者工具/工程基础设施</span>
+      </div>
+      <h2><a href="https://x.com/egeberkina/status/2058975894002356566" target="_blank" rel="noreferrer">@egeberkina: Most AI video workflows still feel fragmented to me. However, I’ve found an incredible ag...</a></h2>
+      <div class="score-row">
+        <span class="score-number">103</span>
+        <div class="score-track"><span style="width: 74%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：i made</li><li>互动信号：63 likes / 77 bookmarks</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">Most AI video workflows still feel fragmented to me. However, I’ve found an incredible agent product. Even if you’ve never touched AI before, you can still make videos like this. Flova works like a Director + Editor + Motion Team + AI Models inside one worksp...</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/egeberkina/status/2058975894002356566" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="X/Twitter" data-query="@_adishj: today, we&#39;re introducing motion design systems. one .md file and @motion_so remembers you... x/twitter ai 创作/多模态产品 today, we&#39;re introducing motion design systems. one .md file and @motion_so remembers your logos, typographies, colors, and branding forever. this launch video was made using claude&#39;s design md and a single prompt👇🏽 make consistent videos, every time.">
+      <div class="card-topline">
+        <span class="rank">#18</span>
+        <span class="source">X/Twitter</span>
+        <span class="category">AI 创作/多模态产品</span>
+      </div>
+      <h2><a href="https://x.com/_adishj/status/2059303495061352780" target="_blank" rel="noreferrer">@_adishj: Today, we&#39;re introducing Motion Design Systems. One .md file and @motion_so remembers you...</a></h2>
+      <div class="score-row">
+        <span class="score-number">101</span>
+        <div class="score-track"><span style="width: 72%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：launch, introducing</li><li>互动信号：63 likes / 53 bookmarks</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">Today, we&#39;re introducing Motion Design Systems. One .md file and @motion_so remembers your logos, typographies, colors, and branding forever. This launch video was made using Claude&#39;s design md and a single prompt👇🏽 Make consistent videos, every time.</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/_adishj/status/2059303495061352780" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub Search" data-query="cherryhq/cherry-studio github search 可试用产品 ai productivity studio with smart chat, autonomous agents, and 300+ assistants. unified access to frontier llms">
+      <div class="card-topline">
+        <span class="rank">#19</span>
+        <span class="source">GitHub Search</span>
+        <span class="category">可试用产品</span>
+      </div>
+      <h2><a href="https://github.com/CherryHQ/cherry-studio" target="_blank" rel="noreferrer">CherryHQ/cherry-studio</a></h2>
+      <div class="score-row">
+        <span class="score-number">100</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>46k stars，近 7 天仍活跃</li><li>搜索命中：ai-agent</li><li>关键词：product, agent, assistant, studio</li>
+      </ul>
+      <p class="details">AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/CherryHQ/cherry-studio" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub Search" data-query="zhayujie/cowagent github search 值得跟进 open-source super ai assistant &amp; agent harness. plans tasks, runs tools and skills, autonomously grows with memory and knowledge. multi-model, multi-channel. lightweight, extensible, one-line install (formerly chatgpt-on-wechat).">
+      <div class="card-topline">
+        <span class="rank">#20</span>
+        <span class="source">GitHub Search</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/zhayujie/CowAgent" target="_blank" rel="noreferrer">zhayujie/CowAgent</a></h2>
+      <div class="score-row">
+        <span class="score-number">100</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>45k stars，近 7 天仍活跃</li><li>搜索命中：ai-agent</li><li>关键词：tool, agent, assistant, open-source</li>
+      </ul>
+      <p class="details">Open-source super AI assistant &amp; Agent Harness. Plans tasks, runs tools and skills, autonomously grows with memory and knowledge. Multi-model, multi-channel. Lightweight, extensible, one-line install (formerly chatgpt-on-wechat).</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/zhayujie/CowAgent" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub Search" data-query="hkuds/nanobot github search 值得跟进 lightweight, open-source ai agent for your tools, chats, and workflows.">
+      <div class="card-topline">
+        <span class="rank">#21</span>
+        <span class="source">GitHub Search</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/HKUDS/nanobot" target="_blank" rel="noreferrer">HKUDS/nanobot</a></h2>
+      <div class="score-row">
+        <span class="score-number">100</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>43k stars，近 7 天仍活跃</li><li>搜索命中：ai-agent</li><li>关键词：tool, workflow, agent, open-source</li>
+      </ul>
+      <p class="details">Lightweight, open-source AI agent for your tools, chats, and workflows.</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/HKUDS/nanobot" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub Search" data-query="activepieces/activepieces github search 开发者工具/工程基础设施 ai agents &amp; mcps &amp; ai workflow automation • (~400 mcp servers for ai agents) • ai automation / ai agent with mcps • ai workflows &amp; ai agents • mcps for ai agents">
+      <div class="card-topline">
+        <span class="rank">#22</span>
+        <span class="source">GitHub Search</span>
+        <span class="category">开发者工具/工程基础设施</span>
+      </div>
+      <h2><a href="https://github.com/activepieces/activepieces" target="_blank" rel="noreferrer">activepieces/activepieces</a></h2>
+      <div class="score-row">
+        <span class="score-number">100</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>22k stars，近 7 天仍活跃</li><li>搜索命中：ai-agent</li><li>关键词：workflow, automation, agent, mcp</li>
+      </ul>
+      <p class="details">AI Agents &amp; MCPs &amp; AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows &amp; AI Agents • MCPs for AI Agents</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/activepieces/activepieces" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="X/Twitter" data-query="@exm7777: one underrated obsidian use case nobody talks about: it&#39;s a memory layer for the tools yo... x/twitter 开发者工具/工程基础设施 one underrated obsidian use case nobody talks about: it&#39;s a memory layer for the tools you find but never use... let me explain every day on x, you see a new agent framework, a cli, an mcp, an api that could be useful one day most people bookmark it and forge...">
+      <div class="card-topline">
+        <span class="rank">#23</span>
+        <span class="source">X/Twitter</span>
+        <span class="category">开发者工具/工程基础设施</span>
+      </div>
+      <h2><a href="https://x.com/EXM7777/status/2058609483790836095" target="_blank" rel="noreferrer">@EXM7777: one underrated obsidian use case nobody talks about: it&#39;s a memory layer for the tools yo...</a></h2>
+      <div class="score-row">
+        <span class="score-number">100</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：i built</li><li>互动信号：490 likes / 752 bookmarks</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">one underrated obsidian use case nobody talks about: it&#39;s a memory layer for the tools you find but never use... let me explain every day on X, you see a new agent framework, a CLI, an MCP, an API that could be useful one day most people bookmark it and forge...</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/EXM7777/status/2058609483790836095" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="X/Twitter" data-query="@amirmushich: figma-to-video is real now (github repo) we just open-sourced vibemotion-1 (pre-alpha): t... x/twitter ai 创作/多模态产品 figma-to-video is real now (github repo) we just open-sourced vibemotion-1 (pre-alpha): the video editing tool that can &gt; auto-edit your videos &gt; import your figma frames + all layers &gt; animate layers by prompt &gt; animate images using ltx-2.3 ai model (local, ...">
+      <div class="card-topline">
+        <span class="rank">#24</span>
+        <span class="source">X/Twitter</span>
+        <span class="category">AI 创作/多模态产品</span>
+      </div>
+      <h2><a href="https://x.com/AmirMushich/status/2059321893732163616" target="_blank" rel="noreferrer">@AmirMushich: Figma-to-video is real now (GitHub repo) we just open-sourced VibeMotion-1 (pre-alpha): t...</a></h2>
+      <div class="score-row">
+        <span class="score-number">100</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：github, open-sourced</li><li>互动信号：170 likes / 186 bookmarks</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">Figma-to-video is real now (GitHub repo) we just open-sourced VibeMotion-1 (pre-alpha): the video editing tool that can &gt; auto-edit your videos &gt; import your Figma frames + all layers &gt; animate layers by prompt &gt; animate images using LTX-2.3 AI model (local, ...</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/AmirMushich/status/2059321893732163616" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="X/Twitter" data-query="@jackfriks: you don&#39;t have to spend days and $1000-$10,000 on your launch video!!! 22 hours since lau... x/twitter 可试用产品 you don&#39;t have to spend days and $1000-$10,000 on your launch video!!! 22 hours since launched, and over $26,000 in revenue for @shipordie_ with a launch video i made in 1 hour for $3 bucks here is how i made the launch video (with code) and how you can make ...">
+      <div class="card-topline">
+        <span class="rank">#25</span>
+        <span class="source">X/Twitter</span>
+        <span class="category">可试用产品</span>
+      </div>
+      <h2><a href="https://x.com/jackfriks/status/2059309243124068763" target="_blank" rel="noreferrer">@jackfriks: you don&#39;t have to spend days and $1000-$10,000 on your launch video!!! 22 hours since lau...</a></h2>
+      <div class="score-row">
+        <span class="score-number">100</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：launch, launched, i made</li><li>互动信号：543 likes / 780 bookmarks</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">you don&#39;t have to spend days and $1000-$10,000 on your launch video!!! 22 hours since launched, and over $26,000 in revenue for @shipordie_ with a launch video i made in 1 hour for $3 bucks here is how i made the launch video (with code) and how you can make ...</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/jackfriks/status/2059309243124068763" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card watch" data-source="GitHub Trending" data-query="leonxlnx/taste-skill github trending 值得跟进 taste-skill - gives your ai good taste. stops the ai from generating boring, generic slop">
+      <div class="card-topline">
+        <span class="rank">#26</span>
+        <span class="source">GitHub Trending</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/Leonxlnx/taste-skill" target="_blank" rel="noreferrer">Leonxlnx/taste-skill</a></h2>
+      <div class="score-row">
+        <span class="score-number">99</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 2.2k stars，总计 26k stars</li><li>GitHub daily trending</li><li>社区热度明显</li>
+      </ul>
+      <p class="details">Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/Leonxlnx/taste-skill" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card watch" data-source="GitHub Trending" data-query="hardikpandya/stop-slop github trending 值得跟进 a skill file for removing ai tells from prose">
+      <div class="card-topline">
+        <span class="rank">#27</span>
+        <span class="source">GitHub Trending</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/hardikpandya/stop-slop" target="_blank" rel="noreferrer">hardikpandya/stop-slop</a></h2>
+      <div class="score-row">
+        <span class="score-number">99</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 755 stars，总计 6.2k stars</li><li>GitHub daily trending</li><li>社区热度明显</li>
+      </ul>
+      <p class="details">A skill file for removing AI tells from prose</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/hardikpandya/stop-slop" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card watch" data-source="GitHub Trending" data-query="digitalplatdev/freedomain github trending 值得跟进 digitalplat freedomain: free domain for everyone">
+      <div class="card-topline">
+        <span class="rank">#28</span>
+        <span class="source">GitHub Trending</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/DigitalPlatDev/FreeDomain" target="_blank" rel="noreferrer">DigitalPlatDev/FreeDomain</a></h2>
+      <div class="score-row">
+        <span class="score-number">99</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 1.8k stars，总计 170k stars</li><li>GitHub daily trending</li><li>社区热度明显</li>
+      </ul>
+      <p class="details">DigitalPlat FreeDomain: Free Domain For Everyone</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/DigitalPlatDev/FreeDomain" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card watch" data-source="GitHub Trending" data-query="byoungd/english-level-up-tips github trending 值得跟进 an advanced guide to learn english which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语">
+      <div class="card-topline">
+        <span class="rank">#29</span>
+        <span class="source">GitHub Trending</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/byoungd/English-level-up-tips" target="_blank" rel="noreferrer">byoungd/English-level-up-tips</a></h2>
+      <div class="score-row">
+        <span class="score-number">99</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 2.0k stars，总计 48k stars</li><li>GitHub daily trending</li><li>社区热度明显</li>
+      </ul>
+      <p class="details">An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/byoungd/English-level-up-tips" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card watch" data-source="GitHub Trending" data-query="codecrafters-io/build-your-own-x github trending 值得跟进 master programming by recreating your favorite technologies from scratch.">
+      <div class="card-topline">
+        <span class="rank">#30</span>
+        <span class="source">GitHub Trending</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/codecrafters-io/build-your-own-x" target="_blank" rel="noreferrer">codecrafters-io/build-your-own-x</a></h2>
+      <div class="score-row">
+        <span class="score-number">99</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 739 stars，总计 506k stars</li><li>GitHub daily trending</li><li>社区热度明显</li>
+      </ul>
+      <p class="details">Master programming by recreating your favorite technologies from scratch.</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/codecrafters-io/build-your-own-x" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card watch" data-source="X/Twitter" data-query="@jackfriks: launching new app today, my fiancee and mom both said its cool so hopefully everyone else... x/twitter 可试用产品 launching new app today, my fiancee and mom both said its cool so hopefully everyone else on planet earth agrees">
+      <div class="card-topline">
+        <span class="rank">#31</span>
+        <span class="source">X/Twitter</span>
+        <span class="category">可试用产品</span>
+      </div>
+      <h2><a href="https://x.com/jackfriks/status/2058950253735194840" target="_blank" rel="noreferrer">@jackfriks: launching new app today, my fiancee and mom both said its cool so hopefully everyone else...</a></h2>
+      <div class="score-row">
+        <span class="score-number">98</span>
+        <div class="score-track"><span style="width: 70%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：launch, new app</li><li>互动信号：386 likes / 19 bookmarks</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">launching new app today, my fiancee and mom both said its cool so hopefully everyone else on planet earth agrees</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/jackfriks/status/2058950253735194840" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card watch" data-source="Hacker News" data-query="i think anthropic and openai have found product-market fit hacker news 可试用产品 ">
+      <div class="card-topline">
+        <span class="rank">#32</span>
+        <span class="source">Hacker News</span>
+        <span class="category">可试用产品</span>
+      </div>
+      <h2><a href="https://simonwillison.net/2026/May/27/product-market-fit/" target="_blank" rel="noreferrer">I think Anthropic and OpenAI have found product-market fit</a></h2>
+      <div class="score-row">
+        <span class="score-number">98</span>
+        <div class="score-track"><span style="width: 70%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>1019 points / 1129 comments</li><li>HN 社区讨论热度</li><li>关键词：product</li>
+      </ul>
+      
+      <div class="card-actions"><a class="open-link" href="https://simonwillison.net/2026/May/27/product-market-fit/" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card watch" data-source="X/Twitter" data-query="@levelsio: personally i think better to not demonetize but just silently funnel all revenue to the o... x/twitter 值得跟进 personally i think better to not demonetize but just silently funnel all revenue to the original content owner that&#39;s what youtube does for over a decade copyright owners get paid, people repost videos and that just results in more money for original content ...">
+      <div class="card-topline">
+        <span class="rank">#33</span>
+        <span class="source">X/Twitter</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://x.com/levelsio/status/2058963383378944303" target="_blank" rel="noreferrer">@levelsio: Personally I think better to not demonetize but just silently funnel all revenue to the o...</a></h2>
+      <div class="score-row">
+        <span class="score-number">98</span>
+        <div class="score-track"><span style="width: 70%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：demo</li><li>互动信号：296 likes / 36 bookmarks</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">Personally I think better to not demonetize but just silently funnel all revenue to the original content owner That&#39;s what YouTube does for over a decade Copyright owners get paid, people repost videos and that just results in more money for original content ...</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/levelsio/status/2058963383378944303" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card watch" data-source="Hugging Face" data-query="bytedance-research/lance hugging face 模型/多模态能力 lance, safetensors, multimodal, image-generation, video-generation, image-editing, video-understanding, any-to-any, arxiv:2605.18678, base_model:qwen/qwen2.5-vl-3b-instruct">
+      <div class="card-topline">
+        <span class="rank">#34</span>
+        <span class="source">Hugging Face</span>
+        <span class="category">模型/多模态能力</span>
+      </div>
+      <h2><a href="https://huggingface.co/bytedance-research/Lance" target="_blank" rel="noreferrer">bytedance-research/Lance</a></h2>
+      <div class="score-row">
+        <span class="score-number">95</span>
+        <div class="score-track"><span style="width: 68%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>950 likes / 2.5k downloads</li><li>任务：any-to-any</li><li>关键词：image, video</li>
+      </ul>
+      <p class="details">Lance, safetensors, multimodal, image-generation, video-generation, image-editing, video-understanding, any-to-any, arxiv:2605.18678, base_model:Qwen/Qwen2.5-VL-3B-Instruct</p>
+      <div class="card-actions"><a class="open-link" href="https://huggingface.co/bytedance-research/Lance" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card watch" data-source="GitHub Search" data-query="langgenius/dify github search 可试用产品 production-ready platform for agentic workflow development.">
+      <div class="card-topline">
+        <span class="rank">#35</span>
+        <span class="source">GitHub Search</span>
+        <span class="category">可试用产品</span>
+      </div>
+      <h2><a href="https://github.com/langgenius/dify" target="_blank" rel="noreferrer">langgenius/dify</a></h2>
+      <div class="score-row">
+        <span class="score-number">94</span>
+        <div class="score-track"><span style="width: 67%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>143k stars，近 7 天仍活跃</li><li>搜索命中：llm</li><li>关键词：product, workflow, agent</li>
+      </ul>
+      <p class="details">Production-ready platform for agentic workflow development.</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/langgenius/dify" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+      </div>
+      <div class="empty" id="empty">没有匹配的条目。</div>
+    </section>
+
+    <p class="footer-note">Product Hunt 需要配置 PRODUCTHUNT_TOKEN；没有 token 时会跳过。X/Twitter 数据来自本机 ai-x-digest 最近一次输出。</p>
+  </main>
+  <script>
+    const buttons = [...document.querySelectorAll(".source-pill")];
+    const search = document.querySelector("#search");
+    const cards = [...document.querySelectorAll("#candidate-grid .candidate-card")];
+    const count = document.querySelector("#visible-count");
+    const empty = document.querySelector("#empty");
+    let activeSource = "all";
+
+    function applyFilters() {
+      const query = (search.value || "").trim().toLowerCase();
+      let visible = 0;
+      for (const card of cards) {
+        const sourceOk = activeSource === "all" || card.dataset.source === activeSource;
+        const queryOk = !query || (card.dataset.query || "").includes(query);
+        const show = sourceOk && queryOk;
+        card.classList.toggle("hidden", !show);
+        if (show) visible += 1;
+      }
+      count.textContent = visible + " 条";
+      empty.classList.toggle("visible", visible === 0);
+    }
+
+    for (const button of buttons) {
+      button.addEventListener("click", () => {
+        activeSource = button.dataset.source || "all";
+        for (const item of buttons) item.classList.toggle("active", item === button);
+        applyFilters();
+      });
+    }
+    search.addEventListener("input", applyFilters);
+  </script>
+</body>
+</html>

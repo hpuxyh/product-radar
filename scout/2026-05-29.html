@@ -1,0 +1,1103 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>产品与工程雷达 - 2026-05-29</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f4ef;
+      --surface: #fffdf8;
+      --surface-2: #f0f7f3;
+      --ink: #202124;
+      --muted: #66706b;
+      --line: #d8d7cf;
+      --accent: #0f766e;
+      --accent-2: #b45309;
+      --accent-3: #5b5bd6;
+      --hot: #c2410c;
+      --strong: #0f766e;
+      --watch: #4f46e5;
+      --shadow: 0 18px 50px rgba(34, 31, 25, 0.10);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      color: var(--ink);
+      background:
+        linear-gradient(180deg, rgba(15,118,110,0.08), rgba(180,83,9,0.05) 42%, transparent 70%),
+        var(--bg);
+    }
+    a { color: inherit; text-decoration: none; }
+    .page { max-width: 1180px; margin: 0 auto; padding: 28px 22px 48px; }
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.65fr);
+      gap: 22px;
+      align-items: stretch;
+      margin-bottom: 22px;
+    }
+    .hero-main {
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+    .eyebrow { margin: 0 0 8px; color: var(--accent); font-weight: 750; font-size: 13px; }
+    h1 {
+      margin: 0;
+      max-width: 780px;
+      font-size: clamp(30px, 4vw, 54px);
+      line-height: 1.02;
+      letter-spacing: 0;
+    }
+    .hero-copy { margin: 16px 0 0; max-width: 720px; color: var(--muted); font-size: 16px; line-height: 1.75; }
+    .hero-side {
+      display: grid;
+      gap: 12px;
+    }
+    .metric {
+      min-height: 104px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255,253,248,0.86);
+    }
+    .metric span { display: block; color: var(--muted); font-size: 13px; }
+    .metric strong { display: block; margin-top: 8px; font-size: 30px; line-height: 1; }
+    .toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      margin: 0 0 20px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255,253,248,0.94);
+      backdrop-filter: blur(16px);
+      display: grid;
+      grid-template-columns: minmax(220px, 1fr) auto;
+      gap: 12px;
+      align-items: center;
+    }
+    .search {
+      width: 100%;
+      height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 0 12px;
+      font: inherit;
+      background: white;
+      color: var(--ink);
+    }
+    .source-pills { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
+    .source-pill {
+      height: 34px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 0 11px;
+      background: white;
+      color: var(--ink);
+      cursor: pointer;
+      font: inherit;
+      font-size: 13px;
+    }
+    .source-pill.active { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+    .source-pill strong {
+      min-width: 22px;
+      height: 22px;
+      display: inline-grid;
+      place-items: center;
+      border-radius: 999px;
+      background: var(--surface-2);
+      color: var(--accent);
+      font-size: 12px;
+    }
+    .section-title {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      margin: 24px 0 12px;
+    }
+    .section-title h2 { margin: 0; font-size: 20px; }
+    .section-title span { color: var(--muted); font-size: 13px; }
+    .top-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+    .candidate-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .candidate-card {
+      min-height: 280px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-left: 5px solid var(--accent);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: 0 10px 30px rgba(34, 31, 25, 0.06);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .candidate-card.hot { border-left-color: var(--hot); }
+    .candidate-card.strong { border-left-color: var(--strong); }
+    .candidate-card.watch { border-left-color: var(--watch); }
+    .candidate-card.hidden { display: none; }
+    .card-topline {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      min-height: 28px;
+    }
+    .rank {
+      width: 36px;
+      height: 26px;
+      display: inline-grid;
+      place-items: center;
+      border-radius: 999px;
+      background: #1f2937;
+      color: white;
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .source, .category {
+      min-height: 26px;
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 0 10px;
+      font-size: 12px;
+      color: var(--muted);
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+    .candidate-card h2 {
+      margin: 0;
+      font-size: 19px;
+      line-height: 1.3;
+      letter-spacing: 0;
+      overflow-wrap: anywhere;
+    }
+    .candidate-card h2 a:hover { color: var(--accent); }
+    .original-title {
+      margin: -4px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+      overflow-wrap: anywhere;
+    }
+    .score-row {
+      display: grid;
+      grid-template-columns: 46px 1fr;
+      gap: 10px;
+      align-items: center;
+    }
+    .score-number { font-weight: 850; font-size: 22px; color: var(--accent-2); }
+    .score-track {
+      height: 9px;
+      border-radius: 999px;
+      background: #ebe7dd;
+      overflow: hidden;
+    }
+    .score-track span {
+      display: block;
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+    }
+    .signals {
+      margin: 0;
+      padding: 0 0 0 18px;
+      color: #3f4742;
+      font-size: 14px;
+      line-height: 1.55;
+    }
+    .signals li + li { margin-top: 5px; }
+    .details {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.65;
+      overflow-wrap: anywhere;
+    }
+    .card-actions { margin-top: auto; display: flex; justify-content: flex-end; }
+    .open-link {
+      height: 34px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 6px;
+      padding: 0 14px;
+      background: #202124;
+      color: white;
+      font-size: 13px;
+      font-weight: 750;
+    }
+    .empty {
+      display: none;
+      padding: 28px;
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      color: var(--muted);
+      background: rgba(255,255,255,0.55);
+      text-align: center;
+    }
+    .empty.visible { display: block; }
+    .footer-note {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+    @media (max-width: 900px) {
+      .hero, .candidate-grid, .top-grid { grid-template-columns: 1fr; }
+      .toolbar { grid-template-columns: 1fr; }
+      .source-pills { justify-content: flex-start; }
+    }
+    @media (max-width: 560px) {
+      .page { padding: 16px 12px 34px; }
+      .hero-main { padding: 20px; }
+      .candidate-card { min-height: 0; }
+      .metric { min-height: 88px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="hero-main">
+        <p class="eyebrow">产品与工程雷达 / 2026-05-29</p>
+        <h1>今天值得点开的产品和工程线索</h1>
+        <p class="hero-copy">我已经把英文标题和摘要整理成自然中文；仓库名、产品名这类专有名词会保留原文，方便你点开后对照。</p>
+      </div>
+      <div class="hero-side">
+        <div class="metric"><span>候选条目</span><strong>35</strong></div>
+        <div class="metric"><span>覆盖来源</span><strong>5</strong></div>
+        <div class="metric"><span>最高分</span><strong>123</strong></div>
+      </div>
+    </section>
+
+    <section class="toolbar" aria-label="筛选">
+      <input class="search" id="search" placeholder="搜索项目、来源、关键词..." autocomplete="off">
+      <div class="source-pills">
+        <button class="source-pill active" type="button" data-source="all"><span>全部来源</span><strong>35</strong></button>
+        
+        <button class="source-pill" type="button" data-source="GitHub 今日趋势">
+          <span>GitHub 今日趋势</span>
+          <strong>12</strong>
+        </button>
+      
+        <button class="source-pill" type="button" data-source="X/Twitter 产品线索">
+          <span>X/Twitter 产品线索</span>
+          <strong>11</strong>
+        </button>
+      
+        <button class="source-pill" type="button" data-source="GitHub 主题搜索">
+          <span>GitHub 主题搜索</span>
+          <strong>8</strong>
+        </button>
+      
+        <button class="source-pill" type="button" data-source="Hugging Face 模型榜">
+          <span>Hugging Face 模型榜</span>
+          <strong>3</strong>
+        </button>
+      
+        <button class="source-pill" type="button" data-source="Hacker News 社区">
+          <span>Hacker News 社区</span>
+          <strong>1</strong>
+        </button>
+      
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">
+        <h2>优先看这 3 个</h2>
+        <span>10 条偏产品/可体验线索</span>
+      </div>
+      <div class="top-grid">
+        
+    <article class="candidate-card hot" data-source="GitHub 今日趋势" data-query="harry0703/moneyprinterturbo moneyprinterturbo：一键生成高清短视频 github trending github 今日趋势 值得跟进 利用ai大模型，一键生成高清短视频 generate short videos with one click using ai llm. 用 ai 大模型自动生成短视频，从文案、素材到成片尽量一条龙完成。">
+      <div class="card-topline">
+        <span class="rank">#1</span>
+        <span class="source">GitHub 今日趋势</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/harry0703/MoneyPrinterTurbo" target="_blank" rel="noreferrer">MoneyPrinterTurbo：一键生成高清短视频</a></h2>
+      <p class="original-title">harry0703/MoneyPrinterTurbo</p>
+      <div class="score-row">
+        <span class="score-number">123</span>
+        <div class="score-track"><span style="width: 88%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 4.7k 个星标，总计 66k 个星标</li><li>GitHub 今日趋势榜</li><li>关键词：命令行工具、视频、生成、视频</li>
+      </ul>
+      <p class="details">用 AI 大模型自动生成短视频，从文案、素材到成片尽量一条龙完成。</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/harry0703/MoneyPrinterTurbo" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card hot" data-source="X/Twitter 产品线索" data-query="@jackfriks: i made an app that feeds you to the sharks if you don&#39;t publicly launch your own product ... @jackfriks：做了一个逼你 30 天内公开发布产品的 app x/twitter x/twitter 产品线索 可试用产品 i made an app that feeds you to the sharks if you don&#39;t publicly launch your own product in 30 days. no more of this: &quot;dude i just 100x&#39;ed my workflow with this new ai model&quot;... meanwhile... 0 projects launched 0 revenue 0 users 100 x 0 = still 0. it&#39;s time t... 这个 app 的核心是反拖延：30 天内不把自己的产品公开发布，就会用很强的公开压力逼你行动。作者吐槽很多人只是在谈“ai 工作流提升 100 倍”，但实际发布、收入和用户都还是 0。">
+      <div class="card-topline">
+        <span class="rank">#2</span>
+        <span class="source">X/Twitter 产品线索</span>
+        <span class="category">可试用产品</span>
+      </div>
+      <h2><a href="https://x.com/jackfriks/status/2058977146266366151" target="_blank" rel="noreferrer">@jackfriks：做了一个逼你 30 天内公开发布产品的 App</a></h2>
+      <p class="original-title">@jackfriks: i made an app that feeds you to the sharks if you don&#39;t publicly launch your own product ...</p>
+      <div class="score-row">
+        <span class="score-number">118</span>
+        <div class="score-track"><span style="width: 84%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：发布、已发布、作者自己做了、做了一个应用</li><li>互动信号：1.1k 个赞 / 701 次收藏</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">这个 App 的核心是反拖延：30 天内不把自己的产品公开发布，就会用很强的公开压力逼你行动。作者吐槽很多人只是在谈“AI 工作流提升 100 倍”，但实际发布、收入和用户都还是 0。</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/jackfriks/status/2058977146266366151" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub 主题搜索" data-query="langchain4j/langchain4j langchain4j：给 java/jvm 用的 llm 应用开发库 github search github 主题搜索 开发者工具/工程基础设施 langchain4j is an idiomatic, open-source java library for building llm-powered applications on the jvm. it offers a unified api over popular llm providers and vector stores, and makes implementing tool calling (including mcp support), agents and rag easy. it ... 一个面向 jvm 的开源库，统一封装主流大模型、向量库、工具调用、mcp、智能体和 rag，适合 java 技术栈做 ai 应用。">
+      <div class="card-topline">
+        <span class="rank">#3</span>
+        <span class="source">GitHub 主题搜索</span>
+        <span class="category">开发者工具/工程基础设施</span>
+      </div>
+      <h2><a href="https://github.com/langchain4j/langchain4j" target="_blank" rel="noreferrer">langchain4j：给 Java/JVM 用的 LLM 应用开发库</a></h2>
+      <p class="original-title">langchain4j/langchain4j</p>
+      <div class="score-row">
+        <span class="score-number">112</span>
+        <div class="score-track"><span style="width: 80%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>12k 个星标，近 7 天仍活跃</li><li>搜索命中：向量数据库</li><li>关键词：应用、工具、智能体、开源、API</li>
+      </ul>
+      <p class="details">一个面向 JVM 的开源库，统一封装主流大模型、向量库、工具调用、MCP、智能体和 RAG，适合 Java 技术栈做 AI 应用。</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/langchain4j/langchain4j" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">
+        <h2>完整候选</h2>
+        <span id="visible-count">35 条</span>
+      </div>
+      <div class="candidate-grid" id="candidate-grid">
+        
+    <article class="candidate-card hot" data-source="GitHub 今日趋势" data-query="harry0703/moneyprinterturbo moneyprinterturbo：一键生成高清短视频 github trending github 今日趋势 值得跟进 利用ai大模型，一键生成高清短视频 generate short videos with one click using ai llm. 用 ai 大模型自动生成短视频，从文案、素材到成片尽量一条龙完成。">
+      <div class="card-topline">
+        <span class="rank">#1</span>
+        <span class="source">GitHub 今日趋势</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/harry0703/MoneyPrinterTurbo" target="_blank" rel="noreferrer">MoneyPrinterTurbo：一键生成高清短视频</a></h2>
+      <p class="original-title">harry0703/MoneyPrinterTurbo</p>
+      <div class="score-row">
+        <span class="score-number">123</span>
+        <div class="score-track"><span style="width: 88%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 4.7k 个星标，总计 66k 个星标</li><li>GitHub 今日趋势榜</li><li>关键词：命令行工具、视频、生成、视频</li>
+      </ul>
+      <p class="details">用 AI 大模型自动生成短视频，从文案、素材到成片尽量一条龙完成。</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/harry0703/MoneyPrinterTurbo" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card hot" data-source="X/Twitter 产品线索" data-query="@jackfriks: i made an app that feeds you to the sharks if you don&#39;t publicly launch your own product ... @jackfriks：做了一个逼你 30 天内公开发布产品的 app x/twitter x/twitter 产品线索 可试用产品 i made an app that feeds you to the sharks if you don&#39;t publicly launch your own product in 30 days. no more of this: &quot;dude i just 100x&#39;ed my workflow with this new ai model&quot;... meanwhile... 0 projects launched 0 revenue 0 users 100 x 0 = still 0. it&#39;s time t... 这个 app 的核心是反拖延：30 天内不把自己的产品公开发布，就会用很强的公开压力逼你行动。作者吐槽很多人只是在谈“ai 工作流提升 100 倍”，但实际发布、收入和用户都还是 0。">
+      <div class="card-topline">
+        <span class="rank">#2</span>
+        <span class="source">X/Twitter 产品线索</span>
+        <span class="category">可试用产品</span>
+      </div>
+      <h2><a href="https://x.com/jackfriks/status/2058977146266366151" target="_blank" rel="noreferrer">@jackfriks：做了一个逼你 30 天内公开发布产品的 App</a></h2>
+      <p class="original-title">@jackfriks: i made an app that feeds you to the sharks if you don&#39;t publicly launch your own product ...</p>
+      <div class="score-row">
+        <span class="score-number">118</span>
+        <div class="score-track"><span style="width: 84%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：发布、已发布、作者自己做了、做了一个应用</li><li>互动信号：1.1k 个赞 / 701 次收藏</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">这个 App 的核心是反拖延：30 天内不把自己的产品公开发布，就会用很强的公开压力逼你行动。作者吐槽很多人只是在谈“AI 工作流提升 100 倍”，但实际发布、收入和用户都还是 0。</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/jackfriks/status/2058977146266366151" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub 主题搜索" data-query="langchain4j/langchain4j langchain4j：给 java/jvm 用的 llm 应用开发库 github search github 主题搜索 开发者工具/工程基础设施 langchain4j is an idiomatic, open-source java library for building llm-powered applications on the jvm. it offers a unified api over popular llm providers and vector stores, and makes implementing tool calling (including mcp support), agents and rag easy. it ... 一个面向 jvm 的开源库，统一封装主流大模型、向量库、工具调用、mcp、智能体和 rag，适合 java 技术栈做 ai 应用。">
+      <div class="card-topline">
+        <span class="rank">#3</span>
+        <span class="source">GitHub 主题搜索</span>
+        <span class="category">开发者工具/工程基础设施</span>
+      </div>
+      <h2><a href="https://github.com/langchain4j/langchain4j" target="_blank" rel="noreferrer">langchain4j：给 Java/JVM 用的 LLM 应用开发库</a></h2>
+      <p class="original-title">langchain4j/langchain4j</p>
+      <div class="score-row">
+        <span class="score-number">112</span>
+        <div class="score-track"><span style="width: 80%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>12k 个星标，近 7 天仍活跃</li><li>搜索命中：向量数据库</li><li>关键词：应用、工具、智能体、开源、API</li>
+      </ul>
+      <p class="details">一个面向 JVM 的开源库，统一封装主流大模型、向量库、工具调用、MCP、智能体和 RAG，适合 Java 技术栈做 AI 应用。</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/langchain4j/langchain4j" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub 今日趋势" data-query="lum1104/understand-anything understand anything：把代码库变成可提问的知识图谱 github trending github 今日趋势 值得跟进 graphs that teach &amp;gt; graphs that impress. turn any code into an interactive knowledge graph you can explore, search, and ask questions about. works with claude code, codex, cursor, copilot, gemini cli, and more. 它主张“能教人的图谱比炫技图谱更有用”：把任意代码转成交互式知识图谱，可以探索、搜索、提问，并能配合 claude code、codex、cursor、copilot、gemini cli 等工具使用。">
+      <div class="card-topline">
+        <span class="rank">#4</span>
+        <span class="source">GitHub 今日趋势</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/Lum1104/Understand-Anything" target="_blank" rel="noreferrer">Understand Anything：把代码库变成可提问的知识图谱</a></h2>
+      <p class="original-title">Lum1104/Understand-Anything</p>
+      <div class="score-row">
+        <span class="score-number">111</span>
+        <div class="score-track"><span style="width: 79%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 3.8k 个星标，总计 42k 个星标</li><li>GitHub 今日趋势榜</li><li>关键词：编程助手、命令行工具</li>
+      </ul>
+      <p class="details">它主张“能教人的图谱比炫技图谱更有用”：把任意代码转成交互式知识图谱，可以探索、搜索、提问，并能配合 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等工具使用。</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/Lum1104/Understand-Anything" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub 主题搜索" data-query="iofficeai/aionui aionui：本地开源的 24 小时 ai 协作工作台 github search github 主题搜索 开发者工具/工程基础设施 free, local, open-source 24/7 cowork app for openclaw, hermes agent, claude code, codex, opencode, gemini cli and 20+ more cli | customize your assistants | star if you like it! 一个本地、免费、开源的 ai 工作台，面向 openclaw、hermes agent、claude code、codex、opencode、gemini cli 等 20 多种命令行助手，可以定制自己的助手组合。">
+      <div class="card-topline">
+        <span class="rank">#5</span>
+        <span class="source">GitHub 主题搜索</span>
+        <span class="category">开发者工具/工程基础设施</span>
+      </div>
+      <h2><a href="https://github.com/iOfficeAI/AionUi" target="_blank" rel="noreferrer">AionUi：本地开源的 24 小时 AI 协作工作台</a></h2>
+      <p class="original-title">iOfficeAI/AionUi</p>
+      <div class="score-row">
+        <span class="score-number">106</span>
+        <div class="score-track"><span style="width: 76%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>27k 个星标，近 7 天仍活跃</li><li>搜索命中：AI 智能体</li><li>关键词：应用、智能体、助手、开源、命令行工具</li>
+      </ul>
+      <p class="details">一个本地、免费、开源的 AI 工作台，面向 OpenClaw、Hermes Agent、Claude Code、Codex、OpenCode、Gemini CLI 等 20 多种命令行助手，可以定制自己的助手组合。</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/iOfficeAI/AionUi" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub 主题搜索" data-query="safishamsi/graphify graphify：把代码、文档、图片和视频转成可查询知识图谱 github search github 主题搜索 ai 创作/多模态产品 ai coding assistant skill (claude code, codex, opencode, cursor, gemini cli, and more). turn any folder of code, sql schemas, r scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. app code + database schema + infrastructu... 一个 ai 编码助手技能，可以把文件夹里的代码、数据库结构、脚本、文档、论文、图片和视频整理成可提问的知识图谱，适合理解复杂项目。">
+      <div class="card-topline">
+        <span class="rank">#6</span>
+        <span class="source">GitHub 主题搜索</span>
+        <span class="category">AI 创作/多模态产品</span>
+      </div>
+      <h2><a href="https://github.com/safishamsi/graphify" target="_blank" rel="noreferrer">graphify：把代码、文档、图片和视频转成可查询知识图谱</a></h2>
+      <p class="original-title">safishamsi/graphify</p>
+      <div class="score-row">
+        <span class="score-number">106</span>
+        <div class="score-track"><span style="width: 76%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>55k 个星标，近 7 天仍活跃</li><li>搜索命中：RAG</li><li>关键词：应用、助手、命令行工具、图像、视频</li>
+      </ul>
+      <p class="details">一个 AI 编码助手技能，可以把文件夹里的代码、数据库结构、脚本、文档、论文、图片和视频整理成可提问的知识图谱，适合理解复杂项目。</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/safishamsi/graphify" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="X/Twitter 产品线索" data-query="@jackfriks: this app is basically a roadmap to try and get more people on the path i got put on 3 yea... @jackfriks：把从 0 到月入 4 万美元的路径做成 app x/twitter x/twitter 产品线索 可试用产品 this app is basically a roadmap to try and get more people on the path i got put on 3 years ago (from $0 to now near $40k/month) back then i didn&#39;t know how to code. i didn&#39;t know how to make something worth paying for... i was trying hard but going nowhere (... 作者说这个 app 像一张行动路线图，想把更多人带到他三年前走上的那条路：从不会写代码、不会做可收费产品，到靠公开发布和持续迭代跑出收入。">
+      <div class="card-topline">
+        <span class="rank">#7</span>
+        <span class="source">X/Twitter 产品线索</span>
+        <span class="category">可试用产品</span>
+      </div>
+      <h2><a href="https://x.com/jackfriks/status/2058979566278910409" target="_blank" rel="noreferrer">@jackfriks：把从 0 到月入 4 万美元的路径做成 App</a></h2>
+      <p class="original-title">@jackfriks: this app is basically a roadmap to try and get more people on the path i got put on 3 yea...</p>
+      <div class="score-row">
+        <span class="score-number">106</span>
+        <div class="score-track"><span style="width: 76%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：发布、已发布、作者自己做了</li><li>互动信号：131 个赞 / 116 次收藏</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">作者说这个 App 像一张行动路线图，想把更多人带到他三年前走上的那条路：从不会写代码、不会做可收费产品，到靠公开发布和持续迭代跑出收入。</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/jackfriks/status/2058979566278910409" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub 今日趋势" data-query="affaan-m/ecc ecc：面向 ai 编码智能体的性能优化框架 github trending github 今日趋势 值得跟进 the agent harness performance optimization system. skills, instincts, memory, security, and research-first development for claude code, codex, opencode, cursor and beyond. 一个给 claude code、codex、opencode、cursor 等智能体使用的优化系统，强调技能、直觉、记忆、安全和研究优先的软件开发流程。">
+      <div class="card-topline">
+        <span class="rank">#8</span>
+        <span class="source">GitHub 今日趋势</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/affaan-m/ECC" target="_blank" rel="noreferrer">ECC：面向 AI 编码智能体的性能优化框架</a></h2>
+      <p class="original-title">affaan-m/ECC</p>
+      <div class="score-row">
+        <span class="score-number">105</span>
+        <div class="score-track"><span style="width: 75%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 1.4k 个星标，总计 197k 个星标</li><li>GitHub 今日趋势榜</li><li>关键词：智能体</li>
+      </ul>
+      <p class="details">一个给 Claude Code、Codex、OpenCode、Cursor 等智能体使用的优化系统，强调技能、直觉、记忆、安全和研究优先的软件开发流程。</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/affaan-m/ECC" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub 今日趋势" data-query="twentyhq/twenty twenty：面向 ai 时代的开源 salesforce 替代品 github trending github 今日趋势 值得跟进 the open alternative to salesforce, designed for ai. 一个开源 crm，定位是 salesforce 的开源替代方案，并且从设计上面向 ai 工作流。">
+      <div class="card-topline">
+        <span class="rank">#9</span>
+        <span class="source">GitHub 今日趋势</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/twentyhq/twenty" target="_blank" rel="noreferrer">Twenty：面向 AI 时代的开源 Salesforce 替代品</a></h2>
+      <p class="original-title">twentyhq/twenty</p>
+      <div class="score-row">
+        <span class="score-number">105</span>
+        <div class="score-track"><span style="width: 75%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 495 个星标，总计 48k 个星标</li><li>GitHub 今日趋势榜</li><li>关键词：设计</li>
+      </ul>
+      <p class="details">一个开源 CRM，定位是 Salesforce 的开源替代方案，并且从设计上面向 AI 工作流。</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/twentyhq/twenty" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub 今日趋势" data-query="microsoft/markitdown markitdown：把 office 等文件转成 markdown 的工具 github trending github 今日趋势 值得跟进 python tool for converting files and office documents to markdown. 微软出的 python 工具，可以把文档、表格、演示文稿等文件转换成 markdown，方便进入 ai/知识库流程。">
+      <div class="card-topline">
+        <span class="rank">#10</span>
+        <span class="source">GitHub 今日趋势</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/microsoft/markitdown" target="_blank" rel="noreferrer">MarkItDown：把 Office 等文件转成 Markdown 的工具</a></h2>
+      <p class="original-title">microsoft/markitdown</p>
+      <div class="score-row">
+        <span class="score-number">105</span>
+        <div class="score-track"><span style="width: 75%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 1.3k 个星标，总计 127k 个星标</li><li>GitHub 今日趋势榜</li><li>关键词：工具</li>
+      </ul>
+      <p class="details">微软出的 Python 工具，可以把文档、表格、演示文稿等文件转换成 Markdown，方便进入 AI/知识库流程。</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/microsoft/markitdown" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub 今日趋势" data-query="obra/superpowers superpowers：智能体技能框架和软件开发方法论 github trending github 今日趋势 开发者工具/工程基础设施 an agentic skills framework &amp;amp; software development methodology that works. 一个面向智能体的技能框架，也是一套软件开发方法论，目标是让 ai 助手更稳定地参与真实工程。">
+      <div class="card-topline">
+        <span class="rank">#11</span>
+        <span class="source">GitHub 今日趋势</span>
+        <span class="category">开发者工具/工程基础设施</span>
+      </div>
+      <h2><a href="https://github.com/obra/superpowers" target="_blank" rel="noreferrer">superpowers：智能体技能框架和软件开发方法论</a></h2>
+      <p class="original-title">obra/superpowers</p>
+      <div class="score-row">
+        <span class="score-number">105</span>
+        <div class="score-track"><span style="width: 75%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 1.7k 个星标，总计 211k 个星标</li><li>GitHub 今日趋势榜</li><li>关键词：智能体</li>
+      </ul>
+      <p class="details">一个面向智能体的技能框架，也是一套软件开发方法论，目标是让 AI 助手更稳定地参与真实工程。</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/obra/superpowers" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub 今日趋势" data-query="anthropics/skills anthropic skills：claude/智能体技能公开仓库 github trending github 今日趋势 值得跟进 public repository for agent skills anthropic 公开的 agent skills 仓库，可以理解成给智能体安装能力包的参考集合。">
+      <div class="card-topline">
+        <span class="rank">#12</span>
+        <span class="source">GitHub 今日趋势</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/anthropics/skills" target="_blank" rel="noreferrer">Anthropic Skills：Claude/智能体技能公开仓库</a></h2>
+      <p class="original-title">anthropics/skills</p>
+      <div class="score-row">
+        <span class="score-number">105</span>
+        <div class="score-track"><span style="width: 75%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 791 个星标，总计 143k 个星标</li><li>GitHub 今日趋势榜</li><li>关键词：智能体</li>
+      </ul>
+      <p class="details">Anthropic 公开的 Agent Skills 仓库，可以理解成给智能体安装能力包的参考集合。</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/anthropics/skills" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="Hugging Face 模型榜" data-query="jackrong/qwopus3.6-27b-v2-gguf qwopus3.6-27b-v2-gguf：支持视觉的本地量化模型 hugging face hugging face 模型榜 模型/多模态能力 transformers, gguf, llama.cpp, image-text-to-text, vision, multimodal, text-generation-inference, unsloth, conversational, image gguf/llama.cpp 方向的多模态模型，支持图像理解、对话和文本生成，适合关注本地运行、多模态推理的人跟进。">
+      <div class="card-topline">
+        <span class="rank">#13</span>
+        <span class="source">Hugging Face 模型榜</span>
+        <span class="category">模型/多模态能力</span>
+      </div>
+      <h2><a href="https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF" target="_blank" rel="noreferrer">Qwopus3.6-27B-v2-GGUF：支持视觉的本地量化模型</a></h2>
+      <p class="original-title">Jackrong/Qwopus3.6-27B-v2-GGUF</p>
+      <div class="score-row">
+        <span class="score-number">104</span>
+        <div class="score-track"><span style="width: 74%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>166 个赞 / 24k 次下载</li><li>任务：图像/文本到文本</li><li>关键词：工具、智能体、图像</li>
+      </ul>
+      <p class="details">GGUF/llama.cpp 方向的多模态模型，支持图像理解、对话和文本生成，适合关注本地运行、多模态推理的人跟进。</p>
+      <div class="card-actions"><a class="open-link" href="https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="Hugging Face 模型榜" data-query="jackrong/qwopus3.6-27b-v2-mtp-gguf qwopus3.6-27b-v2-mtp-gguf：多模态本地模型变体 hugging face hugging face 模型榜 模型/多模态能力 transformers, gguf, llama.cpp, image-text-to-text, vision, multimodal, text-generation-inference, unsloth, conversational, mtp qwopus3.6 27b 的另一个 gguf 变体，下载量更高，同样偏本地多模态、图像到文本和对话能力。">
+      <div class="card-topline">
+        <span class="rank">#14</span>
+        <span class="source">Hugging Face 模型榜</span>
+        <span class="category">模型/多模态能力</span>
+      </div>
+      <h2><a href="https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF" target="_blank" rel="noreferrer">Qwopus3.6-27B-v2-MTP-GGUF：多模态本地模型变体</a></h2>
+      <p class="original-title">Jackrong/Qwopus3.6-27B-v2-MTP-GGUF</p>
+      <div class="score-row">
+        <span class="score-number">104</span>
+        <div class="score-track"><span style="width: 74%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>146 个赞 / 66k 次下载</li><li>任务：图像/文本到文本</li><li>关键词：工具、智能体、图像</li>
+      </ul>
+      <p class="details">Qwopus3.6 27B 的另一个 GGUF 变体，下载量更高，同样偏本地多模态、图像到文本和对话能力。</p>
+      <div class="card-actions"><a class="open-link" href="https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="X/Twitter 产品线索" data-query="@jackfriks: almost 3 years ago i bought this guys product and it changed my life. he is the sole reas... @jackfriks：和当年改变自己的产品作者一起发布新 app x/twitter x/twitter 产品线索 可试用产品 almost 3 years ago i bought this guys product and it changed my life. he is the sole reason i am where i am today. now today we launching an app together 作者说三年前买过对方的产品，并因此改变了自己的路径；现在两个人一起发布一个新 app。这条更像创作者产品发布背后的故事线索。">
+      <div class="card-topline">
+        <span class="rank">#15</span>
+        <span class="source">X/Twitter 产品线索</span>
+        <span class="category">可试用产品</span>
+      </div>
+      <h2><a href="https://x.com/jackfriks/status/2059093819790881231" target="_blank" rel="noreferrer">@jackfriks：和当年改变自己的产品作者一起发布新 App</a></h2>
+      <p class="original-title">@jackfriks: almost 3 years ago i bought this guys product and it changed my life. he is the sole reas...</p>
+      <div class="score-row">
+        <span class="score-number">104</span>
+        <div class="score-track"><span style="width: 74%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：发布</li><li>互动信号：289 个赞 / 41 次收藏</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">作者说三年前买过对方的产品，并因此改变了自己的路径；现在两个人一起发布一个新 App。这条更像创作者产品发布背后的故事线索。</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/jackfriks/status/2059093819790881231" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="X/Twitter 产品线索" data-query="@godofprompt: perplexity just open-sourced their internal security scanner. it&#39;s called bumblebee. it s... @godofprompt：perplexity 开源安全扫描器 bumblebee x/twitter x/twitter 产品线索 开发者工具/工程基础设施 perplexity just open-sourced their internal security scanner. it&#39;s called bumblebee. it scans your machine for compromised packages, malicious browser extensions, infected editor extensions (vs code, cursor, windsurf), and mcp server configs. read-only. doesn... perplexity 开源了内部安全扫描器 bumblebee。它会只读扫描本机是否有被污染的包、恶意浏览器扩展、受感染的 vs code/cursor/windsurf 扩展，以及 mcp 服务配置风险。">
+      <div class="card-topline">
+        <span class="rank">#16</span>
+        <span class="source">X/Twitter 产品线索</span>
+        <span class="category">开发者工具/工程基础设施</span>
+      </div>
+      <h2><a href="https://x.com/godofprompt/status/2059548217285713933" target="_blank" rel="noreferrer">@godofprompt：Perplexity 开源安全扫描器 Bumblebee</a></h2>
+      <p class="original-title">@godofprompt: Perplexity just open-sourced their internal security scanner. It&#39;s called Bumblebee. It s...</p>
+      <div class="score-row">
+        <span class="score-number">104</span>
+        <div class="score-track"><span style="width: 74%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：GitHub、已开源</li><li>互动信号：54 个赞 / 87 次收藏</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">Perplexity 开源了内部安全扫描器 Bumblebee。它会只读扫描本机是否有被污染的包、恶意浏览器扩展、受感染的 VS Code/Cursor/Windsurf 扩展，以及 MCP 服务配置风险。</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/godofprompt/status/2059548217285713933" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="X/Twitter 产品线索" data-query="@egeberkina: most ai video workflows still feel fragmented to me. however, i’ve found an incredible ag... @egeberkina：发现一个把导演、剪辑和 ai 模型合在一起的视频工具 x/twitter x/twitter 产品线索 开发者工具/工程基础设施 most ai video workflows still feel fragmented to me. however, i’ve found an incredible agent product. even if you’ve never touched ai before, you can still make videos like this. flova works like a director + editor + motion team + ai models inside one worksp... 作者认为现在 ai 视频工作流仍然很碎片化，但 flova 这类产品把导演、剪辑、动态设计和 ai 模型放进同一个工作区，让不会 ai 的人也能做视频。">
+      <div class="card-topline">
+        <span class="rank">#17</span>
+        <span class="source">X/Twitter 产品线索</span>
+        <span class="category">开发者工具/工程基础设施</span>
+      </div>
+      <h2><a href="https://x.com/egeberkina/status/2058975894002356566" target="_blank" rel="noreferrer">@egeberkina：发现一个把导演、剪辑和 AI 模型合在一起的视频工具</a></h2>
+      <p class="original-title">@egeberkina: Most AI video workflows still feel fragmented to me. However, I’ve found an incredible ag...</p>
+      <div class="score-row">
+        <span class="score-number">103</span>
+        <div class="score-track"><span style="width: 74%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：作者自己做了</li><li>互动信号：63 个赞 / 77 次收藏</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">作者认为现在 AI 视频工作流仍然很碎片化，但 Flova 这类产品把导演、剪辑、动态设计和 AI 模型放进同一个工作区，让不会 AI 的人也能做视频。</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/egeberkina/status/2058975894002356566" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="X/Twitter 产品线索" data-query="@_adishj: today, we&#39;re introducing motion design systems. one .md file and @motion_so remembers you... @_adishj：motion 推出“运动设计系统” x/twitter x/twitter 产品线索 ai 创作/多模态产品 today, we&#39;re introducing motion design systems. one .md file and @motion_so remembers your logos, typographies, colors, and branding forever. this launch video was made using claude&#39;s design md and a single prompt👇🏽 make consistent videos, every time. motion design systems 的思路是用一个 markdown 文件记住品牌的 logo、字体、颜色和视觉规范，以后生成视频时保持一致风格。">
+      <div class="card-topline">
+        <span class="rank">#18</span>
+        <span class="source">X/Twitter 产品线索</span>
+        <span class="category">AI 创作/多模态产品</span>
+      </div>
+      <h2><a href="https://x.com/_adishj/status/2059303495061352780" target="_blank" rel="noreferrer">@_adishj：Motion 推出“运动设计系统”</a></h2>
+      <p class="original-title">@_adishj: Today, we&#39;re introducing Motion Design Systems. One .md file and @motion_so remembers you...</p>
+      <div class="score-row">
+        <span class="score-number">101</span>
+        <div class="score-track"><span style="width: 72%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：发布、正式介绍</li><li>互动信号：63 个赞 / 53 次收藏</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">Motion Design Systems 的思路是用一个 Markdown 文件记住品牌的 Logo、字体、颜色和视觉规范，以后生成视频时保持一致风格。</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/_adishj/status/2059303495061352780" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub 主题搜索" data-query="cherryhq/cherry-studio cherry studio：整合大模型、智能体和助手的效率工作台 github search github 主题搜索 可试用产品 ai productivity studio with smart chat, autonomous agents, and 300+ assistants. unified access to frontier llms 一个 ai 效率工作台，包含智能聊天、自主智能体、300 多个助手，并统一接入多家前沿大模型。">
+      <div class="card-topline">
+        <span class="rank">#19</span>
+        <span class="source">GitHub 主题搜索</span>
+        <span class="category">可试用产品</span>
+      </div>
+      <h2><a href="https://github.com/CherryHQ/cherry-studio" target="_blank" rel="noreferrer">Cherry Studio：整合大模型、智能体和助手的效率工作台</a></h2>
+      <p class="original-title">CherryHQ/cherry-studio</p>
+      <div class="score-row">
+        <span class="score-number">100</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>46k 个星标，近 7 天仍活跃</li><li>搜索命中：AI 智能体</li><li>关键词：产品、智能体、助手、工作台</li>
+      </ul>
+      <p class="details">一个 AI 效率工作台，包含智能聊天、自主智能体、300 多个助手，并统一接入多家前沿大模型。</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/CherryHQ/cherry-studio" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub 主题搜索" data-query="zhayujie/cowagent cowagent：开源超级 ai 助手和智能体底座 github search github 主题搜索 值得跟进 open-source super ai assistant &amp; agent harness. plans tasks, runs tools and skills, autonomously grows with memory and knowledge. multi-model, multi-channel. lightweight, extensible, one-line install (formerly chatgpt-on-wechat). 一个开源 ai 助手/智能体框架，可以规划任务、调用工具和技能，并通过记忆和知识自我扩展；支持多模型、多渠道，轻量可扩展，前身是 chatgpt-on-wechat。">
+      <div class="card-topline">
+        <span class="rank">#20</span>
+        <span class="source">GitHub 主题搜索</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/zhayujie/CowAgent" target="_blank" rel="noreferrer">CowAgent：开源超级 AI 助手和智能体底座</a></h2>
+      <p class="original-title">zhayujie/CowAgent</p>
+      <div class="score-row">
+        <span class="score-number">100</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>45k 个星标，近 7 天仍活跃</li><li>搜索命中：AI 智能体</li><li>关键词：工具、智能体、助手、开源</li>
+      </ul>
+      <p class="details">一个开源 AI 助手/智能体框架，可以规划任务、调用工具和技能，并通过记忆和知识自我扩展；支持多模型、多渠道，轻量可扩展，前身是 chatgpt-on-wechat。</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/zhayujie/CowAgent" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub 主题搜索" data-query="hkuds/nanobot nanobot：轻量开源 ai 智能体 github search github 主题搜索 值得跟进 lightweight, open-source ai agent for your tools, chats, and workflows. 一个轻量级开源智能体，可以接入你的工具、聊天和工作流。">
+      <div class="card-topline">
+        <span class="rank">#21</span>
+        <span class="source">GitHub 主题搜索</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/HKUDS/nanobot" target="_blank" rel="noreferrer">NanoBot：轻量开源 AI 智能体</a></h2>
+      <p class="original-title">HKUDS/nanobot</p>
+      <div class="score-row">
+        <span class="score-number">100</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>43k 个星标，近 7 天仍活跃</li><li>搜索命中：AI 智能体</li><li>关键词：工具、工作流、智能体、开源</li>
+      </ul>
+      <p class="details">一个轻量级开源智能体，可以接入你的工具、聊天和工作流。</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/HKUDS/nanobot" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="GitHub 主题搜索" data-query="activepieces/activepieces activepieces：ai 智能体和 mcp 工作流自动化平台 github search github 主题搜索 开发者工具/工程基础设施 ai agents &amp; mcps &amp; ai workflow automation • (~400 mcp servers for ai agents) • ai automation / ai agent with mcps • ai workflows &amp; ai agents • mcps for ai agents 一个自动化平台，围绕 ai 智能体、mcp 服务和工作流搭建，官方描述里强调约 400 个 mcp server 可供智能体使用。">
+      <div class="card-topline">
+        <span class="rank">#22</span>
+        <span class="source">GitHub 主题搜索</span>
+        <span class="category">开发者工具/工程基础设施</span>
+      </div>
+      <h2><a href="https://github.com/activepieces/activepieces" target="_blank" rel="noreferrer">Activepieces：AI 智能体和 MCP 工作流自动化平台</a></h2>
+      <p class="original-title">activepieces/activepieces</p>
+      <div class="score-row">
+        <span class="score-number">100</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>22k 个星标，近 7 天仍活跃</li><li>搜索命中：AI 智能体</li><li>关键词：工作流、自动化、智能体、MCP</li>
+      </ul>
+      <p class="details">一个自动化平台，围绕 AI 智能体、MCP 服务和工作流搭建，官方描述里强调约 400 个 MCP server 可供智能体使用。</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/activepieces/activepieces" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="X/Twitter 产品线索" data-query="@exm7777: one underrated obsidian use case nobody talks about: it&#39;s a memory layer for the tools yo... @exm7777：把 obsidian 当作 ai 工具记忆层 x/twitter x/twitter 产品线索 开发者工具/工程基础设施 one underrated obsidian use case nobody talks about: it&#39;s a memory layer for the tools you find but never use... let me explain every day on x, you see a new agent framework, a cli, an mcp, an api that could be useful one day most people bookmark it and forge... 作者提出一个很实用的用法：每天在 x 上看到新的智能体框架、cli、mcp、api 时，不只是收藏，而是把它们沉淀到 obsidian，变成以后可检索、可复用的工具记忆层。">
+      <div class="card-topline">
+        <span class="rank">#23</span>
+        <span class="source">X/Twitter 产品线索</span>
+        <span class="category">开发者工具/工程基础设施</span>
+      </div>
+      <h2><a href="https://x.com/EXM7777/status/2058609483790836095" target="_blank" rel="noreferrer">@EXM7777：把 Obsidian 当作 AI 工具记忆层</a></h2>
+      <p class="original-title">@EXM7777: one underrated obsidian use case nobody talks about: it&#39;s a memory layer for the tools yo...</p>
+      <div class="score-row">
+        <span class="score-number">100</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：作者自己搭了</li><li>互动信号：490 个赞 / 752 次收藏</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">作者提出一个很实用的用法：每天在 X 上看到新的智能体框架、CLI、MCP、API 时，不只是收藏，而是把它们沉淀到 Obsidian，变成以后可检索、可复用的工具记忆层。</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/EXM7777/status/2058609483790836095" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="X/Twitter 产品线索" data-query="@amirmushich: figma-to-video is real now (github repo) we just open-sourced vibemotion-1 (pre-alpha): t... @amirmushich：开源 figma 转视频工具 vibemotion-1 x/twitter x/twitter 产品线索 ai 创作/多模态产品 figma-to-video is real now (github repo) we just open-sourced vibemotion-1 (pre-alpha): the video editing tool that can &gt; auto-edit your videos &gt; import your figma frames + all layers &gt; animate layers by prompt &gt; animate images using ltx-2.3 ai model (local, ... 他们开源了 vibemotion-1 的预览版：可以导入 figma 画框和图层，用提示词驱动图层动画，并结合本地 ltx-2.3 模型做图像动画和视频编辑。">
+      <div class="card-topline">
+        <span class="rank">#24</span>
+        <span class="source">X/Twitter 产品线索</span>
+        <span class="category">AI 创作/多模态产品</span>
+      </div>
+      <h2><a href="https://x.com/AmirMushich/status/2059321893732163616" target="_blank" rel="noreferrer">@AmirMushich：开源 Figma 转视频工具 VibeMotion-1</a></h2>
+      <p class="original-title">@AmirMushich: Figma-to-video is real now (GitHub repo) we just open-sourced VibeMotion-1 (pre-alpha): t...</p>
+      <div class="score-row">
+        <span class="score-number">100</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：GitHub、已开源</li><li>互动信号：170 个赞 / 186 次收藏</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">他们开源了 VibeMotion-1 的预览版：可以导入 Figma 画框和图层，用提示词驱动图层动画，并结合本地 LTX-2.3 模型做图像动画和视频编辑。</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/AmirMushich/status/2059321893732163616" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card strong" data-source="X/Twitter 产品线索" data-query="@jackfriks: you don&#39;t have to spend days and $1000-$10,000 on your launch video!!! 22 hours since lau... @jackfriks：用 1 小时、3 美元做出发布视频并带来收入 x/twitter x/twitter 产品线索 可试用产品 you don&#39;t have to spend days and $1000-$10,000 on your launch video!!! 22 hours since launched, and over $26,000 in revenue for @shipordie_ with a launch video i made in 1 hour for $3 bucks here is how i made the launch video (with code) and how you can make ... 作者复盘 shipordie 发布视频：不用花几天和上千美元，自己用代码和 ai 在 1 小时内做出发布视频，产品上线 22 小时收入超过 2.6 万美元。">
+      <div class="card-topline">
+        <span class="rank">#25</span>
+        <span class="source">X/Twitter 产品线索</span>
+        <span class="category">可试用产品</span>
+      </div>
+      <h2><a href="https://x.com/jackfriks/status/2059309243124068763" target="_blank" rel="noreferrer">@jackfriks：用 1 小时、3 美元做出发布视频并带来收入</a></h2>
+      <p class="original-title">@jackfriks: you don&#39;t have to spend days and $1000-$10,000 on your launch video!!! 22 hours since lau...</p>
+      <div class="score-row">
+        <span class="score-number">100</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：发布、已发布、作者自己做了</li><li>互动信号：543 个赞 / 780 次收藏</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">作者复盘 ShipOrDie 发布视频：不用花几天和上千美元，自己用代码和 AI 在 1 小时内做出发布视频，产品上线 22 小时收入超过 2.6 万美元。</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/jackfriks/status/2059309243124068763" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card watch" data-source="GitHub 今日趋势" data-query="leonxlnx/taste-skill taste-skill：给 ai 加一点“审美”的技能 github trending github 今日趋势 值得跟进 taste-skill - gives your ai good taste. stops the ai from generating boring, generic slop 一个让 ai 少生成无聊、套路化内容的技能文件，目标是提升输出品味。">
+      <div class="card-topline">
+        <span class="rank">#26</span>
+        <span class="source">GitHub 今日趋势</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/Leonxlnx/taste-skill" target="_blank" rel="noreferrer">Taste-Skill：给 AI 加一点“审美”的技能</a></h2>
+      <p class="original-title">Leonxlnx/taste-skill</p>
+      <div class="score-row">
+        <span class="score-number">99</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 2.2k 个星标，总计 26k 个星标</li><li>GitHub 今日趋势榜</li><li>社区热度明显</li>
+      </ul>
+      <p class="details">一个让 AI 少生成无聊、套路化内容的技能文件，目标是提升输出品味。</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/Leonxlnx/taste-skill" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card watch" data-source="GitHub 今日趋势" data-query="hardikpandya/stop-slop stop-slop：去掉 ai 写作味的技能文件 github trending github 今日趋势 值得跟进 a skill file for removing ai tells from prose 一个专门清理 ai 写作痕迹的 skill 文件，让文本少一点模板感和机器味。">
+      <div class="card-topline">
+        <span class="rank">#27</span>
+        <span class="source">GitHub 今日趋势</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/hardikpandya/stop-slop" target="_blank" rel="noreferrer">stop-slop：去掉 AI 写作味的技能文件</a></h2>
+      <p class="original-title">hardikpandya/stop-slop</p>
+      <div class="score-row">
+        <span class="score-number">99</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 755 个星标，总计 6.2k 个星标</li><li>GitHub 今日趋势榜</li><li>社区热度明显</li>
+      </ul>
+      <p class="details">一个专门清理 AI 写作痕迹的 skill 文件，让文本少一点模板感和机器味。</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/hardikpandya/stop-slop" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card watch" data-source="GitHub 今日趋势" data-query="digitalplatdev/freedomain freedomain：免费域名项目 github trending github 今日趋势 值得跟进 digitalplat freedomain: free domain for everyone digitalplat 的免费域名项目，目标是让每个人都能拿到可用域名。">
+      <div class="card-topline">
+        <span class="rank">#28</span>
+        <span class="source">GitHub 今日趋势</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/DigitalPlatDev/FreeDomain" target="_blank" rel="noreferrer">FreeDomain：免费域名项目</a></h2>
+      <p class="original-title">DigitalPlatDev/FreeDomain</p>
+      <div class="score-row">
+        <span class="score-number">99</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 1.8k 个星标，总计 170k 个星标</li><li>GitHub 今日趋势榜</li><li>社区热度明显</li>
+      </ul>
+      <p class="details">DigitalPlat 的免费域名项目，目标是让每个人都能拿到可用域名。</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/DigitalPlatDev/FreeDomain" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card watch" data-source="GitHub 今日趋势" data-query="byoungd/english-level-up-tips english-level-up-tips：进阶英语学习指南 github trending github 今日趋势 值得跟进 an advanced guide to learn english which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语 一个偏系统化、进阶向的英语学习指南，里面也有中文说明。">
+      <div class="card-topline">
+        <span class="rank">#29</span>
+        <span class="source">GitHub 今日趋势</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/byoungd/English-level-up-tips" target="_blank" rel="noreferrer">English-level-up-tips：进阶英语学习指南</a></h2>
+      <p class="original-title">byoungd/English-level-up-tips</p>
+      <div class="score-row">
+        <span class="score-number">99</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 2.0k 个星标，总计 48k 个星标</li><li>GitHub 今日趋势榜</li><li>社区热度明显</li>
+      </ul>
+      <p class="details">一个偏系统化、进阶向的英语学习指南，里面也有中文说明。</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/byoungd/English-level-up-tips" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card watch" data-source="GitHub 今日趋势" data-query="codecrafters-io/build-your-own-x build-your-own-x：通过复刻经典技术来学编程 github trending github 今日趋势 值得跟进 master programming by recreating your favorite technologies from scratch. 一个很经典的学习型仓库：通过从零复刻数据库、编译器、docker、git 等技术来掌握编程。">
+      <div class="card-topline">
+        <span class="rank">#30</span>
+        <span class="source">GitHub 今日趋势</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://github.com/codecrafters-io/build-your-own-x" target="_blank" rel="noreferrer">build-your-own-x：通过复刻经典技术来学编程</a></h2>
+      <p class="original-title">codecrafters-io/build-your-own-x</p>
+      <div class="score-row">
+        <span class="score-number">99</span>
+        <div class="score-track"><span style="width: 71%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>今日新增 739 个星标，总计 506k 个星标</li><li>GitHub 今日趋势榜</li><li>社区热度明显</li>
+      </ul>
+      <p class="details">一个很经典的学习型仓库：通过从零复刻数据库、编译器、Docker、Git 等技术来掌握编程。</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/codecrafters-io/build-your-own-x" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card watch" data-source="X/Twitter 产品线索" data-query="@jackfriks: launching new app today, my fiancee and mom both said its cool so hopefully everyone else... @jackfriks：今天发布新 app x/twitter x/twitter 产品线索 可试用产品 launching new app today, my fiancee and mom both said its cool so hopefully everyone else on planet earth agrees 作者说今天发布一个新 app，未婚妻和妈妈都觉得很酷，希望全世界其他人也同意。">
+      <div class="card-topline">
+        <span class="rank">#31</span>
+        <span class="source">X/Twitter 产品线索</span>
+        <span class="category">可试用产品</span>
+      </div>
+      <h2><a href="https://x.com/jackfriks/status/2058950253735194840" target="_blank" rel="noreferrer">@jackfriks：今天发布新 App</a></h2>
+      <p class="original-title">@jackfriks: launching new app today, my fiancee and mom both said its cool so hopefully everyone else...</p>
+      <div class="score-row">
+        <span class="score-number">98</span>
+        <div class="score-track"><span style="width: 70%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：发布、新应用</li><li>互动信号：386 个赞 / 19 次收藏</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">作者说今天发布一个新 App，未婚妻和妈妈都觉得很酷，希望全世界其他人也同意。</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/jackfriks/status/2058950253735194840" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card watch" data-source="Hacker News 社区" data-query="i think anthropic and openai have found product-market fit simon willison：anthropic 和 openai 可能已经找到产品市场匹配 hacker news hacker news 社区 可试用产品  一篇关于 anthropic 和 openai 产品市场匹配的讨论，在 hacker news 上有很高热度，适合作为判断 ai 产品方向的背景材料。">
+      <div class="card-topline">
+        <span class="rank">#32</span>
+        <span class="source">Hacker News 社区</span>
+        <span class="category">可试用产品</span>
+      </div>
+      <h2><a href="https://simonwillison.net/2026/May/27/product-market-fit/" target="_blank" rel="noreferrer">Simon Willison：Anthropic 和 OpenAI 可能已经找到产品市场匹配</a></h2>
+      <p class="original-title">I think Anthropic and OpenAI have found product-market fit</p>
+      <div class="score-row">
+        <span class="score-number">98</span>
+        <div class="score-track"><span style="width: 70%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>1024 分 / 1135 条评论</li><li>Hacker News 社区讨论热度</li><li>关键词：产品</li>
+      </ul>
+      <p class="details">一篇关于 Anthropic 和 OpenAI 产品市场匹配的讨论，在 Hacker News 上有很高热度，适合作为判断 AI 产品方向的背景材料。</p>
+      <div class="card-actions"><a class="open-link" href="https://simonwillison.net/2026/May/27/product-market-fit/" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card watch" data-source="X/Twitter 产品线索" data-query="@levelsio: personally i think better to not demonetize but just silently funnel all revenue to the o... @levelsio：关于视频搬运和收益分配的产品机制想法 x/twitter x/twitter 产品线索 值得跟进 personally i think better to not demonetize but just silently funnel all revenue to the original content owner that&#39;s what youtube does for over a decade copyright owners get paid, people repost videos and that just results in more money for original content ... 他认为与其封禁或取消变现，不如像 youtube 一样把搬运内容的收入自动转给原作者：转载带来更多曝光，版权方也能拿到钱。">
+      <div class="card-topline">
+        <span class="rank">#33</span>
+        <span class="source">X/Twitter 产品线索</span>
+        <span class="category">值得跟进</span>
+      </div>
+      <h2><a href="https://x.com/levelsio/status/2058963383378944303" target="_blank" rel="noreferrer">@levelsio：关于视频搬运和收益分配的产品机制想法</a></h2>
+      <p class="original-title">@levelsio: Personally I think better to not demonetize but just silently funnel all revenue to the o...</p>
+      <div class="score-row">
+        <span class="score-number">98</span>
+        <div class="score-track"><span style="width: 70%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>命中发布/产品线索：演示</li><li>互动信号：296 个赞 / 36 次收藏</li><li>来自 X 源 2026-05-25_to_2026-05-27</li>
+      </ul>
+      <p class="details">他认为与其封禁或取消变现，不如像 YouTube 一样把搬运内容的收入自动转给原作者：转载带来更多曝光，版权方也能拿到钱。</p>
+      <div class="card-actions"><a class="open-link" href="https://x.com/levelsio/status/2058963383378944303" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card watch" data-source="Hugging Face 模型榜" data-query="bytedance-research/lance lance：字节研究的任意模态互转多模态模型 hugging face hugging face 模型榜 模型/多模态能力 lance, safetensors, multimodal, image-generation, video-generation, image-editing, video-understanding, any-to-any, arxiv:2605.18678, base_model:qwen/qwen2.5-vl-3b-instruct 一个面向图像生成、视频生成、图像编辑和视频理解的多模态模型，底座来自 qwen2.5-vl-3b-instruct。">
+      <div class="card-topline">
+        <span class="rank">#34</span>
+        <span class="source">Hugging Face 模型榜</span>
+        <span class="category">模型/多模态能力</span>
+      </div>
+      <h2><a href="https://huggingface.co/bytedance-research/Lance" target="_blank" rel="noreferrer">Lance：字节研究的任意模态互转多模态模型</a></h2>
+      <p class="original-title">bytedance-research/Lance</p>
+      <div class="score-row">
+        <span class="score-number">95</span>
+        <div class="score-track"><span style="width: 68%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>950 个赞 / 2.5k 次下载</li><li>任务：任意模态互转</li><li>关键词：图像、视频</li>
+      </ul>
+      <p class="details">一个面向图像生成、视频生成、图像编辑和视频理解的多模态模型，底座来自 Qwen2.5-VL-3B-Instruct。</p>
+      <div class="card-actions"><a class="open-link" href="https://huggingface.co/bytedance-research/Lance" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+    <article class="candidate-card watch" data-source="GitHub 主题搜索" data-query="jackwener/opencli jackwener/opencli github search github 主题搜索 开发者工具/工程基础设施 make any website into cli &amp; use your logged-in browser by ai agent. make any website into cli &amp; use your logged-in browser by ai agent.">
+      <div class="card-topline">
+        <span class="rank">#35</span>
+        <span class="source">GitHub 主题搜索</span>
+        <span class="category">开发者工具/工程基础设施</span>
+      </div>
+      <h2><a href="https://github.com/jackwener/OpenCLI" target="_blank" rel="noreferrer">jackwener/OpenCLI</a></h2>
+      
+      <div class="score-row">
+        <span class="score-number">94</span>
+        <div class="score-track"><span style="width: 67%"></span></div>
+      </div>
+      <ul class="signals">
+        <li>23k 个星标，近 7 天仍活跃</li><li>搜索命中：AI 智能体</li><li>关键词：智能体、浏览器、命令行工具</li>
+      </ul>
+      <p class="details">Make Any Website into CLI &amp; Use your logged-in browser by AI agent.</p>
+      <div class="card-actions"><a class="open-link" href="https://github.com/jackwener/OpenCLI" target="_blank" rel="noreferrer">打开</a></div>
+    </article>
+  
+      </div>
+      <div class="empty" id="empty">没有匹配的条目。</div>
+    </section>
+
+    <p class="footer-note">Product Hunt 需要配置 PRODUCTHUNT_TOKEN；没有 token 时会跳过。X/Twitter 数据来自本机 ai-x-digest 最近一次输出。专有名词保留英文，解释和摘要优先使用中文。</p>
+  </main>
+  <script>
+    const buttons = [...document.querySelectorAll(".source-pill")];
+    const search = document.querySelector("#search");
+    const cards = [...document.querySelectorAll("#candidate-grid .candidate-card")];
+    const count = document.querySelector("#visible-count");
+    const empty = document.querySelector("#empty");
+    let activeSource = "all";
+
+    function applyFilters() {
+      const query = (search.value || "").trim().toLowerCase();
+      let visible = 0;
+      for (const card of cards) {
+        const sourceOk = activeSource === "all" || card.dataset.source === activeSource;
+        const queryOk = !query || (card.dataset.query || "").includes(query);
+        const show = sourceOk && queryOk;
+        card.classList.toggle("hidden", !show);
+        if (show) visible += 1;
+      }
+      count.textContent = visible + " 条";
+      empty.classList.toggle("visible", visible === 0);
+    }
+
+    for (const button of buttons) {
+      button.addEventListener("click", () => {
+        activeSource = button.dataset.source || "all";
+        for (const item of buttons) item.classList.toggle("active", item === button);
+        applyFilters();
+      });
+    }
+    search.addEventListener("input", applyFilters);
+  </script>
+</body>
+</html>
