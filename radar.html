@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-CN"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AI 项目雷达 · 2026-06-05</title>
+<title>AI 项目雷达 · 小白也能看懂 · 2026-06-05</title>
 <style>
 :root{
   --bg:#ffffff;--bg2:#f5f5f7;--ink:#1d1d1f;--ink2:#6e6e73;--ink3:#86868b;
-  --line:#e3e3e6;--blue:#0071e3;--blue-d:#0066cc;--card:#ffffff;
-  --radius:20px;--max:1000px;
+  --line:#e6e6e9;--blue:#0071e3;--blue-d:#0066cc;--card:#ffffff;
+  --green:#34c759;--amber:#ff9f0a;--radius:20px;--max:1040px;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -17,69 +17,74 @@ a{color:var(--blue);text-decoration:none}
 .wrap{max-width:var(--max);margin:0 auto;padding:0 22px}
 
 /* Hero */
-.hero{text-align:center;padding:96px 0 60px}
-.kicker{font-size:15px;font-weight:600;color:var(--blue);letter-spacing:.01em;margin:0 0 12px}
-.hero h1{font-size:clamp(40px,7vw,68px);line-height:1.05;letter-spacing:-.025em;font-weight:700;margin:0 0 20px}
-.hero .sub{font-size:clamp(18px,2.4vw,23px);line-height:1.45;color:var(--ink2);max-width:600px;margin:0 auto;font-weight:400}
-.metaline{margin-top:26px;font-size:14px;color:var(--ink3)}
+.hero{text-align:center;padding:92px 0 16px}
+.kicker{font-size:15px;font-weight:600;color:var(--blue);margin:0 0 12px}
+.hero h1{font-size:clamp(38px,6.4vw,62px);line-height:1.06;letter-spacing:-.025em;font-weight:700;margin:0 0 20px}
+.hero .sub{font-size:clamp(17px,2.2vw,21px);line-height:1.5;color:var(--ink2);max-width:600px;margin:0 auto;font-weight:400}
+.metaline{margin-top:24px;font-size:14px;color:var(--ink3)}
 .metaline b{color:var(--ink);font-weight:600}
 
-/* How-to strip */
-.how{background:var(--bg2);border-radius:var(--radius);max-width:760px;margin:40px auto 0;padding:22px 26px;
-  display:flex;gap:30px;justify-content:center;flex-wrap:wrap;text-align:left}
-.how .it{display:flex;gap:12px;align-items:flex-start;max-width:220px}
+/* How-to */
+.how{background:var(--bg2);border-radius:var(--radius);max-width:780px;margin:40px auto 0;padding:24px 26px;
+  display:grid;grid-template-columns:repeat(3,1fr);gap:22px;text-align:left}
+@media(max-width:680px){.how{grid-template-columns:1fr;gap:16px}}
+.how .it{display:flex;gap:12px;align-items:flex-start}
 .how .n{flex:0 0 auto;width:24px;height:24px;border-radius:50%;background:var(--ink);color:#fff;
   font-size:13px;font-weight:600;display:flex;align-items:center;justify-content:center;margin-top:1px}
-.how .t{font-size:13.5px;color:var(--ink2);line-height:1.45}
-.how .t b{color:var(--ink);font-weight:600;display:block;font-size:14px}
+.how .t{font-size:13.5px;color:var(--ink2);line-height:1.5}
+.how .t b{color:var(--ink);font-weight:600;display:block;font-size:14px;margin-bottom:1px}
 
-/* Sticky filter bar */
+/* legend: 解释三段式 */
+.legend{max-width:780px;margin:14px auto 0;text-align:center;font-size:13px;color:var(--ink3)}
+.legend span{display:inline-block;margin:0 9px}
+.legend i{font-style:normal;font-weight:600}
+.legend .l1 i{color:var(--ink)}.legend .l2 i{color:var(--blue-d)}.legend .l3 i{color:var(--amber)}
+
+/* Sticky filter */
 .bar{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.82);
   backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);
-  border-bottom:1px solid var(--line);margin-top:56px}
-.bar .inner{max-width:var(--max);margin:0 auto;padding:13px 22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+  border-bottom:1px solid var(--line);margin-top:52px}
+.bar .inner{max-width:var(--max);margin:0 auto;padding:13px 22px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
 .segs{display:flex;gap:6px;flex-wrap:wrap}
 .seg{border:none;background:transparent;color:var(--ink2);font-size:14px;font-weight:500;
-  padding:7px 16px;border-radius:999px;cursor:pointer;transition:.18s;font-family:inherit;white-space:nowrap}
+  padding:7px 15px;border-radius:999px;cursor:pointer;transition:.18s;font-family:inherit;white-space:nowrap}
 .seg:hover{background:var(--bg2);color:var(--ink)}
 .seg.on{background:var(--ink);color:#fff}
-.seg .c{opacity:.55;margin-left:5px;font-size:12px}
-.seg.on .c{opacity:.7}
-.spacer{flex:1 1 40px}
+.seg .c{opacity:.55;margin-left:5px;font-size:12px}.seg.on .c{opacity:.7}
+.spacer{flex:1 1 30px}
 .sort{border:1px solid var(--line);background:var(--card);border-radius:999px;color:var(--ink);
   font-size:13.5px;padding:7px 14px;font-family:inherit;cursor:pointer;outline:none}
 .search{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:8px 16px;
-  font-size:14px;font-family:inherit;color:var(--ink);outline:none;min-width:190px;transition:.18s}
+  font-size:14px;font-family:inherit;color:var(--ink);outline:none;min-width:180px;transition:.18s}
 .search::placeholder{color:var(--ink3)}
 .search:focus{border-color:var(--blue);box-shadow:0 0 0 4px rgba(0,113,227,.12)}
 
 /* Grid */
-.count{max-width:var(--max);margin:30px auto 0;padding:0 22px;font-size:14px;color:var(--ink3)}
+.count{max-width:var(--max);margin:28px auto 0;padding:0 22px;font-size:14px;color:var(--ink3)}
 .grid{max-width:var(--max);margin:14px auto 0;padding:0 22px 110px;
   display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
-@media(max-width:760px){.grid{grid-template-columns:1fr}.how{gap:18px}}
+@media(max-width:820px){.grid{grid-template-columns:1fr}}
 .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
-  padding:24px 24px 20px;display:flex;flex-direction:column;transition:.2s;position:relative}
+  padding:24px 24px 20px;display:flex;flex-direction:column;transition:.2s}
 .card:hover{box-shadow:0 12px 36px rgba(0,0,0,.09);transform:translateY(-3px);border-color:#d8d8dc}
-.chead{display:flex;align-items:center;gap:10px;margin-bottom:3px}
+.chead{display:flex;align-items:center;gap:10px;margin-bottom:6px}
 .rank{font-size:12px;font-weight:600;color:var(--ink3);font-variant-numeric:tabular-nums}
 .pill{font-size:11.5px;font-weight:600;color:var(--blue-d);background:#eef5fd;padding:3px 10px;border-radius:999px}
-.nm{font-size:19px;font-weight:600;letter-spacing:-.01em;color:var(--ink);margin:2px 0 0;line-height:1.25}
+.nm{font-size:18px;font-weight:600;letter-spacing:-.01em;color:var(--ink);margin:0;line-height:1.3}
 .nm a{color:inherit}.nm a:hover{color:var(--blue)}
-.what{font-size:14.5px;color:var(--ink2);margin:11px 0 0;line-height:1.5;flex:0 0 auto}
-.aud{font-size:12.5px;color:var(--ink2);margin-top:12px}
-.aud b{color:var(--ink);font-weight:600}
-.feats{list-style:none;margin:14px 0 0;padding:0;display:flex;flex-direction:column;gap:6px}
-.feats li{font-size:13px;color:var(--ink2);padding-left:20px;position:relative;line-height:1.4}
-.feats li:before{content:"";position:absolute;left:3px;top:7px;width:6px;height:6px;border-radius:50%;background:#34c759}
-.foot{display:flex;align-items:center;gap:16px;margin-top:18px;padding-top:15px;border-top:1px solid var(--line);
+.row{margin-top:13px}
+.row .lab{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:6px;margin-bottom:5px;letter-spacing:.02em}
+.row.r1 .lab{color:#1d1d1f;background:#ececee}
+.row.r2 .lab{color:var(--blue-d);background:#e7f1fc}
+.row.r3 .lab{color:#9a5b00;background:#fff2dc}
+.row .txt{font-size:14px;color:#33363b;line-height:1.55;margin:0}
+.foot{display:flex;align-items:center;gap:15px;margin-top:18px;padding-top:15px;border-top:1px solid var(--line);
   font-size:12.5px;color:var(--ink3);font-variant-numeric:tabular-nums}
 .lang{display:inline-flex;align-items:center;gap:6px;color:var(--ink);font-weight:500}
 .dot{width:9px;height:9px;border-radius:50%;background:var(--blue)}
-.gh{margin-left:auto;color:var(--blue);font-weight:500}
-.gh:hover{text-decoration:underline}
+.gh{margin-left:auto;color:var(--blue);font-weight:500}.gh:hover{text-decoration:underline}
 .empty{grid-column:1/-1;text-align:center;color:var(--ink3);padding:60px 0;font-size:15px}
-.pagefoot{text-align:center;color:var(--ink3);font-size:12.5px;padding:0 22px 70px;line-height:1.8}
+.pagefoot{text-align:center;color:var(--ink3);font-size:12.5px;padding:0 22px 70px;line-height:1.9}
 .hidden{display:none}
 </style></head>
 <body>
@@ -87,14 +92,19 @@ a{color:var(--blue);text-decoration:none}
 <div class="wrap">
   <div class="hero">
     <p class="kicker">AI 生态项目雷达</p>
-    <h1>每天，帮你找到<br>值得一看的 AI 项目。</h1>
-    <p class="sub">从 GitHub、Hacker News、Hugging Face 等来源，自动筛出能试用、能 fork、能改造的项目，并整理成中文一句话看懂。</p>
+    <h1>不懂技术，<br>也能看懂的 AI 项目精选。</h1>
+    <p class="sub">每天从全网筛出值得关注的 AI 项目，并用大白话讲清楚：它是什么、你能拿它做什么、为什么对你重要。</p>
     <p class="metaline">本期 <b id="mDate"></b> · 精选 <b id="mTotal"></b> 个 · 当天扫描 <b id="mScan"></b> 个仓库</p>
 
     <div class="how">
-      <div class="it"><div class="n">1</div><div class="t"><b>选分类</b>用上方标签按「AI 工具 / 手机 App / 网站」筛选</div></div>
-      <div class="it"><div class="n">2</div><div class="t"><b>看排名</b>默认按热度排序，越靠前越值得先看</div></div>
-      <div class="it"><div class="n">3</div><div class="t"><b>点进去</b>感兴趣就点「GitHub」直达项目主页</div></div>
+      <div class="it"><div class="n">1</div><div class="t"><b>选个分类</b>按「做东西 / 帮写代码 / 省钱提效…」找你关心的方向</div></div>
+      <div class="it"><div class="n">2</div><div class="t"><b>读三句话</b>每个项目都讲清是什么、能帮你干啥、为何值得看</div></div>
+      <div class="it"><div class="n">3</div><div class="t"><b>感兴趣点进去</b>点卡片底部「GitHub」直达项目主页</div></div>
+    </div>
+    <div class="legend">
+      <span class="l1"><i>● 是什么</i> 一句话本质</span>
+      <span class="l2"><i>● 你能做什么</i> 具体用途</span>
+      <span class="l3"><i>● 为什么重要</i> 对你的价值</span>
     </div>
   </div>
 </div>
@@ -113,14 +123,13 @@ a{color:var(--blue);text-decoration:none}
 <div class="grid" id="grid"></div>
 
 <div class="pagefoot">
-  数据源：本仓库 digests/<span id="dt"></span>/new-projects.json · 中文描述与亮点提炼自各项目 README<br>
+  数据源：本仓库 digests/<span id="dt"></span> · 小白文案由「读 README + 大模型翻译」生成<br>
   <a href="index.html">返回首页</a> · <a href="new-projects.html">原始新项目页</a>
 </div>
 
 <script>
-const D={"date":"2026-06-05","scanned":499,"total":60,"projects":[{"name":"nexu-io/open-design","url":"https://github.com/nexu-io/open-design","cat":"手机 App","what":"它想做一个开源的 AI 设计工具，让用户不用复杂配置，就能生成、编辑设计稿和产品原型。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["README 强调门槛低，尽量少配置或少依赖外部服务","项目主打开源，别人可以直接学习、改造或二次开发","有官网、演示或下载入口，点开后更容易判断实际效果"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"TypeScript","stars":59329,"forks":6681},{"name":"esengine/DeepSeek-Reasonix","url":"https://github.com/esengine/DeepSeek-Reasonix","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果","最近几天仍在更新，说明项目还活跃"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"Go","stars":18423,"forks":1092},{"name":"MemPalace/mempalace","url":"https://github.com/MemPalace/mempalace","cat":"AI 工具","what":"它给 AI 应用做“长期记忆”：把重要信息存在本地，方便 AI 以后继续查、继续用，适合做更懂用户的 AI 助手。","audience":"做 AI 应用、AI 助手、长期记忆功能的人","feats":["README 强调门槛低，尽量少配置或少依赖外部服务","项目主打开源，别人可以直接学习、改造或二次开发","有官网、演示或下载入口，点开后更容易判断实际效果"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"Python","stars":53720,"forks":7070},{"name":"Gitlawb/openclaude","url":"https://github.com/Gitlawb/openclaude","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做 AI 应用、AI 助手、长期记忆功能的人","feats":["README 强调门槛低，尽量少配置或少依赖外部服务","项目主打开源，别人可以直接学习、改造或二次开发","有官网、演示或下载入口，点开后更容易判断实际效果"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"TypeScript","stars":28377,"forks":8691},{"name":"jackwener/OpenCLI","url":"https://github.com/jackwener/OpenCLI","cat":"AI 工具","what":"它围绕“让 AI 操作浏览器”展开，适合做自动测试、自动操作网页、自动完成重复流程。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果","它不只是代码，也提供可观察的案例、截图或数据","最近几天仍在更新，说明项目还活跃"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"JavaScript","stars":23574,"forks":2371},{"name":"JCodesMore/ai-website-cloner-template","url":"https://github.com/JCodesMore/ai-website-cloner-template","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果","它不只是代码，也提供可观察的案例、截图或数据"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"TypeScript","stars":16341,"forks":2501},{"name":"JuliusBrussee/caveman","url":"https://github.com/JuliusBrussee/caveman","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"想把手机当开发环境、或者喜欢折腾 Linux/安卓的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"JavaScript","stars":69191,"forks":3899},{"name":"HKUDS/Vibe-Trading","url":"https://github.com/HKUDS/Vibe-Trading","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["项目主打开源，别人可以直接学习、改造或二次开发","有官网、演示或下载入口，点开后更容易判断实际效果","它不只是代码，也提供可观察的案例、截图或数据"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"Python","stars":10803,"forks":2109},{"name":"browser-use/browser-harness","url":"https://github.com/browser-use/browser-harness","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做 AI 应用、AI 助手、长期记忆功能的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"Python","stars":14379,"forks":1330},{"name":"wanshuiyin/Auto-claude-code-research-in-sleep","url":"https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["README 强调门槛低，尽量少配置或少依赖外部服务","项目主打开源，别人可以直接学习、改造或二次开发","有官网、演示或下载入口，点开后更容易判断实际效果"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"Python","stars":11457,"forks":1062},{"name":"open-multi-agent/open-multi-agent","url":"https://github.com/open-multi-agent/open-multi-agent","cat":"AI 工具","what":"它给 AI 应用做“长期记忆”：把重要信息存在本地，方便 AI 以后继续查、继续用，适合做更懂用户的 AI 助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["README 强调门槛低，尽量少配置或少依赖外部服务","有官网、演示或下载入口，点开后更容易判断实际效果","它和真实手机使用场景有关，不只是网页端项目"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"TypeScript","stars":6329,"forks":2385},{"name":"heygen-com/hyperframes","url":"https://github.com/heygen-com/hyperframes","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["项目主打开源，别人可以直接学习、改造或二次开发","有官网、演示或下载入口，点开后更容易判断实际效果","最近几天仍在更新，说明项目还活跃"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"TypeScript","stars":24620,"forks":2291},{"name":"EKKOLearnAI/hermes-web-ui","url":"https://github.com/EKKOLearnAI/hermes-web-ui","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果","最近几天仍在更新，说明项目还活跃"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"TypeScript","stars":7354,"forks":920},{"name":"Kuberwastaken/claurst","url":"https://github.com/Kuberwastaken/claurst","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["项目主打开源，别人可以直接学习、改造或二次开发","有官网、演示或下载入口，点开后更容易判断实际效果","它和真实手机使用场景有关，不只是网页端项目"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"Rust","stars":9763,"forks":7790},{"name":"holaboss-ai/holaOS","url":"https://github.com/holaboss-ai/holaOS","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做 AI 应用、AI 助手、长期记忆功能的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"TypeScript","stars":5498,"forks":402},{"name":"op7418/guizang-ppt-skill","url":"https://github.com/op7418/guizang-ppt-skill","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"HTML","stars":15209,"forks":1131},{"name":"lintsinghua/claude-code-book","url":"https://github.com/lintsinghua/claude-code-book","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做 AI 应用、AI 助手、长期记忆功能的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"—","stars":3559,"forks":751},{"name":"getagentseal/codeburn","url":"https://github.com/getagentseal/codeburn","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["README 强调门槛低，尽量少配置或少依赖外部服务","有官网、演示或下载入口，点开后更容易判断实际效果","最近几天仍在更新，说明项目还活跃"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"TypeScript","stars":7665,"forks":580},{"name":"Narcooo/inkos","url":"https://github.com/Narcooo/inkos","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"想把手机当开发环境、或者喜欢折腾 Linux/安卓的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果","最近几天仍在更新，说明项目还活跃"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"TypeScript","stars":6912,"forks":1309},{"name":"yvgude/lean-ctx","url":"https://github.com/yvgude/lean-ctx","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"想把手机当开发环境、或者喜欢折腾 Linux/安卓的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果","它和真实手机使用场景有关，不只是网页端项目","最近几天仍在更新，说明项目还活跃"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"Rust","stars":2464,"forks":252},{"name":"TencentCloud/TencentDB-Agent-Memory","url":"https://github.com/TencentCloud/TencentDB-Agent-Memory","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果","它和真实手机使用场景有关，不只是网页端项目","最近几天仍在更新，说明项目还活跃"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"TypeScript","stars":4984,"forks":425},{"name":"Arthur-Ficial/apfel","url":"https://github.com/Arthur-Ficial/apfel","cat":"手机 App","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做 AI 应用、AI 助手、长期记忆功能的人","feats":["README 强调门槛低，尽量少配置或少依赖外部服务","有官网、演示或下载入口，点开后更容易判断实际效果","它不只是代码，也提供可观察的案例、截图或数据"],"tags":["帮做软件的人看懂项目、少踩坑","做网站页面和产品原型"],"lang":"Swift","stars":5541,"forks":212},{"name":"nexu-io/html-anything","url":"https://github.com/nexu-io/html-anything","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做手机 App、订阅收费、增长转化的人","feats":["README 强调门槛低，尽量少配置或少依赖外部服务","项目主打开源，别人可以直接学习、改造或二次开发","有官网、演示或下载入口，点开后更容易判断实际效果"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"HTML","stars":6144,"forks":599},{"name":"outsourc-e/hermes-workspace","url":"https://github.com/outsourc-e/hermes-workspace","cat":"网站网页","what":"它和 MCP/工具连接有关，重点是让 AI 能接入更多外部能力，而不是只停留在聊天回答。","audience":"做手机 App、订阅收费、增长转化的人","feats":["项目主打开源，别人可以直接学习、改造或二次开发","有官网、演示或下载入口，点开后更容易判断实际效果","它不只是代码，也提供可观察的案例、截图或数据"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"JavaScript","stars":5403,"forks":804},{"name":"aiming-lab/MetaClaw","url":"https://github.com/aiming-lab/MetaClaw","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["项目主打开源，别人可以直接学习、改造或二次开发","有官网、演示或下载入口，点开后更容易判断实际效果","它不只是代码，也提供可观察的案例、截图或数据"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"Python","stars":3424,"forks":443},{"name":"Windy3f3f3f3f/how-claude-code-works","url":"https://github.com/Windy3f3f3f3f/how-claude-code-works","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"—","stars":2566,"forks":598},{"name":"opensquilla/opensquilla","url":"https://github.com/opensquilla/opensquilla","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"想把手机当开发环境、或者喜欢折腾 Linux/安卓的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果","最近几天仍在更新，说明项目还活跃"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"Python","stars":3216,"forks":238},{"name":"nidhinjs/prompt-master","url":"https://github.com/nidhinjs/prompt-master","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"—","stars":8824,"forks":1028},{"name":"jnMetaCode/superpowers-zh","url":"https://github.com/jnMetaCode/superpowers-zh","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做 AI 应用、AI 助手、长期记忆功能的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"Shell","stars":4766,"forks":459},{"name":"ParthJadhav/app-store-screenshots","url":"https://github.com/ParthJadhav/app-store-screenshots","cat":"手机 App","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果","它不只是代码，也提供可观察的案例、截图或数据","它和真实手机使用场景有关，不只是网页端项目"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"TypeScript","stars":5460,"forks":375},{"name":"stablyai/orca","url":"https://github.com/stablyai/orca","cat":"手机 App","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果","它和真实手机使用场景有关，不只是网页端项目","最近几天仍在更新，说明项目还活跃"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"TypeScript","stars":4237,"forks":279},{"name":"cosmicstack-labs/mercury-agent","url":"https://github.com/cosmicstack-labs/mercury-agent","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["项目主打开源，别人可以直接学习、改造或二次开发","有官网、演示或下载入口，点开后更容易判断实际效果","最近几天仍在更新，说明项目还活跃"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"TypeScript","stars":2563,"forks":264},{"name":"wquguru/harness-books","url":"https://github.com/wquguru/harness-books","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"Python","stars":2399,"forks":281},{"name":"CookSleep/gpt_image_playground","url":"https://github.com/CookSleep/gpt_image_playground","cat":"网站网页","what":"基于 OpenAI gpt-image-2 API 的图片生成与编辑工具。","audience":"想把手机当开发环境、或者喜欢折腾 Linux/安卓的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果"],"tags":["帮做软件的人看懂项目、少踩坑","做网站页面和产品原型"],"lang":"TypeScript","stars":2183,"forks":593},{"name":"Manavarya09/design-extract","url":"https://github.com/Manavarya09/design-extract","cat":"手机 App","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果","它不只是代码，也提供可观察的案例、截图或数据","它和真实手机使用场景有关，不只是网页端项目"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"JavaScript","stars":3064,"forks":276},{"name":"NateBJones-Projects/OB1","url":"https://github.com/NateBJones-Projects/OB1","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"想把手机当开发环境、或者喜欢折腾 Linux/安卓的人","feats":["项目主打开源，别人可以直接学习、改造或二次开发","最近几天仍在更新，说明项目还活跃"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"TypeScript","stars":3582,"forks":682},{"name":"darrylmorley/whatcable","url":"https://github.com/darrylmorley/whatcable","cat":"手机 App","what":"它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["项目主打开源，别人可以直接学习、改造或二次开发","有官网、演示或下载入口，点开后更容易判断实际效果","它不只是代码，也提供可观察的案例、截图或数据"],"tags":["做网站页面和产品原型","做手机 App 和应用产品"],"lang":"Swift","stars":5461,"forks":169},{"name":"glincker/thesvg","url":"https://github.com/glincker/thesvg","cat":"网站网页","what":"它和 MCP/工具连接有关，重点是让 AI 能接入更多外部能力，而不是只停留在聊天回答。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["项目主打开源，别人可以直接学习、改造或二次开发","有官网、演示或下载入口，点开后更容易判断实际效果","它不只是代码，也提供可观察的案例、截图或数据"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"TypeScript","stars":2215,"forks":175},{"name":"1weiho/open-slide","url":"https://github.com/1weiho/open-slide","cat":"网站网页","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做 AI 应用、AI 助手、长期记忆功能的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果","最近几天仍在更新，说明项目还活跃"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"TypeScript","stars":4745,"forks":326},{"name":"MinishLab/semble","url":"https://github.com/MinishLab/semble","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做 AI 应用、AI 助手、长期记忆功能的人","feats":["README 强调门槛低，尽量少配置或少依赖外部服务","有官网、演示或下载入口，点开后更容易判断实际效果","最近几天仍在更新，说明项目还活跃"],"tags":["用 AI 帮人写代码或自动做事"],"lang":"Python","stars":4860,"forks":203},{"name":"op7418/guizang-social-card-skill","url":"https://github.com/op7418/guizang-social-card-skill","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果"],"tags":["用 AI 帮人写代码或自动做事","普通用户会用的个人工具"],"lang":"HTML","stars":2948,"forks":273},{"name":"iamzhihuix/skills-manage","url":"https://github.com/iamzhihuix/skills-manage","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做 AI 应用、AI 助手、长期记忆功能的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果","它不只是代码，也提供可观察的案例、截图或数据"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"TypeScript","stars":1986,"forks":179},{"name":"erweixin/RaTeX","url":"https://github.com/erweixin/RaTeX","cat":"手机 App","what":"它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。","audience":"做 AI 应用、AI 助手、长期记忆功能的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果","它不只是代码，也提供可观察的案例、截图或数据","它和真实手机使用场景有关，不只是网页端项目"],"tags":["做网站页面和产品原型","做手机 App 和应用产品"],"lang":"Rust","stars":1324,"forks":61},{"name":"nowork-studio/NotFair","url":"https://github.com/nowork-studio/NotFair","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做 AI 应用、AI 助手、长期记忆功能的人","feats":["README 强调门槛低，尽量少配置或少依赖外部服务","项目主打开源，别人可以直接学习、改造或二次开发","有官网、演示或下载入口，点开后更容易判断实际效果"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"TypeScript","stars":2781,"forks":344},{"name":"BlazeUp-AI/Observal","url":"https://github.com/BlazeUp-AI/Observal","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"想把手机当开发环境、或者喜欢折腾 Linux/安卓的人","feats":["项目主打开源，别人可以直接学习、改造或二次开发","有官网、演示或下载入口，点开后更容易判断实际效果","最近几天仍在更新，说明项目还活跃"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"Python","stars":2003,"forks":382},{"name":"blitzdotdev/blitz-mac","url":"https://github.com/blitzdotdev/blitz-mac","cat":"手机 App","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做手机 App、订阅收费、增长转化的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果","它不只是代码，也提供可观察的案例、截图或数据","它和真实手机使用场景有关，不只是网页端项目"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"Swift","stars":1694,"forks":137},{"name":"0xMassi/webclaw","url":"https://github.com/0xMassi/webclaw","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"想把手机当开发环境、或者喜欢折腾 Linux/安卓的人","feats":["项目主打开源，别人可以直接学习、改造或二次开发","有官网、演示或下载入口，点开后更容易判断实际效果","它不只是代码，也提供可观察的案例、截图或数据"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"Rust","stars":1289,"forks":148},{"name":"google-antigravity/antigravity-sdk-python","url":"https://github.com/google-antigravity/antigravity-sdk-python","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做 AI 应用、AI 助手、长期记忆功能的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果","它和真实手机使用场景有关，不只是网页端项目","最近几天仍在更新，说明项目还活跃"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"Python","stars":1453,"forks":424},{"name":"Bitterbot-AI/bitterbot-desktop","url":"https://github.com/Bitterbot-AI/bitterbot-desktop","cat":"AI 工具","what":"它给 AI 应用做“长期记忆”：把重要信息存在本地，方便 AI 以后继续查、继续用，适合做更懂用户的 AI 助手。","audience":"做手机 App、订阅收费、增长转化的人","feats":["项目主打开源，别人可以直接学习、改造或二次开发","有官网、演示或下载入口，点开后更容易判断实际效果","它和真实手机使用场景有关，不只是网页端项目"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"TypeScript","stars":2165,"forks":411},{"name":"skalesapp/skales","url":"https://github.com/skalesapp/skales","cat":"手机 App","what":"它围绕“让 AI 操作浏览器”展开，适合做自动测试、自动操作网页、自动完成重复流程。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["README 强调门槛低，尽量少配置或少依赖外部服务","有官网、演示或下载入口，点开后更容易判断实际效果","它不只是代码，也提供可观察的案例、截图或数据"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"TypeScript","stars":1051,"forks":163},{"name":"worldwonderer/oh-story-claudecode","url":"https://github.com/worldwonderer/oh-story-claudecode","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果","最近几天仍在更新，说明项目还活跃"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"JavaScript","stars":1995,"forks":379},{"name":"helloianneo/ian-xiaohei-illustrations","url":"https://github.com/helloianneo/ian-xiaohei-illustrations","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"想用 AI 写代码、检查项目、自动处理开发任务的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果","最近几天仍在更新，说明项目还活跃"],"tags":["用 AI 帮人写代码或自动做事","做设计、图片或内容"],"lang":"—","stars":2271,"forks":216},{"name":"ciembor/agent-rules-books","url":"https://github.com/ciembor/agent-rules-books","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["项目主打开源，别人可以直接学习、改造或二次开发","有官网、演示或下载入口，点开后更容易判断实际效果"],"tags":["用 AI 帮人写代码或自动做事","做设计、图片或内容"],"lang":"—","stars":1757,"forks":271},{"name":"Open-Less/openless","url":"https://github.com/Open-Less/openless","cat":"AI 工具","what":"它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。","audience":"做 AI 应用、AI 助手、长期记忆功能的人","feats":["README 强调门槛低，尽量少配置或少依赖外部服务","项目主打开源，别人可以直接学习、改造或二次开发","有官网、演示或下载入口，点开后更容易判断实际效果"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"HTML","stars":2152,"forks":170},{"name":"tddworks/baguette","url":"https://github.com/tddworks/baguette","cat":"手机 App","what":"从 README 和项目简介看，它主要围绕手机 App、真实产品案例数据、命令行或开发工具展开。可以把它当成一个手机或 App 项目线索，先看它解决的问题和演示效果。","audience":"做 AI 应用、AI 助手、长期记忆功能的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果","它不只是代码，也提供可观察的案例、截图或数据","它和真实手机使用场景有关，不只是网页端项目"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"Swift","stars":1134,"forks":62},{"name":"dodo-reach/hermes-desktop","url":"https://github.com/dodo-reach/hermes-desktop","cat":"手机 App","what":"它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["项目主打开源，别人可以直接学习、改造或二次开发","有官网、演示或下载入口，点开后更容易判断实际效果","最近几天仍在更新，说明项目还活跃"],"tags":["用 AI 帮人写代码或自动做事","帮做软件的人看懂项目、少踩坑"],"lang":"Swift","stars":1831,"forks":131},{"name":"jimuzhe/tiez-clipboard","url":"https://github.com/jimuzhe/tiez-clipboard","cat":"网站网页","what":"TieZ 是一款基于 Tauri 的跨平台剪贴板管理器。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果","它不只是代码，也提供可观察的案例、截图或数据","它和真实手机使用场景有关，不只是网页端项目"],"tags":["帮做软件的人看懂项目、少踩坑","做网站页面和产品原型"],"lang":"TypeScript","stars":2033,"forks":89},{"name":"muxy-app/muxy","url":"https://github.com/muxy-app/muxy","cat":"手机 App","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"想用 AI 写代码、检查项目、自动处理开发任务的人","feats":["有官网、演示或下载入口，点开后更容易判断实际效果","它不只是代码，也提供可观察的案例、截图或数据","它和真实手机使用场景有关，不只是网页端项目"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"Swift","stars":1715,"forks":138},{"name":"omnimind-ai/OpenOmniBot","url":"https://github.com/omnimind-ai/OpenOmniBot","cat":"手机 App","what":"它和 MCP/工具连接有关，重点是让 AI 能接入更多外部能力，而不是只停留在聊天回答。","audience":"想把手机当开发环境、或者喜欢折腾 Linux/安卓的人","feats":["项目主打开源，别人可以直接学习、改造或二次开发","有官网、演示或下载入口，点开后更容易判断实际效果","它不只是代码，也提供可观察的案例、截图或数据"],"tags":["用 AI 帮人写代码或自动做事","做网站页面和产品原型"],"lang":"Dart","stars":1616,"forks":60},{"name":"DenisSergeevitch/agents-best-practices","url":"https://github.com/DenisSergeevitch/agents-best-practices","cat":"AI 工具","what":"它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。","audience":"做产品设计、页面原型、营销页或视觉内容的人","feats":[],"tags":["用 AI 帮人写代码或自动做事","做设计、图片或内容"],"lang":"—","stars":1812,"forks":157}]};
+const D={"date":"2026-06-05","scanned":499,"total":20,"projects":[{"name":"nexu-io/open-design","url":"https://github.com/nexu-io/open-design","cat":"用 AI 做东西","whatIs":"一个免费开源的「AI 设计软件」，装在自己电脑上用。你用大白话描述想要的网页、海报、App 界面，它直接帮你画出来。","forYou":"想要一个落地页、产品原型或一张配图时，不用学 Figma、PS，直接打字描述就能生成，还能导出成 HTML、PPT、图片、视频。","whyMatters":"对不会设计、不会写前端的你来说，这是「一句话出成品」的捷径，省下请设计师或自己抠图的时间和钱。","lang":"TypeScript","stars":59329,"forks":6681,"score":398},{"name":"esengine/DeepSeek-Reasonix","url":"https://github.com/esengine/DeepSeek-Reasonix","cat":"让 AI 帮你写代码","whatIs":"一个在「命令行黑窗口」里帮你写代码的 AI 助手，专门搭配便宜的国产模型 DeepSeek 使用。","forYou":"把它指向你的项目文件夹，用中文说「帮我加个登录功能」「这个报错怎么修」，它会自己改代码、跑命令。","whyMatters":"同样的活，它靠「缓存」把费用压到极低——别人花 60 块的任务它大约只花 12 块，适合预算紧、又想天天用 AI 编程的人。","lang":"Go","stars":18423,"forks":1092,"score":386},{"name":"MemPalace/mempalace","url":"https://github.com/MemPalace/mempalace","cat":"给 AI 加记忆 / 学原理","whatIs":"给 AI 装一个「长期记忆」的工具。平时 AI 关掉对话就忘了，这个能把聊天内容原样存在你本地电脑，以后随时翻出来用。","forYou":"如果你在做自己的 AI 助手 / 聊天机器人，用它就能让你的 AI「记住」用户说过的话、之前的项目背景。","whyMatters":"全程在本地、不调用外部接口，隐私安全又省钱；记得住、找得准，是做「更懂你的 AI」绕不开的一块拼图。","lang":"Python","stars":53720,"forks":7070,"score":385},{"name":"Gitlawb/openclaude","url":"https://github.com/Gitlawb/openclaude","cat":"让 AI 帮你写代码","whatIs":"一个万能的命令行编程助手，最大特点是「什么模型都能接」——OpenAI、Gemini、本地免费模型都行。","forYou":"在一个工具里随意切换不同 AI 来写代码、查 bug、跑脚本，哪个便宜好用就用哪个，还配了 VS Code 插件。","whyMatters":"不被某一家 AI 绑定，哪天某个模型涨价或变笨，你随手换一个就行，灵活、不踩坑。","lang":"TypeScript","stars":28377,"forks":8691,"score":375},{"name":"jackwener/OpenCLI","url":"https://github.com/jackwener/OpenCLI","cat":"让 AI 自动干活","whatIs":"把网站「变成命令」的工具。内置了 B 站、知乎、小红书、Reddit 等常见网站的现成操作。","forYou":"让 AI 用你已经登录的浏览器去自动做事：批量发帖、采集内容、填表单、点按钮，不用你一遍遍手动操作。","whyMatters":"重复的网页操作最磨人，它能让 AI 替你干，尤其适合做运营、要在多个平台搬运内容的人。","lang":"JavaScript","stars":23574,"forks":2371,"score":369},{"name":"JCodesMore/ai-website-cloner-template","url":"https://github.com/JCodesMore/ai-website-cloner-template","cat":"用 AI 做东西","whatIs":"一个「网站克隆模板」。你给它一个网址，AI 就照着把那个网站重做成一套干净、现代的代码。","forYou":"看到喜欢的网站长相，想做个类似的，丢网址进去，AI 自动分析配色、布局、素材，帮你拼出可改的代码。","whyMatters":"新手做网站最难的是「从零开始」，有了参照样板就好上手得多——这是「抄作业再改」的合法捷径。","lang":"TypeScript","stars":16341,"forks":2501,"score":369},{"name":"JuliusBrussee/caveman","url":"https://github.com/JuliusBrussee/caveman","cat":"省钱与提效","whatIs":"一个给 AI 编程助手用的小插件，让 AI「说话像原始人」——把啰嗦的解释砍成短句，但技术内容一点不少。","forYou":"装上它，AI 回复变简短，少用大约 75% 的「输出字数」，而你需要的答案和代码照样给全。","whyMatters":"AI 是按字数（token）收费的，话说得越少越省钱。用量大的人装上立省一笔，几乎没有副作用。","lang":"JavaScript","stars":69191,"forks":3899,"score":368},{"name":"HKUDS/Vibe-Trading","url":"https://github.com/HKUDS/Vibe-Trading","cat":"让 AI 自动干活","whatIs":"一个「会炒股 / 交易的 AI 助手」，由香港大学实验室出品。一条命令就给 AI 装上连接券商、看行情、选股的能力。","forYou":"可以让 AI 帮你分析行情、用 452 个选股指标找标的；默认只做「模拟盘 + 只读」，先练手不动真钱。","whyMatters":"它把安全放在第一位（默认不让乱下单），适合想用 AI 研究量化交易、又怕一上来就亏钱的人。","lang":"Python","stars":10803,"forks":2109,"score":365},{"name":"browser-use/browser-harness","url":"https://github.com/browser-use/browser-harness","cat":"让 AI 自动干活","whatIs":"用一根「细管子」把 AI 直接接到你真实的 Chrome 浏览器上，让 AI 能像真人一样操作网页。","forYou":"让 AI 替你在网页上点来点去、填表、下载、抓数据；缺什么功能它执行时会自己临时写出来。","whyMatters":"整套核心才约 1000 行、特别透明可改，适合想深入折腾「AI 自动操作浏览器」的人，自由度最高。","lang":"Python","stars":14379,"forks":1330,"score":349},{"name":"wanshuiyin/Auto-claude-code-research-in-sleep","url":"https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep","cat":"让 AI 自动干活","whatIs":"一套「让 AI 替你做研究」的工作流（简称 ARIS）。你睡觉时它也能自动查资料、写报告、互相审核。","forYou":"丢给它一个题目，它按「规划→起草→挑错→改进→存档」五步自动跑，还会用多个模型互相挑刺保证靠谱。","whyMatters":"不只是写代码——投资尽调、法律、市场调研、求职备战都能用，相当于雇了个不睡觉的研究助理。","lang":"Python","stars":11457,"forks":1062,"score":341},{"name":"open-multi-agent/open-multi-agent","url":"https://github.com/open-multi-agent/open-multi-agent","cat":"让 AI 自动干活","whatIs":"一个「多个 AI 分工协作」的开发框架。你只说目标，它自动把任务拆给好几个 AI 并行去做，再汇总结果。","forYou":"做稍复杂的自动化时，不用自己一步步安排流程，描述「我要什么」即可，它替你编排好。","whyMatters":"面向程序员，但理念很省心：「只说目标、不画流程图」。依赖少、好嵌入，适合想做 AI 自动化产品的人。","lang":"TypeScript","stars":6329,"forks":2385,"score":338},{"name":"heygen-com/hyperframes","url":"https://github.com/heygen-com/hyperframes","cat":"用 AI 做东西","whatIs":"一个「用网页代码做视频」的工具，由做数字人的 HeyGen 出品。把 HTML 页面、动画渲染成 MP4 视频。","forYou":"想要产品介绍片、动态海报，对 AI 说一句「做个 10 秒带淡入标题和背景音乐的片子」，它就生成成片。","whyMatters":"不用学剪辑软件、效果还能精确复现，适合要批量产出短视频、又不想养剪辑团队的人。","lang":"TypeScript","stars":24620,"forks":2291,"score":338},{"name":"EKKOLearnAI/hermes-web-ui","url":"https://github.com/EKKOLearnAI/hermes-web-ui","cat":"省钱与提效","whatIs":"给 Hermes 这个 AI 助手配的「可视化控制面板」，把命令行里的操作变成一个干净的网页界面。","forYou":"在网页上管理 AI 对话、看每天花了多少钱、配置 Telegram / Discord / Slack 渠道、设定时任务。","whyMatters":"能一眼看清 AI 的用量和成本、不用记命令，适合已经在用 AI 助手、想把它管起来的人。","lang":"TypeScript","stars":7354,"forks":920,"score":337},{"name":"Kuberwastaken/claurst","url":"https://github.com/Kuberwastaken/claurst","cat":"让 AI 帮你写代码","whatIs":"一个用 Rust 语言从零写的命令行编程助手，模仿 Claude Code 的用法，但完全开源、跑得快。","forYou":"在终端里和 AI 结对写代码：多模型切换、插件、聊天分叉都有，还能免费模式先体验。","whyMatters":"速度快、占内存小、零追踪零遥测——在意隐私、想要一个「数据完全归自己」的编程助手的人会喜欢。","lang":"Rust","stars":9763,"forks":7790,"score":337},{"name":"holaboss-ai/holaOS","url":"https://github.com/holaboss-ai/holaOS","cat":"让 AI 自动干活","whatIs":"一个「懂你工作的 AI 总管」。几分钟就摸清你手头的活，还能记住，不会每次都从头问起。","forYou":"一键授权连上 Linear、GitHub、Slack、Gmail 等 100 多个办公工具，让 AI 自动汇总你的工作状态。","whyMatters":"省去反复「复制粘贴、解释背景」的麻烦，资料都在本地长期记忆里，适合每天和一堆工具打交道的人。","lang":"TypeScript","stars":5498,"forks":402,"score":333},{"name":"op7418/guizang-ppt-skill","url":"https://github.com/op7418/guizang-ppt-skill","cat":"用 AI 做东西","whatIs":"设计博主「歸藏」做的一套 AI 做 PPT 技能，专出「单文件网页版翻页 PPT」，还能做配图和封面。","forYou":"把它装进 Claude Code 等 AI 里，描述内容就能生成有设计感的 PPT（两套高级视觉风格可选）。","whyMatters":"普通人做的 PPT 总是丑，它把专业设计师踩过的坑都写进了规则，让你「一句话出好看的 PPT」。","lang":"HTML","stars":15209,"forks":1131,"score":331},{"name":"lintsinghua/claude-code-book","url":"https://github.com/lintsinghua/claude-code-book","cat":"给 AI 加记忆 / 学原理","whatIs":"一本免费在线的中文技术书，深度拆解 Claude Code（爆火的 AI 编程工具）内部到底是怎么设计的。","forYou":"不是教你「怎么用」，而是带你看懂 AI Agent 的骨架：对话循环、工具权限、上下文压缩是怎么运转的。","whyMatters":"读懂一个顶级 AI 工具的设计思路，你就有了能套用到任何 AI 框架的「内功」，适合想进阶的开发者。","lang":"—","stars":3559,"forks":751,"score":328},{"name":"getagentseal/codeburn","url":"https://github.com/getagentseal/codeburn","cat":"省钱与提效","whatIs":"一个「AI 编程账单管家」，自动统计你在 25 种 AI 编程工具上花了多少 token、多少钱、效果如何。","forYou":"按任务、模型、项目、工具帮你拆开看钱花在哪了，全程在本地读数据，不需要任何 API key。","whyMatters":"天天用 AI 写代码但不知道烧了多少钱？它让花费一目了然，帮你找出最贵的环节、对症省钱。","lang":"TypeScript","stars":7665,"forks":580,"score":326},{"name":"Narcooo/inkos","url":"https://github.com/Narcooo/inkos","cat":"用 AI 做东西","whatIs":"一个「AI 自动写小说」的工具，能写也能自己审、自己改，覆盖玄幻、仙侠、都市、科幻等多种题材。","forYou":"用它续写、写番外、写短篇，配套有可视化工作台：章节审阅、写作进度、封面生成都能点点鼠标完成。","whyMatters":"全程有「人工审核关卡」，你始终说了算，适合想试网文创作、做内容副业又写不动那么多字的人。","lang":"TypeScript","stars":6912,"forks":1309,"score":324},{"name":"yvgude/lean-ctx","url":"https://github.com/yvgude/lean-ctx","cat":"省钱与提效","whatIs":"一个给 AI 编程助手「省 token」的本地小工具。AI 总是反复读同样的文件、浪费钱，它来管这件事。","forYou":"装上后，AI 重复读文件的开销从约 2000 token 压到约 13 token，还能跨会话记住关键信息，零配置。","whyMatters":"用 AI 编程时大量钱都浪费在「重复读取」上，它专治这个，悄悄帮你把账单降下来，越用越省。","lang":"Rust","stars":2464,"forks":252,"score":315}]};
 let state={cat:'全部',sort:'score',q:''};
-
 function fmt(n){n=+n||0;return n>=1000?(n/1000).toFixed(1).replace(/\.0$/,'')+'k':''+n;}
 function esc(s){return(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
 
@@ -129,7 +138,6 @@ document.getElementById('mTotal').textContent=D.total;
 document.getElementById('mScan').textContent=fmt(D.scanned);
 document.getElementById('dt').textContent=D.date;
 
-// 分类筛选标签（含数量），按数量排序
 const catCount={};
 D.projects.forEach(p=>{catCount[p.cat]=(catCount[p.cat]||0)+1;});
 const cats=['全部',...Object.keys(catCount).sort((a,b)=>catCount[b]-catCount[a])];
@@ -139,14 +147,13 @@ document.getElementById('segs').innerHTML=cats.map((c,i)=>{
 }).join('');
 
 function card(p,i){
-  const f=(p.feats||[]).map(x=>'<li>'+esc(x)+'</li>').join('');
-  const aud=p.audience?'<div class="aud"><b>适合：</b>'+esc(p.audience)+'</div>':'';
+  const r=(cls,lab,txt)=>txt?'<div class="row '+cls+'"><span class="lab">'+lab+'</span><p class="txt">'+esc(txt)+'</p></div>':'';
   return '<article class="card">'
     +'<div class="chead"><span class="rank">#'+(i+1)+'</span><span class="pill">'+esc(p.cat)+'</span></div>'
     +'<h2 class="nm"><a href="'+esc(p.url)+'" target="_blank" rel="noopener">'+esc(p.name)+'</a></h2>'
-    +'<p class="what">'+esc(p.what)+'</p>'
-    +aud
-    +'<ul class="feats">'+f+'</ul>'
+    +r('r1','是什么',p.whatIs)
+    +r('r2','你能用它做什么',p.forYou)
+    +r('r3','为什么对你重要',p.whyMatters)
     +'<div class="foot"><span class="lang"><span class="dot"></span>'+esc(p.lang)+'</span>'
     +'<span>★ '+fmt(p.stars)+'</span><span>⑂ '+fmt(p.forks)+'</span>'
     +'<a class="gh" href="'+esc(p.url)+'" target="_blank" rel="noopener">GitHub ↗</a></div>'
@@ -156,7 +163,7 @@ function card(p,i){
 function render(){
   let list=D.projects.filter(p=>state.cat==='全部'||p.cat===state.cat);
   if(state.q){const q=state.q.toLowerCase();
-    list=list.filter(p=>(p.name+' '+p.what+' '+p.cat+' '+(p.tags||[]).join(' ')).toLowerCase().includes(q));}
+    list=list.filter(p=>(p.name+' '+p.whatIs+' '+p.forYou+' '+p.whyMatters+' '+p.cat).toLowerCase().includes(q));}
   if(state.sort==='stars')list=list.slice().sort((a,b)=>(b.stars||0)-(a.stars||0));
   const g=document.getElementById('grid');
   g.innerHTML=list.length?list.map(card).join(''):'<div class="empty">没有匹配的项目，换个分类或关键词试试。</div>';
@@ -170,7 +177,6 @@ document.getElementById('segs').addEventListener('click',e=>{
 });
 document.getElementById('sort').addEventListener('change',e=>{state.sort=e.target.value;render();});
 document.getElementById('q').addEventListener('input',e=>{state.q=e.target.value.trim();render();});
-
 render();
 </script>
 </body></html>

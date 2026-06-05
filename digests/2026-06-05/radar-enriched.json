@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "note": "小白友好文案。whatIs=是什么 / forYou=你能用它做什么 / whyMatters=为什么对你重要。可由 scripts/enrich-radar.ts 自动生成，也可手工维护。",
+  "items": [
+    {
+      "fullName": "nexu-io/open-design",
+      "category": "用 AI 做东西",
+      "whatIs": "一个免费开源的「AI 设计软件」，装在自己电脑上用。你用大白话描述想要的网页、海报、App 界面，它直接帮你画出来。",
+      "forYou": "想要一个落地页、产品原型或一张配图时，不用学 Figma、PS，直接打字描述就能生成，还能导出成 HTML、PPT、图片、视频。",
+      "whyMatters": "对不会设计、不会写前端的你来说，这是「一句话出成品」的捷径，省下请设计师或自己抠图的时间和钱。"
+    },
+    {
+      "fullName": "esengine/DeepSeek-Reasonix",
+      "category": "让 AI 帮你写代码",
+      "whatIs": "一个在「命令行黑窗口」里帮你写代码的 AI 助手，专门搭配便宜的国产模型 DeepSeek 使用。",
+      "forYou": "把它指向你的项目文件夹，用中文说「帮我加个登录功能」「这个报错怎么修」，它会自己改代码、跑命令。",
+      "whyMatters": "同样的活，它靠「缓存」把费用压到极低——别人花 60 块的任务它大约只花 12 块，适合预算紧、又想天天用 AI 编程的人。"
+    },
+    {
+      "fullName": "MemPalace/mempalace",
+      "category": "给 AI 加记忆 / 学原理",
+      "whatIs": "给 AI 装一个「长期记忆」的工具。平时 AI 关掉对话就忘了，这个能把聊天内容原样存在你本地电脑，以后随时翻出来用。",
+      "forYou": "如果你在做自己的 AI 助手 / 聊天机器人，用它就能让你的 AI「记住」用户说过的话、之前的项目背景。",
+      "whyMatters": "全程在本地、不调用外部接口，隐私安全又省钱；记得住、找得准，是做「更懂你的 AI」绕不开的一块拼图。"
+    },
+    {
+      "fullName": "Gitlawb/openclaude",
+      "category": "让 AI 帮你写代码",
+      "whatIs": "一个万能的命令行编程助手，最大特点是「什么模型都能接」——OpenAI、Gemini、本地免费模型都行。",
+      "forYou": "在一个工具里随意切换不同 AI 来写代码、查 bug、跑脚本，哪个便宜好用就用哪个，还配了 VS Code 插件。",
+      "whyMatters": "不被某一家 AI 绑定，哪天某个模型涨价或变笨，你随手换一个就行，灵活、不踩坑。"
+    },
+    {
+      "fullName": "jackwener/OpenCLI",
+      "category": "让 AI 自动干活",
+      "whatIs": "把网站「变成命令」的工具。内置了 B 站、知乎、小红书、Reddit 等常见网站的现成操作。",
+      "forYou": "让 AI 用你已经登录的浏览器去自动做事：批量发帖、采集内容、填表单、点按钮，不用你一遍遍手动操作。",
+      "whyMatters": "重复的网页操作最磨人，它能让 AI 替你干，尤其适合做运营、要在多个平台搬运内容的人。"
+    },
+    {
+      "fullName": "JCodesMore/ai-website-cloner-template",
+      "category": "用 AI 做东西",
+      "whatIs": "一个「网站克隆模板」。你给它一个网址，AI 就照着把那个网站重做成一套干净、现代的代码。",
+      "forYou": "看到喜欢的网站长相，想做个类似的，丢网址进去，AI 自动分析配色、布局、素材，帮你拼出可改的代码。",
+      "whyMatters": "新手做网站最难的是「从零开始」，有了参照样板就好上手得多——这是「抄作业再改」的合法捷径。"
+    },
+    {
+      "fullName": "JuliusBrussee/caveman",
+      "category": "省钱与提效",
+      "whatIs": "一个给 AI 编程助手用的小插件，让 AI「说话像原始人」——把啰嗦的解释砍成短句，但技术内容一点不少。",
+      "forYou": "装上它，AI 回复变简短，少用大约 75% 的「输出字数」，而你需要的答案和代码照样给全。",
+      "whyMatters": "AI 是按字数（token）收费的，话说得越少越省钱。用量大的人装上立省一笔，几乎没有副作用。"
+    },
+    {
+      "fullName": "HKUDS/Vibe-Trading",
+      "category": "让 AI 自动干活",
+      "whatIs": "一个「会炒股 / 交易的 AI 助手」，由香港大学实验室出品。一条命令就给 AI 装上连接券商、看行情、选股的能力。",
+      "forYou": "可以让 AI 帮你分析行情、用 452 个选股指标找标的；默认只做「模拟盘 + 只读」，先练手不动真钱。",
+      "whyMatters": "它把安全放在第一位（默认不让乱下单），适合想用 AI 研究量化交易、又怕一上来就亏钱的人。"
+    },
+    {
+      "fullName": "browser-use/browser-harness",
+      "category": "让 AI 自动干活",
+      "whatIs": "用一根「细管子」把 AI 直接接到你真实的 Chrome 浏览器上，让 AI 能像真人一样操作网页。",
+      "forYou": "让 AI 替你在网页上点来点去、填表、下载、抓数据；缺什么功能它执行时会自己临时写出来。",
+      "whyMatters": "整套核心才约 1000 行、特别透明可改，适合想深入折腾「AI 自动操作浏览器」的人，自由度最高。"
+    },
+    {
+      "fullName": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "category": "让 AI 自动干活",
+      "whatIs": "一套「让 AI 替你做研究」的工作流（简称 ARIS）。你睡觉时它也能自动查资料、写报告、互相审核。",
+      "forYou": "丢给它一个题目，它按「规划→起草→挑错→改进→存档」五步自动跑，还会用多个模型互相挑刺保证靠谱。",
+      "whyMatters": "不只是写代码——投资尽调、法律、市场调研、求职备战都能用，相当于雇了个不睡觉的研究助理。"
+    },
+    {
+      "fullName": "open-multi-agent/open-multi-agent",
+      "category": "让 AI 自动干活",
+      "whatIs": "一个「多个 AI 分工协作」的开发框架。你只说目标，它自动把任务拆给好几个 AI 并行去做，再汇总结果。",
+      "forYou": "做稍复杂的自动化时，不用自己一步步安排流程，描述「我要什么」即可，它替你编排好。",
+      "whyMatters": "面向程序员，但理念很省心：「只说目标、不画流程图」。依赖少、好嵌入，适合想做 AI 自动化产品的人。"
+    },
+    {
+      "fullName": "heygen-com/hyperframes",
+      "category": "用 AI 做东西",
+      "whatIs": "一个「用网页代码做视频」的工具，由做数字人的 HeyGen 出品。把 HTML 页面、动画渲染成 MP4 视频。",
+      "forYou": "想要产品介绍片、动态海报，对 AI 说一句「做个 10 秒带淡入标题和背景音乐的片子」，它就生成成片。",
+      "whyMatters": "不用学剪辑软件、效果还能精确复现，适合要批量产出短视频、又不想养剪辑团队的人。"
+    },
+    {
+      "fullName": "EKKOLearnAI/hermes-web-ui",
+      "category": "省钱与提效",
+      "whatIs": "给 Hermes 这个 AI 助手配的「可视化控制面板」，把命令行里的操作变成一个干净的网页界面。",
+      "forYou": "在网页上管理 AI 对话、看每天花了多少钱、配置 Telegram / Discord / Slack 渠道、设定时任务。",
+      "whyMatters": "能一眼看清 AI 的用量和成本、不用记命令，适合已经在用 AI 助手、想把它管起来的人。"
+    },
+    {
+      "fullName": "Kuberwastaken/claurst",
+      "category": "让 AI 帮你写代码",
+      "whatIs": "一个用 Rust 语言从零写的命令行编程助手，模仿 Claude Code 的用法，但完全开源、跑得快。",
+      "forYou": "在终端里和 AI 结对写代码：多模型切换、插件、聊天分叉都有，还能免费模式先体验。",
+      "whyMatters": "速度快、占内存小、零追踪零遥测——在意隐私、想要一个「数据完全归自己」的编程助手的人会喜欢。"
+    },
+    {
+      "fullName": "holaboss-ai/holaOS",
+      "category": "让 AI 自动干活",
+      "whatIs": "一个「懂你工作的 AI 总管」。几分钟就摸清你手头的活，还能记住，不会每次都从头问起。",
+      "forYou": "一键授权连上 Linear、GitHub、Slack、Gmail 等 100 多个办公工具，让 AI 自动汇总你的工作状态。",
+      "whyMatters": "省去反复「复制粘贴、解释背景」的麻烦，资料都在本地长期记忆里，适合每天和一堆工具打交道的人。"
+    },
+    {
+      "fullName": "op7418/guizang-ppt-skill",
+      "category": "用 AI 做东西",
+      "whatIs": "设计博主「歸藏」做的一套 AI 做 PPT 技能，专出「单文件网页版翻页 PPT」，还能做配图和封面。",
+      "forYou": "把它装进 Claude Code 等 AI 里，描述内容就能生成有设计感的 PPT（两套高级视觉风格可选）。",
+      "whyMatters": "普通人做的 PPT 总是丑，它把专业设计师踩过的坑都写进了规则，让你「一句话出好看的 PPT」。"
+    },
+    {
+      "fullName": "lintsinghua/claude-code-book",
+      "category": "给 AI 加记忆 / 学原理",
+      "whatIs": "一本免费在线的中文技术书，深度拆解 Claude Code（爆火的 AI 编程工具）内部到底是怎么设计的。",
+      "forYou": "不是教你「怎么用」，而是带你看懂 AI Agent 的骨架：对话循环、工具权限、上下文压缩是怎么运转的。",
+      "whyMatters": "读懂一个顶级 AI 工具的设计思路，你就有了能套用到任何 AI 框架的「内功」，适合想进阶的开发者。"
+    },
+    {
+      "fullName": "getagentseal/codeburn",
+      "category": "省钱与提效",
+      "whatIs": "一个「AI 编程账单管家」，自动统计你在 25 种 AI 编程工具上花了多少 token、多少钱、效果如何。",
+      "forYou": "按任务、模型、项目、工具帮你拆开看钱花在哪了，全程在本地读数据，不需要任何 API key。",
+      "whyMatters": "天天用 AI 写代码但不知道烧了多少钱？它让花费一目了然，帮你找出最贵的环节、对症省钱。"
+    },
+    {
+      "fullName": "Narcooo/inkos",
+      "category": "用 AI 做东西",
+      "whatIs": "一个「AI 自动写小说」的工具，能写也能自己审、自己改，覆盖玄幻、仙侠、都市、科幻等多种题材。",
+      "forYou": "用它续写、写番外、写短篇，配套有可视化工作台：章节审阅、写作进度、封面生成都能点点鼠标完成。",
+      "whyMatters": "全程有「人工审核关卡」，你始终说了算，适合想试网文创作、做内容副业又写不动那么多字的人。"
+    },
+    {
+      "fullName": "yvgude/lean-ctx",
+      "category": "省钱与提效",
+      "whatIs": "一个给 AI 编程助手「省 token」的本地小工具。AI 总是反复读同样的文件、浪费钱，它来管这件事。",
+      "forYou": "装上后，AI 重复读文件的开销从约 2000 token 压到约 13 token，还能跨会话记住关键信息，零配置。",
+      "whyMatters": "用 AI 编程时大量钱都浪费在「重复读取」上，它专治这个，悄悄帮你把账单降下来，越用越省。"
+    }
+  ]
+}
