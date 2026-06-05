@@ -1,6 +1,6 @@
 # 新项目发现榜 2026-06-05
 
-> 我从最近 90 天新出现的 GitHub 项目里做了一次筛选（从 2026-03-07 开始）。这次先找到 499 个备选项目，最后挑出最值得看的项目。生成时间: 2026-06-05 14:54 UTC
+> 我从最近 90 天新出现的 GitHub 项目里做了一次筛选（从 2026-03-07 开始）。这次先找到 499 个备选项目，最后挑出最值得看的项目。生成时间: 2026-06-05 15:19 UTC
 > 监控方向: 网站项目, 网页界面项目, 网站页面项目, 完整网站应用, 轻量网站项目, 网页应用, 手机应用, 苹果手机应用, 安卓手机应用, 多端手机应用, 跨平台手机应用, 快速开发的手机应用, 苹果应用, 安卓应用, 产品应用, 开发工具, 终端工具, AI 写代码工具, 自动生成代码, 让 AI 连接外部工具, 聊天 AI 应用
 > 分类分布: AI 工具项目 47 · 手机/App 项目 28 · 网站/网页项目 5
 
@@ -34,7 +34,7 @@
 
 7. [nexu-io/open-design](https://github.com/nexu-io/open-design) · 手机/App 项目 · AI 潜力 273
    这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。
-   可能值得看: AI 自动做事, 编程助手, 智能编辑器; 最近关注增长: 平均每天约 1543 人收藏; 有官网或演示，点开更容易看懂
+   可能值得看: AI 自动做事, 编程助手, 智能编辑器; 最近关注增长: 平均每天约 1542 人收藏; 有官网或演示，点开更容易看懂
 
 8. [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) · AI 工具项目 · AI 潜力 271
    这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。
@@ -140,21 +140,21 @@
    这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。
    它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品; 大致方向: 苹果应用; 可能是: 应用, 手机端, 苹果 App, 苹果界面工具
 
-12. [awizemann/scarf](https://github.com/awizemann/scarf) · 手机/App 项目 · 产品看点 216
-   这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。
-   它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品; 大致方向: 苹果应用; 可能是: 应用, 数据面板, 手机端, iOS, 苹果 App
-
-13. [dodo-reach/hermes-desktop](https://github.com/dodo-reach/hermes-desktop) · 手机/App 项目 · 产品看点 215
+12. [dodo-reach/hermes-desktop](https://github.com/dodo-reach/hermes-desktop) · 手机/App 项目 · 产品看点 215
    这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。
    它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型; 大致方向: 开发工具; 可能是: 应用, 快速做手机 App, 苹果 App, 苹果界面工具
 
-14. [JubaKitiashvili/expo-pretext](https://github.com/JubaKitiashvili/expo-pretext) · 手机/App 项目 · 产品看点 215
+13. [JubaKitiashvili/expo-pretext](https://github.com/JubaKitiashvili/expo-pretext) · 手机/App 项目 · 产品看点 215
    这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。
    它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App; 大致方向: 苹果手机应用, 安卓手机应用, 跨平台手机应用; 可能是: 网页, 网页界面, 常用网页开发语言, 应用, 手机端
 
-15. [omnimind-ai/OpenOmniBot](https://github.com/omnimind-ai/OpenOmniBot) · 手机/App 项目 · 产品看点 213
+14. [omnimind-ai/OpenOmniBot](https://github.com/omnimind-ai/OpenOmniBot) · 手机/App 项目 · 产品看点 213
    这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。
    它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品; 大致方向: 安卓手机应用; 可能是: 应用, 自动化, 手机端, 安卓
+
+15. [awizemann/scarf](https://github.com/awizemann/scarf) · 手机/App 项目 · 产品看点 213
+   这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。
+   它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品; 大致方向: 苹果应用; 可能是: 应用, 数据面板, 手机端, iOS, 苹果 App
 
 ---
 
@@ -173,59 +173,59 @@
 
 | # | 项目 | 类型 | AI 潜力 | 产品看点 | 收藏 | 主要技术 | 为什么值得看 |
 |---:|---|---|---:|---:|---:|---|---|
-| 1 | [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | AI 工具项目 | 291 | 225 | 53694 | Python | 项目出现于 62 天前，最近更新 7 小时前; 53694 人收藏 / 7067 次被别人复制改造 |
-| 2 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 手机/App 项目 | 273 | 289 | 59299 | TypeScript | 项目出现于 38 天前，最近更新 1 小时前; 59299 人收藏 / 6677 次被别人复制改造 |
-| 3 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | AI 工具项目 | 283 | 226 | 69174 | JavaScript | 项目出现于 62 天前，最近更新 16 天前; 69174 人收藏 / 3895 次被别人复制改造 |
-| 4 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | AI 工具项目 | 280 | 206 | 10799 | Python | 项目出现于 65 天前，最近更新 1 小时前; 10799 人收藏 / 2108 次被别人复制改造 |
-| 5 | [Gitlawb/openclaude](https://github.com/Gitlawb/openclaude) | AI 工具项目 | 279 | 240 | 28372 | TypeScript | 项目出现于 65 天前，最近更新 3 小时前; 28372 人收藏 / 8691 次被别人复制改造 |
-| 6 | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI 工具项目 | 278 | 234 | 18403 | Go | 项目出现于 45 天前，最近更新 4 小时前; 18403 人收藏 / 1090 次被别人复制改造 |
-| 7 | [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | AI 工具项目 | 276 | 198 | 11451 | Python | 项目出现于 87 天前，最近更新 13 小时前; 11451 人收藏 / 1061 次被别人复制改造 |
-| 8 | [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | AI 工具项目 | 271 | 240 | 23573 | JavaScript | 项目出现于 83 天前，最近更新 1 小时前; 23573 人收藏 / 2371 次被别人复制改造 |
-| 9 | [browser-use/browser-harness](https://github.com/browser-use/browser-harness) | AI 工具项目 | 270 | 211 | 14377 | Python | 项目出现于 50 天前，最近更新 16 天前; 14377 人收藏 / 1330 次被别人复制改造 |
+| 1 | [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | AI 工具项目 | 291 | 225 | 53701 | Python | 项目出现于 62 天前，最近更新 7 小时前; 53701 人收藏 / 7069 次被别人复制改造 |
+| 2 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 手机/App 项目 | 273 | 289 | 59314 | TypeScript | 项目出现于 38 天前，最近更新 1 小时前; 59314 人收藏 / 6679 次被别人复制改造 |
+| 3 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | AI 工具项目 | 283 | 226 | 69182 | JavaScript | 项目出现于 62 天前，最近更新 16 天前; 69182 人收藏 / 3899 次被别人复制改造 |
+| 4 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | AI 工具项目 | 280 | 206 | 10802 | Python | 项目出现于 65 天前，最近更新 1 小时前; 10802 人收藏 / 2108 次被别人复制改造 |
+| 5 | [Gitlawb/openclaude](https://github.com/Gitlawb/openclaude) | AI 工具项目 | 279 | 240 | 28373 | TypeScript | 项目出现于 66 天前，最近更新 4 小时前; 28373 人收藏 / 8691 次被别人复制改造 |
+| 6 | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | AI 工具项目 | 278 | 234 | 18414 | Go | 项目出现于 45 天前，最近更新 4 小时前; 18414 人收藏 / 1091 次被别人复制改造 |
+| 7 | [wanshuiyin/Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | AI 工具项目 | 276 | 198 | 11453 | Python | 项目出现于 87 天前，最近更新 14 小时前; 11453 人收藏 / 1061 次被别人复制改造 |
+| 8 | [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | AI 工具项目 | 271 | 240 | 23574 | JavaScript | 项目出现于 83 天前，最近更新 1 小时前; 23574 人收藏 / 2371 次被别人复制改造 |
+| 9 | [browser-use/browser-harness](https://github.com/browser-use/browser-harness) | AI 工具项目 | 270 | 211 | 14379 | Python | 项目出现于 50 天前，最近更新 16 天前; 14379 人收藏 / 1330 次被别人复制改造 |
 | 10 | [open-multi-agent/open-multi-agent](https://github.com/open-multi-agent/open-multi-agent) | AI 工具项目 | 270 | 210 | 6329 | TypeScript | 项目出现于 66 天前，最近更新 23 小时前; 6329 人收藏 / 2385 次被别人复制改造 |
-| 11 | [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) | AI 工具项目 | 269 | 197 | 15198 | HTML | 项目出现于 43 天前，最近更新 3 天前; 15198 人收藏 / 1131 次被别人复制改造 |
-| 12 | [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) | AI 工具项目 | 248 | 263 | 16328 | TypeScript | 项目出现于 84 天前，最近更新 4 天前; 16328 人收藏 / 2497 次被别人复制改造 |
-| 13 | [lintsinghua/claude-code-book](https://github.com/lintsinghua/claude-code-book) | AI 工具项目 | 261 | 182 | 3558 | - | 项目出现于 66 天前，最近更新 60 天前; 3558 人收藏 / 751 次被别人复制改造 |
-| 14 | [EKKOLearnAI/hermes-web-ui](https://github.com/EKKOLearnAI/hermes-web-ui) | AI 工具项目 | 260 | 225 | 7347 | TypeScript | 项目出现于 55 天前，最近更新 2 小时前; 7347 人收藏 / 920 次被别人复制改造 |
-| 15 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | AI 工具项目 | 258 | 201 | 24603 | TypeScript | 项目出现于 88 天前，最近更新 2 小时前; 24603 人收藏 / 2290 次被别人复制改造 |
+| 11 | [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) | AI 工具项目 | 269 | 197 | 15201 | HTML | 项目出现于 43 天前，最近更新 3 天前; 15201 人收藏 / 1131 次被别人复制改造 |
+| 12 | [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) | AI 工具项目 | 248 | 263 | 16332 | TypeScript | 项目出现于 84 天前，最近更新 4 天前; 16332 人收藏 / 2499 次被别人复制改造 |
+| 13 | [lintsinghua/claude-code-book](https://github.com/lintsinghua/claude-code-book) | AI 工具项目 | 261 | 182 | 3559 | - | 项目出现于 66 天前，最近更新 60 天前; 3559 人收藏 / 751 次被别人复制改造 |
+| 14 | [EKKOLearnAI/hermes-web-ui](https://github.com/EKKOLearnAI/hermes-web-ui) | AI 工具项目 | 260 | 225 | 7349 | TypeScript | 项目出现于 55 天前，最近更新 3 小时前; 7349 人收藏 / 920 次被别人复制改造 |
+| 15 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | AI 工具项目 | 258 | 201 | 24610 | TypeScript | 项目出现于 88 天前，最近更新 1 小时前; 24610 人收藏 / 2291 次被别人复制改造 |
 | 16 | [holaboss-ai/holaOS](https://github.com/holaboss-ai/holaOS) | AI 工具项目 | 257 | 209 | 5498 | TypeScript | 项目出现于 75 天前，最近更新 3 天前; 5498 人收藏 / 402 次被别人复制改造 |
 | 17 | [Manavarya09/design-extract](https://github.com/Manavarya09/design-extract) | 手机/App 项目 | 208 | 256 | 3064 | JavaScript | 项目出现于 51 天前，最近更新 17 小时前; 3064 人收藏 / 276 次被别人复制改造 |
-| 18 | [jnMetaCode/superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) | AI 工具项目 | 254 | 174 | 4764 | Shell | 项目出现于 78 天前，最近更新 3 天前; 4764 人收藏 / 459 次被别人复制改造 |
+| 18 | [jnMetaCode/superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) | AI 工具项目 | 254 | 174 | 4765 | Shell | 项目出现于 78 天前，最近更新 3 天前; 4765 人收藏 / 459 次被别人复制改造 |
 | 19 | [yvgude/lean-ctx](https://github.com/yvgude/lean-ctx) | AI 工具项目 | 254 | 200 | 2464 | Rust | 项目出现于 74 天前，最近更新 1 小时前; 2464 人收藏 / 252 次被别人复制改造 |
 | 20 | [ParthJadhav/app-store-screenshots](https://github.com/ParthJadhav/app-store-screenshots) | 手机/App 项目 | 205 | 250 | 5458 | TypeScript | 项目出现于 90 天前，最近更新 5 天前; 5458 人收藏 / 375 次被别人复制改造 |
 | 21 | [Narcooo/inkos](https://github.com/Narcooo/inkos) | AI 工具项目 | 249 | 206 | 6912 | TypeScript | 项目出现于 86 天前，最近更新 2 天前; 6912 人收藏 / 1309 次被别人复制改造 |
-| 22 | [skalesapp/skales](https://github.com/skalesapp/skales) | 手机/App 项目 | 207 | 247 | 1051 | TypeScript | 项目出现于 89 天前，最近更新 22 小时前; 1051 人收藏 / 163 次被别人复制改造 |
+| 22 | [skalesapp/skales](https://github.com/skalesapp/skales) | 手机/App 项目 | 207 | 247 | 1051 | TypeScript | 项目出现于 89 天前，最近更新 23 小时前; 1051 人收藏 / 163 次被别人复制改造 |
 | 23 | [Windy3f3f3f3f/how-claude-code-works](https://github.com/Windy3f3f3f3f/how-claude-code-works) | AI 工具项目 | 246 | 178 | 2566 | - | 项目出现于 66 天前，最近更新 31 天前; 2566 人收藏 / 598 次被别人复制改造 |
-| 24 | [op7418/guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill) | AI 工具项目 | 244 | 186 | 2945 | HTML | 项目出现于 9 天前，最近更新 9 天前; 2945 人收藏 / 273 次被别人复制改造 |
-| 25 | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | AI 工具项目 | 243 | 189 | 4983 | TypeScript | 项目出现于 59 天前，最近更新 1 天前; 4983 人收藏 / 425 次被别人复制改造 |
-| 26 | [opensquilla/opensquilla](https://github.com/opensquilla/opensquilla) | AI 工具项目 | 243 | 182 | 3194 | Python | 项目出现于 30 天前，最近更新 1 小时前; 3194 人收藏 / 237 次被别人复制改造 |
-| 27 | [nidhinjs/prompt-master](https://github.com/nidhinjs/prompt-master) | AI 工具项目 | 242 | 181 | 8816 | - | 项目出现于 86 天前，最近更新 33 天前; 8816 人收藏 / 1028 次被别人复制改造 |
-| 28 | [wquguru/harness-books](https://github.com/wquguru/harness-books) | AI 工具项目 | 242 | 196 | 2399 | Python | 项目出现于 65 天前，最近更新 47 天前; 2399 人收藏 / 281 次被别人复制改造 |
+| 24 | [op7418/guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill) | AI 工具项目 | 244 | 186 | 2947 | HTML | 项目出现于 9 天前，最近更新 9 天前; 2947 人收藏 / 273 次被别人复制改造 |
+| 25 | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | AI 工具项目 | 243 | 189 | 4984 | TypeScript | 项目出现于 59 天前，最近更新 1 天前; 4984 人收藏 / 425 次被别人复制改造 |
+| 26 | [opensquilla/opensquilla](https://github.com/opensquilla/opensquilla) | AI 工具项目 | 243 | 182 | 3202 | Python | 项目出现于 30 天前，最近更新 2 小时前; 3202 人收藏 / 238 次被别人复制改造 |
+| 27 | [nidhinjs/prompt-master](https://github.com/nidhinjs/prompt-master) | AI 工具项目 | 242 | 181 | 8821 | - | 项目出现于 86 天前，最近更新 33 天前; 8821 人收藏 / 1028 次被别人复制改造 |
+| 28 | [wquguru/harness-books](https://github.com/wquguru/harness-books) | AI 工具项目 | 242 | 196 | 2399 | Python | 项目出现于 65 天前，最近更新 48 天前; 2399 人收藏 / 281 次被别人复制改造 |
 | 29 | [Kuberwastaken/claurst](https://github.com/Kuberwastaken/claurst) | AI 工具项目 | 241 | 223 | 9763 | Rust | 项目出现于 66 天前，最近更新 21 小时前; 9763 人收藏 / 7790 次被别人复制改造 |
 | 30 | [aiming-lab/MetaClaw](https://github.com/aiming-lab/MetaClaw) | AI 工具项目 | 241 | 178 | 3424 | Python | 项目出现于 88 天前，最近更新 13 天前; 3424 人收藏 / 443 次被别人复制改造 |
-| 31 | [BlazeUp-AI/Observal](https://github.com/BlazeUp-AI/Observal) | AI 工具项目 | 241 | 189 | 2003 | Python | 项目出现于 67 天前，最近更新 21 小时前; 2003 人收藏 / 381 次被别人复制改造 |
+| 31 | [BlazeUp-AI/Observal](https://github.com/BlazeUp-AI/Observal) | AI 工具项目 | 241 | 189 | 2003 | Python | 项目出现于 67 天前，最近更新 22 小时前; 2003 人收藏 / 381 次被别人复制改造 |
 | 32 | [ciembor/agent-rules-books](https://github.com/ciembor/agent-rules-books) | AI 工具项目 | 238 | 162 | 1757 | - | 项目出现于 50 天前，最近更新 14 天前; 1757 人收藏 / 271 次被别人复制改造 |
-| 33 | [Open-Less/openless](https://github.com/Open-Less/openless) | AI 工具项目 | 237 | 186 | 2150 | HTML | 项目出现于 39 天前，最近更新 2 小时前; 2150 人收藏 / 169 次被别人复制改造 |
-| 34 | [google-antigravity/antigravity-sdk-python](https://github.com/google-antigravity/antigravity-sdk-python) | AI 工具项目 | 237 | 168 | 1453 | Python | 项目出现于 37 天前，最近更新 17 小时前; 1453 人收藏 / 424 次被别人复制改造 |
+| 33 | [Open-Less/openless](https://github.com/Open-Less/openless) | AI 工具项目 | 237 | 186 | 2151 | HTML | 项目出现于 39 天前，最近更新 2 小时前; 2151 人收藏 / 169 次被别人复制改造 |
+| 34 | [google-antigravity/antigravity-sdk-python](https://github.com/google-antigravity/antigravity-sdk-python) | AI 工具项目 | 237 | 168 | 1453 | Python | 项目出现于 37 天前，最近更新 18 小时前; 1453 人收藏 / 424 次被别人复制改造 |
 | 35 | [iamzhihuix/skills-manage](https://github.com/iamzhihuix/skills-manage) | AI 工具项目 | 236 | 225 | 1985 | TypeScript | 项目出现于 53 天前，最近更新 34 天前; 1985 人收藏 / 179 次被别人复制改造 |
-| 36 | [erweixin/RaTeX](https://github.com/erweixin/RaTeX) | 手机/App 项目 | 166 | 236 | 1324 | Rust | 项目出现于 87 天前，最近更新 3 天前; 1324 人收藏 / 61 次被别人复制改造 |
-| 37 | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | AI 工具项目 | 235 | 225 | 6141 | HTML | 项目出现于 25 天前，最近更新 3 天前; 6141 人收藏 / 599 次被别人复制改造 |
-| 38 | [Purewhiter/mobilegym](https://github.com/Purewhiter/mobilegym) | 手机/App 项目 | 187 | 235 | 521 | TypeScript | 项目出现于 22 天前，最近更新 7 小时前; 521 人收藏 / 82 次被别人复制改造 |
+| 36 | [erweixin/RaTeX](https://github.com/erweixin/RaTeX) | 手机/App 项目 | 166 | 236 | 1324 | Rust | 项目出现于 88 天前，最近更新 3 天前; 1324 人收藏 / 61 次被别人复制改造 |
+| 37 | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | AI 工具项目 | 235 | 225 | 6142 | HTML | 项目出现于 25 天前，最近更新 3 天前; 6142 人收藏 / 599 次被别人复制改造 |
+| 38 | [Purewhiter/mobilegym](https://github.com/Purewhiter/mobilegym) | 手机/App 项目 | 187 | 235 | 522 | TypeScript | 项目出现于 22 天前，最近更新 8 小时前; 522 人收藏 / 82 次被别人复制改造 |
 | 39 | [NateBJones-Projects/OB1](https://github.com/NateBJones-Projects/OB1) | AI 工具项目 | 234 | 187 | 3582 | TypeScript | 项目出现于 86 天前，最近更新 3 小时前; 3582 人收藏 / 682 次被别人复制改造 |
-| 40 | [cosmicstack-labs/mercury-agent](https://github.com/cosmicstack-labs/mercury-agent) | AI 工具项目 | 234 | 195 | 2563 | TypeScript | 项目出现于 46 天前，最近更新 10 小时前; 2563 人收藏 / 264 次被别人复制改造 |
-| 41 | [MinishLab/semble](https://github.com/MinishLab/semble) | AI 工具项目 | 233 | 173 | 4856 | Python | 项目出现于 60 天前，最近更新 10 小时前; 4856 人收藏 / 203 次被别人复制改造 |
-| 42 | [helloianneo/ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) | AI 工具项目 | 233 | 164 | 2262 | - | 项目出现于 9 天前，最近更新 2 天前; 2262 人收藏 / 215 次被别人复制改造 |
-| 43 | [DenisSergeevitch/agents-best-practices](https://github.com/DenisSergeevitch/agents-best-practices) | AI 工具项目 | 233 | 156 | 1811 | - | 项目出现于 21 天前，最近更新 6 天前; 1811 人收藏 / 156 次被别人复制改造 |
+| 40 | [cosmicstack-labs/mercury-agent](https://github.com/cosmicstack-labs/mercury-agent) | AI 工具项目 | 234 | 195 | 2563 | TypeScript | 项目出现于 46 天前，最近更新 11 小时前; 2563 人收藏 / 264 次被别人复制改造 |
+| 41 | [MinishLab/semble](https://github.com/MinishLab/semble) | AI 工具项目 | 233 | 173 | 4860 | Python | 项目出现于 60 天前，最近更新 11 小时前; 4860 人收藏 / 203 次被别人复制改造 |
+| 42 | [helloianneo/ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) | AI 工具项目 | 233 | 164 | 2265 | - | 项目出现于 9 天前，最近更新 2 天前; 2265 人收藏 / 215 次被别人复制改造 |
+| 43 | [DenisSergeevitch/agents-best-practices](https://github.com/DenisSergeevitch/agents-best-practices) | AI 工具项目 | 233 | 156 | 1812 | - | 项目出现于 21 天前，最近更新 6 天前; 1812 人收藏 / 157 次被别人复制改造 |
 | 44 | [oritera/Cairn](https://github.com/oritera/Cairn) | AI 工具项目 | 233 | 158 | 1466 | Python | 项目出现于 47 天前，最近更新 3 天前; 1466 人收藏 / 200 次被别人复制改造 |
 | 45 | [ghostwright/phantom](https://github.com/ghostwright/phantom) | AI 工具项目 | 233 | 173 | 1424 | TypeScript | 项目出现于 71 天前，最近更新 34 天前; 1424 人收藏 / 188 次被别人复制改造 |
-| 46 | [Xiangyue-Zhang/auto-deep-researcher-24x7](https://github.com/Xiangyue-Zhang/auto-deep-researcher-24x7) | AI 工具项目 | 232 | 160 | 1189 | Python | 项目出现于 58 天前，最近更新 2 天前; 1189 人收藏 / 96 次被别人复制改造 |
-| 47 | [worldwonderer/oh-story-claudecode](https://github.com/worldwonderer/oh-story-claudecode) | AI 工具项目 | 231 | 171 | 1992 | JavaScript | 项目出现于 44 天前，最近更新 23 小时前; 1992 人收藏 / 378 次被别人复制改造 |
-| 48 | [0xMassi/webclaw](https://github.com/0xMassi/webclaw) | AI 工具项目 | 231 | 186 | 1289 | Rust | 项目出现于 87 天前，最近更新 21 小时前; 1289 人收藏 / 148 次被别人复制改造 |
-| 49 | [darrylmorley/whatcable](https://github.com/darrylmorley/whatcable) | 手机/App 项目 | 172 | 230 | 5457 | Swift | 项目出现于 35 天前，最近更新 1 小时前; 5457 人收藏 / 169 次被别人复制改造 |
-| 50 | [nowork-studio/NotFair](https://github.com/nowork-studio/NotFair) | AI 工具项目 | 230 | 197 | 2779 | TypeScript | 项目出现于 70 天前，最近更新 13 小时前; 2779 人收藏 / 344 次被别人复制改造 |
-| 51 | [getagentseal/codeburn](https://github.com/getagentseal/codeburn) | AI 工具项目 | 228 | 227 | 7664 | TypeScript | 项目出现于 53 天前，最近更新 2 天前; 7664 人收藏 / 580 次被别人复制改造 |
-| 52 | [outsourc-e/hermes-workspace](https://github.com/outsourc-e/hermes-workspace) | 网站/网页项目 | 200 | 228 | 5397 | JavaScript | 项目出现于 81 天前，最近更新 1 小时前; 5397 人收藏 / 802 次被别人复制改造 |
-| 53 | [stablyai/orca](https://github.com/stablyai/orca) | 手机/App 项目 | 218 | 228 | 4235 | TypeScript | 项目出现于 80 天前，最近更新 5 小时前; 4235 人收藏 / 279 次被别人复制改造 |
+| 46 | [Xiangyue-Zhang/auto-deep-researcher-24x7](https://github.com/Xiangyue-Zhang/auto-deep-researcher-24x7) | AI 工具项目 | 232 | 160 | 1189 | Python | 项目出现于 58 天前，最近更新 3 天前; 1189 人收藏 / 96 次被别人复制改造 |
+| 47 | [worldwonderer/oh-story-claudecode](https://github.com/worldwonderer/oh-story-claudecode) | AI 工具项目 | 231 | 171 | 1993 | JavaScript | 项目出现于 44 天前，最近更新 23 小时前; 1993 人收藏 / 378 次被别人复制改造 |
+| 48 | [0xMassi/webclaw](https://github.com/0xMassi/webclaw) | AI 工具项目 | 231 | 186 | 1289 | Rust | 项目出现于 87 天前，最近更新 22 小时前; 1289 人收藏 / 148 次被别人复制改造 |
+| 49 | [darrylmorley/whatcable](https://github.com/darrylmorley/whatcable) | 手机/App 项目 | 172 | 230 | 5458 | Swift | 项目出现于 35 天前，最近更新 1 小时前; 5458 人收藏 / 169 次被别人复制改造 |
+| 50 | [nowork-studio/NotFair](https://github.com/nowork-studio/NotFair) | AI 工具项目 | 230 | 197 | 2780 | TypeScript | 项目出现于 70 天前，最近更新 13 小时前; 2780 人收藏 / 344 次被别人复制改造 |
+| 51 | [getagentseal/codeburn](https://github.com/getagentseal/codeburn) | AI 工具项目 | 228 | 227 | 7665 | TypeScript | 项目出现于 53 天前，最近更新 2 天前; 7665 人收藏 / 580 次被别人复制改造 |
+| 52 | [outsourc-e/hermes-workspace](https://github.com/outsourc-e/hermes-workspace) | 网站/网页项目 | 200 | 228 | 5399 | JavaScript | 项目出现于 81 天前，最近更新 1 小时前; 5399 人收藏 / 803 次被别人复制改造 |
+| 53 | [stablyai/orca](https://github.com/stablyai/orca) | 手机/App 项目 | 218 | 228 | 4236 | TypeScript | 项目出现于 80 天前，最近更新 6 小时前; 4236 人收藏 / 279 次被别人复制改造 |
 | 54 | [wuji-labs/nopua](https://github.com/wuji-labs/nopua) | AI 工具项目 | 228 | 141 | 1318 | Python | 项目出现于 84 天前，最近更新 5 小时前; 1318 人收藏 / 44 次被别人复制改造 |
 | 55 | [Bitterbot-AI/bitterbot-desktop](https://github.com/Bitterbot-AI/bitterbot-desktop) | AI 工具项目 | 227 | 189 | 2165 | TypeScript | 项目出现于 69 天前，最近更新 2 天前; 2165 人收藏 / 411 次被别人复制改造 |
 | 56 | [jimuzhe/tiez-clipboard](https://github.com/jimuzhe/tiez-clipboard) | 网站/网页项目 | 172 | 226 | 2033 | TypeScript | 项目出现于 88 天前，最近更新 20 天前; 2033 人收藏 / 89 次被别人复制改造 |
@@ -233,24 +233,24 @@
 | 58 | [blitzdotdev/blitz-mac](https://github.com/blitzdotdev/blitz-mac) | 手机/App 项目 | 177 | 224 | 1694 | Swift | 项目出现于 88 天前，最近更新 31 天前; 1694 人收藏 / 137 次被别人复制改造 |
 | 59 | [glincker/thesvg](https://github.com/glincker/thesvg) | 网站/网页项目 | 178 | 221 | 2215 | TypeScript | 项目出现于 90 天前，最近更新 4 天前; 2215 人收藏 / 175 次被别人复制改造 |
 | 60 | [CookSleep/gpt_image_playground](https://github.com/CookSleep/gpt_image_playground) | 网站/网页项目 | 183 | 220 | 2182 | TypeScript | 项目出现于 43 天前，最近更新 3 天前; 2182 人收藏 / 593 次被别人复制改造 |
-| 61 | [tddworks/baguette](https://github.com/tddworks/baguette) | 手机/App 项目 | 167 | 219 | 1130 | Swift | 项目出现于 35 天前，最近更新 5 小时前; 1130 人收藏 / 62 次被别人复制改造 |
+| 61 | [tddworks/baguette](https://github.com/tddworks/baguette) | 手机/App 项目 | 167 | 219 | 1131 | Swift | 项目出现于 35 天前，最近更新 5 小时前; 1131 人收藏 / 62 次被别人复制改造 |
 | 62 | [muxy-app/muxy](https://github.com/muxy-app/muxy) | 手机/App 项目 | 185 | 218 | 1715 | Swift | 项目出现于 66 天前，最近更新 1 小时前; 1715 人收藏 / 138 次被别人复制改造 |
 | 63 | [1weiho/open-slide](https://github.com/1weiho/open-slide) | 网站/网页项目 | 189 | 216 | 4744 | TypeScript | 项目出现于 40 天前，最近更新 9 小时前; 4744 人收藏 / 326 次被别人复制改造 |
-| 64 | [awizemann/scarf](https://github.com/awizemann/scarf) | 手机/App 项目 | 169 | 216 | 595 | Swift | 项目出现于 66 天前，最近更新 24 小时前; 595 人收藏 / 39 次被别人复制改造 |
-| 65 | [dodo-reach/hermes-desktop](https://github.com/dodo-reach/hermes-desktop) | 手机/App 项目 | 177 | 215 | 1831 | Swift | 项目出现于 58 天前，最近更新 2 天前; 1831 人收藏 / 131 次被别人复制改造 |
-| 66 | [JubaKitiashvili/expo-pretext](https://github.com/JubaKitiashvili/expo-pretext) | 手机/App 项目 | 104 | 215 | 247 | TypeScript | 项目出现于 58 天前，最近更新 48 天前; 247 人收藏 / 10 次被别人复制改造 |
-| 67 | [omnimind-ai/OpenOmniBot](https://github.com/omnimind-ai/OpenOmniBot) | 手机/App 项目 | 186 | 213 | 1616 | Dart | 项目出现于 79 天前，最近更新 1 小时前; 1616 人收藏 / 60 次被别人复制改造 |
+| 64 | [dodo-reach/hermes-desktop](https://github.com/dodo-reach/hermes-desktop) | 手机/App 项目 | 177 | 215 | 1831 | Swift | 项目出现于 58 天前，最近更新 2 天前; 1831 人收藏 / 131 次被别人复制改造 |
+| 65 | [JubaKitiashvili/expo-pretext](https://github.com/JubaKitiashvili/expo-pretext) | 手机/App 项目 | 104 | 215 | 247 | TypeScript | 项目出现于 58 天前，最近更新 48 天前; 247 人收藏 / 10 次被别人复制改造 |
+| 66 | [omnimind-ai/OpenOmniBot](https://github.com/omnimind-ai/OpenOmniBot) | 手机/App 项目 | 186 | 213 | 1616 | Dart | 项目出现于 79 天前，最近更新 1 小时前; 1616 人收藏 / 60 次被别人复制改造 |
+| 67 | [awizemann/scarf](https://github.com/awizemann/scarf) | 手机/App 项目 | 166 | 213 | 595 | Swift | 项目出现于 66 天前，最近更新 1 天前; 595 人收藏 / 39 次被别人复制改造 |
 | 68 | [Arthur-Ficial/apfel](https://github.com/Arthur-Ficial/apfel) | 手机/App 项目 | 211 | 210 | 5541 | Swift | 项目出现于 73 天前，最近更新 3 天前; 5541 人收藏 / 212 次被别人复制改造 |
-| 69 | [paywallpro/paywall-gallery](https://github.com/paywallpro/paywall-gallery) | 手机/App 项目 | 140 | 208 | 452 | - | 项目出现于 18 天前，最近更新 12 小时前; 452 人收藏 / 95 次被别人复制改造 |
-| 70 | [mobile-next/mobilewright](https://github.com/mobile-next/mobilewright) | 手机/App 项目 | 149 | 208 | 242 | TypeScript | 项目出现于 73 天前，最近更新 1 小时前; 242 人收藏 / 40 次被别人复制改造 |
+| 69 | [paywallpro/paywall-gallery](https://github.com/paywallpro/paywall-gallery) | 手机/App 项目 | 140 | 208 | 453 | - | 项目出现于 18 天前，最近更新 13 小时前; 453 人收藏 / 95 次被别人复制改造 |
+| 70 | [mobile-next/mobilewright](https://github.com/mobile-next/mobilewright) | 手机/App 项目 | 149 | 208 | 242 | TypeScript | 项目出现于 73 天前，最近更新 2 小时前; 242 人收藏 / 40 次被别人复制改造 |
 | 71 | [ExTV/Podroid](https://github.com/ExTV/Podroid) | 手机/App 项目 | 142 | 207 | 1450 | Kotlin | 项目出现于 82 天前，最近更新 4 天前; 1450 人收藏 / 83 次被别人复制改造 |
 | 72 | [Shpigford/chops](https://github.com/Shpigford/chops) | 手机/App 项目 | 181 | 207 | 1391 | Swift | 项目出现于 79 天前，最近更新 38 天前; 1391 人收藏 / 87 次被别人复制改造 |
 | 73 | [vercel-labs/zero-native](https://github.com/vercel-labs/zero-native) | 手机/App 项目 | 153 | 204 | 4106 | Zig | 项目出现于 28 天前，最近更新 23 天前; 4106 人收藏 / 169 次被别人复制改造 |
-| 74 | [EvanBacon/serve-sim](https://github.com/EvanBacon/serve-sim) | 手机/App 项目 | 162 | 204 | 1455 | TypeScript | 项目出现于 37 天前，最近更新 9 小时前; 1455 人收藏 / 68 次被别人复制改造 |
+| 74 | [EvanBacon/serve-sim](https://github.com/EvanBacon/serve-sim) | 手机/App 项目 | 163 | 204 | 1458 | TypeScript | 项目出现于 37 天前，最近更新 10 小时前; 1458 人收藏 / 68 次被别人复制改造 |
 | 75 | [Eronred/expo-agent-spinners](https://github.com/Eronred/expo-agent-spinners) | 手机/App 项目 | 130 | 204 | 296 | TypeScript | 项目出现于 48 天前，最近更新 48 天前; 296 人收藏 / 18 次被别人复制改造 |
-| 76 | [echo-loop/Echo-Loop](https://github.com/echo-loop/Echo-Loop) | 手机/App 项目 | 144 | 202 | 942 | Dart | 项目出现于 29 天前，最近更新 9 小时前; 942 人收藏 / 61 次被别人复制改造 |
+| 76 | [echo-loop/Echo-Loop](https://github.com/echo-loop/Echo-Loop) | 手机/App 项目 | 144 | 202 | 943 | Dart | 项目出现于 29 天前，最近更新 10 小时前; 943 人收藏 / 61 次被别人复制改造 |
 | 77 | [margelo/react-native-runtimes](https://github.com/margelo/react-native-runtimes) | 手机/App 项目 | 118 | 202 | 352 | TypeScript | 项目出现于 17 天前，最近更新 1 天前; 352 人收藏 / 8 次被别人复制改造 |
-| 78 | [kellyvv/PhoneClaw](https://github.com/kellyvv/PhoneClaw) | 手机/App 项目 | 166 | 201 | 1009 | Swift | 项目出现于 62 天前，最近更新 1 小时前; 1009 人收藏 / 139 次被别人复制改造 |
+| 78 | [kellyvv/PhoneClaw](https://github.com/kellyvv/PhoneClaw) | 手机/App 项目 | 166 | 201 | 1009 | Swift | 项目出现于 62 天前，最近更新 2 小时前; 1009 人收藏 / 139 次被别人复制改造 |
 | 79 | [nodes-app/swift-markdown-engine](https://github.com/nodes-app/swift-markdown-engine) | 手机/App 项目 | 126 | 200 | 636 | Swift | 项目出现于 38 天前，最近更新 17 小时前; 636 人收藏 / 46 次被别人复制改造 |
 | 80 | [eltavine/Duck-Detector-Refactoring](https://github.com/eltavine/Duck-Detector-Refactoring) | 手机/App 项目 | 134 | 200 | 566 | Kotlin | 项目出现于 80 天前，最近更新 12 小时前; 566 人收藏 / 103 次被别人复制改造 |
 
@@ -284,7 +284,7 @@
   - 主要技术: Python
 为什么值得看:
   - 项目出现于 62 天前，最近更新 7 小时前
-  - 53694 人收藏 / 7067 次被别人复制改造
+  - 53701 人收藏 / 7069 次被别人复制改造
   - 大致归类: 让 AI 连接外部工具, 聊天 AI 应用
   - 有官网或演示，点开能直接看
   - 看点: AI 自动做事, 聊天 AI, 让 AI 连接外部工具, 应用
@@ -297,7 +297,7 @@
 - 开源协议: Apache-2.0
 - 主要技术: TypeScript
 - 创建: 2026-04-28T04:25:20Z
-- 最近更新: 2026-06-05T14:52:50Z
+- 最近更新: 2026-06-05T15:18:59Z
 - 描述: 这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。
 - 为什么被找到: 网页应用, 手机应用
 - 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App, 做设计、图片或内容
@@ -305,7 +305,7 @@
 - 产品看点: 289
 为什么值得先看:
   - 可能值得看: AI 自动做事, 编程助手, 智能编辑器
-  - 最近关注增长: 平均每天约 1543 人收藏
+  - 最近关注增长: 平均每天约 1542 人收藏
   - 有官网或演示，点开更容易看懂
   - 最近还在更新
 产品看点:
@@ -316,7 +316,7 @@
   - 主要技术: TypeScript
 为什么值得看:
   - 项目出现于 38 天前，最近更新 1 小时前
-  - 59299 人收藏 / 6677 次被别人复制改造
+  - 59314 人收藏 / 6679 次被别人复制改造
   - 大致归类: 网页应用, 手机应用
   - 有官网或演示，点开能直接看
   - 看点: 网页, 网页界面, AI 自动做事, 编程助手
@@ -347,7 +347,7 @@
   - 主要技术: JavaScript
 为什么值得看:
   - 项目出现于 62 天前，最近更新 16 天前
-  - 69174 人收藏 / 3895 次被别人复制改造
+  - 69182 人收藏 / 3899 次被别人复制改造
   - 大致归类: 聊天 AI 应用
   - 有官网或演示，点开能直接看
   - 看点: 聊天 AI, 给 AI 的指令, 编程助手, 应用
@@ -379,7 +379,7 @@
   - 主要技术: Python
 为什么值得看:
   - 项目出现于 65 天前，最近更新 1 小时前
-  - 10799 人收藏 / 2108 次被别人复制改造
+  - 10802 人收藏 / 2108 次被别人复制改造
   - 大致归类: AI 写代码工具, 让 AI 连接外部工具, 聊天 AI 应用
   - 有官网或演示，点开能直接看
   - 看点: AI 自动做事, AI 帮写代码, 聊天 AI, 让 AI 连接外部工具
@@ -411,8 +411,8 @@
   - 有官网或演示，点开能直接看
   - 主要技术: TypeScript
 为什么值得看:
-  - 项目出现于 65 天前，最近更新 3 小时前
-  - 28372 人收藏 / 8691 次被别人复制改造
+  - 项目出现于 66 天前，最近更新 4 小时前
+  - 28373 人收藏 / 8691 次被别人复制改造
   - 大致归类: 终端工具, AI 写代码工具
   - 有官网或演示，点开能直接看
   - 看点: AI 自动做事, AI 帮写代码, 编程助手, 终端工具
@@ -445,7 +445,7 @@
   - 主要技术: Go
 为什么值得看:
   - 项目出现于 45 天前，最近更新 4 小时前
-  - 18403 人收藏 / 1090 次被别人复制改造
+  - 18414 人收藏 / 1091 次被别人复制改造
   - 大致归类: 开发工具, 终端工具, AI 写代码工具
   - 有官网或演示，点开能直接看
   - 看点: AI 自动做事, AI 帮写代码, 聊天 AI, 给 AI 的指令
@@ -473,8 +473,8 @@
   - 可能是: 应用, 自动化
   - 主要技术: Python
 为什么值得看:
-  - 项目出现于 87 天前，最近更新 13 小时前
-  - 11451 人收藏 / 1061 次被别人复制改造
+  - 项目出现于 87 天前，最近更新 14 小时前
+  - 11453 人收藏 / 1061 次被别人复制改造
   - 大致归类: 让 AI 连接外部工具, 聊天 AI 应用
   - 看点: AI 自动做事, 聊天 AI, 让 AI 连接外部工具, 编程助手, openai
 </details>
@@ -506,7 +506,7 @@
   - 主要技术: JavaScript
 为什么值得看:
   - 项目出现于 83 天前，最近更新 1 小时前
-  - 23573 人收藏 / 2371 次被别人复制改造
+  - 23574 人收藏 / 2371 次被别人复制改造
   - 大致归类: 终端工具, AI 写代码工具
   - 有官网或演示，点开能直接看
   - 看点: 网页, 浏览器, AI 自动做事, AI 帮写代码
@@ -537,7 +537,7 @@
   - 主要技术: Python
 为什么值得看:
   - 项目出现于 50 天前，最近更新 16 天前
-  - 14377 人收藏 / 1330 次被别人复制改造
+  - 14379 人收藏 / 1330 次被别人复制改造
   - 大致归类: AI 写代码工具, 聊天 AI 应用
   - 有官网或演示，点开能直接看
   - 看点: 网页, 浏览器, AI 自动做事, AI 帮写代码
@@ -597,7 +597,7 @@
   - 主要技术: HTML
 为什么值得看:
   - 项目出现于 43 天前，最近更新 3 天前
-  - 15198 人收藏 / 1131 次被别人复制改造
+  - 15201 人收藏 / 1131 次被别人复制改造
   - 大致归类: AI 写代码工具
   - 看点: 网页, AI 自动做事, AI 帮写代码, 给 AI 的指令
 </details>
@@ -627,7 +627,7 @@
   - 主要技术: TypeScript
 为什么值得看:
   - 项目出现于 84 天前，最近更新 4 天前
-  - 16328 人收藏 / 2497 次被别人复制改造
+  - 16332 人收藏 / 2499 次被别人复制改造
   - 大致归类: 网站页面项目, 完整网站应用, 开发工具
   - 有官网或演示，点开能直接看
   - 看点: 网页, 网页界面, 完整网站应用
@@ -656,7 +656,7 @@
   - 有官网或演示，点开能直接看
 为什么值得看:
   - 项目出现于 66 天前，最近更新 60 天前
-  - 3558 人收藏 / 751 次被别人复制改造
+  - 3559 人收藏 / 751 次被别人复制改造
   - 大致归类: AI 写代码工具, 让 AI 连接外部工具, 聊天 AI 应用
   - 有官网或演示，点开能直接看
   - 看点: AI 自动做事, AI 帮写代码, 聊天 AI, 让 AI 连接外部工具
@@ -687,8 +687,8 @@
   - 有官网或演示，点开能直接看
   - 主要技术: TypeScript
 为什么值得看:
-  - 项目出现于 55 天前，最近更新 2 小时前
-  - 7347 人收藏 / 920 次被别人复制改造
+  - 项目出现于 55 天前，最近更新 3 小时前
+  - 7349 人收藏 / 920 次被别人复制改造
   - 大致归类: AI 写代码工具, 聊天 AI 应用
   - 有官网或演示，点开能直接看
   - 看点: 网页, 网页界面, 数据面板, AI 自动做事
@@ -700,7 +700,7 @@
 - 开源协议: Apache-2.0
 - 主要技术: TypeScript
 - 创建: 2026-03-10T01:51:06Z
-- 最近更新: 2026-06-05T13:02:40Z
+- 最近更新: 2026-06-05T15:17:12Z
 - 描述: 这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。
 - 为什么被找到: 让 AI 连接外部工具
 - 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型
@@ -716,8 +716,8 @@
   - 可能是: 常用网页开发语言
   - 主要技术: TypeScript
 为什么值得看:
-  - 项目出现于 88 天前，最近更新 2 小时前
-  - 24603 人收藏 / 2290 次被别人复制改造
+  - 项目出现于 88 天前，最近更新 1 小时前
+  - 24610 人收藏 / 2291 次被别人复制改造
   - 大致归类: 让 AI 连接外部工具
   - 看点: AI 自动做事, 让 AI 连接外部工具, 开发框架
 </details>
@@ -809,7 +809,7 @@
   - 主要技术: Shell
 为什么值得看:
   - 项目出现于 78 天前，最近更新 3 天前
-  - 4764 人收藏 / 459 次被别人复制改造
+  - 4765 人收藏 / 459 次被别人复制改造
   - 大致归类: 让 AI 连接外部工具
   - 有官网或演示，点开能直接看
   - 看点: AI 自动做事, 编程助手, 让 AI 连接外部工具, 给 AI 的指令
@@ -822,7 +822,7 @@
 - 开源协议: Apache-2.0
 - 主要技术: Rust
 - 创建: 2026-03-23T19:48:59Z
-- 最近更新: 2026-06-05T13:43:13Z
+- 最近更新: 2026-06-05T15:19:12Z
 - 描述: 这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。
 - 为什么被找到: 开发工具, 让 AI 连接外部工具, 聊天 AI 应用
 - 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
@@ -932,7 +932,7 @@
   - 有官网或演示，点开能直接看
   - 主要技术: TypeScript
 为什么值得看:
-  - 项目出现于 89 天前，最近更新 22 小时前
+  - 项目出现于 89 天前，最近更新 23 小时前
   - 1051 人收藏 / 163 次被别人复制改造
   - 大致归类: 安卓手机应用, 跨平台手机应用
   - 有官网或演示，点开能直接看
@@ -994,7 +994,7 @@
   - 主要技术: HTML
 为什么值得看:
   - 项目出现于 9 天前，最近更新 9 天前
-  - 2945 人收藏 / 273 次被别人复制改造
+  - 2947 人收藏 / 273 次被别人复制改造
   - 大致归类: AI 写代码工具
   - 有官网或演示，点开能直接看
   - 看点: AI 自动做事, AI 帮写代码, 编程助手
@@ -1022,7 +1022,7 @@
   - 主要技术: TypeScript
 为什么值得看:
   - 项目出现于 59 天前，最近更新 1 天前
-  - 4983 人收藏 / 425 次被别人复制改造
+  - 4984 人收藏 / 425 次被别人复制改造
   - 大致归类: AI 写代码工具, 聊天 AI 应用
   - 看点: AI 自动做事, AI 帮写代码, 聊天 AI, 数据接口
 </details>
@@ -1052,8 +1052,8 @@
   - 有官网或演示，点开能直接看
   - 主要技术: Python
 为什么值得看:
-  - 项目出现于 30 天前，最近更新 1 小时前
-  - 3194 人收藏 / 237 次被别人复制改造
+  - 项目出现于 30 天前，最近更新 2 小时前
+  - 3202 人收藏 / 238 次被别人复制改造
   - 大致归类: 让 AI 连接外部工具, 聊天 AI 应用
   - 有官网或演示，点开能直接看
   - 看点: AI 自动做事, 聊天 AI, 让 AI 连接外部工具, 应用
@@ -1080,7 +1080,7 @@
   - 可能是: 应用
 为什么值得看:
   - 项目出现于 86 天前，最近更新 33 天前
-  - 8816 人收藏 / 1028 次被别人复制改造
+  - 8821 人收藏 / 1028 次被别人复制改造
   - 大致归类: 聊天 AI 应用
   - 看点: 聊天 AI, 给 AI 的指令, 编程助手, 应用
 </details>
@@ -1109,7 +1109,7 @@
   - 有官网或演示，点开能直接看
   - 主要技术: Python
 为什么值得看:
-  - 项目出现于 65 天前，最近更新 47 天前
+  - 项目出现于 65 天前，最近更新 48 天前
   - 2399 人收藏 / 281 次被别人复制改造
   - 大致归类: 开发工具, 聊天 AI 应用
   - 有官网或演示，点开能直接看
@@ -1204,7 +1204,7 @@
   - 有官网或演示，点开能直接看
   - 主要技术: Python
 为什么值得看:
-  - 项目出现于 67 天前，最近更新 21 小时前
+  - 项目出现于 67 天前，最近更新 22 小时前
   - 2003 人收藏 / 381 次被别人复制改造
   - 大致归类: 聊天 AI 应用
   - 有官网或演示，点开能直接看
@@ -1266,7 +1266,7 @@
   - 主要技术: HTML
 为什么值得看:
   - 项目出现于 39 天前，最近更新 2 小时前
-  - 2150 人收藏 / 169 次被别人复制改造
+  - 2151 人收藏 / 169 次被别人复制改造
   - 大致归类: 聊天 AI 应用
   - 有官网或演示，点开能直接看
   - 看点: 聊天 AI, 给 AI 的指令, 应用, 桌面应用工具
@@ -1296,7 +1296,7 @@
   - 有官网或演示，点开能直接看
   - 主要技术: Python
 为什么值得看:
-  - 项目出现于 37 天前，最近更新 17 小时前
+  - 项目出现于 37 天前，最近更新 18 小时前
   - 1453 人收藏 / 424 次被别人复制改造
   - 大致归类: 让 AI 连接外部工具
   - 有官网或演示，点开能直接看
@@ -1359,7 +1359,7 @@
   - 有官网或演示，点开能直接看
   - 主要技术: Rust
 为什么值得看:
-  - 项目出现于 87 天前，最近更新 3 天前
+  - 项目出现于 88 天前，最近更新 3 天前
   - 1324 人收藏 / 61 次被别人复制改造
   - 大致归类: 苹果手机应用, 安卓手机应用, 多端手机应用
   - 有官网或演示，点开能直接看
@@ -1381,7 +1381,7 @@
 - 产品看点: 225
 为什么值得先看:
   - 可能值得看: AI 自动做事, 编程助手, 智能编辑器
-  - 最近关注增长: 平均每天约 244 人收藏
+  - 最近关注增长: 平均每天约 243 人收藏
   - 有官网或演示，点开更容易看懂
 产品看点:
   - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
@@ -1391,7 +1391,7 @@
   - 主要技术: HTML
 为什么值得看:
   - 项目出现于 25 天前，最近更新 3 天前
-  - 6141 人收藏 / 599 次被别人复制改造
+  - 6142 人收藏 / 599 次被别人复制改造
   - 大致归类: 完整网站应用
   - 有官网或演示，点开能直接看
   - 看点: 网页, 网页界面, 完整网站应用, AI 自动做事
@@ -1422,8 +1422,8 @@
   - 有官网或演示，点开能直接看
   - 主要技术: TypeScript
 为什么值得看:
-  - 项目出现于 22 天前，最近更新 7 小时前
-  - 521 人收藏 / 82 次被别人复制改造
+  - 项目出现于 22 天前，最近更新 8 小时前
+  - 522 人收藏 / 82 次被别人复制改造
   - 大致归类: 网站页面项目, 安卓手机应用
   - 有官网或演示，点开能直接看
   - 看点: 网页, 网页界面, 浏览器, AI 自动做事
@@ -1482,7 +1482,7 @@
   - 有官网或演示，点开能直接看
   - 主要技术: TypeScript
 为什么值得看:
-  - 项目出现于 46 天前，最近更新 10 小时前
+  - 项目出现于 46 天前，最近更新 11 小时前
   - 2563 人收藏 / 264 次被别人复制改造
   - 大致归类: AI 写代码工具, 聊天 AI 应用
   - 有官网或演示，点开能直接看
@@ -1513,8 +1513,8 @@
   - 有官网或演示，点开能直接看
   - 主要技术: Python
 为什么值得看:
-  - 项目出现于 60 天前，最近更新 10 小时前
-  - 4856 人收藏 / 203 次被别人复制改造
+  - 项目出现于 60 天前，最近更新 11 小时前
+  - 4860 人收藏 / 203 次被别人复制改造
   - 大致归类: 让 AI 连接外部工具
   - 有官网或演示，点开能直接看
   - 看点: AI 自动做事, 让 AI 连接外部工具
@@ -1543,7 +1543,7 @@
   - 有官网或演示，点开能直接看
 为什么值得看:
   - 项目出现于 9 天前，最近更新 2 天前
-  - 2262 人收藏 / 215 次被别人复制改造
+  - 2265 人收藏 / 215 次被别人复制改造
   - 大致归类: AI 写代码工具
   - 有官网或演示，点开能直接看
   - 看点: AI 自动做事, AI 帮写代码, 编程助手
@@ -1570,7 +1570,7 @@
   - 可能是: 工作流
 为什么值得看:
   - 项目出现于 21 天前，最近更新 6 天前
-  - 1811 人收藏 / 156 次被别人复制改造
+  - 1812 人收藏 / 157 次被别人复制改造
   - 大致归类: 让 AI 连接外部工具
   - 看点: AI 自动做事, 让 AI 连接外部工具, 给 AI 的指令, 编程助手
 </details>
@@ -1657,7 +1657,7 @@
   - 有官网或演示，点开能直接看
   - 主要技术: Python
 为什么值得看:
-  - 项目出现于 58 天前，最近更新 2 天前
+  - 项目出现于 58 天前，最近更新 3 天前
   - 1189 人收藏 / 96 次被别人复制改造
   - 大致归类: AI 写代码工具
   - 有官网或演示，点开能直接看
@@ -1687,7 +1687,7 @@
   - 主要技术: JavaScript
 为什么值得看:
   - 项目出现于 44 天前，最近更新 23 小时前
-  - 1992 人收藏 / 378 次被别人复制改造
+  - 1993 人收藏 / 378 次被别人复制改造
   - 大致归类: AI 写代码工具
   - 看点: 网页, AI 自动做事, AI 帮写代码, assistant
 </details>
@@ -1718,7 +1718,7 @@
   - 有官网或演示，点开能直接看
   - 主要技术: Rust
 为什么值得看:
-  - 项目出现于 87 天前，最近更新 21 小时前
+  - 项目出现于 87 天前，最近更新 22 小时前
   - 1289 人收藏 / 148 次被别人复制改造
   - 大致归类: 终端工具, 让 AI 连接外部工具
   - 有官网或演示，点开能直接看
@@ -1750,7 +1750,7 @@
   - 主要技术: Swift
 为什么值得看:
   - 项目出现于 35 天前，最近更新 1 小时前
-  - 5457 人收藏 / 169 次被别人复制改造
+  - 5458 人收藏 / 169 次被别人复制改造
   - 大致归类: 苹果应用
   - 有官网或演示，点开能直接看
   - 看点: 应用, 手机端, 苹果 App
@@ -1782,7 +1782,7 @@
   - 主要技术: TypeScript
 为什么值得看:
   - 项目出现于 70 天前，最近更新 13 小时前
-  - 2779 人收藏 / 344 次被别人复制改造
+  - 2780 人收藏 / 344 次被别人复制改造
   - 大致归类: 让 AI 连接外部工具
   - 有官网或演示，点开能直接看
   - 看点: AI 自动做事, 让 AI 连接外部工具, 编程助手, 工作室
@@ -1813,7 +1813,7 @@
   - 主要技术: TypeScript
 为什么值得看:
   - 项目出现于 53 天前，最近更新 2 天前
-  - 7664 人收藏 / 580 次被别人复制改造
+  - 7665 人收藏 / 580 次被别人复制改造
   - 大致归类: 开发工具, 终端工具
   - 有官网或演示，点开能直接看
   - 看点: 数据面板, AI 自动做事, 编程助手, 终端工具
@@ -1845,7 +1845,7 @@
   - 主要技术: JavaScript
 为什么值得看:
   - 项目出现于 81 天前，最近更新 1 小时前
-  - 5397 人收藏 / 802 次被别人复制改造
+  - 5399 人收藏 / 803 次被别人复制改造
   - 大致归类: 网站页面项目
   - 有官网或演示，点开能直接看
   - 看点: 网页, 网页界面, AI 自动做事, 工作台
@@ -1876,8 +1876,8 @@
   - 有官网或演示，点开能直接看
   - 主要技术: TypeScript
 为什么值得看:
-  - 项目出现于 80 天前，最近更新 5 小时前
-  - 4235 人收藏 / 279 次被别人复制改造
+  - 项目出现于 80 天前，最近更新 6 小时前
+  - 4236 人收藏 / 279 次被别人复制改造
   - 大致归类: 终端工具
   - 有官网或演示，点开能直接看
   - 看点: AI 自动做事, AI 帮写代码, 编程助手, 终端工具
@@ -2122,7 +2122,7 @@
   - 主要技术: Swift
 为什么值得看:
   - 项目出现于 35 天前，最近更新 5 小时前
-  - 1130 人收藏 / 62 次被别人复制改造
+  - 1131 人收藏 / 62 次被别人复制改造
   - 大致归类: 苹果手机应用, 终端工具
   - 有官网或演示，点开能直接看
   - 看点: AI 自动做事, 终端工具, 做软件的人, 应用, 手机端
@@ -2135,7 +2135,7 @@
 - 开源协议: MIT
 - 主要技术: Swift
 - 创建: 2026-03-31T22:59:24Z
-- 最近更新: 2026-06-05T14:54:02Z
+- 最近更新: 2026-06-05T15:06:48Z
 - 描述: 这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。
 - 为什么被找到: 苹果应用
 - 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
@@ -2193,39 +2193,7 @@
 </details>
 
 <details>
-<summary><strong>64. awizemann/scarf</strong> · 手机/App 项目 · AI 潜力 169 / 产品看点 216</summary>
-- 项目地址: https://github.com/awizemann/scarf
-- 官网或演示: https://awizemann.github.io/scarf/
-- 开源协议: MIT
-- 主要技术: Swift
-- 创建: 2026-03-31T06:30:27Z
-- 最近更新: 2026-06-04T15:11:34Z
-- 描述: 这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。
-- 为什么被找到: 苹果应用
-- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
-- AI 潜力: 169
-- 产品看点: 216
-为什么值得先看:
-  - 可能值得看: AI 自动做事, 让 AI 连接外部工具
-  - 最近关注增长: 平均每天约 9.0 人收藏
-  - 有官网或演示，点开更容易看懂
-  - 最近还在更新
-产品看点:
-  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品
-  - 大致方向: 苹果应用
-  - 可能是: 应用, 数据面板, 手机端, iOS, 苹果 App
-  - 有官网或演示，点开能直接看
-  - 主要技术: Swift
-为什么值得看:
-  - 项目出现于 66 天前，最近更新 24 小时前
-  - 595 人收藏 / 39 次被别人复制改造
-  - 大致归类: 苹果应用
-  - 有官网或演示，点开能直接看
-  - 看点: 数据面板, AI 自动做事, 让 AI 连接外部工具, 应用
-</details>
-
-<details>
-<summary><strong>65. dodo-reach/hermes-desktop</strong> · 手机/App 项目 · AI 潜力 177 / 产品看点 215</summary>
+<summary><strong>64. dodo-reach/hermes-desktop</strong> · 手机/App 项目 · AI 潜力 177 / 产品看点 215</summary>
 - 项目地址: https://github.com/dodo-reach/hermes-desktop
 - 官网或演示: https://dodo-reach.github.io/hermes-desktop/
 - 开源协议: MIT
@@ -2256,7 +2224,7 @@
 </details>
 
 <details>
-<summary><strong>66. JubaKitiashvili/expo-pretext</strong> · 手机/App 项目 · AI 潜力 104 / 产品看点 215</summary>
+<summary><strong>65. JubaKitiashvili/expo-pretext</strong> · 手机/App 项目 · AI 潜力 104 / 产品看点 215</summary>
 - 项目地址: https://github.com/JubaKitiashvili/expo-pretext
 - 官网或演示: https://www.npmjs.com/package/expo-pretext
 - 开源协议: MIT
@@ -2286,13 +2254,13 @@
 </details>
 
 <details>
-<summary><strong>67. omnimind-ai/OpenOmniBot</strong> · 手机/App 项目 · AI 潜力 186 / 产品看点 213</summary>
+<summary><strong>66. omnimind-ai/OpenOmniBot</strong> · 手机/App 项目 · AI 潜力 186 / 产品看点 213</summary>
 - 项目地址: https://github.com/omnimind-ai/OpenOmniBot
 - 官网或演示: https://omnimind-ai.github.io/OmniBot-Docs/
 - 开源协议: NOASSERTION
 - 主要技术: Dart
 - 创建: 2026-03-18T15:18:51Z
-- 最近更新: 2026-06-05T14:26:05Z
+- 最近更新: 2026-06-05T15:16:35Z
 - 描述: 这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。
 - 为什么被找到: 安卓手机应用
 - 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品, 把重复工作自动化
@@ -2315,6 +2283,37 @@
   - 大致归类: 安卓手机应用
   - 有官网或演示，点开能直接看
   - 看点: AI 自动做事, assistant, 编程助手, 自动化, 应用
+</details>
+
+<details>
+<summary><strong>67. awizemann/scarf</strong> · 手机/App 项目 · AI 潜力 166 / 产品看点 213</summary>
+- 项目地址: https://github.com/awizemann/scarf
+- 官网或演示: https://awizemann.github.io/scarf/
+- 开源协议: MIT
+- 主要技术: Swift
+- 创建: 2026-03-31T06:30:27Z
+- 最近更新: 2026-06-04T15:11:34Z
+- 描述: 这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。
+- 为什么被找到: 苹果应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
+- AI 潜力: 166
+- 产品看点: 213
+为什么值得先看:
+  - 可能值得看: AI 自动做事, 让 AI 连接外部工具
+  - 最近关注增长: 平均每天约 9.0 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品
+  - 大致方向: 苹果应用
+  - 可能是: 应用, 数据面板, 手机端, iOS, 苹果 App
+  - 有官网或演示，点开能直接看
+  - 主要技术: Swift
+为什么值得看:
+  - 项目出现于 66 天前，最近更新 1 天前
+  - 595 人收藏 / 39 次被别人复制改造
+  - 大致归类: 苹果应用
+  - 有官网或演示，点开能直接看
+  - 看点: 数据面板, AI 自动做事, 让 AI 连接外部工具, 应用
 </details>
 
 <details>
@@ -2372,8 +2371,8 @@
   - 可能是: 应用, 在线服务, 手机端, iOS, 产品
   - 有官网或演示，点开能直接看
 为什么值得看:
-  - 项目出现于 18 天前，最近更新 12 小时前
-  - 452 人收藏 / 95 次被别人复制改造
+  - 项目出现于 18 天前，最近更新 13 小时前
+  - 453 人收藏 / 95 次被别人复制改造
   - 大致归类: 苹果手机应用
   - 有官网或演示，点开能直接看
   - 看点: 应用, 产品, 在线服务, 手机端, iOS
@@ -2404,7 +2403,7 @@
   - 有官网或演示，点开能直接看
   - 主要技术: TypeScript
 为什么值得看:
-  - 项目出现于 73 天前，最近更新 1 小时前
+  - 项目出现于 73 天前，最近更新 2 小时前
   - 242 人收藏 / 40 次被别人复制改造
   - 大致归类: 手机应用, 苹果手机应用, 安卓手机应用
   - 有官网或演示，点开能直接看
@@ -2503,7 +2502,7 @@
 </details>
 
 <details>
-<summary><strong>74. EvanBacon/serve-sim</strong> · 手机/App 项目 · AI 潜力 162 / 产品看点 204</summary>
+<summary><strong>74. EvanBacon/serve-sim</strong> · 手机/App 项目 · AI 潜力 163 / 产品看点 204</summary>
 - 项目地址: https://github.com/EvanBacon/serve-sim
 - 开源协议: Apache-2.0
 - 主要技术: TypeScript
@@ -2512,7 +2511,7 @@
 - 描述: 这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。
 - 为什么被找到: 苹果手机应用
 - 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品
-- AI 潜力: 162
+- AI 潜力: 163
 - 产品看点: 204
 为什么值得先看:
   - 可能值得看: AI 自动做事
@@ -2524,8 +2523,8 @@
   - 可能是: 常用网页开发语言, 应用, 手机端, iOS
   - 主要技术: TypeScript
 为什么值得看:
-  - 项目出现于 37 天前，最近更新 9 小时前
-  - 1455 人收藏 / 68 次被别人复制改造
+  - 项目出现于 37 天前，最近更新 10 小时前
+  - 1458 人收藏 / 68 次被别人复制改造
   - 大致归类: 苹果手机应用
   - 看点: AI 自动做事, 应用, 手机端, iOS
 </details>
@@ -2584,8 +2583,8 @@
   - 有官网或演示，点开能直接看
   - 主要技术: Dart
 为什么值得看:
-  - 项目出现于 29 天前，最近更新 9 小时前
-  - 942 人收藏 / 61 次被别人复制改造
+  - 项目出现于 29 天前，最近更新 10 小时前
+  - 943 人收藏 / 61 次被别人复制改造
   - 大致归类: 多端手机应用
   - 有官网或演示，点开能直接看
   - 看点: 应用, 手机端, 一套代码做多个平台的 App
@@ -2642,7 +2641,7 @@
   - 可能是: 应用, 手机端, iOS, 苹果 App
   - 主要技术: Swift
 为什么值得看:
-  - 项目出现于 62 天前，最近更新 1 小时前
+  - 项目出现于 62 天前，最近更新 2 小时前
   - 1009 人收藏 / 139 次被别人复制改造
   - 大致归类: 苹果手机应用
   - 看点: AI 自动做事, 应用, 手机端, iOS, 苹果 App

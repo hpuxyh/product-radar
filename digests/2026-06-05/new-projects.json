@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-05T14:54:03.481Z",
+  "generatedAt": "2026-06-05T15:19:16.812Z",
   "date": "2026-06-05",
   "since": "2026-03-07",
   "lookbackDays": 90,
@@ -171,10 +171,10 @@
       "blitzdotdev/blitz-mac",
       "tddworks/baguette",
       "muxy-app/muxy",
-      "awizemann/scarf",
       "dodo-reach/hermes-desktop",
       "JubaKitiashvili/expo-pretext",
       "omnimind-ai/OpenOmniBot",
+      "awizemann/scarf",
       "Arthur-Ficial/apfel",
       "paywallpro/paywall-gallery",
       "mobile-next/mobilewright",
@@ -199,8 +199,8 @@
       "url": "https://github.com/MemPalace/mempalace",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "Python",
-      "stars": 53694,
-      "forks": 7067,
+      "stars": 53701,
+      "forks": 7069,
       "openIssues": 600,
       "topics": [],
       "homepage": "http://mempalaceofficial.com/",
@@ -209,7 +209,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/275135684?v=4",
       "createdAt": "2026-04-05T01:12:07Z",
       "pushedAt": "2026-06-05T07:54:12Z",
-      "updatedAt": "2026-06-05T14:54:30Z",
+      "updatedAt": "2026-06-05T15:07:35Z",
       "matchedQueries": [
         "让 AI 连接外部工具",
         "聊天 AI 应用"
@@ -224,7 +224,7 @@
       "webTrendScore": 225,
       "reasonsZh": [
         "项目出现于 62 天前，最近更新 7 小时前",
-        "53694 人收藏 / 7067 次被别人复制改造",
+        "53701 人收藏 / 7069 次被别人复制改造",
         "大致归类: 让 AI 连接外部工具, 聊天 AI 应用",
         "有官网或演示，点开能直接看",
         "看点: AI 自动做事, 聊天 AI, 让 AI 连接外部工具, 应用"
@@ -252,17 +252,17 @@
       "url": "https://github.com/nexu-io/open-design",
       "descriptionZh": "这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "TypeScript",
-      "stars": 59299,
-      "forks": 6677,
-      "openIssues": 328,
+      "stars": 59314,
+      "forks": 6679,
+      "openIssues": 326,
       "topics": [],
       "homepage": "https://open-design.ai",
       "license": "Apache-2.0",
       "owner": "nexu-io",
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/263625318?v=4",
       "createdAt": "2026-04-28T04:25:20Z",
-      "pushedAt": "2026-06-05T14:52:50Z",
-      "updatedAt": "2026-06-05T14:53:42Z",
+      "pushedAt": "2026-06-05T15:18:59Z",
+      "updatedAt": "2026-06-05T15:18:46Z",
       "matchedQueries": [
         "网页应用",
         "手机应用"
@@ -277,14 +277,14 @@
       "webTrendScore": 289,
       "reasonsZh": [
         "项目出现于 38 天前，最近更新 1 小时前",
-        "59299 人收藏 / 6677 次被别人复制改造",
+        "59314 人收藏 / 6679 次被别人复制改造",
         "大致归类: 网页应用, 手机应用",
         "有官网或演示，点开能直接看",
         "看点: 网页, 网页界面, AI 自动做事, 编程助手"
       ],
       "frontierReasonsZh": [
         "可能值得看: AI 自动做事, 编程助手, 智能编辑器",
-        "最近关注增长: 平均每天约 1543 人收藏",
+        "最近关注增长: 平均每天约 1542 人收藏",
         "有官网或演示，点开更容易看懂",
         "最近还在更新"
       ],
@@ -309,8 +309,8 @@
       "url": "https://github.com/JuliusBrussee/caveman",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "JavaScript",
-      "stars": 69174,
-      "forks": 3895,
+      "stars": 69182,
+      "forks": 3899,
       "openIssues": 273,
       "topics": [],
       "homepage": "https://getcaveman.dev/",
@@ -319,7 +319,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/104168679?v=4",
       "createdAt": "2026-04-04T10:03:00Z",
       "pushedAt": "2026-05-20T10:44:54Z",
-      "updatedAt": "2026-06-05T14:52:01Z",
+      "updatedAt": "2026-06-05T15:15:41Z",
       "matchedQueries": [
         "聊天 AI 应用"
       ],
@@ -332,7 +332,7 @@
       "webTrendScore": 226,
       "reasonsZh": [
         "项目出现于 62 天前，最近更新 16 天前",
-        "69174 人收藏 / 3895 次被别人复制改造",
+        "69182 人收藏 / 3899 次被别人复制改造",
         "大致归类: 聊天 AI 应用",
         "有官网或演示，点开能直接看",
         "看点: 聊天 AI, 给 AI 的指令, 编程助手, 应用"
@@ -359,7 +359,7 @@
       "url": "https://github.com/HKUDS/Vibe-Trading",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "Python",
-      "stars": 10799,
+      "stars": 10802,
       "forks": 2108,
       "openIssues": 4,
       "topics": [],
@@ -369,7 +369,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/118165258?v=4",
       "createdAt": "2026-04-01T09:52:20Z",
       "pushedAt": "2026-06-05T13:53:01Z",
-      "updatedAt": "2026-06-05T14:52:20Z",
+      "updatedAt": "2026-06-05T14:59:55Z",
       "matchedQueries": [
         "AI 写代码工具",
         "让 AI 连接外部工具",
@@ -385,7 +385,7 @@
       "webTrendScore": 206,
       "reasonsZh": [
         "项目出现于 65 天前，最近更新 1 小时前",
-        "10799 人收藏 / 2108 次被别人复制改造",
+        "10802 人收藏 / 2108 次被别人复制改造",
         "大致归类: AI 写代码工具, 让 AI 连接外部工具, 聊天 AI 应用",
         "有官网或演示，点开能直接看",
         "看点: AI 自动做事, AI 帮写代码, 聊天 AI, 让 AI 连接外部工具"
@@ -414,9 +414,9 @@
       "url": "https://github.com/Gitlawb/openclaude",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "TypeScript",
-      "stars": 28372,
+      "stars": 28373,
       "forks": 8691,
-      "openIssues": 210,
+      "openIssues": 211,
       "topics": [],
       "homepage": "https://openclaude.gitlawb.com",
       "license": "NOASSERTION",
@@ -424,7 +424,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/268502891?v=4",
       "createdAt": "2026-04-01T03:15:49Z",
       "pushedAt": "2026-06-05T11:32:05Z",
-      "updatedAt": "2026-06-05T14:13:10Z",
+      "updatedAt": "2026-06-05T15:15:34Z",
       "matchedQueries": [
         "终端工具",
         "AI 写代码工具"
@@ -438,8 +438,8 @@
       "aiPotentialScore": 279,
       "webTrendScore": 240,
       "reasonsZh": [
-        "项目出现于 65 天前，最近更新 3 小时前",
-        "28372 人收藏 / 8691 次被别人复制改造",
+        "项目出现于 66 天前，最近更新 4 小时前",
+        "28373 人收藏 / 8691 次被别人复制改造",
         "大致归类: 终端工具, AI 写代码工具",
         "有官网或演示，点开能直接看",
         "看点: AI 自动做事, AI 帮写代码, 编程助手, 终端工具"
@@ -469,8 +469,8 @@
       "url": "https://github.com/esengine/DeepSeek-Reasonix",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "Go",
-      "stars": 18403,
-      "forks": 1090,
+      "stars": 18414,
+      "forks": 1091,
       "openIssues": 180,
       "topics": [],
       "homepage": "https://esengine.github.io/DeepSeek-Reasonix/",
@@ -479,7 +479,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/18465053?v=4",
       "createdAt": "2026-04-21T08:27:02Z",
       "pushedAt": "2026-06-05T11:13:12Z",
-      "updatedAt": "2026-06-05T14:54:24Z",
+      "updatedAt": "2026-06-05T15:17:09Z",
       "matchedQueries": [
         "开发工具",
         "终端工具",
@@ -497,7 +497,7 @@
       "webTrendScore": 234,
       "reasonsZh": [
         "项目出现于 45 天前，最近更新 4 小时前",
-        "18403 人收藏 / 1090 次被别人复制改造",
+        "18414 人收藏 / 1091 次被别人复制改造",
         "大致归类: 开发工具, 终端工具, AI 写代码工具",
         "有官网或演示，点开能直接看",
         "看点: AI 自动做事, AI 帮写代码, 聊天 AI, 给 AI 的指令"
@@ -527,7 +527,7 @@
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "Python",
-      "stars": 11451,
+      "stars": 11453,
       "forks": 1061,
       "openIssues": 48,
       "topics": [],
@@ -537,7 +537,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/76990859?v=4",
       "createdAt": "2026-03-10T07:31:45Z",
       "pushedAt": "2026-06-05T01:38:05Z",
-      "updatedAt": "2026-06-05T14:52:06Z",
+      "updatedAt": "2026-06-05T15:17:08Z",
       "matchedQueries": [
         "让 AI 连接外部工具",
         "聊天 AI 应用"
@@ -551,8 +551,8 @@
       "aiPotentialScore": 276,
       "webTrendScore": 198,
       "reasonsZh": [
-        "项目出现于 87 天前，最近更新 13 小时前",
-        "11451 人收藏 / 1061 次被别人复制改造",
+        "项目出现于 87 天前，最近更新 14 小时前",
+        "11453 人收藏 / 1061 次被别人复制改造",
         "大致归类: 让 AI 连接外部工具, 聊天 AI 应用",
         "看点: AI 自动做事, 聊天 AI, 让 AI 连接外部工具, 编程助手, openai"
       ],
@@ -578,7 +578,7 @@
       "url": "https://github.com/jackwener/OpenCLI",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "JavaScript",
-      "stars": 23573,
+      "stars": 23574,
       "forks": 2371,
       "openIssues": 126,
       "topics": [],
@@ -588,7 +588,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/30525741?v=4",
       "createdAt": "2026-03-14T22:10:23Z",
       "pushedAt": "2026-06-05T14:19:08Z",
-      "updatedAt": "2026-06-05T14:26:25Z",
+      "updatedAt": "2026-06-05T15:18:40Z",
       "matchedQueries": [
         "终端工具",
         "AI 写代码工具"
@@ -603,7 +603,7 @@
       "webTrendScore": 240,
       "reasonsZh": [
         "项目出现于 83 天前，最近更新 1 小时前",
-        "23573 人收藏 / 2371 次被别人复制改造",
+        "23574 人收藏 / 2371 次被别人复制改造",
         "大致归类: 终端工具, AI 写代码工具",
         "有官网或演示，点开能直接看",
         "看点: 网页, 浏览器, AI 自动做事, AI 帮写代码"
@@ -634,7 +634,7 @@
       "url": "https://github.com/browser-use/browser-harness",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "Python",
-      "stars": 14377,
+      "stars": 14379,
       "forks": 1330,
       "openIssues": 115,
       "topics": [],
@@ -644,7 +644,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/192012301?v=4",
       "createdAt": "2026-04-17T01:56:15Z",
       "pushedAt": "2026-05-20T19:28:42Z",
-      "updatedAt": "2026-06-05T13:53:39Z",
+      "updatedAt": "2026-06-05T14:58:35Z",
       "matchedQueries": [
         "AI 写代码工具",
         "聊天 AI 应用"
@@ -659,7 +659,7 @@
       "webTrendScore": 211,
       "reasonsZh": [
         "项目出现于 50 天前，最近更新 16 天前",
-        "14377 人收藏 / 1330 次被别人复制改造",
+        "14379 人收藏 / 1330 次被别人复制改造",
         "大致归类: AI 写代码工具, 聊天 AI 应用",
         "有官网或演示，点开能直接看",
         "看点: 网页, 浏览器, AI 自动做事, AI 帮写代码"
@@ -740,7 +740,7 @@
       "url": "https://github.com/op7418/guizang-ppt-skill",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "HTML",
-      "stars": 15198,
+      "stars": 15201,
       "forks": 1131,
       "openIssues": 18,
       "topics": [],
@@ -750,7 +750,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/13505770?v=4",
       "createdAt": "2026-04-23T13:23:07Z",
       "pushedAt": "2026-06-02T09:53:57Z",
-      "updatedAt": "2026-06-05T14:52:04Z",
+      "updatedAt": "2026-06-05T15:01:55Z",
       "matchedQueries": [
         "AI 写代码工具"
       ],
@@ -763,7 +763,7 @@
       "webTrendScore": 197,
       "reasonsZh": [
         "项目出现于 43 天前，最近更新 3 天前",
-        "15198 人收藏 / 1131 次被别人复制改造",
+        "15201 人收藏 / 1131 次被别人复制改造",
         "大致归类: AI 写代码工具",
         "看点: 网页, AI 自动做事, AI 帮写代码, 给 AI 的指令"
       ],
@@ -789,8 +789,8 @@
       "url": "https://github.com/JCodesMore/ai-website-cloner-template",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "TypeScript",
-      "stars": 16328,
-      "forks": 2497,
+      "stars": 16332,
+      "forks": 2499,
       "openIssues": 8,
       "topics": [],
       "homepage": "https://dsc.gg/jcodesmore",
@@ -799,7 +799,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/182581310?v=4",
       "createdAt": "2026-03-13T11:14:39Z",
       "pushedAt": "2026-06-01T04:09:21Z",
-      "updatedAt": "2026-06-05T14:51:42Z",
+      "updatedAt": "2026-06-05T15:13:27Z",
       "matchedQueries": [
         "网站页面项目",
         "完整网站应用",
@@ -815,7 +815,7 @@
       "webTrendScore": 263,
       "reasonsZh": [
         "项目出现于 84 天前，最近更新 4 天前",
-        "16328 人收藏 / 2497 次被别人复制改造",
+        "16332 人收藏 / 2499 次被别人复制改造",
         "大致归类: 网站页面项目, 完整网站应用, 开发工具",
         "有官网或演示，点开能直接看",
         "看点: 网页, 网页界面, 完整网站应用"
@@ -845,7 +845,7 @@
       "url": "https://github.com/lintsinghua/claude-code-book",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "",
-      "stars": 3558,
+      "stars": 3559,
       "forks": 751,
       "openIssues": 15,
       "topics": [],
@@ -855,7 +855,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/129816813?v=4",
       "createdAt": "2026-03-31T18:00:16Z",
       "pushedAt": "2026-04-06T07:22:38Z",
-      "updatedAt": "2026-06-05T14:37:30Z",
+      "updatedAt": "2026-06-05T15:19:06Z",
       "matchedQueries": [
         "AI 写代码工具",
         "让 AI 连接外部工具",
@@ -871,7 +871,7 @@
       "webTrendScore": 182,
       "reasonsZh": [
         "项目出现于 66 天前，最近更新 60 天前",
-        "3558 人收藏 / 751 次被别人复制改造",
+        "3559 人收藏 / 751 次被别人复制改造",
         "大致归类: AI 写代码工具, 让 AI 连接外部工具, 聊天 AI 应用",
         "有官网或演示，点开能直接看",
         "看点: AI 自动做事, AI 帮写代码, 聊天 AI, 让 AI 连接外部工具"
@@ -897,7 +897,7 @@
       "url": "https://github.com/EKKOLearnAI/hermes-web-ui",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "TypeScript",
-      "stars": 7347,
+      "stars": 7349,
       "forks": 920,
       "openIssues": 121,
       "topics": [],
@@ -907,7 +907,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/152005280?v=4",
       "createdAt": "2026-04-11T07:38:18Z",
       "pushedAt": "2026-06-05T12:43:27Z",
-      "updatedAt": "2026-06-05T13:03:49Z",
+      "updatedAt": "2026-06-05T15:03:31Z",
       "matchedQueries": [
         "AI 写代码工具",
         "聊天 AI 应用"
@@ -921,8 +921,8 @@
       "aiPotentialScore": 260,
       "webTrendScore": 225,
       "reasonsZh": [
-        "项目出现于 55 天前，最近更新 2 小时前",
-        "7347 人收藏 / 920 次被别人复制改造",
+        "项目出现于 55 天前，最近更新 3 小时前",
+        "7349 人收藏 / 920 次被别人复制改造",
         "大致归类: AI 写代码工具, 聊天 AI 应用",
         "有官网或演示，点开能直接看",
         "看点: 网页, 网页界面, 数据面板, AI 自动做事"
@@ -950,17 +950,17 @@
       "url": "https://github.com/heygen-com/hyperframes",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "TypeScript",
-      "stars": 24603,
-      "forks": 2290,
-      "openIssues": 70,
+      "stars": 24610,
+      "forks": 2291,
+      "openIssues": 71,
       "topics": [],
       "homepage": "",
       "license": "Apache-2.0",
       "owner": "heygen-com",
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/65394575?v=4",
       "createdAt": "2026-03-10T01:51:06Z",
-      "pushedAt": "2026-06-05T13:02:40Z",
-      "updatedAt": "2026-06-05T14:50:26Z",
+      "pushedAt": "2026-06-05T15:17:12Z",
+      "updatedAt": "2026-06-05T15:19:16Z",
       "matchedQueries": [
         "让 AI 连接外部工具"
       ],
@@ -972,8 +972,8 @@
       "aiPotentialScore": 258,
       "webTrendScore": 201,
       "reasonsZh": [
-        "项目出现于 88 天前，最近更新 2 小时前",
-        "24603 人收藏 / 2290 次被别人复制改造",
+        "项目出现于 88 天前，最近更新 1 小时前",
+        "24610 人收藏 / 2291 次被别人复制改造",
         "大致归类: 让 AI 连接外部工具",
         "看点: AI 自动做事, 让 AI 连接外部工具, 开发框架"
       ],
@@ -1108,7 +1108,7 @@
       "url": "https://github.com/jnMetaCode/superpowers-zh",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "Shell",
-      "stars": 4764,
+      "stars": 4765,
       "forks": 459,
       "openIssues": 14,
       "topics": [],
@@ -1118,7 +1118,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/12096460?v=4",
       "createdAt": "2026-03-20T00:12:39Z",
       "pushedAt": "2026-06-02T13:38:52Z",
-      "updatedAt": "2026-06-05T14:39:23Z",
+      "updatedAt": "2026-06-05T15:02:27Z",
       "matchedQueries": [
         "让 AI 连接外部工具"
       ],
@@ -1131,7 +1131,7 @@
       "webTrendScore": 174,
       "reasonsZh": [
         "项目出现于 78 天前，最近更新 3 天前",
-        "4764 人收藏 / 459 次被别人复制改造",
+        "4765 人收藏 / 459 次被别人复制改造",
         "大致归类: 让 AI 连接外部工具",
         "有官网或演示，点开能直接看",
         "看点: AI 自动做事, 编程助手, 让 AI 连接外部工具, 给 AI 的指令"
@@ -1159,15 +1159,15 @@
       "language": "Rust",
       "stars": 2464,
       "forks": 252,
-      "openIssues": 0,
+      "openIssues": 1,
       "topics": [],
       "homepage": "https://leanctx.com",
       "license": "Apache-2.0",
       "owner": "yvgude",
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/7590809?v=4",
       "createdAt": "2026-03-23T19:48:59Z",
-      "pushedAt": "2026-06-05T13:43:13Z",
-      "updatedAt": "2026-06-05T14:51:49Z",
+      "pushedAt": "2026-06-05T15:19:12Z",
+      "updatedAt": "2026-06-05T15:19:17Z",
       "matchedQueries": [
         "开发工具",
         "让 AI 连接外部工具",
@@ -1342,7 +1342,7 @@
       "aiPotentialScore": 207,
       "webTrendScore": 247,
       "reasonsZh": [
-        "项目出现于 89 天前，最近更新 22 小时前",
+        "项目出现于 89 天前，最近更新 23 小时前",
         "1051 人收藏 / 163 次被别人复制改造",
         "大致归类: 安卓手机应用, 跨平台手机应用",
         "有官网或演示，点开能直接看",
@@ -1425,7 +1425,7 @@
       "url": "https://github.com/op7418/guizang-social-card-skill",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "HTML",
-      "stars": 2945,
+      "stars": 2947,
       "forks": 273,
       "openIssues": 3,
       "topics": [],
@@ -1435,7 +1435,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/13505770?v=4",
       "createdAt": "2026-05-27T12:05:05Z",
       "pushedAt": "2026-05-27T16:58:08Z",
-      "updatedAt": "2026-06-05T14:53:08Z",
+      "updatedAt": "2026-06-05T15:12:22Z",
       "matchedQueries": [
         "AI 写代码工具"
       ],
@@ -1448,7 +1448,7 @@
       "webTrendScore": 186,
       "reasonsZh": [
         "项目出现于 9 天前，最近更新 9 天前",
-        "2945 人收藏 / 273 次被别人复制改造",
+        "2947 人收藏 / 273 次被别人复制改造",
         "大致归类: AI 写代码工具",
         "有官网或演示，点开能直接看",
         "看点: AI 自动做事, AI 帮写代码, 编程助手"
@@ -1477,7 +1477,7 @@
       "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "TypeScript",
-      "stars": 4983,
+      "stars": 4984,
       "forks": 425,
       "openIssues": 73,
       "topics": [],
@@ -1487,7 +1487,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/20101770?v=4",
       "createdAt": "2026-04-07T06:34:26Z",
       "pushedAt": "2026-06-04T08:31:29Z",
-      "updatedAt": "2026-06-05T11:45:36Z",
+      "updatedAt": "2026-06-05T15:04:00Z",
       "matchedQueries": [
         "AI 写代码工具",
         "聊天 AI 应用"
@@ -1502,7 +1502,7 @@
       "webTrendScore": 189,
       "reasonsZh": [
         "项目出现于 59 天前，最近更新 1 天前",
-        "4983 人收藏 / 425 次被别人复制改造",
+        "4984 人收藏 / 425 次被别人复制改造",
         "大致归类: AI 写代码工具, 聊天 AI 应用",
         "看点: AI 自动做事, AI 帮写代码, 聊天 AI, 数据接口"
       ],
@@ -1527,8 +1527,8 @@
       "url": "https://github.com/opensquilla/opensquilla",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "Python",
-      "stars": 3194,
-      "forks": 237,
+      "stars": 3202,
+      "forks": 238,
       "openIssues": 73,
       "topics": [],
       "homepage": "https://opensquilla.ai",
@@ -1537,7 +1537,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/275098769?v=4",
       "createdAt": "2026-05-06T17:43:05Z",
       "pushedAt": "2026-06-05T13:44:59Z",
-      "updatedAt": "2026-06-05T14:52:28Z",
+      "updatedAt": "2026-06-05T15:19:19Z",
       "matchedQueries": [
         "让 AI 连接外部工具",
         "聊天 AI 应用"
@@ -1551,8 +1551,8 @@
       "aiPotentialScore": 243,
       "webTrendScore": 182,
       "reasonsZh": [
-        "项目出现于 30 天前，最近更新 1 小时前",
-        "3194 人收藏 / 237 次被别人复制改造",
+        "项目出现于 30 天前，最近更新 2 小时前",
+        "3202 人收藏 / 238 次被别人复制改造",
         "大致归类: 让 AI 连接外部工具, 聊天 AI 应用",
         "有官网或演示，点开能直接看",
         "看点: AI 自动做事, 聊天 AI, 让 AI 连接外部工具, 应用"
@@ -1580,7 +1580,7 @@
       "url": "https://github.com/nidhinjs/prompt-master",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "",
-      "stars": 8816,
+      "stars": 8821,
       "forks": 1028,
       "openIssues": 21,
       "topics": [],
@@ -1590,7 +1590,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/254035488?v=4",
       "createdAt": "2026-03-11T16:25:43Z",
       "pushedAt": "2026-05-03T16:39:19Z",
-      "updatedAt": "2026-06-05T14:37:33Z",
+      "updatedAt": "2026-06-05T15:11:19Z",
       "matchedQueries": [
         "聊天 AI 应用"
       ],
@@ -1603,7 +1603,7 @@
       "webTrendScore": 181,
       "reasonsZh": [
         "项目出现于 86 天前，最近更新 33 天前",
-        "8816 人收藏 / 1028 次被别人复制改造",
+        "8821 人收藏 / 1028 次被别人复制改造",
         "大致归类: 聊天 AI 应用",
         "看点: 聊天 AI, 给 AI 的指令, 编程助手, 应用"
       ],
@@ -1650,7 +1650,7 @@
       "aiPotentialScore": 242,
       "webTrendScore": 196,
       "reasonsZh": [
-        "项目出现于 65 天前，最近更新 47 天前",
+        "项目出现于 65 天前，最近更新 48 天前",
         "2399 人收藏 / 281 次被别人复制改造",
         "大致归类: 开发工具, 聊天 AI 应用",
         "有官网或演示，点开能直接看",
@@ -1806,7 +1806,7 @@
       "aiPotentialScore": 241,
       "webTrendScore": 189,
       "reasonsZh": [
-        "项目出现于 67 天前，最近更新 21 小时前",
+        "项目出现于 67 天前，最近更新 22 小时前",
         "2003 人收藏 / 381 次被别人复制改造",
         "大致归类: 聊天 AI 应用",
         "有官网或演示，点开能直接看",
@@ -1884,7 +1884,7 @@
       "url": "https://github.com/Open-Less/openless",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "HTML",
-      "stars": 2150,
+      "stars": 2151,
       "forks": 169,
       "openIssues": 19,
       "topics": [],
@@ -1894,7 +1894,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/283287307?v=4",
       "createdAt": "2026-04-27T07:25:49Z",
       "pushedAt": "2026-06-05T13:12:55Z",
-      "updatedAt": "2026-06-05T14:46:44Z",
+      "updatedAt": "2026-06-05T15:11:46Z",
       "matchedQueries": [
         "聊天 AI 应用"
       ],
@@ -1907,7 +1907,7 @@
       "webTrendScore": 186,
       "reasonsZh": [
         "项目出现于 39 天前，最近更新 2 小时前",
-        "2150 人收藏 / 169 次被别人复制改造",
+        "2151 人收藏 / 169 次被别人复制改造",
         "大致归类: 聊天 AI 应用",
         "有官网或演示，点开能直接看",
         "看点: 聊天 AI, 给 AI 的指令, 应用, 桌面应用工具"
@@ -1958,7 +1958,7 @@
       "aiPotentialScore": 237,
       "webTrendScore": 168,
       "reasonsZh": [
-        "项目出现于 37 天前，最近更新 17 小时前",
+        "项目出现于 37 天前，最近更新 18 小时前",
         "1453 人收藏 / 424 次被别人复制改造",
         "大致归类: 让 AI 连接外部工具",
         "有官网或演示，点开能直接看",
@@ -2065,7 +2065,7 @@
       "aiPotentialScore": 166,
       "webTrendScore": 236,
       "reasonsZh": [
-        "项目出现于 87 天前，最近更新 3 天前",
+        "项目出现于 88 天前，最近更新 3 天前",
         "1324 人收藏 / 61 次被别人复制改造",
         "大致归类: 苹果手机应用, 安卓手机应用, 多端手机应用",
         "有官网或演示，点开能直接看",
@@ -2095,7 +2095,7 @@
       "url": "https://github.com/nexu-io/html-anything",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "HTML",
-      "stars": 6141,
+      "stars": 6142,
       "forks": 599,
       "openIssues": 45,
       "topics": [],
@@ -2105,7 +2105,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/263625318?v=4",
       "createdAt": "2026-05-11T09:40:38Z",
       "pushedAt": "2026-06-02T06:27:04Z",
-      "updatedAt": "2026-06-05T14:52:28Z",
+      "updatedAt": "2026-06-05T14:54:45Z",
       "matchedQueries": [
         "完整网站应用"
       ],
@@ -2118,14 +2118,14 @@
       "webTrendScore": 225,
       "reasonsZh": [
         "项目出现于 25 天前，最近更新 3 天前",
-        "6141 人收藏 / 599 次被别人复制改造",
+        "6142 人收藏 / 599 次被别人复制改造",
         "大致归类: 完整网站应用",
         "有官网或演示，点开能直接看",
         "看点: 网页, 网页界面, 完整网站应用, AI 自动做事"
       ],
       "frontierReasonsZh": [
         "可能值得看: AI 自动做事, 编程助手, 智能编辑器",
-        "最近关注增长: 平均每天约 244 人收藏",
+        "最近关注增长: 平均每天约 243 人收藏",
         "有官网或演示，点开更容易看懂"
       ],
       "webTrendReasonsZh": [
@@ -2148,7 +2148,7 @@
       "url": "https://github.com/Purewhiter/mobilegym",
       "descriptionZh": "这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "TypeScript",
-      "stars": 521,
+      "stars": 522,
       "forks": 82,
       "openIssues": 3,
       "topics": [],
@@ -2158,7 +2158,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/54441452?v=4",
       "createdAt": "2026-05-14T11:09:52Z",
       "pushedAt": "2026-06-05T07:39:56Z",
-      "updatedAt": "2026-06-05T14:21:32Z",
+      "updatedAt": "2026-06-05T14:56:52Z",
       "matchedQueries": [
         "网站页面项目",
         "安卓手机应用"
@@ -2172,8 +2172,8 @@
       "aiPotentialScore": 187,
       "webTrendScore": 235,
       "reasonsZh": [
-        "项目出现于 22 天前，最近更新 7 小时前",
-        "521 人收藏 / 82 次被别人复制改造",
+        "项目出现于 22 天前，最近更新 8 小时前",
+        "522 人收藏 / 82 次被别人复制改造",
         "大致归类: 网站页面项目, 安卓手机应用",
         "有官网或演示，点开能直接看",
         "看点: 网页, 网页界面, 浏览器, AI 自动做事"
@@ -2275,7 +2275,7 @@
       "aiPotentialScore": 234,
       "webTrendScore": 195,
       "reasonsZh": [
-        "项目出现于 46 天前，最近更新 10 小时前",
+        "项目出现于 46 天前，最近更新 11 小时前",
         "2563 人收藏 / 264 次被别人复制改造",
         "大致归类: AI 写代码工具, 聊天 AI 应用",
         "有官网或演示，点开能直接看",
@@ -2305,7 +2305,7 @@
       "url": "https://github.com/MinishLab/semble",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "Python",
-      "stars": 4856,
+      "stars": 4860,
       "forks": 203,
       "openIssues": 2,
       "topics": [],
@@ -2315,7 +2315,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/177965497?v=4",
       "createdAt": "2026-04-06T14:56:45Z",
       "pushedAt": "2026-06-05T04:47:33Z",
-      "updatedAt": "2026-06-05T14:41:59Z",
+      "updatedAt": "2026-06-05T15:15:50Z",
       "matchedQueries": [
         "让 AI 连接外部工具"
       ],
@@ -2327,8 +2327,8 @@
       "aiPotentialScore": 233,
       "webTrendScore": 173,
       "reasonsZh": [
-        "项目出现于 60 天前，最近更新 10 小时前",
-        "4856 人收藏 / 203 次被别人复制改造",
+        "项目出现于 60 天前，最近更新 11 小时前",
+        "4860 人收藏 / 203 次被别人复制改造",
         "大致归类: 让 AI 连接外部工具",
         "有官网或演示，点开能直接看",
         "看点: AI 自动做事, 让 AI 连接外部工具"
@@ -2354,7 +2354,7 @@
       "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "",
-      "stars": 2262,
+      "stars": 2265,
       "forks": 215,
       "openIssues": 4,
       "topics": [],
@@ -2364,7 +2364,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/89686060?v=4",
       "createdAt": "2026-05-27T22:47:56Z",
       "pushedAt": "2026-06-03T11:35:43Z",
-      "updatedAt": "2026-06-05T14:43:12Z",
+      "updatedAt": "2026-06-05T15:04:21Z",
       "matchedQueries": [
         "AI 写代码工具"
       ],
@@ -2377,7 +2377,7 @@
       "webTrendScore": 164,
       "reasonsZh": [
         "项目出现于 9 天前，最近更新 2 天前",
-        "2262 人收藏 / 215 次被别人复制改造",
+        "2265 人收藏 / 215 次被别人复制改造",
         "大致归类: AI 写代码工具",
         "有官网或演示，点开能直接看",
         "看点: AI 自动做事, AI 帮写代码, 编程助手"
@@ -2402,8 +2402,8 @@
       "url": "https://github.com/DenisSergeevitch/agents-best-practices",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "",
-      "stars": 1811,
-      "forks": 156,
+      "stars": 1812,
+      "forks": 157,
       "openIssues": 4,
       "topics": [],
       "homepage": "",
@@ -2412,7 +2412,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/2140110?v=4",
       "createdAt": "2026-05-15T21:32:21Z",
       "pushedAt": "2026-05-30T19:02:59Z",
-      "updatedAt": "2026-06-05T14:38:37Z",
+      "updatedAt": "2026-06-05T14:56:33Z",
       "matchedQueries": [
         "让 AI 连接外部工具"
       ],
@@ -2425,7 +2425,7 @@
       "webTrendScore": 156,
       "reasonsZh": [
         "项目出现于 21 天前，最近更新 6 天前",
-        "1811 人收藏 / 156 次被别人复制改造",
+        "1812 人收藏 / 157 次被别人复制改造",
         "大致归类: 让 AI 连接外部工具",
         "看点: AI 自动做事, 让 AI 连接外部工具, 给 AI 的指令, 编程助手"
       ],
@@ -2570,7 +2570,7 @@
       "aiPotentialScore": 232,
       "webTrendScore": 160,
       "reasonsZh": [
-        "项目出现于 58 天前，最近更新 2 天前",
+        "项目出现于 58 天前，最近更新 3 天前",
         "1189 人收藏 / 96 次被别人复制改造",
         "大致归类: AI 写代码工具",
         "有官网或演示，点开能直接看",
@@ -2598,7 +2598,7 @@
       "url": "https://github.com/worldwonderer/oh-story-claudecode",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "JavaScript",
-      "stars": 1992,
+      "stars": 1993,
       "forks": 378,
       "openIssues": 5,
       "topics": [],
@@ -2608,7 +2608,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/49583093?v=4",
       "createdAt": "2026-04-22T16:35:39Z",
       "pushedAt": "2026-06-04T15:56:26Z",
-      "updatedAt": "2026-06-05T14:52:58Z",
+      "updatedAt": "2026-06-05T15:13:04Z",
       "matchedQueries": [
         "AI 写代码工具"
       ],
@@ -2621,7 +2621,7 @@
       "webTrendScore": 171,
       "reasonsZh": [
         "项目出现于 44 天前，最近更新 23 小时前",
-        "1992 人收藏 / 378 次被别人复制改造",
+        "1993 人收藏 / 378 次被别人复制改造",
         "大致归类: AI 写代码工具",
         "看点: 网页, AI 自动做事, AI 帮写代码, assistant"
       ],
@@ -2671,7 +2671,7 @@
       "aiPotentialScore": 231,
       "webTrendScore": 186,
       "reasonsZh": [
-        "项目出现于 87 天前，最近更新 21 小时前",
+        "项目出现于 87 天前，最近更新 22 小时前",
         "1289 人收藏 / 148 次被别人复制改造",
         "大致归类: 终端工具, 让 AI 连接外部工具",
         "有官网或演示，点开能直接看",
@@ -2702,7 +2702,7 @@
       "url": "https://github.com/darrylmorley/whatcable",
       "descriptionZh": "这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "Swift",
-      "stars": 5457,
+      "stars": 5458,
       "forks": 169,
       "openIssues": 16,
       "topics": [],
@@ -2712,7 +2712,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/20406137?v=4",
       "createdAt": "2026-05-01T07:45:10Z",
       "pushedAt": "2026-06-05T14:22:56Z",
-      "updatedAt": "2026-06-05T14:23:02Z",
+      "updatedAt": "2026-06-05T15:11:39Z",
       "matchedQueries": [
         "苹果应用"
       ],
@@ -2725,7 +2725,7 @@
       "webTrendScore": 230,
       "reasonsZh": [
         "项目出现于 35 天前，最近更新 1 小时前",
-        "5457 人收藏 / 169 次被别人复制改造",
+        "5458 人收藏 / 169 次被别人复制改造",
         "大致归类: 苹果应用",
         "有官网或演示，点开能直接看",
         "看点: 应用, 手机端, 苹果 App"
@@ -2754,7 +2754,7 @@
       "url": "https://github.com/nowork-studio/NotFair",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "TypeScript",
-      "stars": 2779,
+      "stars": 2780,
       "forks": 344,
       "openIssues": 4,
       "topics": [],
@@ -2764,7 +2764,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/151400691?v=4",
       "createdAt": "2026-03-27T06:39:58Z",
       "pushedAt": "2026-06-05T02:14:21Z",
-      "updatedAt": "2026-06-05T10:53:28Z",
+      "updatedAt": "2026-06-05T14:56:31Z",
       "matchedQueries": [
         "让 AI 连接外部工具"
       ],
@@ -2777,7 +2777,7 @@
       "webTrendScore": 197,
       "reasonsZh": [
         "项目出现于 70 天前，最近更新 13 小时前",
-        "2779 人收藏 / 344 次被别人复制改造",
+        "2780 人收藏 / 344 次被别人复制改造",
         "大致归类: 让 AI 连接外部工具",
         "有官网或演示，点开能直接看",
         "看点: AI 自动做事, 让 AI 连接外部工具, 编程助手, 工作室"
@@ -2806,7 +2806,7 @@
       "url": "https://github.com/getagentseal/codeburn",
       "descriptionZh": "这是一个 AI 工具。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "TypeScript",
-      "stars": 7664,
+      "stars": 7665,
       "forks": 580,
       "openIssues": 53,
       "topics": [],
@@ -2816,7 +2816,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/277308000?v=4",
       "createdAt": "2026-04-13T22:11:53Z",
       "pushedAt": "2026-06-03T22:05:22Z",
-      "updatedAt": "2026-06-05T13:42:45Z",
+      "updatedAt": "2026-06-05T14:58:55Z",
       "matchedQueries": [
         "开发工具",
         "终端工具"
@@ -2830,7 +2830,7 @@
       "webTrendScore": 227,
       "reasonsZh": [
         "项目出现于 53 天前，最近更新 2 天前",
-        "7664 人收藏 / 580 次被别人复制改造",
+        "7665 人收藏 / 580 次被别人复制改造",
         "大致归类: 开发工具, 终端工具",
         "有官网或演示，点开能直接看",
         "看点: 数据面板, AI 自动做事, 编程助手, 终端工具"
@@ -2858,8 +2858,8 @@
       "url": "https://github.com/outsourc-e/hermes-workspace",
       "descriptionZh": "这是一个网站或网页应用。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "JavaScript",
-      "stars": 5397,
-      "forks": 802,
+      "stars": 5399,
+      "forks": 803,
       "openIssues": 74,
       "topics": [],
       "homepage": "https://hermes-workspace.com",
@@ -2868,7 +2868,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/201563152?v=4",
       "createdAt": "2026-03-16T03:53:28Z",
       "pushedAt": "2026-06-05T14:27:41Z",
-      "updatedAt": "2026-06-05T14:39:11Z",
+      "updatedAt": "2026-06-05T15:18:04Z",
       "matchedQueries": [
         "网站页面项目"
       ],
@@ -2881,7 +2881,7 @@
       "webTrendScore": 228,
       "reasonsZh": [
         "项目出现于 81 天前，最近更新 1 小时前",
-        "5397 人收藏 / 802 次被别人复制改造",
+        "5399 人收藏 / 803 次被别人复制改造",
         "大致归类: 网站页面项目",
         "有官网或演示，点开能直接看",
         "看点: 网页, 网页界面, AI 自动做事, 工作台"
@@ -2909,7 +2909,7 @@
       "url": "https://github.com/stablyai/orca",
       "descriptionZh": "这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "TypeScript",
-      "stars": 4235,
+      "stars": 4236,
       "forks": 279,
       "openIssues": 261,
       "topics": [],
@@ -2919,7 +2919,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/127256420?v=4",
       "createdAt": "2026-03-17T03:28:57Z",
       "pushedAt": "2026-06-05T09:24:25Z",
-      "updatedAt": "2026-06-05T14:11:15Z",
+      "updatedAt": "2026-06-05T15:11:43Z",
       "matchedQueries": [
         "终端工具"
       ],
@@ -2931,8 +2931,8 @@
       "aiPotentialScore": 218,
       "webTrendScore": 228,
       "reasonsZh": [
-        "项目出现于 80 天前，最近更新 5 小时前",
-        "4235 人收藏 / 279 次被别人复制改造",
+        "项目出现于 80 天前，最近更新 6 小时前",
+        "4236 人收藏 / 279 次被别人复制改造",
         "大致归类: 终端工具",
         "有官网或演示，点开能直接看",
         "看点: AI 自动做事, AI 帮写代码, 编程助手, 终端工具"
@@ -3215,7 +3215,7 @@
       "language": "TypeScript",
       "stars": 2215,
       "forks": 175,
-      "openIssues": 44,
+      "openIssues": 45,
       "topics": [],
       "homepage": "https://thesvg.org/",
       "license": "MIT",
@@ -3317,9 +3317,9 @@
       "url": "https://github.com/tddworks/baguette",
       "descriptionZh": "这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "Swift",
-      "stars": 1130,
+      "stars": 1131,
       "forks": 62,
-      "openIssues": 9,
+      "openIssues": 10,
       "topics": [],
       "homepage": "https://tddworks.github.io/baguette/",
       "license": "Apache-2.0",
@@ -3327,7 +3327,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/154110414?v=4",
       "createdAt": "2026-05-01T08:14:13Z",
       "pushedAt": "2026-06-05T09:55:34Z",
-      "updatedAt": "2026-06-05T14:53:49Z",
+      "updatedAt": "2026-06-05T15:03:46Z",
       "matchedQueries": [
         "苹果手机应用",
         "终端工具"
@@ -3342,7 +3342,7 @@
       "webTrendScore": 219,
       "reasonsZh": [
         "项目出现于 35 天前，最近更新 5 小时前",
-        "1130 人收藏 / 62 次被别人复制改造",
+        "1131 人收藏 / 62 次被别人复制改造",
         "大致归类: 苹果手机应用, 终端工具",
         "有官网或演示，点开能直接看",
         "看点: AI 自动做事, 终端工具, 做软件的人, 应用, 手机端"
@@ -3382,8 +3382,8 @@
       "owner": "muxy-app",
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/272907978?v=4",
       "createdAt": "2026-03-31T22:59:24Z",
-      "pushedAt": "2026-06-05T14:54:02Z",
-      "updatedAt": "2026-06-05T14:52:52Z",
+      "pushedAt": "2026-06-05T15:06:48Z",
+      "updatedAt": "2026-06-05T14:57:40Z",
       "matchedQueries": [
         "苹果应用"
       ],
@@ -3470,59 +3470,6 @@
       "trendLabelsZh": [
         "用 AI 帮人写代码或自动做事",
         "做网站页面和产品原型"
-      ]
-    },
-    {
-      "fullName": "awizemann/scarf",
-      "url": "https://github.com/awizemann/scarf",
-      "descriptionZh": "这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
-      "language": "Swift",
-      "stars": 595,
-      "forks": 39,
-      "openIssues": 10,
-      "topics": [],
-      "homepage": "https://awizemann.github.io/scarf/",
-      "license": "MIT",
-      "owner": "awizemann",
-      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/319078?v=4",
-      "createdAt": "2026-03-31T06:30:27Z",
-      "pushedAt": "2026-06-04T15:11:34Z",
-      "updatedAt": "2026-06-05T12:29:36Z",
-      "matchedQueries": [
-        "苹果应用"
-      ],
-      "matchedCategories": [
-        "手机/App"
-      ],
-      "categoryZh": "手机/App 项目",
-      "score": 239,
-      "aiPotentialScore": 169,
-      "webTrendScore": 216,
-      "reasonsZh": [
-        "项目出现于 66 天前，最近更新 24 小时前",
-        "595 人收藏 / 39 次被别人复制改造",
-        "大致归类: 苹果应用",
-        "有官网或演示，点开能直接看",
-        "看点: 数据面板, AI 自动做事, 让 AI 连接外部工具, 应用"
-      ],
-      "frontierReasonsZh": [
-        "可能值得看: AI 自动做事, 让 AI 连接外部工具",
-        "最近关注增长: 平均每天约 9.0 人收藏",
-        "有官网或演示，点开更容易看懂",
-        "最近还在更新"
-      ],
-      "webTrendReasonsZh": [
-        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品",
-        "大致方向: 苹果应用",
-        "可能是: 应用, 数据面板, 手机端, iOS, 苹果 App",
-        "有官网或演示，点开能直接看",
-        "主要技术: Swift"
-      ],
-      "trendLabelsZh": [
-        "用 AI 帮人写代码或自动做事",
-        "做网站页面和产品原型",
-        "做手机 App 和应用产品",
-        "一套代码做多个平台的 App"
       ]
     },
     {
@@ -3646,7 +3593,7 @@
       "owner": "omnimind-ai",
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/212129436?v=4",
       "createdAt": "2026-03-18T15:18:51Z",
-      "pushedAt": "2026-06-05T14:26:05Z",
+      "pushedAt": "2026-06-05T15:16:35Z",
       "updatedAt": "2026-06-05T14:45:05Z",
       "matchedQueries": [
         "安卓手机应用"
@@ -3683,6 +3630,58 @@
         "做网站页面和产品原型",
         "做手机 App 和应用产品",
         "把重复工作自动化"
+      ]
+    },
+    {
+      "fullName": "awizemann/scarf",
+      "url": "https://github.com/awizemann/scarf",
+      "descriptionZh": "这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
+      "language": "Swift",
+      "stars": 595,
+      "forks": 39,
+      "openIssues": 10,
+      "topics": [],
+      "homepage": "https://awizemann.github.io/scarf/",
+      "license": "MIT",
+      "owner": "awizemann",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/319078?v=4",
+      "createdAt": "2026-03-31T06:30:27Z",
+      "pushedAt": "2026-06-04T15:11:34Z",
+      "updatedAt": "2026-06-05T12:29:36Z",
+      "matchedQueries": [
+        "苹果应用"
+      ],
+      "matchedCategories": [
+        "手机/App"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 236,
+      "aiPotentialScore": 166,
+      "webTrendScore": 213,
+      "reasonsZh": [
+        "项目出现于 66 天前，最近更新 1 天前",
+        "595 人收藏 / 39 次被别人复制改造",
+        "大致归类: 苹果应用",
+        "有官网或演示，点开能直接看",
+        "看点: 数据面板, AI 自动做事, 让 AI 连接外部工具, 应用"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 9.0 人收藏",
+        "有官网或演示，点开更容易看懂"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品",
+        "大致方向: 苹果应用",
+        "可能是: 应用, 数据面板, 手机端, iOS, 苹果 App",
+        "有官网或演示，点开能直接看",
+        "主要技术: Swift"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "一套代码做多个平台的 App"
       ]
     },
     {
@@ -3744,7 +3743,7 @@
       "url": "https://github.com/paywallpro/paywall-gallery",
       "descriptionZh": "这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "",
-      "stars": 452,
+      "stars": 453,
       "forks": 95,
       "openIssues": 2,
       "topics": [],
@@ -3754,7 +3753,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/285648244?v=4",
       "createdAt": "2026-05-18T10:07:09Z",
       "pushedAt": "2026-06-05T02:35:48Z",
-      "updatedAt": "2026-06-05T13:53:18Z",
+      "updatedAt": "2026-06-05T15:18:55Z",
       "matchedQueries": [
         "苹果手机应用"
       ],
@@ -3766,8 +3765,8 @@
       "aiPotentialScore": 140,
       "webTrendScore": 208,
       "reasonsZh": [
-        "项目出现于 18 天前，最近更新 12 小时前",
-        "452 人收藏 / 95 次被别人复制改造",
+        "项目出现于 18 天前，最近更新 13 小时前",
+        "453 人收藏 / 95 次被别人复制改造",
         "大致归类: 苹果手机应用",
         "有官网或演示，点开能直接看",
         "看点: 应用, 产品, 在线服务, 手机端, iOS"
@@ -3818,7 +3817,7 @@
       "aiPotentialScore": 149,
       "webTrendScore": 208,
       "reasonsZh": [
-        "项目出现于 73 天前，最近更新 1 小时前",
+        "项目出现于 73 天前，最近更新 2 小时前",
         "242 人收藏 / 40 次被别人复制改造",
         "大致归类: 手机应用, 苹果手机应用, 安卓手机应用",
         "有官网或演示，点开能直接看",
@@ -4000,7 +3999,7 @@
       "url": "https://github.com/EvanBacon/serve-sim",
       "descriptionZh": "这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "TypeScript",
-      "stars": 1455,
+      "stars": 1458,
       "forks": 68,
       "openIssues": 20,
       "topics": [],
@@ -4010,7 +4009,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/9664363?v=4",
       "createdAt": "2026-04-29T20:23:12Z",
       "pushedAt": "2026-06-05T05:25:52Z",
-      "updatedAt": "2026-06-05T14:51:16Z",
+      "updatedAt": "2026-06-05T15:17:14Z",
       "matchedQueries": [
         "苹果手机应用"
       ],
@@ -4019,11 +4018,11 @@
       ],
       "categoryZh": "手机/App 项目",
       "score": 243,
-      "aiPotentialScore": 162,
+      "aiPotentialScore": 163,
       "webTrendScore": 204,
       "reasonsZh": [
-        "项目出现于 37 天前，最近更新 9 小时前",
-        "1455 人收藏 / 68 次被别人复制改造",
+        "项目出现于 37 天前，最近更新 10 小时前",
+        "1458 人收藏 / 68 次被别人复制改造",
         "大致归类: 苹果手机应用",
         "看点: AI 自动做事, 应用, 手机端, iOS"
       ],
@@ -4102,7 +4101,7 @@
       "url": "https://github.com/echo-loop/Echo-Loop",
       "descriptionZh": "这是一个手机或 App 项目。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。",
       "language": "Dart",
-      "stars": 942,
+      "stars": 943,
       "forks": 61,
       "openIssues": 11,
       "topics": [],
@@ -4112,7 +4111,7 @@
       "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/282510409?v=4",
       "createdAt": "2026-05-07T08:41:45Z",
       "pushedAt": "2026-06-05T05:34:20Z",
-      "updatedAt": "2026-06-05T11:51:30Z",
+      "updatedAt": "2026-06-05T15:08:24Z",
       "matchedQueries": [
         "多端手机应用"
       ],
@@ -4124,8 +4123,8 @@
       "aiPotentialScore": 144,
       "webTrendScore": 202,
       "reasonsZh": [
-        "项目出现于 29 天前，最近更新 9 小时前",
-        "942 人收藏 / 61 次被别人复制改造",
+        "项目出现于 29 天前，最近更新 10 小时前",
+        "943 人收藏 / 61 次被别人复制改造",
         "大致归类: 多端手机应用",
         "有官网或演示，点开能直接看",
         "看点: 应用, 手机端, 一套代码做多个平台的 App"
@@ -4226,7 +4225,7 @@
       "aiPotentialScore": 166,
       "webTrendScore": 201,
       "reasonsZh": [
-        "项目出现于 62 天前，最近更新 1 小时前",
+        "项目出现于 62 天前，最近更新 2 小时前",
         "1009 人收藏 / 139 次被别人复制改造",
         "大致归类: 苹果手机应用",
         "看点: AI 自动做事, 应用, 手机端, iOS, 苹果 App"
