@@ -52,11 +52,14 @@ jobs:
           pnpm manifest
           pnpm new-projects:embed
 
+      - name: Build deep radar page
+        run: pnpm radar
+
       - name: Commit generated report
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add digests/ manifest.json feed.xml new-projects.html
+          git add digests/ manifest.json feed.xml new-projects.html radar.html
           if git diff --cached --quiet; then
             echo "No new project report changes to commit"
           else
@@ -70,7 +73,7 @@ jobs:
         run: |
           rm -rf site-dist
           mkdir -p site-dist
-          cp index.html new-projects.html manifest.json feed.xml site-dist/
+          cp index.html new-projects.html radar.html manifest.json feed.xml site-dist/
           cp -R digests site-dist/digests
           if [ -d assets ]; then cp -R assets site-dist/assets; fi
           touch site-dist/.nojekyll

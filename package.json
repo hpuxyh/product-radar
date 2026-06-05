@@ -7,6 +7,7 @@
     "start": "tsx src/index.ts",
     "new-projects": "tsx src/new-projects.ts",
     "new-projects:embed": "node scripts/embed-new-projects-html.mjs",
+    "radar": "node scripts/build-radar-page.mjs",
     "scout": "tsx scripts/local-scout.ts",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src",
