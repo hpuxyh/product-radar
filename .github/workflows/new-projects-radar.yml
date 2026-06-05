@@ -11,8 +11,6 @@ on:
 permissions:
   contents: write
   issues: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: github-pages
@@ -24,7 +22,7 @@ jobs:
     timeout-minutes: 20
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
 
     steps:
       - name: Checkout
@@ -68,9 +66,6 @@ jobs:
             git push
           fi
 
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-
       - name: Prepare Pages artifact
         run: |
           rm -rf site-dist
@@ -78,12 +73,26 @@ jobs:
           cp index.html new-projects.html manifest.json feed.xml site-dist/
           cp -R digests site-dist/digests
           if [ -d assets ]; then cp -R assets site-dist/assets; fi
+          touch site-dist/.nojekyll
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site-dist
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Publish Pages branch
+        run: |
+          git fetch origin gh-pages || true
+          rm -rf /tmp/new-projects-pages
+          if git show-ref --verify --quiet refs/remotes/origin/gh-pages; then
+            git worktree add /tmp/new-projects-pages origin/gh-pages
+          else
+            git worktree add --detach /tmp/new-projects-pages
+          fi
+          find /tmp/new-projects-pages -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp -R site-dist/. /tmp/new-projects-pages/
+          cd /tmp/new-projects-pages
+          git checkout -B gh-pages
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No Pages changes to publish"
+          else
+            DATE=$(date -u +%Y-%m-%d)
+            git commit -m "pages: ${DATE} new projects radar"
+            git push origin gh-pages
+          fi

@@ -84,6 +84,10 @@ export interface NewProject {
   fullName: string;
   url: string;
   description: string;
+  readmeSummaryZh?: string;
+  readmeAudienceZh?: string;
+  readmeHighlightsZh?: string[];
+  readmeSource?: string;
   language: string;
   stars: number;
   forks: number;
@@ -738,7 +742,17 @@ async function searchRepositories(
   url.searchParams.set("per_page", String(perQuery));
 
   for (let attempt = 0; attempt < 2; attempt++) {
-    const resp = await fetch(url.toString(), { headers: githubHeaders() });
+    let resp: Response;
+    try {
+      resp = await fetch(url.toString(), { headers: githubHeaders() });
+    } catch (error) {
+      console.log(`  [new-projects/${query.label}] GitHub search failed: ${(error as Error).message}`);
+      if (attempt === 0) {
+        await sleep(2_000);
+        continue;
+      }
+      return [];
+    }
     if (!resp.ok) {
       const reset = resp.headers.get("x-ratelimit-reset");
       const resetMs = reset ? Number(reset) * 1000 - Date.now() : 0;
@@ -914,6 +928,7 @@ function plainCategoryZh(project: NewProject): string {
 }
 
 function displayDescriptionZh(project: NewProject): string {
+  if (project.readmeSummaryZh) return project.readmeSummaryZh;
   const category = plainCategoryZh(project);
   const prefix = category.startsWith("AI") ? "一个 " : "一个";
   return `这是${prefix}${category}。可以先看它解决什么问题、有没有真实页面，以及最近是否还在更新。`;
@@ -979,6 +994,264 @@ function projectSignalText(project: NewProject): string {
       " ",
     )} ${project.matchedCategories.join(" ")}`,
   );
+}
+
+// ---------------------------------------------------------------------------
+// README summarization
+// ---------------------------------------------------------------------------
+
+function decodeHtmlEntities(value: string): string {
+  return value
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'");
+}
+
+function compactSentence(value: string, max = 150): string {
+  const compact = value.replace(/\s+/g, " ").trim();
+  if (compact.length <= max) return compact;
+  return `${compact.slice(0, max - 1).trim()}...`;
+}
+
+function stripMarkdownForSummary(readme: string): string {
+  return decodeHtmlEntities(readme)
+    .replace(/```[\s\S]*?```/g, "\n")
+    .replace(/<h[1-6][^>]*>([\s\S]*?)<\/h[1-6]>/gi, "\n# $1\n")
+    .replace(/!\[[^\]]*]\([^)]+\)/g, " ")
+    .replace(/\[[^\]]*]\([^)]+\)/g, (match) => match.match(/^\[([^\]]*)]/)?.[1] ?? " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/https?:\/\/\S+/g, " ")
+    .replace(/`([^`]+)`/g, "$1")
+    .replace(/[*_~]/g, "")
+    .replace(/\r/g, "\n");
+}
+
+function readmeBlocks(readme: string): string[] {
+  const cleaned = stripMarkdownForSummary(readme);
+  const skipPatterns = [
+    /^languages?:/i,
+    /^downloads?\b/i,
+    /^english\s*[·|]/i,
+    /^join\b/i,
+    /^star this repo/i,
+    /^open an issue/i,
+    /^license\b/i,
+    /^release\b/i,
+    /^badges?\b/i,
+    /beware of impostor/i,
+    /shield/i,
+    /\bdiscord\b/i,
+  ];
+
+  return cleaned
+    .split(/\n\s*\n|(?=\n#\s+)/)
+    .map((block) =>
+      block
+        .split("\n")
+        .map((line) => line.replace(/^\s{0,3}(#{1,6}|[-*+>]|\d+[.)])\s*/g, "").trim())
+        .filter(Boolean)
+        .join(" "),
+    )
+    .map((block) => block.replace(/\s+/g, " ").trim())
+    .filter((block) => block.length >= 24 && block.length <= 800)
+    .filter((block) => !skipPatterns.some((pattern) => pattern.test(block)));
+}
+
+function firstChineseBlock(project: NewProject, blocks: string[]): string {
+  const fromDescription = hasCjk(project.description) ? project.description : "";
+  const fromReadme =
+    blocks.find((block) => {
+      const cjkCount = (block.match(/[\u3400-\u9fff]/g) ?? []).length;
+      return cjkCount >= 8 && !/^english\s*[·|]/i.test(block);
+    }) ?? "";
+  const value = compactSentence(fromDescription || fromReadme, 150);
+  const chinesePart = value.split(/\s+\/\s+[A-Z]/)[0]?.trim() ?? value;
+  return chinesePart && /[。！？]$/.test(chinesePart) ? chinesePart : chinesePart ? `${chinesePart}。` : "";
+}
+
+function detailText(project: NewProject, readme: string): string {
+  return normalizeText(
+    `${project.fullName} ${project.description} ${readme} ${project.language} ${project.topics.join(" ")} ${project.matchedQueries.join(
+      " ",
+    )} ${project.matchedCategories.join(" ")}`,
+  );
+}
+
+function textHas(text: string, words: string[]): boolean {
+  return words.some((word) => text.includes(normalizeText(word)));
+}
+
+function detectedCapabilitiesZh(text: string): string[] {
+  const rules: Array<{ label: string; words: string[] }> = [
+    { label: "AI 长期记忆", words: ["ai memory", "local-first ai memory", "long memory", "memory for ai"] },
+    { label: "AI 写代码或自动做事", words: ["coding agent", "code generation", "claude code", "ai coding"] },
+    { label: "让 AI 调用外部工具", words: ["mcp", "model context protocol", "tool use", "agent tool"] },
+    { label: "浏览器自动化", words: ["browser agent", "browser automation", "control browser"] },
+    { label: "开源替代品", words: ["open-source", "open source", "alternative"] },
+    { label: "设计稿和产品原型", words: ["design", "prototype", "wireframe", "figma"] },
+    { label: "网站页面和前端界面", words: ["frontend", "front-end", "web app", "next.js", "react"] },
+    {
+      label: "手机 App",
+      words: ["mobile app", "ios", "android", "react native", "flutter", "expo", "swiftui"],
+    },
+    { label: "Linux 容器或开发环境", words: ["linux container", "linux desktop", "podman", "docker", "lxc"] },
+    { label: "真实产品案例数据", words: ["dataset", "gallery", "collection", "screenshots"] },
+    { label: "付费墙和新用户引导", words: ["paywall", "onboarding", "subscription app"] },
+    { label: "命令行或开发工具", words: ["cli", "developer tool", "sdk", "toolkit"] },
+    { label: "模板或快速启动项目", words: ["template", "starter", "boilerplate", "components"] },
+    { label: "自动生成内容", words: ["generate", "generation", "image generation", "content generation"] },
+  ];
+
+  return unique(rules.filter((rule) => textHas(text, rule.words)).map((rule) => rule.label)).slice(0, 5);
+}
+
+function inferAudienceZh(project: NewProject, text: string): string {
+  if (textHas(text, ["paywall", "paywalls", "subscription app", "onboarding flow", "monetization"])) {
+    return "做手机 App、订阅收费、增长转化的人";
+  }
+  if (textHas(text, ["open-source claude design", "design", "prototype", "figma"])) {
+    return "做产品设计、页面原型、营销页或视觉内容的人";
+  }
+  if (textHas(text, ["linux container", "linux desktop", "podman", "docker", "lxc", "android phone"])) {
+    return "想把手机当开发环境、或者喜欢折腾 Linux/安卓的人";
+  }
+  if (textHas(text, ["ai memory", "rag", "llm", "agent memory"])) {
+    return "做 AI 应用、AI 助手、长期记忆功能的人";
+  }
+  if (textHas(text, ["coding agent", "code generation", "claude code", "copilot", "codex"])) {
+    return "想用 AI 写代码、检查项目、自动处理开发任务的人";
+  }
+  if (hasMobileAppSignal(project)) return "做 iOS、安卓或跨平台 App 的人";
+  if (textHas(text, ["cli", "sdk", "developer tool", "toolkit", "runtime"])) {
+    return "开发者、独立产品作者、做内部效率工具的人";
+  }
+  if (textHas(text, ["web app", "frontend", "dashboard", "next.js", "react"])) {
+    return "做网站、后台、工作台或产品原型的人";
+  }
+  return "想找新产品方向、竞品灵感或开源工具的人";
+}
+
+function inferSummaryZh(project: NewProject, readme: string, blocks: string[]): string {
+  const text = detailText(project, readme);
+  if (textHas(text, ["local-first ai memory", "ai memory"])) {
+    return "它给 AI 应用做“长期记忆”：把重要信息存在本地，方便 AI 以后继续查、继续用，适合做更懂用户的 AI 助手。";
+  }
+  if (textHas(text, ["open-source claude design alternative", "claude design alternative"])) {
+    return "它想做一个开源的 AI 设计工具，让用户不用复杂配置，就能生成、编辑设计稿和产品原型。";
+  }
+  if (
+    textHas(text, [
+      "run linux containers",
+      "full linux desktop on your android phone",
+      "android phone. no root",
+    ])
+  ) {
+    return "它让安卓手机也能跑 Linux 容器和完整 Linux 桌面，不需要 root，适合把手机变成轻量开发环境。";
+  }
+  if (textHas(text, ["public dataset", "ios subscription app paywalls", "paywall", "onboarding flows"])) {
+    return "它收集真实 iOS 订阅 App 的付费墙、价格页和新用户引导截图，方便研究 App 怎么收费、怎么转化用户。";
+  }
+  if (textHas(text, ["browser agent", "browser automation"])) {
+    return "它围绕“让 AI 操作浏览器”展开，适合做自动测试、自动操作网页、自动完成重复流程。";
+  }
+  if (textHas(text, ["coding agent", "code generation", "claude code", "ai coding"])) {
+    return "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。";
+  }
+  if (textHas(text, ["mcp", "model context protocol"])) {
+    return "它和 MCP/工具连接有关，重点是让 AI 能接入更多外部能力，而不是只停留在聊天回答。";
+  }
+  if (textHas(text, ["react native", "flutter", "expo", "swiftui", "kotlin", "mobile app"])) {
+    return "它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。";
+  }
+  if (textHas(text, ["template", "starter", "boilerplate"])) {
+    return "它更像一个开箱即用的模板，帮别人少搭基础架子，更快开始做网站、App 或工具产品。";
+  }
+
+  const chinese = firstChineseBlock(project, blocks);
+  if (chinese) return chinese;
+
+  const capabilities = detectedCapabilitiesZh(text);
+  if (capabilities.length) {
+    return `从 README 和项目简介看，它主要围绕${capabilities.slice(0, 3).join("、")}展开。可以把它当成一个${plainCategoryZh(
+      project,
+    )}线索，先看它解决的问题和演示效果。`;
+  }
+
+  return displayDescriptionZh(project);
+}
+
+function inferHighlightsZh(project: NewProject, readme: string): string[] {
+  const text = detailText(project, readme);
+  const highlights = [
+    textHas(text, ["no api key", "zero api calls", "no extra configuration"])
+      ? "README 强调门槛低，尽量少配置或少依赖外部服务"
+      : "",
+    textHas(text, ["open-source", "open source"]) ? "项目主打开源，别人可以直接学习、改造或二次开发" : "",
+    textHas(text, ["homepage", "demo", "download", "releases"]) || project.homepage
+      ? "有官网、演示或下载入口，点开后更容易判断实际效果"
+      : "",
+    textHas(text, ["dataset", "screenshots", "gallery", "collection"])
+      ? "它不只是代码，也提供可观察的案例、截图或数据"
+      : "",
+    textHas(text, ["no root", "android phone", "ios", "mobile app"])
+      ? "它和真实手机使用场景有关，不只是网页端项目"
+      : "",
+    hoursSince(project.pushedAt, new Date()) <= 72 ? "最近几天仍在更新，说明项目还活跃" : "",
+  ];
+  return unique(highlights).filter(Boolean).slice(0, 3);
+}
+
+async function fetchProjectReadme(project: NewProject): Promise<string> {
+  const url = `https://api.github.com/repos/${project.fullName}/readme`;
+  const resp = await fetch(url, {
+    headers: {
+      ...githubHeaders(),
+      Accept: "application/vnd.github.raw",
+    },
+  });
+  if (resp.status === 404) return "";
+  if (!resp.ok) {
+    console.log(`  [new-projects/${project.fullName}] README HTTP ${resp.status}`);
+    return "";
+  }
+  return (await resp.text()).slice(0, 80_000);
+}
+
+async function mapWithConcurrency<T>(
+  items: T[],
+  concurrency: number,
+  run: (item: T, index: number) => Promise<void>,
+): Promise<void> {
+  let index = 0;
+  const workers = Array.from({ length: Math.max(1, concurrency) }, async () => {
+    while (index < items.length) {
+      const current = index++;
+      await run(items[current]!, current);
+    }
+  });
+  await Promise.all(workers);
+}
+
+export async function enrichProjectSummaries(projects: NewProject[]): Promise<void> {
+  let enriched = 0;
+  await mapWithConcurrency(projects, 4, async (project) => {
+    try {
+      const readme = await fetchProjectReadme(project);
+      if (!readme) return;
+      const blocks = readmeBlocks(readme);
+      project.readmeSummaryZh = inferSummaryZh(project, readme, blocks);
+      project.readmeAudienceZh = inferAudienceZh(project, detailText(project, readme));
+      project.readmeHighlightsZh = inferHighlightsZh(project, readme);
+      project.readmeSource = "README";
+      enriched++;
+    } catch (error) {
+      console.log(`  [new-projects/${project.fullName}] README summary failed: ${(error as Error).message}`);
+    }
+  });
+  console.log(`  [new-projects] README summaries added for ${enriched}/${projects.length} projects.`);
 }
 
 function matchedQueryLabels(project: NewProject, labels: string[]): string[] {
@@ -1337,6 +1610,12 @@ function renderDetails(projects: NewProject[], lang: "zh" | "en"): string {
       const category = lang === "zh" ? project.categoryZh : project.categoryEn;
       const reasons = lang === "zh" ? project.reasonsZh : project.reasonsEn;
       const desc = lang === "zh" ? displayDescriptionZh(project) : project.description || "No description";
+      const audienceLine =
+        lang === "zh" && project.readmeAudienceZh ? `- 适合谁看: ${project.readmeAudienceZh}` : "";
+      const highlightLines =
+        lang === "zh" && project.readmeHighlightsZh?.length
+          ? project.readmeHighlightsZh.map((highlight) => `  - ${highlight}`).join("\n")
+          : "";
       const homepageLine = project.homepage
         ? lang === "zh"
           ? `- 官网或演示: ${project.homepage}`
@@ -1386,6 +1665,8 @@ function renderDetails(projects: NewProject[], lang: "zh" | "en"): string {
         `- ${lang === "zh" ? "创建" : "Created"}: ${project.createdAt}`,
         `- ${lang === "zh" ? "最近更新" : "Last push"}: ${project.pushedAt}`,
         `- ${lang === "zh" ? "描述" : "Description"}: ${desc}`,
+        audienceLine,
+        highlightLines ? `- README 里看到的重点:\n${highlightLines}` : "",
         queryLine,
         trendLine,
         `- ${lang === "zh" ? "AI 潜力" : "AI potential score"}: ${project.aiPotentialScore}`,
@@ -1517,7 +1798,7 @@ export function buildNewProjectsMarkdown(
     lang === "zh" ? `# 新项目发现榜 ${meta.dateStr}` : `# GitHub New Projects Radar ${meta.dateStr}`;
   const sourceLine =
     lang === "zh"
-      ? `> 我从最近 ${meta.lookbackDays} 天新出现的 GitHub 项目里做了一次筛选（从 ${meta.sinceDate} 开始）。这次先找到 ${meta.totalUnique} 个备选项目，最后挑出最值得看的项目。生成时间: ${meta.utcStr} UTC`
+      ? `> 我从最近 ${meta.lookbackDays} 天新出现的 GitHub 项目里做了一次筛选（从 ${meta.sinceDate} 开始），并读取项目 README 做人话总结。这次先找到 ${meta.totalUnique} 个备选项目，最后挑出最值得看的项目。生成时间: ${meta.utcStr} UTC`
       : `> Source: GitHub Search API | Window: last ${meta.lookbackDays} days (since ${meta.sinceDate}) | Raw results: ${meta.totalRaw} | Unique repos: ${meta.totalUnique} | Generated: ${meta.utcStr} UTC`;
   const queryLine =
     lang === "zh"
@@ -1606,6 +1887,9 @@ function publicProject(project: NewProject): Record<string, unknown> {
     fullName: project.fullName,
     url: project.url,
     descriptionZh: displayDescriptionZh(project),
+    audienceZh: project.readmeAudienceZh || inferAudienceZh(project, projectSignalText(project)),
+    readmeHighlightsZh: project.readmeHighlightsZh ?? [],
+    summarySourceZh: project.readmeSource ? "项目 README + GitHub 简介" : "GitHub 简介 + 项目信号",
     language: project.language,
     stars: project.stars,
     forks: project.forks,
@@ -1640,7 +1924,7 @@ function buildJsonDigest(projects: NewProject[], meta: DigestMeta): string {
         date: meta.dateStr,
         since: meta.sinceDate,
         lookbackDays: meta.lookbackDays,
-        source: "GitHub 搜索数据",
+        source: "GitHub 搜索数据 + 项目 README",
         rawResults: meta.totalRaw,
         uniqueRepos: meta.totalUnique,
         queryTracks: meta.activeQueries.map((query) => ({
@@ -1711,6 +1995,7 @@ async function main(): Promise<void> {
 
   const { projects: ranked, totalRaw, activeQueries } = await collectNewProjects(config, sinceDate, now);
   const projects = selectDigestProjects(ranked, config.maxResults);
+  await enrichProjectSummaries(projects);
 
   const meta: DigestMeta = {
     dateStr,
