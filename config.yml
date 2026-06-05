@@ -2,6 +2,113 @@
 # Edit this file to customize which repositories are tracked.
 # Changes take effect on the next workflow run.
 
+# ── GitHub new-project radar ─────────────────────────────────────────────────
+# LLM-free scheduled discovery for newly created Web/Mobile/App/Coding/AI projects.
+# Placeholders supported inside q: {since}, {minStars}
+
+new_projects:
+  lookback_days: 90
+  min_stars: 2
+  max_results: 80
+  per_query: 30
+  create_issue: false
+  exclude:
+    - awesome
+    - roadmap
+    - interview
+    - leetcode
+    - dotfiles
+    - notes
+    - course
+    - homework
+    - assignment
+    - tutorial
+  queries:
+    - label: Web
+      category: Web / Frontend
+      q: "created:>={since} pushed:>={since} stars:>={minStars} topic:web"
+      weight: 12
+    - label: Frontend
+      category: Web / Frontend
+      q: "created:>={since} pushed:>={since} stars:>={minStars} topic:frontend"
+      weight: 12
+    - label: React
+      category: Web / Frontend
+      q: "created:>={since} pushed:>={since} stars:>={minStars} topic:react"
+      weight: 10
+    - label: Next.js
+      category: Web / Frontend
+      q: "created:>={since} pushed:>={since} stars:>={minStars} topic:nextjs"
+      weight: 10
+    - label: Vite
+      category: Web / Frontend
+      q: "created:>={since} pushed:>={since} stars:>={minStars} topic:vite"
+      weight: 8
+    - label: TypeScript Web Apps
+      category: Web / Frontend
+      q: "web app in:name,description created:>={since} pushed:>={since} stars:>={minStars} language:TypeScript"
+      weight: 9
+    - label: Mobile Apps
+      category: Mobile / Apps
+      q: "mobile app in:name,description created:>={since} pushed:>={since} stars:>={minStars}"
+      weight: 12
+    - label: iOS Apps
+      category: Mobile / Apps
+      q: "created:>={since} pushed:>={since} stars:>={minStars} topic:ios"
+      weight: 11
+    - label: Android Apps
+      category: Mobile / Apps
+      q: "created:>={since} pushed:>={since} stars:>={minStars} topic:android"
+      weight: 11
+    - label: Flutter Apps
+      category: Mobile / Apps
+      q: "created:>={since} pushed:>={since} stars:>={minStars} topic:flutter"
+      weight: 10
+    - label: React Native Apps
+      category: Mobile / Apps
+      q: "created:>={since} pushed:>={since} stars:>={minStars} topic:react-native"
+      weight: 10
+    - label: Expo Apps
+      category: Mobile / Apps
+      q: "created:>={since} pushed:>={since} stars:>={minStars} topic:expo"
+      weight: 9
+    - label: Swift Apps
+      category: Mobile / Apps
+      q: "app in:name,description created:>={since} pushed:>={since} stars:>={minStars} language:Swift"
+      weight: 9
+    - label: Kotlin Apps
+      category: Mobile / Apps
+      q: "app in:name,description created:>={since} pushed:>={since} stars:>={minStars} language:Kotlin"
+      weight: 9
+    - label: Product Apps
+      category: Product Apps
+      q: "product app in:name,description created:>={since} pushed:>={since} stars:>={minStars}"
+      weight: 10
+    - label: Developer Tools
+      category: Developer Tools
+      q: "created:>={since} pushed:>={since} stars:>={minStars} topic:developer-tools"
+      weight: 11
+    - label: CLI Tools
+      category: Developer Tools
+      q: "created:>={since} pushed:>={since} stars:>={minStars} topic:cli"
+      weight: 8
+    - label: Coding Agents
+      category: AI Coding / Agents
+      q: "created:>={since} pushed:>={since} stars:>={minStars} topic:ai-agent"
+      weight: 13
+    - label: Code Generation
+      category: AI Coding / Agents
+      q: "created:>={since} pushed:>={since} stars:>={minStars} topic:code-generation"
+      weight: 12
+    - label: MCP
+      category: AI Coding / Agents
+      q: "created:>={since} pushed:>={since} stars:>={minStars} topic:mcp"
+      weight: 11
+    - label: LLM Apps
+      category: AI Apps
+      q: "created:>={since} pushed:>={since} stars:>={minStars} topic:llm"
+      weight: 9
+
 # ── AI CLI tools ──────────────────────────────────────────────────────────────
 # Tracked for per-tool digests and cross-tool comparison.
 # Each entry requires: id (filename slug), repo (owner/repo), name (display name).

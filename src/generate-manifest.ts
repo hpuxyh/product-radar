@@ -9,6 +9,7 @@ const FEED_PATH = "feed.xml";
 const SITE_URL = "https://duanyytop.github.io/agents-radar";
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const REPORT_FILES = [
+  "new-projects",
   "ai-cli",
   "ai-cli-en",
   "ai-agents",
@@ -157,7 +158,7 @@ async function main(): Promise<void> {
     `  <channel>\n` +
     `    <title>agents-radar</title>\n` +
     `    <link>${SITE_URL}</link>\n` +
-    `    <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>\n` +
+    `    <description>AI 开源生态每日简报</description>\n` +
     `    <language>zh-CN</language>\n` +
     `    <atom:link href="${SITE_URL}/feed.xml" rel="self" type="application/rss+xml"/>\n` +
     `    <lastBuildDate>${buildDate}</lastBuildDate>\n` +

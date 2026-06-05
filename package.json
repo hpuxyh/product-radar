@@ -5,6 +5,8 @@
   "packageManager": "pnpm@9.15.9",
   "scripts": {
     "start": "tsx src/index.ts",
+    "new-projects": "tsx src/new-projects.ts",
+    "new-projects:embed": "node scripts/embed-new-projects-html.mjs",
     "scout": "tsx scripts/local-scout.ts",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src",

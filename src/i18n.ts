@@ -69,6 +69,12 @@ export const TRENDING_REPORT = {
     lang === "en" ? `📈 AI Open Source Trends ${dateStr}` : `📈 AI 开源趋势日报 ${dateStr}`,
 } as const;
 
+export const NEW_PROJECTS_REPORT = {
+  title: t("GitHub 新项目雷达", "GitHub New Projects Radar"),
+  issueTitle: (dateStr: string, lang: Lang) =>
+    lang === "en" ? `GitHub New Projects Radar ${dateStr}` : `GitHub 新项目雷达 ${dateStr}`,
+} as const;
+
 export const HN_REPORT = {
   title: t("Hacker News AI 社区动态日报", "Hacker News AI Community Digest"),
   issueTitle: (dateStr: string, lang: Lang) =>
@@ -115,6 +121,7 @@ export const ISSUE_LABELS = {
   openclaw: t("openclaw", "openclaw-en"),
   web: t("web", "web-en"),
   trending: t("trending", "trending-en"),
+  newProjects: t("new-projects", "new-projects-en"),
   hn: t("hn", "hn-en"),
   ph: t("ph", "ph-en"),
   arxiv: t("arxiv", "arxiv-en"),
@@ -145,6 +152,8 @@ export const FOOTER = {
 // ---------------------------------------------------------------------------
 
 export const REPORT_LABELS: Record<string, string> = {
+  "new-projects": "GitHub 新项目雷达",
+  "new-projects-en": "GitHub New Projects Radar",
   "ai-cli": "AI CLI 工具社区动态日报",
   "ai-cli-en": "AI CLI Tools Digest",
   "ai-agents": "AI Agents 生态日报",
@@ -170,6 +179,7 @@ export const REPORT_LABELS: Record<string, string> = {
 };
 
 export const NOTIFY_LABELS: Record<string, Record<Lang, string>> = {
+  "new-projects": t("GitHub 新项目", "GitHub New Projects"),
   "ai-cli": t("AI CLI 工具", "AI CLI Tools"),
   "ai-agents": t("AI Agents 生态", "AI Agents Ecosystem"),
   "ai-web": t("官网动态", "Official Updates"),

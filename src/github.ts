@@ -203,6 +203,8 @@ const LABEL_COLORS: Record<string, string> = {
   "openclaw-en": "f472b6",
   "web-en": "6366f1",
   "trending-en": "fbbf24",
+  "new-projects": "10b981",
+  "new-projects-en": "34d399",
   "hn-en": "fb923c",
   "ph-en": "e8854a",
   arxiv: "b31b1b",
