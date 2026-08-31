@@ -6,7 +6,3825 @@
     <description>AI 开源生态每日简报</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 29 Aug 2026 06:50:49 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 05:12:13 +0000</lastBuildDate>
+    <item>
+      <title>GitHub 新项目雷达 2026-08-31</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-08-31/new-projects</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-31/new-projects</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <description>新项目发现榜 2026-08-31 我从最近 90 天新出现的 GitHub 项目里做了一次筛选（从 2026-06-02 开始），并读取项目 README 做人话总结。这次先找到 492 个备选项目，最后挑出最值得看的项目。生成时间: 2026-08-31 05:11 UTC 监控方向: 网站项目, 网页界面项目, 网站页面项目, 完整网站应用, 轻量网站项目, 网页应用, 手机应用, 苹果手机应用, 安卓手机应用, 多端手机应用, 跨平台手机应用, 快速开发的手机应用, 苹果应用, 安卓应用, 产品应用, 开发工具, 终端工具, AI 写代码工具, 自动生成代码, 让 AI 连接外部工具, 聊天 AI 应用 分类分布: AI 工具项目 50 · 手机/App 项目 28 · 新项目线索 1 · 网站/网页项目 1 AI 可能会火 DietrichGebert/ponytail · AI 工具项目 · AI 潜力 306 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。 可能值得看: AI 自动做事, 聊天 AI, 编程助手, 智能编辑器; ...</description>
+      <content:encoded><![CDATA[<h1>新项目发现榜 2026-08-31</h1>
+<blockquote>
+<p>我从最近 90 天新出现的 GitHub 项目里做了一次筛选（从 2026-06-02 开始），并读取项目 README 做人话总结。这次先找到 492 个备选项目，最后挑出最值得看的项目。生成时间: 2026-08-31 05:11 UTC
+监控方向: 网站项目, 网页界面项目, 网站页面项目, 完整网站应用, 轻量网站项目, 网页应用, 手机应用, 苹果手机应用, 安卓手机应用, 多端手机应用, 跨平台手机应用, 快速开发的手机应用, 苹果应用, 安卓应用, 产品应用, 开发工具, 终端工具, AI 写代码工具, 自动生成代码, 让 AI 连接外部工具, 聊天 AI 应用
+分类分布: AI 工具项目 50 · 手机/App 项目 28 · 新项目线索 1 · 网站/网页项目 1</p>
+</blockquote>
+<hr>
+<h2>AI 可能会火</h2>
+<ol>
+<li><p><a href="https://github.com/DietrichGebert/ponytail">DietrichGebert/ponytail</a> · AI 工具项目 · AI 潜力 306
+它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+可能值得看: AI 自动做事, 聊天 AI, 编程助手, 智能编辑器; 大致方向: 聊天 AI 应用; 最近关注增长: 平均每天约 1465 人收藏</p>
+</li>
+<li><p><a href="https://github.com/cobusgreyling/loop-engineering">cobusgreyling/loop-engineering</a> · AI 工具项目 · AI 潜力 281
+它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+可能值得看: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 聊天 AI; 大致方向: 让 AI 连接外部工具, 聊天 AI 应用; 最近关注增长: 平均每天约 130 人收藏</p>
+</li>
+<li><p><a href="https://github.com/omnigent-ai/omnigent">omnigent-ai/omnigent</a> · AI 工具项目 · AI 潜力 280
+它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+可能值得看: AI 自动做事, AI 帮写代码, 聊天 AI, 编程助手; 大致方向: AI 写代码工具, 聊天 AI 应用; 最近关注增长: 平均每天约 118 人收藏</p>
+</li>
+<li><p><a href="https://github.com/trailhq/Graft">trailhq/Graft</a> · AI 工具项目 · AI 潜力 266
+它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+可能值得看: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 聊天 AI; 大致方向: 让 AI 连接外部工具, 聊天 AI 应用; 最近关注增长: 平均每天约 88 人收藏</p>
+</li>
+<li><p><a href="https://github.com/simonlin1212/Vibe-Research">simonlin1212/Vibe-Research</a> · AI 工具项目 · AI 潜力 257
+它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+可能值得看: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 聊天 AI; 大致方向: AI 写代码工具, 让 AI 连接外部工具, 聊天 AI 应用; 最近关注增长: 平均每天约 40 人收藏</p>
+</li>
+<li><p><a href="https://github.com/lidge-jun/opencodex">lidge-jun/opencodex</a> · AI 工具项目 · AI 潜力 255
+它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+可能值得看: 聊天 AI, 编程助手; 大致方向: 聊天 AI 应用; 最近关注增长: 平均每天约 173 人收藏</p>
+</li>
+<li><p><a href="https://github.com/tutti-os/tutti">tutti-os/tutti</a> · AI 工具项目 · AI 潜力 254
+它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+可能值得看: AI 自动做事, 让 AI 连接外部工具, 编程助手; 大致方向: 让 AI 连接外部工具; 最近关注增长: 平均每天约 46 人收藏</p>
+</li>
+<li><p><a href="https://github.com/fuxicodex/Fuxi">fuxicodex/Fuxi</a> · AI 工具项目 · AI 潜力 254
+它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+可能值得看: AI 自动做事, AI 帮写代码, AI 自己执行, 让 AI 连接外部工具; 大致方向: AI 写代码工具, 让 AI 连接外部工具, 聊天 AI 应用; 最近关注增长: 平均每天约 113 人收藏</p>
+</li>
+<li><p><a href="https://github.com/Pinvou/pinvou-agent">Pinvou/pinvou-agent</a> · AI 工具项目 · AI 潜力 253
+它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+可能值得看: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 聊天 AI; 大致方向: AI 写代码工具, 让 AI 连接外部工具, 聊天 AI 应用; 最近关注增长: 平均每天约 40 人收藏</p>
+</li>
+<li><p><a href="https://github.com/kirodotdev/KiroCrew">kirodotdev/KiroCrew</a> · AI 工具项目 · AI 潜力 252
+   它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+   可能值得看: AI 自动做事, AI 帮写代码, 聊天 AI, 自动化; 大致方向: AI 写代码工具, 聊天 AI 应用; 最近关注增长: 平均每天约 76 人收藏</p>
+</li>
+</ol>
+<hr>
+<h2>大家在做的产品</h2>
+<ol>
+<li><p><a href="https://github.com/makecindy/cindy">makecindy/cindy</a> · 手机/App 项目 · 产品看点 259
+它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品; 大致方向: 苹果手机应用, 安卓手机应用, 跨平台手机应用; 可能是: 网页界面, 常用网页开发语言, 应用, 手机端, iOS</p>
+</li>
+<li><p><a href="https://github.com/DietrichGebert/ponytail">DietrichGebert/ponytail</a> · AI 工具项目 · 产品看点 254
+它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型; 大致方向: 开发工具; 可能是: 应用</p>
+</li>
+<li><p><a href="https://github.com/Appllama/top-welcome-screens">Appllama/top-welcome-screens</a> · 手机/App 项目 · 产品看点 240
+它收集真实 iOS 订阅 App 的付费墙、价格页和新用户引导截图，方便研究 App 怎么收费、怎么转化用户。
+它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App; 大致方向: 网站页面项目, 苹果手机应用, 跨平台手机应用; 可能是: 网页, 网页界面, 常用网页开发语言, 应用</p>
+</li>
+<li><p><a href="https://github.com/DavidHDev/canvas-ui">DavidHDev/canvas-ui</a> · 网站/网页项目 · 产品看点 235
+它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做设计、图片或内容; 大致方向: 网页界面项目, 网站页面项目, 完整网站应用; 可能是: 网页, 网页界面, 完整网站应用</p>
+</li>
+<li><p><a href="https://github.com/lidge-jun/opencodex">lidge-jun/opencodex</a> · AI 工具项目 · 产品看点 233
+它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型; 大致方向: 开发工具; 可能是: 常用网页开发语言, 应用</p>
+</li>
+<li><p><a href="https://github.com/openai/codex-security">openai/codex-security</a> · AI 工具项目 · 产品看点 232
+它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型; 大致方向: 终端工具; 可能是: 常用网页开发语言, 应用</p>
+</li>
+<li><p><a href="https://github.com/oomol-lab/open-connector">oomol-lab/open-connector</a> · AI 工具项目 · 产品看点 232
+它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型; 大致方向: 终端工具; 可能是: 常用网页开发语言, 自动化, 在线服务, 平台</p>
+</li>
+<li><p><a href="https://github.com/elie222/rakazo">elie222/rakazo</a> · 手机/App 项目 · 产品看点 232
+它和 MCP/工具连接有关，重点是让 AI 能接入更多外部能力，而不是只停留在聊天回答。
+它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品; 大致方向: 快速开发的手机应用; 可能是: 常用网页开发语言, 应用, 手机端, 快速做手机 App, 桌面应用工具</p>
+</li>
+<li><p><a href="https://github.com/cobusgreyling/loop-engineering">cobusgreyling/loop-engineering</a> · AI 工具项目 · 产品看点 227
+它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型; 可能是: 常用网页开发语言, 应用, 脚手架, 自动化; 有官网或演示，点开能直接看</p>
+</li>
+<li><p><a href="https://github.com/simonlin1212/Vibe-Research">simonlin1212/Vibe-Research</a> · AI 工具项目 · 产品看点 227
+   它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+   它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型; 大致方向: 网站页面项目; 可能是: 网页, 网页界面, 常用网页开发语言, 应用</p>
+</li>
+</ol>
+<hr>
+<h2>手机/App 项目</h2>
+<ol>
+<li><p><a href="https://github.com/makecindy/cindy">makecindy/cindy</a> · 手机/App 项目 · 产品看点 259
+它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品; 大致方向: 苹果手机应用, 安卓手机应用, 跨平台手机应用; 可能是: 网页界面, 常用网页开发语言, 应用, 手机端, iOS</p>
+</li>
+<li><p><a href="https://github.com/Appllama/top-welcome-screens">Appllama/top-welcome-screens</a> · 手机/App 项目 · 产品看点 240
+它收集真实 iOS 订阅 App 的付费墙、价格页和新用户引导截图，方便研究 App 怎么收费、怎么转化用户。
+它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App; 大致方向: 网站页面项目, 苹果手机应用, 跨平台手机应用; 可能是: 网页, 网页界面, 常用网页开发语言, 应用</p>
+</li>
+<li><p><a href="https://github.com/elie222/rakazo">elie222/rakazo</a> · 手机/App 项目 · 产品看点 232
+它和 MCP/工具连接有关，重点是让 AI 能接入更多外部能力，而不是只停留在聊天回答。
+它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品; 大致方向: 快速开发的手机应用; 可能是: 常用网页开发语言, 应用, 手机端, 快速做手机 App, 桌面应用工具</p>
+</li>
+<li><p><a href="https://github.com/uzairansaruzi/hermex">uzairansaruzi/hermex</a> · 手机/App 项目 · 产品看点 226
+它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品; 大致方向: 苹果手机应用, 苹果应用; 可能是: 应用, 手机端, iOS, 苹果 App, 苹果界面工具</p>
+</li>
+<li><p><a href="https://github.com/chen2he/orange-cloud">chen2he/orange-cloud</a> · 手机/App 项目 · 产品看点 223
+它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+它代表的趋势: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品; 大致方向: 苹果手机应用, 安卓手机应用, 苹果应用; 可能是: 应用, 手机端, iOS, 安卓, 苹果 App</p>
+</li>
+<li><p><a href="https://github.com/quickdrawjs/quickdraw">quickdrawjs/quickdraw</a> · 手机/App 项目 · 产品看点 221
+它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+它代表的趋势: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品; 大致方向: 跨平台手机应用, 快速开发的手机应用; 可能是: 网页界面, 常用网页开发语言, 应用, 手机端, 一套代码做多个平台的 App</p>
+</li>
+<li><p><a href="https://github.com/bryllim/workout-guide">bryllim/workout-guide</a> · 手机/App 项目 · 产品看点 220
+它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App; 大致方向: 跨平台手机应用, 快速开发的手机应用; 可能是: 网页界面, 应用, 手机端, 一套代码做多个平台的 App, 快速做手机 App</p>
+</li>
+<li><p><a href="https://github.com/mokshablr/gander">mokshablr/gander</a> · 手机/App 项目 · 产品看点 220
+它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 普通用户会用的个人工具; 大致方向: 安卓手机应用; 可能是: 应用, 手机端, 安卓, 安卓开发, 离线优先</p>
+</li>
+<li><p><a href="https://github.com/Obiente/nc-native">Obiente/nc-native</a> · 手机/App 项目 · 产品看点 220
+它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+它代表的趋势: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品; 大致方向: 手机应用, 苹果手机应用, 安卓手机应用; 可能是: 网页, 应用, 手机端, iOS, 安卓</p>
+</li>
+<li><p><a href="https://github.com/Appllama/appllama-skills">Appllama/appllama-skills</a> · 手机/App 项目 · 产品看点 217
+   它收集真实 iOS 订阅 App 的付费墙、价格页和新用户引导截图，方便研究 App 怎么收费、怎么转化用户。
+   它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品; 大致方向: 手机应用, 跨平台手机应用, 快速开发的手机应用; 可能是: 网页界面, 应用, 搭建器, 手机端, 一套代码做多个平台的 App</p>
+</li>
+<li><p><a href="https://github.com/v-modal/vmodal_sdk_android">v-modal/vmodal_sdk_android</a> · 手机/App 项目 · 产品看点 216
+   它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+   它代表的趋势: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品; 大致方向: 安卓手机应用, 安卓应用; 可能是: 应用, 工作室, 编辑器, 手机端, 安卓</p>
+</li>
+<li><p><a href="https://github.com/panel-ui/PanelUI">panel-ui/PanelUI</a> · 手机/App 项目 · 产品看点 216
+   它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+   它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App; 大致方向: 跨平台手机应用, 快速开发的手机应用; 可能是: 网页界面, 常用网页开发语言, 组件, 应用, 手机端</p>
+</li>
+<li><p><a href="https://github.com/v-modal/vmodal_sdk_flutter">v-modal/vmodal_sdk_flutter</a> · 手机/App 项目 · 产品看点 215
+   它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+   它代表的趋势: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品; 大致方向: 多端手机应用; 可能是: 网页, 应用, 工作室, 手机端, 安卓</p>
+</li>
+<li><p><a href="https://github.com/SchroederNathan/clarity">SchroederNathan/clarity</a> · 手机/App 项目 · 产品看点 215
+   它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+   它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App; 大致方向: 跨平台手机应用, 快速开发的手机应用; 可能是: 网页界面, 常用网页开发语言, 应用, 手机端, 一套代码做多个平台的 App</p>
+</li>
+<li><p><a href="https://github.com/margelo/ai-chat-demo">margelo/ai-chat-demo</a> · 手机/App 项目 · 产品看点 212
+   它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+   它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App; 大致方向: 手机应用, 苹果手机应用, 跨平台手机应用; 可能是: 网页界面, 常用网页开发语言, 应用, 演示, 手机端</p>
+</li>
+</ol>
+<hr>
+<h2>这期大家集中在做什么</h2>
+<ul>
+<li><strong>做网站页面和产品原型</strong>: 71 个项目，例子: <a href="https://github.com/DietrichGebert/ponytail">DietrichGebert/ponytail</a>, <a href="https://github.com/cobusgreyling/loop-engineering">cobusgreyling/loop-engineering</a>, <a href="https://github.com/omnigent-ai/omnigent">omnigent-ai/omnigent</a></li>
+<li><strong>用 AI 帮人写代码或自动做事</strong>: 58 个项目，例子: <a href="https://github.com/DietrichGebert/ponytail">DietrichGebert/ponytail</a>, <a href="https://github.com/cobusgreyling/loop-engineering">cobusgreyling/loop-engineering</a>, <a href="https://github.com/omnigent-ai/omnigent">omnigent-ai/omnigent</a></li>
+<li><strong>帮做软件的人看懂项目、少踩坑</strong>: 34 个项目，例子: <a href="https://github.com/DietrichGebert/ponytail">DietrichGebert/ponytail</a>, <a href="https://github.com/cobusgreyling/loop-engineering">cobusgreyling/loop-engineering</a>, <a href="https://github.com/omnigent-ai/omnigent">omnigent-ai/omnigent</a></li>
+<li><strong>做手机 App 和应用产品</strong>: 31 个项目，例子: <a href="https://github.com/makecindy/cindy">makecindy/cindy</a>, <a href="https://github.com/chuspeeism/dashi-ppt-skill">chuspeeism/dashi-ppt-skill</a>, <a href="https://github.com/Appllama/top-welcome-screens">Appllama/top-welcome-screens</a></li>
+<li><strong>一套代码做多个平台的 App</strong>: 27 个项目，例子: <a href="https://github.com/makecindy/cindy">makecindy/cindy</a>, <a href="https://github.com/Pinvou/pinvou-agent">Pinvou/pinvou-agent</a>, <a href="https://github.com/0xsline/OpenChatCut">0xsline/OpenChatCut</a></li>
+<li><strong>把重复工作自动化</strong>: 14 个项目，例子: <a href="https://github.com/cobusgreyling/loop-engineering">cobusgreyling/loop-engineering</a>, <a href="https://github.com/tutti-os/tutti">tutti-os/tutti</a>, <a href="https://github.com/Pinvou/pinvou-agent">Pinvou/pinvou-agent</a></li>
+</ul>
+<hr>
+<h2>全部项目</h2>
+<table>
+<thead>
+<tr>
+<th align="right">#</th>
+<th>项目</th>
+<th>类型</th>
+<th align="right">AI 潜力</th>
+<th align="right">产品看点</th>
+<th align="right">收藏</th>
+<th>主要技术</th>
+<th>为什么值得看</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="right">1</td>
+<td><a href="https://github.com/DietrichGebert/ponytail">DietrichGebert/ponytail</a></td>
+<td>AI 工具项目</td>
+<td align="right">306</td>
+<td align="right">254</td>
+<td align="right">117462</td>
+<td>JavaScript</td>
+<td>项目出现于 80 天前，最近更新 23 天前; 117462 人收藏 / 6408 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">2</td>
+<td><a href="https://github.com/cobusgreyling/loop-engineering">cobusgreyling/loop-engineering</a></td>
+<td>AI 工具项目</td>
+<td align="right">281</td>
+<td align="right">227</td>
+<td align="right">10756</td>
+<td>TypeScript</td>
+<td>项目出现于 83 天前，最近更新 3 小时前; 10756 人收藏 / 1476 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">3</td>
+<td><a href="https://github.com/omnigent-ai/omnigent">omnigent-ai/omnigent</a></td>
+<td>AI 工具项目</td>
+<td align="right">280</td>
+<td align="right">221</td>
+<td align="right">9522</td>
+<td>Python</td>
+<td>项目出现于 81 天前，最近更新 1 小时前; 9522 人收藏 / 1471 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">4</td>
+<td><a href="https://github.com/trailhq/Graft">trailhq/Graft</a></td>
+<td>AI 工具项目</td>
+<td align="right">266</td>
+<td align="right">225</td>
+<td align="right">5174</td>
+<td>TypeScript</td>
+<td>项目出现于 59 天前，最近更新 23 小时前; 5174 人收藏 / 468 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">5</td>
+<td><a href="https://github.com/makecindy/cindy">makecindy/cindy</a></td>
+<td>手机/App 项目</td>
+<td align="right">245</td>
+<td align="right">259</td>
+<td align="right">2365</td>
+<td>TypeScript</td>
+<td>项目出现于 39 天前，最近更新 1 小时前; 2365 人收藏 / 334 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">6</td>
+<td><a href="https://github.com/simonlin1212/Vibe-Research">simonlin1212/Vibe-Research</a></td>
+<td>AI 工具项目</td>
+<td align="right">257</td>
+<td align="right">227</td>
+<td align="right">2260</td>
+<td>TypeScript</td>
+<td>项目出现于 57 天前，最近更新 2 天前; 2260 人收藏 / 467 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">7</td>
+<td><a href="https://github.com/lidge-jun/opencodex">lidge-jun/opencodex</a></td>
+<td>AI 工具项目</td>
+<td align="right">255</td>
+<td align="right">233</td>
+<td align="right">12639</td>
+<td>TypeScript</td>
+<td>项目出现于 73 天前，最近更新 1 小时前; 12639 人收藏 / 931 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">8</td>
+<td><a href="https://github.com/tutti-os/tutti">tutti-os/tutti</a></td>
+<td>AI 工具项目</td>
+<td align="right">254</td>
+<td align="right">225</td>
+<td align="right">3637</td>
+<td>TypeScript</td>
+<td>项目出现于 80 天前，最近更新 6 小时前; 3637 人收藏 / 368 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">9</td>
+<td><a href="https://github.com/fuxicodex/Fuxi">fuxicodex/Fuxi</a></td>
+<td>AI 工具项目</td>
+<td align="right">254</td>
+<td align="right">203</td>
+<td align="right">3044</td>
+<td>Python</td>
+<td>项目出现于 27 天前，最近更新 8 天前; 3044 人收藏 / 179 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">10</td>
+<td><a href="https://github.com/Pinvou/pinvou-agent">Pinvou/pinvou-agent</a></td>
+<td>AI 工具项目</td>
+<td align="right">253</td>
+<td align="right">221</td>
+<td align="right">1514</td>
+<td>Rust</td>
+<td>项目出现于 38 天前，最近更新 1 小时前; 1514 人收藏 / 223 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">11</td>
+<td><a href="https://github.com/kirodotdev/KiroCrew">kirodotdev/KiroCrew</a></td>
+<td>AI 工具项目</td>
+<td align="right">252</td>
+<td align="right">199</td>
+<td align="right">3451</td>
+<td>Python</td>
+<td>项目出现于 45 天前，最近更新 1 小时前; 3451 人收藏 / 434 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">12</td>
+<td><a href="https://github.com/shy3130/tick-stock-panel">shy3130/tick-stock-panel</a></td>
+<td>AI 工具项目</td>
+<td align="right">249</td>
+<td align="right">212</td>
+<td align="right">4001</td>
+<td>Python</td>
+<td>项目出现于 74 天前，最近更新 15 小时前; 4001 人收藏 / 940 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">13</td>
+<td><a href="https://github.com/oomol-lab/open-connector">oomol-lab/open-connector</a></td>
+<td>AI 工具项目</td>
+<td align="right">248</td>
+<td align="right">232</td>
+<td align="right">5441</td>
+<td>TypeScript</td>
+<td>项目出现于 63 天前，最近更新 1 小时前; 5441 人收藏 / 465 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">14</td>
+<td><a href="https://github.com/isjiamu/gzh-design-skill">isjiamu/gzh-design-skill</a></td>
+<td>AI 工具项目</td>
+<td align="right">247</td>
+<td align="right">170</td>
+<td align="right">3418</td>
+<td>HTML</td>
+<td>项目出现于 61 天前，最近更新 54 天前; 3418 人收藏 / 394 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">15</td>
+<td><a href="https://github.com/synthetic-sciences/openscience">synthetic-sciences/openscience</a></td>
+<td>AI 工具项目</td>
+<td align="right">247</td>
+<td align="right">215</td>
+<td align="right">3363</td>
+<td>TypeScript</td>
+<td>项目出现于 59 天前，最近更新 1 小时前; 3363 人收藏 / 455 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">16</td>
+<td><a href="https://github.com/ShenSeanChen/waku-agent">ShenSeanChen/waku-agent</a></td>
+<td>AI 工具项目</td>
+<td align="right">245</td>
+<td align="right">173</td>
+<td align="right">1625</td>
+<td>Python</td>
+<td>项目出现于 52 天前，最近更新 2 天前; 1625 人收藏 / 309 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">17</td>
+<td><a href="https://github.com/0xsline/OpenChatCut">0xsline/OpenChatCut</a></td>
+<td>AI 工具项目</td>
+<td align="right">245</td>
+<td align="right">205</td>
+<td align="right">1485</td>
+<td>TypeScript</td>
+<td>项目出现于 47 天前，最近更新 1 小时前; 1485 人收藏 / 211 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">18</td>
+<td><a href="https://github.com/chuspeeism/dashi-ppt-skill">chuspeeism/dashi-ppt-skill</a></td>
+<td>AI 工具项目</td>
+<td align="right">243</td>
+<td align="right">187</td>
+<td align="right">6988</td>
+<td>JavaScript</td>
+<td>项目出现于 82 天前，最近更新 32 天前; 6988 人收藏 / 659 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">19</td>
+<td><a href="https://github.com/CopilotKit/OpenBot">CopilotKit/OpenBot</a></td>
+<td>AI 工具项目</td>
+<td align="right">243</td>
+<td align="right">204</td>
+<td align="right">3560</td>
+<td>TypeScript</td>
+<td>项目出现于 14 天前，最近更新 2 天前; 3560 人收藏 / 445 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">20</td>
+<td><a href="https://github.com/Appllama/top-welcome-screens">Appllama/top-welcome-screens</a></td>
+<td>手机/App 项目</td>
+<td align="right">132</td>
+<td align="right">240</td>
+<td align="right">572</td>
+<td>TypeScript</td>
+<td>项目出现于 23 天前，最近更新 23 天前; 572 人收藏 / 53 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">21</td>
+<td><a href="https://github.com/tianma-if/edgeever">tianma-if/edgeever</a></td>
+<td>AI 工具项目</td>
+<td align="right">239</td>
+<td align="right">188</td>
+<td align="right">1309</td>
+<td>HTML</td>
+<td>项目出现于 66 天前，最近更新 1 小时前; 1309 人收藏 / 730 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">22</td>
+<td><a href="https://github.com/SenteLabsAI/OpenExecutive">SenteLabsAI/OpenExecutive</a></td>
+<td>AI 工具项目</td>
+<td align="right">238</td>
+<td align="right">222</td>
+<td align="right">3037</td>
+<td>Python</td>
+<td>项目出现于 80 天前，最近更新 7 小时前; 3037 人收藏 / 284 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">23</td>
+<td><a href="https://github.com/Tiger3807861189/J-Space-Cognition-Suite-V3.7">Tiger3807861189/J-Space-Cognition-Suite-V3.7</a></td>
+<td>AI 工具项目</td>
+<td align="right">238</td>
+<td align="right">205</td>
+<td align="right">3011</td>
+<td>Python</td>
+<td>项目出现于 40 天前，最近更新 1 小时前; 3011 人收藏 / 215 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">24</td>
+<td><a href="https://github.com/ai4s-research/open-science">ai4s-research/open-science</a></td>
+<td>AI 工具项目</td>
+<td align="right">238</td>
+<td align="right">193</td>
+<td align="right">1515</td>
+<td>TypeScript</td>
+<td>项目出现于 59 天前，最近更新 1 小时前; 1515 人收藏 / 166 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">25</td>
+<td><a href="https://github.com/xuzhougeng/wisp-science">xuzhougeng/wisp-science</a></td>
+<td>AI 工具项目</td>
+<td align="right">238</td>
+<td align="right">183</td>
+<td align="right">1074</td>
+<td>Rust</td>
+<td>项目出现于 61 天前，最近更新 1 小时前; 1074 人收藏 / 108 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">26</td>
+<td><a href="https://github.com/Leonxlnx/unlazy">Leonxlnx/unlazy</a></td>
+<td>AI 工具项目</td>
+<td align="right">237</td>
+<td align="right">177</td>
+<td align="right">2841</td>
+<td>JavaScript</td>
+<td>项目出现于 21 天前，最近更新 2 天前; 2841 人收藏 / 173 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">27</td>
+<td><a href="https://github.com/Sahir619/fable-method">Sahir619/fable-method</a></td>
+<td>AI 工具项目</td>
+<td align="right">237</td>
+<td align="right">170</td>
+<td align="right">2269</td>
+<td>Python</td>
+<td>项目出现于 55 天前，最近更新 47 天前; 2269 人收藏 / 326 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">28</td>
+<td><a href="https://github.com/tsingyuai/growth-lab">tsingyuai/growth-lab</a></td>
+<td>AI 工具项目</td>
+<td align="right">236</td>
+<td align="right">170</td>
+<td align="right">1984</td>
+<td>Python</td>
+<td>项目出现于 38 天前，最近更新 20 天前; 1984 人收藏 / 170 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">29</td>
+<td><a href="https://github.com/DavidHDev/canvas-ui">DavidHDev/canvas-ui</a></td>
+<td>网站/网页项目</td>
+<td align="right">165</td>
+<td align="right">235</td>
+<td align="right">4389</td>
+<td>TypeScript</td>
+<td>项目出现于 46 天前，最近更新 12 天前; 4389 人收藏 / 218 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">30</td>
+<td><a href="https://github.com/MemTensor/memmy-agent">MemTensor/memmy-agent</a></td>
+<td>AI 工具项目</td>
+<td align="right">233</td>
+<td align="right">197</td>
+<td align="right">1196</td>
+<td>TypeScript</td>
+<td>项目出现于 46 天前，最近更新 3 天前; 1196 人收藏 / 105 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">31</td>
+<td><a href="https://github.com/agentlas-ai/Agentlas-OS">agentlas-ai/Agentlas-OS</a></td>
+<td>AI 工具项目</td>
+<td align="right">233</td>
+<td align="right">163</td>
+<td align="right">1106</td>
+<td>Python</td>
+<td>项目出现于 88 天前，最近更新 21 小时前; 1106 人收藏 / 102 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">32</td>
+<td><a href="https://github.com/openai/codex-security">openai/codex-security</a></td>
+<td>AI 工具项目</td>
+<td align="right">218</td>
+<td align="right">232</td>
+<td align="right">10288</td>
+<td>TypeScript</td>
+<td>项目出现于 48 天前，最近更新 1 小时前; 10288 人收藏 / 747 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">33</td>
+<td><a href="https://github.com/elie222/rakazo">elie222/rakazo</a></td>
+<td>手机/App 项目</td>
+<td align="right">215</td>
+<td align="right">232</td>
+<td align="right">1596</td>
+<td>TypeScript</td>
+<td>项目出现于 18 天前，最近更新 5 小时前; 1596 人收藏 / 263 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">34</td>
+<td><a href="https://github.com/HiThink-Tech/Financial-API">HiThink-Tech/Financial-API</a></td>
+<td>AI 工具项目</td>
+<td align="right">229</td>
+<td align="right">203</td>
+<td align="right">2040</td>
+<td>TypeScript</td>
+<td>项目出现于 83 天前，最近更新 4 天前; 2040 人收藏 / 148 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">35</td>
+<td><a href="https://github.com/spinabot/brigade">spinabot/brigade</a></td>
+<td>AI 工具项目</td>
+<td align="right">228</td>
+<td align="right">186</td>
+<td align="right">3200</td>
+<td>TypeScript</td>
+<td>项目出现于 73 天前，最近更新 1 小时前; 3200 人收藏 / 43 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">36</td>
+<td><a href="https://github.com/rlaope/oh-my-hermes">rlaope/oh-my-hermes</a></td>
+<td>AI 工具项目</td>
+<td align="right">228</td>
+<td align="right">157</td>
+<td align="right">1287</td>
+<td>Python</td>
+<td>项目出现于 89 天前，最近更新 1 小时前; 1287 人收藏 / 123 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">37</td>
+<td><a href="https://github.com/miuuyy/codex-chatgpt-web">miuuyy/codex-chatgpt-web</a></td>
+<td>AI 工具项目</td>
+<td align="right">227</td>
+<td align="right">208</td>
+<td align="right">2760</td>
+<td>TypeScript</td>
+<td>项目出现于 36 天前，最近更新 6 小时前; 2760 人收藏 / 270 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">38</td>
+<td><a href="https://github.com/AlephAITech/WorkBuddyGuide">AlephAITech/WorkBuddyGuide</a></td>
+<td>AI 工具项目</td>
+<td align="right">226</td>
+<td align="right">195</td>
+<td align="right">2632</td>
+<td>TypeScript</td>
+<td>项目出现于 52 天前，最近更新 4 天前; 2632 人收藏 / 371 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">39</td>
+<td><a href="https://github.com/tigicion/dao-code">tigicion/dao-code</a></td>
+<td>AI 工具项目</td>
+<td align="right">226</td>
+<td align="right">191</td>
+<td align="right">1255</td>
+<td>TypeScript</td>
+<td>项目出现于 84 天前，最近更新 28 天前; 1255 人收藏 / 53 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">40</td>
+<td><a href="https://github.com/uzairansaruzi/hermex">uzairansaruzi/hermex</a></td>
+<td>手机/App 项目</td>
+<td align="right">180</td>
+<td align="right">226</td>
+<td align="right">1190</td>
+<td>Swift</td>
+<td>项目出现于 60 天前，最近更新 1 小时前; 1190 人收藏 / 164 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">41</td>
+<td><a href="https://github.com/Bennettxai/FounderOS-DEMO">Bennettxai/FounderOS-DEMO</a></td>
+<td>AI 工具项目</td>
+<td align="right">180</td>
+<td align="right">226</td>
+<td align="right">736</td>
+<td>TypeScript</td>
+<td>项目出现于 55 天前，最近更新 6 天前; 736 人收藏 / 209 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">42</td>
+<td><a href="https://github.com/XiaomiMiMo/MiMo-Code">XiaomiMiMo/MiMo-Code</a></td>
+<td>AI 工具项目</td>
+<td align="right">225</td>
+<td align="right">224</td>
+<td align="right">12908</td>
+<td>TypeScript</td>
+<td>项目出现于 82 天前，最近更新 22 小时前; 12908 人收藏 / 1336 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">43</td>
+<td><a href="https://github.com/TryCaspian/caspian-sdk">TryCaspian/caspian-sdk</a></td>
+<td>AI 工具项目</td>
+<td align="right">225</td>
+<td align="right">169</td>
+<td align="right">940</td>
+<td>Python</td>
+<td>项目出现于 42 天前，最近更新 6 天前; 940 人收藏 / 135 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">44</td>
+<td><a href="https://github.com/shengjidaguai-china/goutoujunshi">shengjidaguai-china/goutoujunshi</a></td>
+<td>AI 工具项目</td>
+<td align="right">224</td>
+<td align="right">150</td>
+<td align="right">2682</td>
+<td>Python</td>
+<td>项目出现于 42 天前，最近更新 4 天前; 2682 人收藏 / 303 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">45</td>
+<td><a href="https://github.com/Prism-Shadow/penguin-harness">Prism-Shadow/penguin-harness</a></td>
+<td>AI 工具项目</td>
+<td align="right">224</td>
+<td align="right">192</td>
+<td align="right">1833</td>
+<td>TypeScript</td>
+<td>项目出现于 43 天前，最近更新 12 小时前; 1833 人收藏 / 190 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">46</td>
+<td><a href="https://github.com/XiaoDuoYa/codex-with-chatgpt">XiaoDuoYa/codex-with-chatgpt</a></td>
+<td>AI 工具项目</td>
+<td align="right">224</td>
+<td align="right">166</td>
+<td align="right">1500</td>
+<td>TypeScript</td>
+<td>项目出现于 3 天前，最近更新 12 小时前; 1500 人收藏 / 166 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">47</td>
+<td><a href="https://github.com/Jwuthri/Tracely-ai">Jwuthri/Tracely-ai</a></td>
+<td>AI 工具项目</td>
+<td align="right">224</td>
+<td align="right">161</td>
+<td align="right">1164</td>
+<td>Python</td>
+<td>项目出现于 89 天前，最近更新 2 天前; 1164 人收藏 / 91 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">48</td>
+<td><a href="https://github.com/FareedKhan-dev/kimi-k3-in-c">FareedKhan-dev/kimi-k3-in-c</a></td>
+<td>新项目线索</td>
+<td align="right">223</td>
+<td align="right">187</td>
+<td align="right">6858</td>
+<td>C</td>
+<td>项目出现于 30 天前，最近更新 5 天前; 6858 人收藏 / 1109 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">49</td>
+<td><a href="https://github.com/fy-agent/fyagent">fy-agent/fyagent</a></td>
+<td>AI 工具项目</td>
+<td align="right">223</td>
+<td align="right">179</td>
+<td align="right">806</td>
+<td>Rust</td>
+<td>项目出现于 35 天前，最近更新 1 小时前; 806 人收藏 / 106 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">50</td>
+<td><a href="https://github.com/chen2he/orange-cloud">chen2he/orange-cloud</a></td>
+<td>手机/App 项目</td>
+<td align="right">134</td>
+<td align="right">223</td>
+<td align="right">468</td>
+<td>Swift</td>
+<td>项目出现于 80 天前，最近更新 16 小时前; 468 人收藏 / 91 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">51</td>
+<td><a href="https://github.com/rebel0789/codexpro">rebel0789/codexpro</a></td>
+<td>AI 工具项目</td>
+<td align="right">221</td>
+<td align="right">180</td>
+<td align="right">1807</td>
+<td>JavaScript</td>
+<td>项目出现于 75 天前，最近更新 23 天前; 1807 人收藏 / 179 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">52</td>
+<td><a href="https://github.com/quickdrawjs/quickdraw">quickdrawjs/quickdraw</a></td>
+<td>手机/App 项目</td>
+<td align="right">133</td>
+<td align="right">221</td>
+<td align="right">426</td>
+<td>JavaScript</td>
+<td>项目出现于 30 天前，最近更新 19 小时前; 426 人收藏 / 32 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">53</td>
+<td><a href="https://github.com/Jia-Ethan/codex-keysmith">Jia-Ethan/codex-keysmith</a></td>
+<td>AI 工具项目</td>
+<td align="right">220</td>
+<td align="right">197</td>
+<td align="right">4181</td>
+<td>Python</td>
+<td>项目出现于 64 天前，最近更新 2 天前; 4181 人收藏 / 651 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">54</td>
+<td><a href="https://github.com/duty1g/x64dbg-mcp-server">duty1g/x64dbg-mcp-server</a></td>
+<td>AI 工具项目</td>
+<td align="right">220</td>
+<td align="right">161</td>
+<td align="right">1786</td>
+<td>Zig</td>
+<td>项目出现于 9 天前，最近更新 4 天前; 1786 人收藏 / 185 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">55</td>
+<td><a href="https://github.com/bryllim/workout-guide">bryllim/workout-guide</a></td>
+<td>手机/App 项目</td>
+<td align="right">143</td>
+<td align="right">220</td>
+<td align="right">1031</td>
+<td>Astro</td>
+<td>项目出现于 7 天前，最近更新 5 天前; 1031 人收藏 / 162 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">56</td>
+<td><a href="https://github.com/mokshablr/gander">mokshablr/gander</a></td>
+<td>手机/App 项目</td>
+<td align="right">141</td>
+<td align="right">220</td>
+<td align="right">871</td>
+<td>JavaScript</td>
+<td>项目出现于 43 天前，最近更新 13 小时前; 871 人收藏 / 31 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">57</td>
+<td><a href="https://github.com/Obiente/nc-native">Obiente/nc-native</a></td>
+<td>手机/App 项目</td>
+<td align="right">124</td>
+<td align="right">220</td>
+<td align="right">514</td>
+<td>Kotlin</td>
+<td>项目出现于 38 天前，最近更新 3 小时前; 514 人收藏 / 4 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">58</td>
+<td><a href="https://github.com/HUANGCHIHHUNGLeo/claude-real-video">HUANGCHIHHUNGLeo/claude-real-video</a></td>
+<td>AI 工具项目</td>
+<td align="right">218</td>
+<td align="right">182</td>
+<td align="right">2095</td>
+<td>Python</td>
+<td>项目出现于 62 天前，最近更新 3 天前; 2095 人收藏 / 184 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">59</td>
+<td><a href="https://github.com/deer-flow/llm-space">deer-flow/llm-space</a></td>
+<td>AI 工具项目</td>
+<td align="right">218</td>
+<td align="right">183</td>
+<td align="right">1753</td>
+<td>TypeScript</td>
+<td>项目出现于 64 天前，最近更新 2 天前; 1753 人收藏 / 187 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">60</td>
+<td><a href="https://github.com/Dong90/oh-my-taiyiforge">Dong90/oh-my-taiyiforge</a></td>
+<td>AI 工具项目</td>
+<td align="right">217</td>
+<td align="right">179</td>
+<td align="right">886</td>
+<td>TypeScript</td>
+<td>项目出现于 87 天前，最近更新 4 小时前; 886 人收藏 / 22 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">61</td>
+<td><a href="https://github.com/Appllama/appllama-skills">Appllama/appllama-skills</a></td>
+<td>手机/App 项目</td>
+<td align="right">182</td>
+<td align="right">217</td>
+<td align="right">417</td>
+<td>-</td>
+<td>项目出现于 18 天前，最近更新 2 天前; 417 人收藏 / 32 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">62</td>
+<td><a href="https://github.com/nexu-io/codex-slides">nexu-io/codex-slides</a></td>
+<td>AI 工具项目</td>
+<td align="right">210</td>
+<td align="right">216</td>
+<td align="right">854</td>
+<td>TypeScript</td>
+<td>项目出现于 52 天前，最近更新 41 天前; 854 人收藏 / 72 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">63</td>
+<td><a href="https://github.com/v-modal/vmodal_sdk_android">v-modal/vmodal_sdk_android</a></td>
+<td>手机/App 项目</td>
+<td align="right">132</td>
+<td align="right">216</td>
+<td align="right">604</td>
+<td>Kotlin</td>
+<td>项目出现于 48 天前，最近更新 17 小时前; 604 人收藏 / 12 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">64</td>
+<td><a href="https://github.com/panel-ui/PanelUI">panel-ui/PanelUI</a></td>
+<td>手机/App 项目</td>
+<td align="right">120</td>
+<td align="right">216</td>
+<td align="right">353</td>
+<td>TypeScript</td>
+<td>项目出现于 42 天前，最近更新 14 小时前; 353 人收藏 / 14 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">65</td>
+<td><a href="https://github.com/v-modal/vmodal_sdk_flutter">v-modal/vmodal_sdk_flutter</a></td>
+<td>手机/App 项目</td>
+<td align="right">137</td>
+<td align="right">215</td>
+<td align="right">1438</td>
+<td>Dart</td>
+<td>项目出现于 46 天前，最近更新 16 小时前; 1438 人收藏 / 5 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">66</td>
+<td><a href="https://github.com/SchroederNathan/clarity">SchroederNathan/clarity</a></td>
+<td>手机/App 项目</td>
+<td align="right">124</td>
+<td align="right">215</td>
+<td align="right">312</td>
+<td>TypeScript</td>
+<td>项目出现于 39 天前，最近更新 5 小时前; 312 人收藏 / 65 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">67</td>
+<td><a href="https://github.com/margelo/ai-chat-demo">margelo/ai-chat-demo</a></td>
+<td>手机/App 项目</td>
+<td align="right">108</td>
+<td align="right">212</td>
+<td align="right">184</td>
+<td>TypeScript</td>
+<td>项目出现于 27 天前，最近更新 26 天前; 184 人收藏 / 18 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">68</td>
+<td><a href="https://github.com/YangJiiii/3105">YangJiiii/3105</a></td>
+<td>手机/App 项目</td>
+<td align="right">131</td>
+<td align="right">208</td>
+<td align="right">532</td>
+<td>Swift</td>
+<td>项目出现于 17 天前，最近更新 6 天前; 532 人收藏 / 69 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">69</td>
+<td><a href="https://github.com/aws-devtools-labs/aws-blocks">aws-devtools-labs/aws-blocks</a></td>
+<td>手机/App 项目</td>
+<td align="right">143</td>
+<td align="right">207</td>
+<td align="right">383</td>
+<td>TypeScript</td>
+<td>项目出现于 82 天前，最近更新 19 小时前; 383 人收藏 / 44 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">70</td>
+<td><a href="https://github.com/LerSent001/orb">LerSent001/orb</a></td>
+<td>手机/App 项目</td>
+<td align="right">157</td>
+<td align="right">205</td>
+<td align="right">569</td>
+<td>TypeScript</td>
+<td>项目出现于 17 天前，最近更新 2 天前; 569 人收藏 / 67 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">71</td>
+<td><a href="https://github.com/Blaizzy/nativ">Blaizzy/nativ</a></td>
+<td>手机/App 项目</td>
+<td align="right">142</td>
+<td align="right">204</td>
+<td align="right">1374</td>
+<td>Swift</td>
+<td>项目出现于 42 天前，最近更新 3 小时前; 1374 人收藏 / 91 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">72</td>
+<td><a href="https://github.com/FrizzleM/SideInstaller">FrizzleM/SideInstaller</a></td>
+<td>手机/App 项目</td>
+<td align="right">133</td>
+<td align="right">204</td>
+<td align="right">594</td>
+<td>Swift</td>
+<td>项目出现于 70 天前，最近更新 4 小时前; 594 人收藏 / 50 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">73</td>
+<td><a href="https://github.com/didriksg/Crisp">didriksg/Crisp</a></td>
+<td>手机/App 项目</td>
+<td align="right">151</td>
+<td align="right">202</td>
+<td align="right">1451</td>
+<td>Swift</td>
+<td>项目出现于 40 天前，最近更新 9 小时前; 1451 人收藏 / 59 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">74</td>
+<td><a href="https://github.com/afonsojramos/super-calendar">afonsojramos/super-calendar</a></td>
+<td>手机/App 项目</td>
+<td align="right">93</td>
+<td align="right">201</td>
+<td align="right">184</td>
+<td>TypeScript</td>
+<td>项目出现于 70 天前，最近更新 4 天前; 184 人收藏 / 6 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">75</td>
+<td><a href="https://github.com/jxlarrea/kiosk-satellite">jxlarrea/kiosk-satellite</a></td>
+<td>手机/App 项目</td>
+<td align="right">158</td>
+<td align="right">200</td>
+<td align="right">592</td>
+<td>Dart</td>
+<td>项目出现于 47 天前，最近更新 6 小时前; 592 人收藏 / 20 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">76</td>
+<td><a href="https://github.com/skydoves/compose-nav-graph">skydoves/compose-nav-graph</a></td>
+<td>手机/App 项目</td>
+<td align="right">122</td>
+<td align="right">199</td>
+<td align="right">511</td>
+<td>Kotlin</td>
+<td>项目出现于 80 天前，最近更新 58 天前; 511 人收藏 / 22 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">77</td>
+<td><a href="https://github.com/starling-build/starling">starling-build/starling</a></td>
+<td>手机/App 项目</td>
+<td align="right">127</td>
+<td align="right">199</td>
+<td align="right">334</td>
+<td>Swift</td>
+<td>项目出现于 34 天前，最近更新 9 小时前; 334 人收藏 / 18 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">78</td>
+<td><a href="https://github.com/Mekotofeuka/MTPROTO_FIX_By_MEKO">Mekotofeuka/MTPROTO_FIX_By_MEKO</a></td>
+<td>手机/App 项目</td>
+<td align="right">139</td>
+<td align="right">198</td>
+<td align="right">1199</td>
+<td>Shell</td>
+<td>项目出现于 69 天前，最近更新 18 小时前; 1199 人收藏 / 23 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">79</td>
+<td><a href="https://github.com/gwitko/Conduit">gwitko/Conduit</a></td>
+<td>手机/App 项目</td>
+<td align="right">135</td>
+<td align="right">197</td>
+<td align="right">368</td>
+<td>Dart</td>
+<td>项目出现于 90 天前，最近更新 38 天前; 368 人收藏 / 21 次被别人复制改造</td>
+</tr>
+<tr>
+<td align="right">80</td>
+<td><a href="https://github.com/tdeverx/contained-app">tdeverx/contained-app</a></td>
+<td>手机/App 项目</td>
+<td align="right">134</td>
+<td align="right">195</td>
+<td align="right">781</td>
+<td>Swift</td>
+<td>项目出现于 66 天前，最近更新 7 天前; 781 人收藏 / 30 次被别人复制改造</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>详细信息</h2>
+<details>
+<summary><strong>1. DietrichGebert/ponytail</strong> · AI 工具项目 · AI 潜力 306 / 产品看点 254</summary>
+- 项目地址: https://github.com/DietrichGebert/ponytail
+- 官网或演示: https://ponytail.dev
+- 开源协议: MIT
+- 主要技术: JavaScript
+- 创建: 2026-06-12T00:52:37Z
+- 最近更新: 2026-08-07T21:44:01Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做 AI 应用、AI 助手、长期记忆功能的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: 开发工具, 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+- AI 潜力: 306
+- 产品看点: 254
+为什么值得先看:
+  - 可能值得看: AI 自动做事, 聊天 AI, 编程助手, 智能编辑器
+  - 大致方向: 聊天 AI 应用
+  - 最近关注增长: 平均每天约 1465 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 大致方向: 开发工具
+  - 可能是: 应用
+  - 有官网或演示，点开能直接看
+  - 主要技术: JavaScript
+为什么值得看:
+  - 项目出现于 80 天前，最近更新 23 天前
+  - 117462 人收藏 / 6408 次被别人复制改造
+  - 大致归类: 开发工具, 聊天 AI 应用
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, 聊天 AI, 给 AI 的指令, 编程助手
+</details>
+
+<details>
+<summary><strong>2. cobusgreyling/loop-engineering</strong> · AI 工具项目 · AI 潜力 281 / 产品看点 227</summary>
+- 项目地址: https://github.com/cobusgreyling/loop-engineering
+- 官网或演示: https://cobusgreyling.github.io/loop-engineering/
+- 开源协议: MIT
+- 主要技术: TypeScript
+- 创建: 2026-06-09T06:28:20Z
+- 最近更新: 2026-08-31T02:36:43Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 让 AI 连接外部工具, 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做设计、图片或内容, 现成模板，方便快速开工, 把重复工作自动化
+- AI 潜力: 281
+- 产品看点: 227
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 聊天 AI
+  - 大致方向: 让 AI 连接外部工具, 聊天 AI 应用
+  - 最近关注增长: 平均每天约 130 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 可能是: 常用网页开发语言, 应用, 脚手架, 自动化
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 83 天前，最近更新 3 小时前
+  - 10756 人收藏 / 1476 次被别人复制改造
+  - 大致归类: 让 AI 连接外部工具, 聊天 AI 应用
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, AI 帮写代码, 聊天 AI, 让 AI 连接外部工具
+</details>
+
+<details>
+<summary><strong>3. omnigent-ai/omnigent</strong> · AI 工具项目 · AI 潜力 280 / 产品看点 221</summary>
+- 项目地址: https://github.com/omnigent-ai/omnigent
+- 官网或演示: https://omnigent.ai
+- 开源协议: Apache-2.0
+- 主要技术: Python
+- 创建: 2026-06-11T12:18:13Z
+- 最近更新: 2026-08-31T05:12:00Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 想把手机当开发环境、或者喜欢折腾 Linux/安卓的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: 开发工具, AI 写代码工具, 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+- AI 潜力: 280
+- 产品看点: 221
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 聊天 AI, 编程助手
+  - 大致方向: AI 写代码工具, 聊天 AI 应用
+  - 最近关注增长: 平均每天约 118 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 大致方向: 开发工具
+  - 可能是: 应用
+  - 有官网或演示，点开能直接看
+  - 主要技术: Python
+为什么值得看:
+  - 项目出现于 81 天前，最近更新 1 小时前
+  - 9522 人收藏 / 1471 次被别人复制改造
+  - 大致归类: 开发工具, AI 写代码工具, 聊天 AI 应用
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, AI 帮写代码, 聊天 AI, 编程助手
+</details>
+
+<details>
+<summary><strong>4. trailhq/Graft</strong> · AI 工具项目 · AI 潜力 266 / 产品看点 225</summary>
+- 项目地址: https://github.com/trailhq/Graft
+- 官网或演示: https://graft.nanonets.ai
+- 开源协议: MIT
+- 主要技术: TypeScript
+- 创建: 2026-07-03T13:44:21Z
+- 最近更新: 2026-08-30T06:33:07Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 想把手机当开发环境、或者喜欢折腾 Linux/安卓的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: 开发工具, 终端工具, 让 AI 连接外部工具, 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+- AI 潜力: 266
+- 产品看点: 225
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 聊天 AI
+  - 大致方向: 让 AI 连接外部工具, 聊天 AI 应用
+  - 最近关注增长: 平均每天约 88 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 大致方向: 开发工具, 终端工具
+  - 可能是: 常用网页开发语言, 应用
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 59 天前，最近更新 23 小时前
+  - 5174 人收藏 / 468 次被别人复制改造
+  - 大致归类: 开发工具, 终端工具, 让 AI 连接外部工具
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, AI 帮写代码, 聊天 AI, 让 AI 连接外部工具
+</details>
+
+<details>
+<summary><strong>5. makecindy/cindy</strong> · 手机/App 项目 · AI 潜力 245 / 产品看点 259</summary>
+- 项目地址: https://github.com/makecindy/cindy
+- 官网或演示: https://cindy.app
+- 开源协议: Apache-2.0
+- 主要技术: TypeScript
+- 创建: 2026-07-22T17:49:34Z
+- 最近更新: 2026-08-31T05:01:38Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: 苹果手机应用, 安卓手机应用, 跨平台手机应用, AI 写代码工具, 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
+- AI 潜力: 245
+- 产品看点: 259
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 聊天 AI, 编程助手
+  - 大致方向: AI 写代码工具, 聊天 AI 应用
+  - 最近关注增长: 平均每天约 60 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品
+  - 大致方向: 苹果手机应用, 安卓手机应用, 跨平台手机应用
+  - 可能是: 网页界面, 常用网页开发语言, 应用, 手机端, iOS
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 39 天前，最近更新 1 小时前
+  - 2365 人收藏 / 334 次被别人复制改造
+  - 大致归类: 苹果手机应用, 安卓手机应用, 跨平台手机应用
+  - 有官网或演示，点开能直接看
+  - 看点: 网页界面, AI 自动做事, AI 帮写代码, assistant
+</details>
+
+<details>
+<summary><strong>6. simonlin1212/Vibe-Research</strong> · AI 工具项目 · AI 潜力 257 / 产品看点 227</summary>
+- 项目地址: https://github.com/simonlin1212/Vibe-Research
+- 官网或演示: https://viberesearch.wiki
+- 开源协议: MIT
+- 主要技术: TypeScript
+- 创建: 2026-07-05T06:30:55Z
+- 最近更新: 2026-08-29T17:05:06Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做 AI 应用、AI 助手、长期记忆功能的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 网站页面项目, AI 写代码工具, 让 AI 连接外部工具, 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型
+- AI 潜力: 257
+- 产品看点: 227
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 聊天 AI
+  - 大致方向: AI 写代码工具, 让 AI 连接外部工具, 聊天 AI 应用
+  - 最近关注增长: 平均每天约 40 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型
+  - 大致方向: 网站页面项目
+  - 可能是: 网页, 网页界面, 常用网页开发语言, 应用
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 57 天前，最近更新 2 天前
+  - 2260 人收藏 / 467 次被别人复制改造
+  - 大致归类: 网站页面项目, AI 写代码工具, 让 AI 连接外部工具
+  - 有官网或演示，点开能直接看
+  - 看点: 网页, 网页界面, 数据面板, AI 自动做事
+</details>
+
+<details>
+<summary><strong>7. lidge-jun/opencodex</strong> · AI 工具项目 · AI 潜力 255 / 产品看点 233</summary>
+- 项目地址: https://github.com/lidge-jun/opencodex
+- 官网或演示: https://opencodex.me/
+- 开源协议: MIT
+- 主要技术: TypeScript
+- 创建: 2026-06-18T23:03:18Z
+- 最近更新: 2026-08-31T05:08:01Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做 AI 应用、AI 助手、长期记忆功能的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 开发工具, 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+- AI 潜力: 255
+- 产品看点: 233
+为什么值得先看:
+  - 可能值得看: 聊天 AI, 编程助手
+  - 大致方向: 聊天 AI 应用
+  - 最近关注增长: 平均每天约 173 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 大致方向: 开发工具
+  - 可能是: 常用网页开发语言, 应用
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 73 天前，最近更新 1 小时前
+  - 12639 人收藏 / 931 次被别人复制改造
+  - 大致归类: 开发工具, 聊天 AI 应用
+  - 有官网或演示，点开能直接看
+  - 看点: 聊天 AI, 编程助手, openai, 终端工具
+</details>
+
+<details>
+<summary><strong>8. tutti-os/tutti</strong> · AI 工具项目 · AI 潜力 254 / 产品看点 225</summary>
+- 项目地址: https://github.com/tutti-os/tutti
+- 官网或演示: https://tutti.sh/
+- 开源协议: Apache-2.0
+- 主要技术: TypeScript
+- 创建: 2026-06-12T12:29:05Z
+- 最近更新: 2026-08-30T23:09:50Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 开发工具, 让 AI 连接外部工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 把重复工作自动化
+- AI 潜力: 254
+- 产品看点: 225
+为什么值得先看:
+  - 可能值得看: AI 自动做事, 让 AI 连接外部工具, 编程助手
+  - 大致方向: 让 AI 连接外部工具
+  - 最近关注增长: 平均每天约 46 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 大致方向: 开发工具
+  - 可能是: 常用网页开发语言, 应用, 工作流, 工作台
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 80 天前，最近更新 6 小时前
+  - 3637 人收藏 / 368 次被别人复制改造
+  - 大致归类: 开发工具, 让 AI 连接外部工具
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, 让 AI 连接外部工具, 编程助手
+</details>
+
+<details>
+<summary><strong>9. fuxicodex/Fuxi</strong> · AI 工具项目 · AI 潜力 254 / 产品看点 203</summary>
+- 项目地址: https://github.com/fuxicodex/Fuxi
+- 官网或演示: https://www.fuxicode.com
+- 开源协议: NOASSERTION
+- 主要技术: Python
+- 创建: 2026-08-04T07:32:11Z
+- 最近更新: 2026-08-23T10:16:40Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - README 强调门槛低，尽量少配置或少依赖外部服务
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+- 为什么被找到: 开发工具, 终端工具, AI 写代码工具, 让 AI 连接外部工具, 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+- AI 潜力: 254
+- 产品看点: 203
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, AI 自己执行, 让 AI 连接外部工具
+  - 大致方向: AI 写代码工具, 让 AI 连接外部工具, 聊天 AI 应用
+  - 最近关注增长: 平均每天约 113 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 大致方向: 开发工具, 终端工具
+  - 可能是: 应用, 产品
+  - 有官网或演示，点开能直接看
+  - 主要技术: Python
+为什么值得看:
+  - 项目出现于 27 天前，最近更新 8 天前
+  - 3044 人收藏 / 179 次被别人复制改造
+  - 大致归类: 开发工具, 终端工具, AI 写代码工具
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, AI 帮写代码, assistant, 聊天 AI
+</details>
+
+<details>
+<summary><strong>10. Pinvou/pinvou-agent</strong> · AI 工具项目 · AI 潜力 253 / 产品看点 221</summary>
+- 项目地址: https://github.com/Pinvou/pinvou-agent
+- 官网或演示: https://pinvou.com/
+- 开源协议: MIT
+- 主要技术: Rust
+- 创建: 2026-07-24T07:28:41Z
+- 最近更新: 2026-08-31T04:27:50Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: 网站页面项目, AI 写代码工具, 让 AI 连接外部工具, 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 一套代码做多个平台的 App, 把重复工作自动化
+- AI 潜力: 253
+- 产品看点: 221
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 聊天 AI
+  - 大致方向: AI 写代码工具, 让 AI 连接外部工具, 聊天 AI 应用
+  - 最近关注增长: 平均每天约 40 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 一套代码做多个平台的 App
+  - 大致方向: 网站页面项目
+  - 可能是: 网页, 网页界面, 应用, 工作流
+  - 有官网或演示，点开能直接看
+  - 主要技术: Rust
+为什么值得看:
+  - 项目出现于 38 天前，最近更新 1 小时前
+  - 1514 人收藏 / 223 次被别人复制改造
+  - 大致归类: 网站页面项目, AI 写代码工具, 让 AI 连接外部工具
+  - 有官网或演示，点开能直接看
+  - 看点: 网页, 网页界面, AI 自动做事
+</details>
+
+<details>
+<summary><strong>11. kirodotdev/KiroCrew</strong> · AI 工具项目 · AI 潜力 252 / 产品看点 199</summary>
+- 项目地址: https://github.com/kirodotdev/KiroCrew
+- 官网或演示: https://kiro.dev/crew/
+- 开源协议: Apache-2.0
+- 主要技术: Python
+- 创建: 2026-07-16T21:21:54Z
+- 最近更新: 2026-08-31T05:11:24Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 想把手机当开发环境、或者喜欢折腾 Linux/安卓的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它和真实手机使用场景有关，不只是网页端项目
+- 为什么被找到: AI 写代码工具, 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 把重复工作自动化
+- AI 潜力: 252
+- 产品看点: 199
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 聊天 AI, 自动化
+  - 大致方向: AI 写代码工具, 聊天 AI 应用
+  - 最近关注增长: 平均每天约 76 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 把重复工作自动化
+  - 可能是: 应用, 自动化, 工作台
+  - 有官网或演示，点开能直接看
+  - 主要技术: Python
+为什么值得看:
+  - 项目出现于 45 天前，最近更新 1 小时前
+  - 3451 人收藏 / 434 次被别人复制改造
+  - 大致归类: AI 写代码工具, 聊天 AI 应用
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, AI 帮写代码, 聊天 AI, 开发工具
+</details>
+
+<details>
+<summary><strong>12. shy3130/tick-stock-panel</strong> · AI 工具项目 · AI 潜力 249 / 产品看点 212</summary>
+- 项目地址: https://github.com/shy3130/tick-stock-panel
+- 开源协议: MIT
+- 主要技术: Python
+- 创建: 2026-06-18T06:18:29Z
+- 最近更新: 2026-08-30T14:31:33Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 想把手机当开发环境、或者喜欢折腾 Linux/安卓的人
+- README 里看到的重点:
+  - 它不只是代码，也提供可观察的案例、截图或数据
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 网站页面项目, AI 写代码工具, 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 普通用户会用的个人工具
+- AI 潜力: 249
+- 产品看点: 212
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 聊天 AI
+  - 大致方向: AI 写代码工具, 聊天 AI 应用
+  - 最近关注增长: 平均每天约 54 人收藏
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 大致方向: 网站页面项目
+  - 可能是: 网页, 网页界面, 应用
+  - 主要技术: Python
+为什么值得看:
+  - 项目出现于 74 天前，最近更新 15 小时前
+  - 4001 人收藏 / 940 次被别人复制改造
+  - 大致归类: 网站页面项目, AI 写代码工具, 聊天 AI 应用
+  - 看点: 网页, 网页界面, AI 自动做事
+</details>
+
+<details>
+<summary><strong>13. oomol-lab/open-connector</strong> · AI 工具项目 · AI 潜力 248 / 产品看点 232</summary>
+- 项目地址: https://github.com/oomol-lab/open-connector
+- 官网或演示: https://oomol.com
+- 开源协议: Apache-2.0
+- 主要技术: TypeScript
+- 创建: 2026-06-29T10:49:36Z
+- 最近更新: 2026-08-31T05:01:25Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 想把手机当开发环境、或者喜欢折腾 Linux/安卓的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: 终端工具, 让 AI 连接外部工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 把重复工作自动化
+- AI 潜力: 248
+- 产品看点: 232
+为什么值得先看:
+  - 可能值得看: AI 自动做事, 让 AI 连接外部工具, 自动化
+  - 大致方向: 让 AI 连接外部工具
+  - 最近关注增长: 平均每天约 87 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 大致方向: 终端工具
+  - 可能是: 常用网页开发语言, 自动化, 在线服务, 平台
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 63 天前，最近更新 1 小时前
+  - 5441 人收藏 / 465 次被别人复制改造
+  - 大致归类: 终端工具, 让 AI 连接外部工具
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, 让 AI 连接外部工具, 终端工具, 开发工具包
+</details>
+
+<details>
+<summary><strong>14. isjiamu/gzh-design-skill</strong> · AI 工具项目 · AI 潜力 247 / 产品看点 170</summary>
+- 项目地址: https://github.com/isjiamu/gzh-design-skill
+- 官网或演示: https://github.com/AlephMuYe
+- 开源协议: NOASSERTION
+- 主要技术: HTML
+- 创建: 2026-07-01T04:28:03Z
+- 最近更新: 2026-07-08T13:32:08Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: AI 写代码工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 做设计、图片或内容
+- AI 潜力: 247
+- 产品看点: 170
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 编程助手
+  - 大致方向: AI 写代码工具
+  - 最近关注增长: 平均每天约 56 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做设计、图片或内容
+  - 有官网或演示，点开能直接看
+  - 主要技术: HTML
+为什么值得看:
+  - 项目出现于 61 天前，最近更新 54 天前
+  - 3418 人收藏 / 394 次被别人复制改造
+  - 大致归类: AI 写代码工具
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, AI 帮写代码, 编程助手
+</details>
+
+<details>
+<summary><strong>15. synthetic-sciences/openscience</strong> · AI 工具项目 · AI 潜力 247 / 产品看点 215</summary>
+- 项目地址: https://github.com/synthetic-sciences/openscience
+- 官网或演示: https://openscience.sh
+- 开源协议: Apache-2.0
+- 主要技术: TypeScript
+- 创建: 2026-07-03T15:06:45Z
+- 最近更新: 2026-08-31T04:45:30Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做 AI 应用、AI 助手、长期记忆功能的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: 终端工具, AI 写代码工具, 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+- AI 潜力: 247
+- 产品看点: 215
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 聊天 AI
+  - 大致方向: AI 写代码工具, 聊天 AI 应用
+  - 最近关注增长: 平均每天约 57 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 大致方向: 终端工具
+  - 可能是: 常用网页开发语言, 应用
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 59 天前，最近更新 1 小时前
+  - 3363 人收藏 / 455 次被别人复制改造
+  - 大致归类: 终端工具, AI 写代码工具, 聊天 AI 应用
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, AI 帮写代码, 聊天 AI, 终端工具
+</details>
+
+<details>
+<summary><strong>16. ShenSeanChen/waku-agent</strong> · AI 工具项目 · AI 潜力 245 / 产品看点 173</summary>
+- 项目地址: https://github.com/ShenSeanChen/waku-agent
+- 官网或演示: waku.one
+- 开源协议: MIT
+- 主要技术: Python
+- 创建: 2026-07-10T12:20:50Z
+- 最近更新: 2026-08-29T04:29:59Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: AI 写代码工具, 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型
+- AI 潜力: 245
+- 产品看点: 173
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 聊天 AI, 效果评测
+  - 大致方向: AI 写代码工具, 聊天 AI 应用
+  - 最近关注增长: 平均每天约 31 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型
+  - 可能是: 应用
+  - 有官网或演示，点开能直接看
+  - 主要技术: Python
+为什么值得看:
+  - 项目出现于 52 天前，最近更新 2 天前
+  - 1625 人收藏 / 309 次被别人复制改造
+  - 大致归类: AI 写代码工具, 聊天 AI 应用
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, AI 帮写代码, assistant, 聊天 AI
+</details>
+
+<details>
+<summary><strong>17. 0xsline/OpenChatCut</strong> · AI 工具项目 · AI 潜力 245 / 产品看点 205</summary>
+- 项目地址: https://github.com/0xsline/OpenChatCut
+- 官网或演示: https://openchatcut.com
+- 开源协议: AGPL-3.0
+- 主要技术: TypeScript
+- 创建: 2026-07-15T02:49:42Z
+- 最近更新: 2026-08-31T04:36:55Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: AI 写代码工具, 让 AI 连接外部工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 一套代码做多个平台的 App, 做设计、图片或内容
+- AI 潜力: 245
+- 产品看点: 205
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 编程助手
+  - 大致方向: AI 写代码工具, 让 AI 连接外部工具
+  - 最近关注增长: 平均每天约 32 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 一套代码做多个平台的 App
+  - 可能是: 常用网页开发语言, 应用, 编辑器, 桌面应用工具
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 47 天前，最近更新 1 小时前
+  - 1485 人收藏 / 211 次被别人复制改造
+  - 大致归类: AI 写代码工具, 让 AI 连接外部工具
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 编程助手
+</details>
+
+<details>
+<summary><strong>18. chuspeeism/dashi-ppt-skill</strong> · AI 工具项目 · AI 潜力 243 / 产品看点 187</summary>
+- 项目地址: https://github.com/chuspeeism/dashi-ppt-skill
+- 开源协议: AGPL-3.0
+- 主要技术: JavaScript
+- 创建: 2026-06-10T07:46:43Z
+- 最近更新: 2026-07-30T14:02:33Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 想用 AI 写代码、检查项目、自动处理开发任务的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+- 为什么被找到: AI 写代码工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 做手机 App 和应用产品, 一套代码做多个平台的 App
+- AI 潜力: 243
+- 产品看点: 187
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 编程助手
+  - 大致方向: AI 写代码工具
+  - 最近关注增长: 平均每天约 85 人收藏
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做手机 App 和应用产品, 一套代码做多个平台的 App
+  - 可能是: 快速做手机 App
+  - 主要技术: JavaScript
+为什么值得看:
+  - 项目出现于 82 天前，最近更新 32 天前
+  - 6988 人收藏 / 659 次被别人复制改造
+  - 大致归类: AI 写代码工具
+  - 看点: 浏览器, AI 自动做事, AI 帮写代码, 编程助手
+</details>
+
+<details>
+<summary><strong>19. CopilotKit/OpenBot</strong> · AI 工具项目 · AI 潜力 243 / 产品看点 204</summary>
+- 项目地址: https://github.com/CopilotKit/OpenBot
+- 官网或演示: https://www.copilotkit.ai/openbot
+- 开源协议: MIT
+- 主要技术: TypeScript
+- 创建: 2026-08-17T00:44:59Z
+- 最近更新: 2026-08-28T20:00:10Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 想把手机当开发环境、或者喜欢折腾 Linux/安卓的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: 让 AI 连接外部工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 现成模板，方便快速开工, 把重复工作自动化
+- AI 潜力: 243
+- 产品看点: 204
+为什么值得先看:
+  - 可能值得看: AI 自动做事, 让 AI 连接外部工具, 编程助手, 自动化
+  - 大致方向: 让 AI 连接外部工具
+  - 最近关注增长: 平均每天约 251 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 现成模板，方便快速开工
+  - 可能是: 常用网页开发语言, 应用, 自动化
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 14 天前，最近更新 2 天前
+  - 3560 人收藏 / 445 次被别人复制改造
+  - 大致归类: 让 AI 连接外部工具
+  - 有官网或演示，点开能直接看
+  - 看点: 浏览器, AI 自动做事, 编程助手, 让 AI 连接外部工具
+</details>
+
+<details>
+<summary><strong>20. Appllama/top-welcome-screens</strong> · 手机/App 项目 · AI 潜力 132 / 产品看点 240</summary>
+- 项目地址: https://github.com/Appllama/top-welcome-screens
+- 官网或演示: https://appllama.io
+- 开源协议: GPL-3.0
+- 主要技术: TypeScript
+- 创建: 2026-08-08T12:44:52Z
+- 最近更新: 2026-08-08T15:54:13Z
+- 描述: 它收集真实 iOS 订阅 App 的付费墙、价格页和新用户引导截图，方便研究 App 怎么收费、怎么转化用户。
+- 适合谁看: 做手机 App、订阅收费、增长转化的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: 网站页面项目, 苹果手机应用, 跨平台手机应用, 快速开发的手机应用
+- 项目方向: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App, 做设计、图片或内容
+- AI 潜力: 132
+- 产品看点: 240
+为什么值得先看:
+  - 最近关注增长: 平均每天约 25 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
+  - 大致方向: 网站页面项目, 苹果手机应用, 跨平台手机应用
+  - 可能是: 网页, 网页界面, 常用网页开发语言, 应用
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 23 天前，最近更新 23 天前
+  - 572 人收藏 / 53 次被别人复制改造
+  - 大致归类: 网站页面项目, 苹果手机应用, 跨平台手机应用
+  - 有官网或演示，点开能直接看
+  - 看点: 网页, 网页界面, 应用, 手机端
+</details>
+
+<details>
+<summary><strong>21. tianma-if/edgeever</strong> · AI 工具项目 · AI 潜力 239 / 产品看点 188</summary>
+- 项目地址: https://github.com/tianma-if/edgeever
+- 官网或演示: https://edgeever.org
+- 开源协议: AGPL-3.0
+- 主要技术: HTML
+- 创建: 2026-06-26T06:59:58Z
+- 最近更新: 2026-08-31T04:26:27Z
+- 描述: 它收集真实 iOS 订阅 App 的付费墙、价格页和新用户引导截图，方便研究 App 怎么收费、怎么转化用户。
+- 适合谁看: 做手机 App、订阅收费、增长转化的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它和真实手机使用场景有关，不只是网页端项目
+- 为什么被找到: AI 写代码工具, 让 AI 连接外部工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 一套代码做多个平台的 App
+- AI 潜力: 239
+- 产品看点: 188
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具
+  - 大致方向: AI 写代码工具, 让 AI 连接外部工具
+  - 最近关注增长: 平均每天约 20 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 可能是: 网页, 离线优先, 桌面应用工具
+  - 有官网或演示，点开能直接看
+  - 主要技术: HTML
+为什么值得看:
+  - 项目出现于 66 天前，最近更新 1 小时前
+  - 1309 人收藏 / 730 次被别人复制改造
+  - 大致归类: AI 写代码工具, 让 AI 连接外部工具
+  - 有官网或演示，点开能直接看
+  - 看点: 网页, AI 自动做事, AI 帮写代码, 让 AI 连接外部工具
+</details>
+
+<details>
+<summary><strong>22. SenteLabsAI/OpenExecutive</strong> · AI 工具项目 · AI 潜力 238 / 产品看点 222</summary>
+- 项目地址: https://github.com/SenteLabsAI/OpenExecutive
+- 官网或演示: https://openexec-ui-dev.fly.dev
+- 开源协议: NOASSERTION
+- 主要技术: Python
+- 创建: 2026-06-11T21:41:54Z
+- 最近更新: 2026-08-30T22:34:08Z
+- 描述: 它和 MCP/工具连接有关，重点是让 AI 能接入更多外部能力，而不是只停留在聊天回答。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+  - 它和真实手机使用场景有关，不只是网页端项目
+- 为什么被找到: 完整网站应用, 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+- AI 潜力: 238
+- 产品看点: 222
+为什么值得先看:
+  - 可能值得看: AI 自动做事, 聊天 AI, 让 AI 查资料后回答, 编程助手
+  - 大致方向: 聊天 AI 应用
+  - 最近关注增长: 平均每天约 38 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 大致方向: 完整网站应用
+  - 可能是: 网页, 网页界面, 完整网站应用, 常用网页开发语言
+  - 有官网或演示，点开能直接看
+  - 主要技术: Python
+为什么值得看:
+  - 项目出现于 80 天前，最近更新 7 小时前
+  - 3037 人收藏 / 284 次被别人复制改造
+  - 大致归类: 完整网站应用, 聊天 AI 应用
+  - 有官网或演示，点开能直接看
+  - 看点: 网页, 网页界面, 完整网站应用, AI 自动做事
+</details>
+
+<details>
+<summary><strong>23. Tiger3807861189/J-Space-Cognition-Suite-V3.7</strong> · AI 工具项目 · AI 潜力 238 / 产品看点 205</summary>
+- 项目地址: https://github.com/Tiger3807861189/J-Space-Cognition-Suite-V3.7
+- 开源协议: Apache-2.0
+- 主要技术: Python
+- 创建: 2026-07-22T00:34:24Z
+- 最近更新: 2026-08-31T04:42:57Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 网站页面项目, 开发工具, AI 写代码工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+- AI 潜力: 238
+- 产品看点: 205
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 编程助手
+  - 大致方向: AI 写代码工具
+  - 最近关注增长: 平均每天约 75 人收藏
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 大致方向: 网站页面项目, 开发工具
+  - 可能是: 网页, 网页界面, 网页样式, 工作台
+  - 主要技术: Python
+为什么值得看:
+  - 项目出现于 40 天前，最近更新 1 小时前
+  - 3011 人收藏 / 215 次被别人复制改造
+  - 大致归类: 网站页面项目, 开发工具, AI 写代码工具
+  - 看点: 网页, 网页界面, 网页样式, AI 自动做事
+</details>
+
+<details>
+<summary><strong>24. ai4s-research/open-science</strong> · AI 工具项目 · AI 潜力 238 / 产品看点 193</summary>
+- 项目地址: https://github.com/ai4s-research/open-science
+- 官网或演示: https://openedscience.com/
+- 开源协议: NOASSERTION
+- 主要技术: TypeScript
+- 创建: 2026-07-03T09:22:31Z
+- 最近更新: 2026-08-31T04:34:55Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: AI 写代码工具, 让 AI 连接外部工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 一套代码做多个平台的 App
+- AI 潜力: 238
+- 产品看点: 193
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 编程助手
+  - 大致方向: AI 写代码工具, 让 AI 连接外部工具
+  - 最近关注增长: 平均每天约 26 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 一套代码做多个平台的 App
+  - 可能是: 常用网页开发语言, 应用, 桌面应用工具
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 59 天前，最近更新 1 小时前
+  - 1515 人收藏 / 166 次被别人复制改造
+  - 大致归类: AI 写代码工具, 让 AI 连接外部工具
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 编程助手
+</details>
+
+<details>
+<summary><strong>25. xuzhougeng/wisp-science</strong> · AI 工具项目 · AI 潜力 238 / 产品看点 183</summary>
+- 项目地址: https://github.com/xuzhougeng/wisp-science
+- 官网或演示: https://wispscience.com/
+- 开源协议: AGPL-3.0
+- 主要技术: Rust
+- 创建: 2026-07-01T07:57:11Z
+- 最近更新: 2026-08-31T04:17:40Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做 AI 应用、AI 助手、长期记忆功能的人
+- README 里看到的重点:
+  - README 强调门槛低，尽量少配置或少依赖外部服务
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+- 为什么被找到: AI 写代码工具, 让 AI 连接外部工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 一套代码做多个平台的 App, 把重复工作自动化
+- AI 潜力: 238
+- 产品看点: 183
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 聊天 AI
+  - 大致方向: AI 写代码工具, 让 AI 连接外部工具
+  - 最近关注增长: 平均每天约 18 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 一套代码做多个平台的 App
+  - 可能是: 应用, 工作流, 桌面应用工具
+  - 有官网或演示，点开能直接看
+  - 主要技术: Rust
+为什么值得看:
+  - 项目出现于 61 天前，最近更新 1 小时前
+  - 1074 人收藏 / 108 次被别人复制改造
+  - 大致归类: AI 写代码工具, 让 AI 连接外部工具
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, AI 帮写代码, assistant, 聊天 AI
+</details>
+
+<details>
+<summary><strong>26. Leonxlnx/unlazy</strong> · AI 工具项目 · AI 潜力 237 / 产品看点 177</summary>
+- 项目地址: https://github.com/Leonxlnx/unlazy
+- 开源协议: MIT
+- 主要技术: JavaScript
+- 创建: 2026-08-09T23:39:12Z
+- 最近更新: 2026-08-29T11:41:46Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它和真实手机使用场景有关，不只是网页端项目
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型
+- AI 潜力: 237
+- 产品看点: 177
+为什么值得先看:
+  - 可能值得看: AI 自动做事, 聊天 AI, 编程助手, 给 AI 的指令
+  - 大致方向: 聊天 AI 应用
+  - 最近关注增长: 平均每天约 134 人收藏
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型
+  - 可能是: 应用, 产品
+  - 主要技术: JavaScript
+为什么值得看:
+  - 项目出现于 21 天前，最近更新 2 天前
+  - 2841 人收藏 / 173 次被别人复制改造
+  - 大致归类: 聊天 AI 应用
+  - 看点: AI 自动做事, 聊天 AI, 给 AI 的指令, 编程助手
+</details>
+
+<details>
+<summary><strong>27. Sahir619/fable-method</strong> · AI 工具项目 · AI 潜力 237 / 产品看点 170</summary>
+- 项目地址: https://github.com/Sahir619/fable-method
+- 开源协议: MIT
+- 主要技术: Python
+- 创建: 2026-07-06T22:35:18Z
+- 最近更新: 2026-07-15T15:11:12Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 它和真实手机使用场景有关，不只是网页端项目
+- 为什么被找到: 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 把重复工作自动化
+- AI 潜力: 237
+- 产品看点: 170
+为什么值得先看:
+  - 可能值得看: AI 自动做事, 聊天 AI, 效果评测, 编程助手
+  - 大致方向: 聊天 AI 应用
+  - 最近关注增长: 平均每天约 41 人收藏
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 把重复工作自动化
+  - 可能是: 应用, 工作流
+  - 主要技术: Python
+为什么值得看:
+  - 项目出现于 55 天前，最近更新 47 天前
+  - 2269 人收藏 / 326 次被别人复制改造
+  - 大致归类: 聊天 AI 应用
+  - 看点: AI 自动做事, 聊天 AI, 编程助手, 工作流
+</details>
+
+<details>
+<summary><strong>28. tsingyuai/growth-lab</strong> · AI 工具项目 · AI 潜力 236 / 产品看点 170</summary>
+- 项目地址: https://github.com/tsingyuai/growth-lab
+- 官网或演示: https://growthlab.tsingyuai.com
+- 开源协议: Apache-2.0
+- 主要技术: Python
+- 创建: 2026-07-24T05:33:56Z
+- 最近更新: 2026-08-11T04:56:57Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 想用 AI 写代码、检查项目、自动处理开发任务的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+- 为什么被找到: AI 写代码工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 把重复工作自动化
+- AI 潜力: 236
+- 产品看点: 170
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 编程助手
+  - 大致方向: AI 写代码工具
+  - 最近关注增长: 平均每天约 52 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 把重复工作自动化
+  - 可能是: 自动化, 产品
+  - 有官网或演示，点开能直接看
+  - 主要技术: Python
+为什么值得看:
+  - 项目出现于 38 天前，最近更新 20 天前
+  - 1984 人收藏 / 170 次被别人复制改造
+  - 大致归类: AI 写代码工具
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, AI 帮写代码, 编程助手
+</details>
+
+<details>
+<summary><strong>29. DavidHDev/canvas-ui</strong> · 网站/网页项目 · AI 潜力 165 / 产品看点 235</summary>
+- 项目地址: https://github.com/DavidHDev/canvas-ui
+- 官网或演示: https://canvasui.dev/
+- 开源协议: NOASSERTION
+- 主要技术: TypeScript
+- 创建: 2026-07-16T13:38:20Z
+- 最近更新: 2026-08-19T11:50:48Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+- 为什么被找到: 网页界面项目, 网站页面项目, 完整网站应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做设计、图片或内容, 现成模板，方便快速开工
+- AI 潜力: 165
+- 产品看点: 235
+为什么值得先看:
+  - 最近关注增长: 平均每天约 96 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做设计、图片或内容
+  - 大致方向: 网页界面项目, 网站页面项目, 完整网站应用
+  - 可能是: 网页, 网页界面, 完整网站应用
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 46 天前，最近更新 12 天前
+  - 4389 人收藏 / 218 次被别人复制改造
+  - 大致归类: 网页界面项目, 网站页面项目, 完整网站应用
+  - 有官网或演示，点开能直接看
+  - 看点: 网页, 网页界面, 完整网站应用
+</details>
+
+<details>
+<summary><strong>30. MemTensor/memmy-agent</strong> · AI 工具项目 · AI 潜力 233 / 产品看点 197</summary>
+- 项目地址: https://github.com/MemTensor/memmy-agent
+- 官网或演示: https://memmy.bot
+- 开源协议: MIT
+- 主要技术: TypeScript
+- 创建: 2026-07-16T07:57:45Z
+- 最近更新: 2026-08-28T09:54:09Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 终端工具, 让 AI 连接外部工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+- AI 潜力: 233
+- 产品看点: 197
+为什么值得先看:
+  - 可能值得看: AI 自动做事, 让 AI 连接外部工具, 聊天 AI, 编程助手
+  - 大致方向: 让 AI 连接外部工具
+  - 最近关注增长: 平均每天约 26 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 大致方向: 终端工具
+  - 可能是: 常用网页开发语言, 应用
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 46 天前，最近更新 3 天前
+  - 1196 人收藏 / 105 次被别人复制改造
+  - 大致归类: 终端工具, 让 AI 连接外部工具
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, 聊天 AI, 让 AI 连接外部工具, 编程助手
+</details>
+
+<details>
+<summary><strong>31. agentlas-ai/Agentlas-OS</strong> · AI 工具项目 · AI 潜力 233 / 产品看点 163</summary>
+- 项目地址: https://github.com/agentlas-ai/Agentlas-OS
+- 官网或演示: https://agentlas.cloud
+- 开源协议: Apache-2.0
+- 主要技术: Python
+- 创建: 2026-06-04T04:33:26Z
+- 最近更新: 2026-08-30T08:08:58Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: 让 AI 连接外部工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 把重复工作自动化
+- AI 潜力: 233
+- 产品看点: 163
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 自己执行, 让 AI 连接外部工具, 聊天 AI
+  - 大致方向: 让 AI 连接外部工具
+  - 最近关注增长: 平均每天约 13 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 把重复工作自动化
+  - 可能是: 工作流
+  - 有官网或演示，点开能直接看
+  - 主要技术: Python
+为什么值得看:
+  - 项目出现于 88 天前，最近更新 21 小时前
+  - 1106 人收藏 / 102 次被别人复制改造
+  - 大致归类: 让 AI 连接外部工具
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, 聊天 AI, 让 AI 连接外部工具, 开发框架
+</details>
+
+<details>
+<summary><strong>32. openai/codex-security</strong> · AI 工具项目 · AI 潜力 218 / 产品看点 232</summary>
+- 项目地址: https://github.com/openai/codex-security
+- 官网或演示: https://developers.openai.com/codex/security
+- 开源协议: Apache-2.0
+- 主要技术: TypeScript
+- 创建: 2026-07-13T22:00:13Z
+- 最近更新: 2026-08-31T04:21:47Z
+- 描述: 它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+- 适合谁看: 想把手机当开发环境、或者喜欢折腾 Linux/安卓的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 终端工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 检查安全风险
+- AI 潜力: 218
+- 产品看点: 232
+为什么值得先看:
+  - 可能值得看: 编程助手
+  - 最近关注增长: 平均每天约 213 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 大致方向: 终端工具
+  - 可能是: 常用网页开发语言, 应用
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 48 天前，最近更新 1 小时前
+  - 10288 人收藏 / 747 次被别人复制改造
+  - 大致归类: 终端工具
+  - 有官网或演示，点开能直接看
+  - 看点: openai, 编程助手, 终端工具, 开发工具包, 做软件的人
+</details>
+
+<details>
+<summary><strong>33. elie222/rakazo</strong> · 手机/App 项目 · AI 潜力 215 / 产品看点 232</summary>
+- 项目地址: https://github.com/elie222/rakazo
+- 官网或演示: https://rakazo.com
+- 开源协议: Apache-2.0
+- 主要技术: TypeScript
+- 创建: 2026-08-13T06:28:56Z
+- 最近更新: 2026-08-30T23:54:26Z
+- 描述: 它和 MCP/工具连接有关，重点是让 AI 能接入更多外部能力，而不是只停留在聊天回答。
+- 适合谁看: 想把手机当开发环境、或者喜欢折腾 Linux/安卓的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它和真实手机使用场景有关，不只是网页端项目
+- 为什么被找到: 快速开发的手机应用, 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
+- AI 潜力: 215
+- 产品看点: 232
+为什么值得先看:
+  - 可能值得看: AI 自动做事, 聊天 AI
+  - 大致方向: 聊天 AI 应用
+  - 最近关注增长: 平均每天约 89 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品
+  - 大致方向: 快速开发的手机应用
+  - 可能是: 常用网页开发语言, 应用, 手机端, 快速做手机 App, 桌面应用工具
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 18 天前，最近更新 5 小时前
+  - 1596 人收藏 / 263 次被别人复制改造
+  - 大致归类: 快速开发的手机应用, 聊天 AI 应用
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, 聊天 AI, 应用, 手机端
+</details>
+
+<details>
+<summary><strong>34. HiThink-Tech/Financial-API</strong> · AI 工具项目 · AI 潜力 229 / 产品看点 203</summary>
+- 项目地址: https://github.com/HiThink-Tech/Financial-API
+- 官网或演示: https://fuyao.aicubes.cn/
+- 开源协议: MIT
+- 主要技术: TypeScript
+- 创建: 2026-06-09T02:28:17Z
+- 最近更新: 2026-08-27T13:39:36Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做 AI 应用、AI 助手、长期记忆功能的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+- 为什么被找到: 终端工具, AI 写代码工具, 让 AI 连接外部工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 普通用户会用的个人工具
+- AI 潜力: 229
+- 产品看点: 203
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具
+  - 大致方向: AI 写代码工具, 让 AI 连接外部工具
+  - 最近关注增长: 平均每天约 25 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 大致方向: 终端工具
+  - 可能是: 常用网页开发语言, 应用
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 83 天前，最近更新 4 天前
+  - 2040 人收藏 / 148 次被别人复制改造
+  - 大致归类: 终端工具, AI 写代码工具, 让 AI 连接外部工具
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 终端工具
+</details>
+
+<details>
+<summary><strong>35. spinabot/brigade</strong> · AI 工具项目 · AI 潜力 228 / 产品看点 186</summary>
+- 项目地址: https://github.com/spinabot/brigade
+- 官网或演示: https://www.brigade.spinabot.com
+- 开源协议: MIT
+- 主要技术: TypeScript
+- 创建: 2026-06-19T15:18:17Z
+- 最近更新: 2026-08-31T04:58:51Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - README 强调门槛低，尽量少配置或少依赖外部服务
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+- 为什么被找到: 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型
+- AI 潜力: 228
+- 产品看点: 186
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 自己执行, 聊天 AI, 编程助手
+  - 大致方向: 聊天 AI 应用
+  - 最近关注增长: 平均每天约 44 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型
+  - 可能是: 常用网页开发语言, 应用
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 73 天前，最近更新 1 小时前
+  - 3200 人收藏 / 43 次被别人复制改造
+  - 大致归类: 聊天 AI 应用
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, 聊天 AI, 编程助手, 运行环境, 应用
+</details>
+
+<details>
+<summary><strong>36. rlaope/oh-my-hermes</strong> · AI 工具项目 · AI 潜力 228 / 产品看点 157</summary>
+- 项目地址: https://github.com/rlaope/oh-my-hermes
+- 官网或演示: https://rlaope.github.io/oh-my-hermes/
+- 开源协议: MIT
+- 主要技术: Python
+- 创建: 2026-06-03T13:00:34Z
+- 最近更新: 2026-08-31T04:53:51Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它和真实手机使用场景有关，不只是网页端项目
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: AI 写代码工具
+- 项目方向: 用 AI 帮人写代码或自动做事
+- AI 潜力: 228
+- 产品看点: 157
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 编程助手
+  - 大致方向: AI 写代码工具
+  - 最近关注增长: 平均每天约 15 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事
+  - 有官网或演示，点开能直接看
+  - 主要技术: Python
+为什么值得看:
+  - 项目出现于 89 天前，最近更新 1 小时前
+  - 1287 人收藏 / 123 次被别人复制改造
+  - 大致归类: AI 写代码工具
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, AI 帮写代码, 编程助手
+</details>
+
+<details>
+<summary><strong>37. miuuyy/codex-chatgpt-web</strong> · AI 工具项目 · AI 潜力 227 / 产品看点 208</summary>
+- 项目地址: https://github.com/miuuyy/codex-chatgpt-web
+- 开源协议: MIT
+- 主要技术: TypeScript
+- 创建: 2026-07-26T13:04:44Z
+- 最近更新: 2026-08-30T23:35:26Z
+- 描述: 它围绕“让 AI 操作浏览器”展开，适合做自动测试、自动操作网页、自动完成重复流程。
+- 适合谁看: 做 AI 应用、AI 助手、长期记忆功能的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 网页应用, 让 AI 连接外部工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+- AI 潜力: 227
+- 产品看点: 208
+为什么值得先看:
+  - 可能值得看: AI 自动做事, 让 AI 连接外部工具, 编程助手
+  - 大致方向: 让 AI 连接外部工具
+  - 最近关注增长: 平均每天约 77 人收藏
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 大致方向: 网页应用
+  - 可能是: 网页, 网页界面, 常用网页开发语言, 应用
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 36 天前，最近更新 6 小时前
+  - 2760 人收藏 / 270 次被别人复制改造
+  - 大致归类: 网页应用, 让 AI 连接外部工具
+  - 看点: 网页, 网页界面, AI 自动做事, 让 AI 连接外部工具, openai
+</details>
+
+<details>
+<summary><strong>38. AlephAITech/WorkBuddyGuide</strong> · AI 工具项目 · AI 潜力 226 / 产品看点 195</summary>
+- 项目地址: https://github.com/AlephAITech/WorkBuddyGuide
+- 官网或演示: https://workbuddy.homes/
+- 开源协议: MIT
+- 主要技术: TypeScript
+- 创建: 2026-07-10T04:13:51Z
+- 最近更新: 2026-08-27T03:08:19Z
+- 描述: 它和 MCP/工具连接有关，重点是让 AI 能接入更多外部能力，而不是只停留在聊天回答。
+- 适合谁看: 做 AI 应用、AI 助手、长期记忆功能的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+- 为什么被找到: 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 把重复工作自动化
+- AI 潜力: 226
+- 产品看点: 195
+为什么值得先看:
+  - 可能值得看: 让 AI 连接外部工具, 聊天 AI, 编程助手, 工作流
+  - 大致方向: 聊天 AI 应用
+  - 最近关注增长: 平均每天约 51 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 把重复工作自动化
+  - 可能是: 常用网页开发语言, 应用, 工作流
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 52 天前，最近更新 4 天前
+  - 2632 人收藏 / 371 次被别人复制改造
+  - 大致归类: 聊天 AI 应用
+  - 有官网或演示，点开能直接看
+  - 看点: 聊天 AI, 让 AI 连接外部工具, 编程助手, 工作流, 应用
+</details>
+
+<details>
+<summary><strong>39. tigicion/dao-code</strong> · AI 工具项目 · AI 潜力 226 / 产品看点 191</summary>
+- 项目地址: https://github.com/tigicion/dao-code
+- 官网或演示: https://www.npmjs.com/package/dao-code
+- 开源协议: MIT
+- 主要技术: TypeScript
+- 创建: 2026-06-08T08:10:42Z
+- 最近更新: 2026-08-02T17:43:03Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做 AI 应用、AI 助手、长期记忆功能的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+- 为什么被找到: 终端工具, AI 写代码工具, 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+- AI 潜力: 226
+- 产品看点: 191
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 聊天 AI
+  - 大致方向: AI 写代码工具, 聊天 AI 应用
+  - 最近关注增长: 平均每天约 15 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 大致方向: 终端工具
+  - 可能是: 常用网页开发语言, 应用
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 84 天前，最近更新 28 天前
+  - 1255 人收藏 / 53 次被别人复制改造
+  - 大致归类: 终端工具, AI 写代码工具, 聊天 AI 应用
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, AI 帮写代码, 聊天 AI, 让 AI 连接外部工具
+</details>
+
+<details>
+<summary><strong>40. uzairansaruzi/hermex</strong> · 手机/App 项目 · AI 潜力 180 / 产品看点 226</summary>
+- 项目地址: https://github.com/uzairansaruzi/hermex
+- 官网或演示: https://hermexapp.com/
+- 开源协议: MIT
+- 主要技术: Swift
+- 创建: 2026-07-02T12:47:31Z
+- 最近更新: 2026-08-31T04:44:48Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做 AI 应用、AI 助手、长期记忆功能的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: 苹果手机应用, 苹果应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
+- AI 潜力: 180
+- 产品看点: 226
+为什么值得先看:
+  - 可能值得看: AI 自动做事, 聊天 AI
+  - 最近关注增长: 平均每天约 20 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品
+  - 大致方向: 苹果手机应用, 苹果应用
+  - 可能是: 应用, 手机端, iOS, 苹果 App, 苹果界面工具
+  - 有官网或演示，点开能直接看
+  - 主要技术: Swift
+为什么值得看:
+  - 项目出现于 60 天前，最近更新 1 小时前
+  - 1190 人收藏 / 164 次被别人复制改造
+  - 大致归类: 苹果手机应用, 苹果应用
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, 聊天 AI, 应用, 手机端, iOS
+</details>
+
+<details>
+<summary><strong>41. Bennettxai/FounderOS-DEMO</strong> · AI 工具项目 · AI 潜力 180 / 产品看点 226</summary>
+- 项目地址: https://github.com/Bennettxai/FounderOS-DEMO
+- 官网或演示: https://www.thefounderos.com
+- 开源协议: MIT
+- 主要技术: TypeScript
+- 创建: 2026-07-07T11:58:37Z
+- 最近更新: 2026-08-25T15:06:12Z
+- 描述: 它更像一个开箱即用的模板，帮别人少搭基础架子，更快开始做网站、App 或工具产品。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - README 强调门槛低，尽量少配置或少依赖外部服务
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+- 为什么被找到: 完整网站应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 普通用户会用的个人工具
+- AI 潜力: 180
+- 产品看点: 226
+为什么值得先看:
+  - 可能值得看: AI 自动做事
+  - 最近关注增长: 平均每天约 13 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 普通用户会用的个人工具
+  - 大致方向: 完整网站应用
+  - 可能是: 网页, 网页界面, 完整网站应用, 常用网页开发语言
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 55 天前，最近更新 6 天前
+  - 736 人收藏 / 209 次被别人复制改造
+  - 大致归类: 完整网站应用
+  - 有官网或演示，点开能直接看
+  - 看点: 网页, 网页界面, 完整网站应用, 网页样式
+</details>
+
+<details>
+<summary><strong>42. XiaomiMiMo/MiMo-Code</strong> · AI 工具项目 · AI 潜力 225 / 产品看点 224</summary>
+- 项目地址: https://github.com/XiaomiMiMo/MiMo-Code
+- 官网或演示: https://mimo.xiaomi.com/mimocode
+- 开源协议: MIT
+- 主要技术: TypeScript
+- 创建: 2026-06-10T11:52:41Z
+- 最近更新: 2026-08-30T07:32:59Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 终端工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+- AI 潜力: 225
+- 产品看点: 224
+为什么值得先看:
+  - 可能值得看: AI 自动做事
+  - 最近关注增长: 平均每天约 158 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 大致方向: 终端工具
+  - 可能是: 常用网页开发语言
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 82 天前，最近更新 22 小时前
+  - 12908 人收藏 / 1336 次被别人复制改造
+  - 大致归类: 终端工具
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, 终端工具, 做软件的人
+</details>
+
+<details>
+<summary><strong>43. TryCaspian/caspian-sdk</strong> · AI 工具项目 · AI 潜力 225 / 产品看点 169</summary>
+- 项目地址: https://github.com/TryCaspian/caspian-sdk
+- 官网或演示: https://trycaspianai.com
+- 开源协议: AGPL-3.0
+- 主要技术: Python
+- 创建: 2026-07-20T10:47:56Z
+- 最近更新: 2026-08-25T05:28:36Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做 AI 应用、AI 助手、长期记忆功能的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+- 为什么被找到: AI 写代码工具, 让 AI 连接外部工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+- AI 潜力: 225
+- 产品看点: 169
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 聊天 AI
+  - 大致方向: AI 写代码工具, 让 AI 连接外部工具
+  - 最近关注增长: 平均每天约 23 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 可能是: 常用网页开发语言, 应用
+  - 有官网或演示，点开能直接看
+  - 主要技术: Python
+为什么值得看:
+  - 项目出现于 42 天前，最近更新 6 天前
+  - 940 人收藏 / 135 次被别人复制改造
+  - 大致归类: AI 写代码工具, 让 AI 连接外部工具
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, AI 帮写代码, 聊天 AI, 让 AI 连接外部工具
+</details>
+
+<details>
+<summary><strong>44. shengjidaguai-china/goutoujunshi</strong> · AI 工具项目 · AI 潜力 224 / 产品看点 150</summary>
+- 项目地址: https://github.com/shengjidaguai-china/goutoujunshi
+- 开源协议: MIT
+- 主要技术: Python
+- 创建: 2026-07-20T14:58:48Z
+- 最近更新: 2026-08-27T11:19:05Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 想用 AI 写代码、检查项目、自动处理开发任务的人
+- 为什么被找到: AI 写代码工具
+- 项目方向: 用 AI 帮人写代码或自动做事
+- AI 潜力: 224
+- 产品看点: 150
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 编程助手
+  - 大致方向: AI 写代码工具
+  - 最近关注增长: 平均每天约 64 人收藏
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事
+  - 主要技术: Python
+为什么值得看:
+  - 项目出现于 42 天前，最近更新 4 天前
+  - 2682 人收藏 / 303 次被别人复制改造
+  - 大致归类: AI 写代码工具
+  - 看点: AI 自动做事, AI 帮写代码, 编程助手
+</details>
+
+<details>
+<summary><strong>45. Prism-Shadow/penguin-harness</strong> · AI 工具项目 · AI 潜力 224 / 产品看点 192</summary>
+- 项目地址: https://github.com/Prism-Shadow/penguin-harness
+- 官网或演示: https://penguin.ooo/
+- 开源协议: Apache-2.0
+- 主要技术: TypeScript
+- 创建: 2026-07-19T03:15:21Z
+- 最近更新: 2026-08-30T17:23:46Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型
+- AI 潜力: 224
+- 产品看点: 192
+为什么值得先看:
+  - 可能值得看: AI 自动做事, 聊天 AI, 编程助手
+  - 大致方向: 聊天 AI 应用
+  - 最近关注增长: 平均每天约 43 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型
+  - 可能是: 常用网页开发语言, 应用, 平台
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 43 天前，最近更新 12 小时前
+  - 1833 人收藏 / 190 次被别人复制改造
+  - 大致归类: 聊天 AI 应用
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, 聊天 AI, 编程助手, 应用, 平台
+</details>
+
+<details>
+<summary><strong>46. XiaoDuoYa/codex-with-chatgpt</strong> · AI 工具项目 · AI 潜力 224 / 产品看点 166</summary>
+- 项目地址: https://github.com/XiaoDuoYa/codex-with-chatgpt
+- 开源协议: MIT
+- 主要技术: TypeScript
+- 创建: 2026-08-28T12:57:24Z
+- 最近更新: 2026-08-30T17:19:55Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做 AI 应用、AI 助手、长期记忆功能的人
+- README 里看到的重点:
+  - README 强调门槛低，尽量少配置或少依赖外部服务
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: 让 AI 连接外部工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型
+- AI 潜力: 224
+- 产品看点: 166
+为什么值得先看:
+  - 可能值得看: AI 自动做事, 让 AI 连接外部工具, 编程助手
+  - 大致方向: 让 AI 连接外部工具
+  - 最近关注增长: 平均每天约 560 人收藏
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型
+  - 可能是: 常用网页开发语言
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 3 天前，最近更新 12 小时前
+  - 1500 人收藏 / 166 次被别人复制改造
+  - 大致归类: 让 AI 连接外部工具
+  - 看点: AI 自动做事, 让 AI 连接外部工具, 编程助手
+</details>
+
+<details>
+<summary><strong>47. Jwuthri/Tracely-ai</strong> · AI 工具项目 · AI 潜力 224 / 产品看点 161</summary>
+- 项目地址: https://github.com/Jwuthri/Tracely-ai
+- 官网或演示: https://tracely-ai.com
+- 开源协议: MIT
+- 主要技术: Python
+- 创建: 2026-06-03T16:26:23Z
+- 最近更新: 2026-08-29T07:37:38Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - README 强调门槛低，尽量少配置或少依赖外部服务
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: 让 AI 连接外部工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑
+- AI 潜力: 224
+- 产品看点: 161
+为什么值得先看:
+  - 可能值得看: AI 自动做事, 让 AI 连接外部工具, 聊天 AI, 效果评测
+  - 大致方向: 让 AI 连接外部工具
+  - 最近关注增长: 平均每天约 13 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑
+  - 可能是: 产品
+  - 有官网或演示，点开能直接看
+  - 主要技术: Python
+为什么值得看:
+  - 项目出现于 89 天前，最近更新 2 天前
+  - 1164 人收藏 / 91 次被别人复制改造
+  - 大致归类: 让 AI 连接外部工具
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, 聊天 AI, 让 AI 连接外部工具, 终端工具
+</details>
+
+<details>
+<summary><strong>48. FareedKhan-dev/kimi-k3-in-c</strong> · 新项目线索 · AI 潜力 223 / 产品看点 187</summary>
+- 项目地址: https://github.com/FareedKhan-dev/kimi-k3-in-c
+- 官网或演示: https://medium.com/@fareedkhandev/building-kimi-k3-in-c-to-run-a-2-8t-model-on-consumer-hardware-a5792cbf3b59
+- 开源协议: Apache-2.0
+- 主要技术: C
+- 创建: 2026-08-01T09:29:38Z
+- 最近更新: 2026-08-26T07:36:53Z
+- 描述: 它和 MCP/工具连接有关，重点是让 AI 能接入更多外部能力，而不是只停留在聊天回答。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+- 为什么被找到: 聊天 AI 应用
+- 项目方向: 做网站页面和产品原型
+- AI 潜力: 223
+- 产品看点: 187
+为什么值得先看:
+  - 可能值得看: 聊天 AI
+  - 大致方向: 聊天 AI 应用
+  - 最近关注增长: 平均每天约 230 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 做网站页面和产品原型
+  - 可能是: 应用
+  - 有官网或演示，点开能直接看
+  - 主要技术: C
+为什么值得看:
+  - 项目出现于 30 天前，最近更新 5 天前
+  - 6858 人收藏 / 1109 次被别人复制改造
+  - 大致归类: 聊天 AI 应用
+  - 有官网或演示，点开能直接看
+  - 看点: 聊天 AI, 开发框架, 应用
+</details>
+
+<details>
+<summary><strong>49. fy-agent/fyagent</strong> · AI 工具项目 · AI 潜力 223 / 产品看点 179</summary>
+- 项目地址: https://github.com/fy-agent/fyagent
+- 官网或演示: https://github.com/fy-agent/fyagent/releases/latest
+- 开源协议: NOASSERTION
+- 主要技术: Rust
+- 创建: 2026-07-27T06:29:30Z
+- 最近更新: 2026-08-31T05:11:25Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做 AI 应用、AI 助手、长期记忆功能的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 让 AI 连接外部工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 一套代码做多个平台的 App
+- AI 潜力: 223
+- 产品看点: 179
+为什么值得先看:
+  - 可能值得看: AI 自动做事, 让 AI 连接外部工具, 聊天 AI, 给 AI 的指令
+  - 大致方向: 让 AI 连接外部工具
+  - 最近关注增长: 平均每天约 23 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 一套代码做多个平台的 App
+  - 可能是: 应用, 平台, 桌面应用工具
+  - 有官网或演示，点开能直接看
+  - 主要技术: Rust
+为什么值得看:
+  - 项目出现于 35 天前，最近更新 1 小时前
+  - 806 人收藏 / 106 次被别人复制改造
+  - 大致归类: 让 AI 连接外部工具
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, assistant, 聊天 AI, 让 AI 连接外部工具
+</details>
+
+<details>
+<summary><strong>50. chen2he/orange-cloud</strong> · 手机/App 项目 · AI 潜力 134 / 产品看点 223</summary>
+- 项目地址: https://github.com/chen2he/orange-cloud
+- 官网或演示: https://o-c.do
+- 开源协议: NOASSERTION
+- 主要技术: Swift
+- 创建: 2026-06-12T02:29:10Z
+- 最近更新: 2026-08-30T13:36:47Z
+- 描述: 它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它和真实手机使用场景有关，不只是网页端项目
+- 为什么被找到: 苹果手机应用, 安卓手机应用, 苹果应用
+- 项目方向: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
+- AI 潜力: 134
+- 产品看点: 223
+为什么值得先看:
+  - 最近关注增长: 平均每天约 5.8 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品
+  - 大致方向: 苹果手机应用, 安卓手机应用, 苹果应用
+  - 可能是: 应用, 手机端, iOS, 安卓, 苹果 App
+  - 有官网或演示，点开能直接看
+  - 主要技术: Swift
+为什么值得看:
+  - 项目出现于 80 天前，最近更新 16 小时前
+  - 468 人收藏 / 91 次被别人复制改造
+  - 大致归类: 苹果手机应用, 安卓手机应用, 苹果应用
+  - 有官网或演示，点开能直接看
+  - 看点: 终端工具, 数据接口, 应用, 手机端, iOS
+</details>
+
+<details>
+<summary><strong>51. rebel0789/codexpro</strong> · AI 工具项目 · AI 潜力 221 / 产品看点 180</summary>
+- 项目地址: https://github.com/rebel0789/codexpro
+- 官网或演示: https://rebel0789.github.io/codexpro/
+- 开源协议: MIT
+- 主要技术: JavaScript
+- 创建: 2026-06-16T21:22:43Z
+- 最近更新: 2026-08-08T12:41:04Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 想用 AI 写代码、检查项目、自动处理开发任务的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+- 为什么被找到: 让 AI 连接外部工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+- AI 潜力: 221
+- 产品看点: 180
+为什么值得先看:
+  - 可能值得看: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 编程助手
+  - 大致方向: 让 AI 连接外部工具
+  - 最近关注增长: 平均每天约 24 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 可能是: 应用
+  - 有官网或演示，点开能直接看
+  - 主要技术: JavaScript
+为什么值得看:
+  - 项目出现于 75 天前，最近更新 23 天前
+  - 1807 人收藏 / 179 次被别人复制改造
+  - 大致归类: 让 AI 连接外部工具
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 编程助手, 开发工具包
+</details>
+
+<details>
+<summary><strong>52. quickdrawjs/quickdraw</strong> · 手机/App 项目 · AI 潜力 133 / 产品看点 221</summary>
+- 项目地址: https://github.com/quickdrawjs/quickdraw
+- 官网或演示: https://tryquickdraw.com
+- 开源协议: MIT
+- 主要技术: JavaScript
+- 创建: 2026-07-31T22:22:15Z
+- 最近更新: 2026-08-30T10:05:55Z
+- 描述: 它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+- 适合谁看: 做 AI 应用、AI 助手、长期记忆功能的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 跨平台手机应用, 快速开发的手机应用
+- 项目方向: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
+- AI 潜力: 133
+- 产品看点: 221
+为什么值得先看:
+  - 最近关注增长: 平均每天约 14 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品
+  - 大致方向: 跨平台手机应用, 快速开发的手机应用
+  - 可能是: 网页界面, 常用网页开发语言, 应用, 手机端, 一套代码做多个平台的 App
+  - 有官网或演示，点开能直接看
+  - 主要技术: JavaScript
+为什么值得看:
+  - 项目出现于 30 天前，最近更新 19 小时前
+  - 426 人收藏 / 32 次被别人复制改造
+  - 大致归类: 跨平台手机应用, 快速开发的手机应用
+  - 有官网或演示，点开能直接看
+  - 看点: 网页界面, 开发工具包, 应用, 手机端, 一套代码做多个平台的 App
+</details>
+
+<details>
+<summary><strong>53. Jia-Ethan/codex-keysmith</strong> · AI 工具项目 · AI 潜力 220 / 产品看点 197</summary>
+- 项目地址: https://github.com/Jia-Ethan/codex-keysmith
+- 官网或演示: https://github.com/Jia-Ethan/codex-keysmith/releases/latest
+- 开源协议: MIT
+- 主要技术: Python
+- 创建: 2026-06-28T04:38:07Z
+- 最近更新: 2026-08-29T15:21:45Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 开发工具, 终端工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑
+- AI 潜力: 220
+- 产品看点: 197
+为什么值得先看:
+  - 可能值得看: 效果评测, 编程助手, 给 AI 的指令, 写好 AI 指令
+  - 最近关注增长: 平均每天约 65 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑
+  - 大致方向: 开发工具, 终端工具
+  - 有官网或演示，点开能直接看
+  - 主要技术: Python
+为什么值得看:
+  - 项目出现于 64 天前，最近更新 2 天前
+  - 4181 人收藏 / 651 次被别人复制改造
+  - 大致归类: 开发工具, 终端工具
+  - 有官网或演示，点开能直接看
+  - 看点: 给 AI 的指令, 编程助手, 终端工具, 做软件的人, 部署
+</details>
+
+<details>
+<summary><strong>54. duty1g/x64dbg-mcp-server</strong> · AI 工具项目 · AI 潜力 220 / 产品看点 161</summary>
+- 项目地址: https://github.com/duty1g/x64dbg-mcp-server
+- 开源协议: MIT
+- 主要技术: Zig
+- 创建: 2026-08-22T14:28:41Z
+- 最近更新: 2026-08-27T07:00:07Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做 AI 应用、AI 助手、长期记忆功能的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+- 为什么被找到: 让 AI 连接外部工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 做手机 App 和应用产品, 一套代码做多个平台的 App
+- AI 潜力: 220
+- 产品看点: 161
+为什么值得先看:
+  - 可能值得看: AI 自动做事, 让 AI 连接外部工具, 编程助手
+  - 大致方向: 让 AI 连接外部工具
+  - 最近关注增长: 平均每天约 207 人收藏
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做手机 App 和应用产品, 一套代码做多个平台的 App
+  - 可能是: 快速做手机 App
+  - 主要技术: Zig
+为什么值得看:
+  - 项目出现于 9 天前，最近更新 4 天前
+  - 1786 人收藏 / 185 次被别人复制改造
+  - 大致归类: 让 AI 连接外部工具
+  - 看点: AI 自动做事, assistant, 让 AI 连接外部工具, 编程助手
+</details>
+
+<details>
+<summary><strong>55. bryllim/workout-guide</strong> · 手机/App 项目 · AI 潜力 143 / 产品看点 220</summary>
+- 项目地址: https://github.com/bryllim/workout-guide
+- 官网或演示: https://bryllim.github.io/workout-guide/
+- 开源协议: MIT
+- 主要技术: Astro
+- 创建: 2026-08-24T02:14:20Z
+- 最近更新: 2026-08-26T16:05:37Z
+- 描述: 它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+- 适合谁看: 做 iOS、安卓或跨平台 App 的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: 跨平台手机应用, 快速开发的手机应用
+- 项目方向: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App, 普通用户会用的个人工具, 做设计、图片或内容
+- AI 潜力: 143
+- 产品看点: 220
+为什么值得先看:
+  - 最近关注增长: 平均每天约 145 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
+  - 大致方向: 跨平台手机应用, 快速开发的手机应用
+  - 可能是: 网页界面, 应用, 手机端, 一套代码做多个平台的 App, 快速做手机 App
+  - 有官网或演示，点开能直接看
+  - 主要技术: Astro
+为什么值得看:
+  - 项目出现于 7 天前，最近更新 5 天前
+  - 1031 人收藏 / 162 次被别人复制改造
+  - 大致归类: 跨平台手机应用, 快速开发的手机应用
+  - 有官网或演示，点开能直接看
+  - 看点: 网页界面, 开发框架, 应用, 手机端, 一套代码做多个平台的 App
+</details>
+
+<details>
+<summary><strong>56. mokshablr/gander</strong> · 手机/App 项目 · AI 潜力 141 / 产品看点 220</summary>
+- 项目地址: https://github.com/mokshablr/gander
+- 官网或演示: https://arjun.maniyani.com/gander
+- 开源协议: MIT
+- 主要技术: JavaScript
+- 创建: 2026-07-19T08:40:10Z
+- 最近更新: 2026-08-30T16:40:54Z
+- 描述: 它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: 安卓手机应用
+- 项目方向: 做网站页面和产品原型, 做手机 App 和应用产品, 普通用户会用的个人工具, 做设计、图片或内容
+- AI 潜力: 141
+- 产品看点: 220
+为什么值得先看:
+  - 最近关注增长: 平均每天约 20 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 普通用户会用的个人工具
+  - 大致方向: 安卓手机应用
+  - 可能是: 应用, 手机端, 安卓, 安卓开发, 离线优先
+  - 有官网或演示，点开能直接看
+  - 主要技术: JavaScript
+为什么值得看:
+  - 项目出现于 43 天前，最近更新 13 小时前
+  - 871 人收藏 / 31 次被别人复制改造
+  - 大致归类: 安卓手机应用
+  - 有官网或演示，点开能直接看
+  - 看点: 应用, 手机端, 安卓, 安卓开发
+</details>
+
+<details>
+<summary><strong>57. Obiente/nc-native</strong> · 手机/App 项目 · AI 潜力 124 / 产品看点 220</summary>
+- 项目地址: https://github.com/Obiente/nc-native
+- 官网或演示: https://nc-native.obiente.dev
+- 开源协议: AGPL-3.0
+- 主要技术: Kotlin
+- 创建: 2026-07-24T14:13:04Z
+- 最近更新: 2026-08-31T01:58:07Z
+- 描述: 它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: 手机应用, 苹果手机应用, 安卓手机应用, 安卓应用
+- 项目方向: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品
+- AI 潜力: 124
+- 产品看点: 220
+为什么值得先看:
+  - 最近关注增长: 平均每天约 14 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品
+  - 大致方向: 手机应用, 苹果手机应用, 安卓手机应用
+  - 可能是: 网页, 应用, 手机端, iOS, 安卓
+  - 有官网或演示，点开能直接看
+  - 主要技术: Kotlin
+为什么值得看:
+  - 项目出现于 38 天前，最近更新 3 小时前
+  - 514 人收藏 / 4 次被别人复制改造
+  - 大致归类: 手机应用, 苹果手机应用, 安卓手机应用
+  - 有官网或演示，点开能直接看
+  - 看点: 网页, 终端工具, 应用, 平台, 手机端
+</details>
+
+<details>
+<summary><strong>58. HUANGCHIHHUNGLeo/claude-real-video</strong> · AI 工具项目 · AI 潜力 218 / 产品看点 182</summary>
+- 项目地址: https://github.com/HUANGCHIHHUNGLeo/claude-real-video
+- 开源协议: MIT
+- 主要技术: Python
+- 创建: 2026-06-30T10:55:02Z
+- 最近更新: 2026-08-28T09:23:34Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做 AI 应用、AI 助手、长期记忆功能的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 终端工具, 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+- AI 潜力: 218
+- 产品看点: 182
+为什么值得先看:
+  - 可能值得看: 聊天 AI, 编程助手, 多模态
+  - 大致方向: 聊天 AI 应用
+  - 最近关注增长: 平均每天约 34 人收藏
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 大致方向: 终端工具
+  - 可能是: 应用
+  - 主要技术: Python
+为什么值得看:
+  - 项目出现于 62 天前，最近更新 3 天前
+  - 2095 人收藏 / 184 次被别人复制改造
+  - 大致归类: 终端工具, 聊天 AI 应用
+  - 看点: 聊天 AI, 编程助手, 终端工具, 做软件的人, 应用
+</details>
+
+<details>
+<summary><strong>59. deer-flow/llm-space</strong> · AI 工具项目 · AI 潜力 218 / 产品看点 183</summary>
+- 项目地址: https://github.com/deer-flow/llm-space
+- 官网或演示: https://deer-flow.github.io/llm-space/
+- 开源协议: MIT
+- 主要技术: TypeScript
+- 创建: 2026-06-28T03:39:34Z
+- 最近更新: 2026-08-29T09:31:06Z
+- 描述: 它和 MCP/工具连接有关，重点是让 AI 能接入更多外部能力，而不是只停留在聊天回答。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 聊天 AI 应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型
+- AI 潜力: 218
+- 产品看点: 183
+为什么值得先看:
+  - 可能值得看: AI 自动做事, 聊天 AI, 效果评测
+  - 大致方向: 聊天 AI 应用
+  - 最近关注增长: 平均每天约 27 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型
+  - 可能是: 常用网页开发语言, 应用
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 64 天前，最近更新 2 天前
+  - 1753 人收藏 / 187 次被别人复制改造
+  - 大致归类: 聊天 AI 应用
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, 聊天 AI, 应用
+</details>
+
+<details>
+<summary><strong>60. Dong90/oh-my-taiyiforge</strong> · AI 工具项目 · AI 潜力 217 / 产品看点 179</summary>
+- 项目地址: https://github.com/Dong90/oh-my-taiyiforge
+- 开源协议: MIT
+- 主要技术: TypeScript
+- 创建: 2026-06-05T02:25:33Z
+- 最近更新: 2026-08-31T01:08:12Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 开发工具, 自动生成代码
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 把重复工作自动化
+- AI 潜力: 217
+- 产品看点: 179
+为什么值得先看:
+  - 可能值得看: AI 自动做事, 聊天 AI, 编程助手, 工作流
+  - 大致方向: 自动生成代码
+  - 最近关注增长: 平均每天约 10 人收藏
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 大致方向: 开发工具
+  - 可能是: 常用网页开发语言, 工作流, 自动化
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 87 天前，最近更新 4 小时前
+  - 886 人收藏 / 22 次被别人复制改造
+  - 大致归类: 开发工具, 自动生成代码
+  - 看点: AI 自动做事, code generation, 聊天 AI, 编程助手
+</details>
+
+<details>
+<summary><strong>61. Appllama/appllama-skills</strong> · 手机/App 项目 · AI 潜力 182 / 产品看点 217</summary>
+- 项目地址: https://github.com/Appllama/appllama-skills
+- 官网或演示: https://appllama.io/mcp
+- 开源协议: MIT
+- 主要技术: -
+- 创建: 2026-08-13T07:19:54Z
+- 最近更新: 2026-08-28T18:43:16Z
+- 描述: 它收集真实 iOS 订阅 App 的付费墙、价格页和新用户引导截图，方便研究 App 怎么收费、怎么转化用户。
+- 适合谁看: 做手机 App、订阅收费、增长转化的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+  - 它和真实手机使用场景有关，不只是网页端项目
+- 为什么被找到: 手机应用, 跨平台手机应用, 快速开发的手机应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App, 做设计、图片或内容
+- AI 潜力: 182
+- 产品看点: 217
+为什么值得先看:
+  - 可能值得看: AI 自动做事, 让 AI 连接外部工具, 编程助手
+  - 最近关注增长: 平均每天约 23 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品
+  - 大致方向: 手机应用, 跨平台手机应用, 快速开发的手机应用
+  - 可能是: 网页界面, 应用, 搭建器, 手机端, 一套代码做多个平台的 App
+  - 有官网或演示，点开能直接看
+为什么值得看:
+  - 项目出现于 18 天前，最近更新 2 天前
+  - 417 人收藏 / 32 次被别人复制改造
+  - 大致归类: 手机应用, 跨平台手机应用, 快速开发的手机应用
+  - 有官网或演示，点开能直接看
+  - 看点: 网页界面, AI 自动做事, 让 AI 连接外部工具, 编程助手
+</details>
+
+<details>
+<summary><strong>62. nexu-io/codex-slides</strong> · AI 工具项目 · AI 潜力 210 / 产品看点 216</summary>
+- 项目地址: https://github.com/nexu-io/codex-slides
+- 官网或演示: https://github.com/nexu-io/codex-slides#readme
+- 开源协议: MIT
+- 主要技术: TypeScript
+- 创建: 2026-07-10T10:14:34Z
+- 最近更新: 2026-07-21T08:59:12Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: 完整网站应用, 让 AI 连接外部工具
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App, 做设计、图片或内容
+- AI 潜力: 210
+- 产品看点: 216
+为什么值得先看:
+  - 可能值得看: AI 自动做事, 让 AI 连接外部工具, 编程助手, 图像生成
+  - 大致方向: 让 AI 连接外部工具
+  - 最近关注增长: 平均每天约 16 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 大致方向: 完整网站应用
+  - 可能是: 网页, 网页界面, 完整网站应用, 常用网页开发语言
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 52 天前，最近更新 41 天前
+  - 854 人收藏 / 72 次被别人复制改造
+  - 大致归类: 完整网站应用, 让 AI 连接外部工具
+  - 有官网或演示，点开能直接看
+  - 看点: 网页, 网页界面, 完整网站应用, 浏览器
+</details>
+
+<details>
+<summary><strong>63. v-modal/vmodal_sdk_android</strong> · 手机/App 项目 · AI 潜力 132 / 产品看点 216</summary>
+- 项目地址: https://github.com/v-modal/vmodal_sdk_android
+- 官网或演示: https://www.v-modal.com
+- 开源协议: Apache-2.0
+- 主要技术: Kotlin
+- 创建: 2026-07-14T08:18:18Z
+- 最近更新: 2026-08-30T12:31:05Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 安卓手机应用, 安卓应用
+- 项目方向: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品, 做设计、图片或内容
+- AI 潜力: 132
+- 产品看点: 216
+为什么值得先看:
+  - 最近关注增长: 平均每天约 13 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品
+  - 大致方向: 安卓手机应用, 安卓应用
+  - 可能是: 应用, 工作室, 编辑器, 手机端, 安卓
+  - 有官网或演示，点开能直接看
+  - 主要技术: Kotlin
+为什么值得看:
+  - 项目出现于 48 天前，最近更新 17 小时前
+  - 604 人收藏 / 12 次被别人复制改造
+  - 大致归类: 安卓手机应用, 安卓应用
+  - 有官网或演示，点开能直接看
+  - 看点: 开发工具包, 应用, 工作室, 编辑器, 手机端
+</details>
+
+<details>
+<summary><strong>64. panel-ui/PanelUI</strong> · 手机/App 项目 · AI 潜力 120 / 产品看点 216</summary>
+- 项目地址: https://github.com/panel-ui/PanelUI
+- 官网或演示: https://www.panelui.dev/
+- 开源协议: MIT
+- 主要技术: TypeScript
+- 创建: 2026-07-20T15:05:02Z
+- 最近更新: 2026-08-30T15:27:20Z
+- 描述: 它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 跨平台手机应用, 快速开发的手机应用
+- 项目方向: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App, 现成模板，方便快速开工
+- AI 潜力: 120
+- 产品看点: 216
+为什么值得先看:
+  - 最近关注增长: 平均每天约 8.5 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
+  - 大致方向: 跨平台手机应用, 快速开发的手机应用
+  - 可能是: 网页界面, 常用网页开发语言, 组件, 应用, 手机端
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 42 天前，最近更新 14 小时前
+  - 353 人收藏 / 14 次被别人复制改造
+  - 大致归类: 跨平台手机应用, 快速开发的手机应用
+  - 有官网或演示，点开能直接看
+  - 看点: 网页界面, 应用, 手机端, 一套代码做多个平台的 App, 快速做手机 App
+</details>
+
+<details>
+<summary><strong>65. v-modal/vmodal_sdk_flutter</strong> · 手机/App 项目 · AI 潜力 137 / 产品看点 215</summary>
+- 项目地址: https://github.com/v-modal/vmodal_sdk_flutter
+- 官网或演示: https://v-modal.com
+- 开源协议: MIT
+- 主要技术: Dart
+- 创建: 2026-07-16T12:25:48Z
+- 最近更新: 2026-08-30T13:26:13Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: 多端手机应用
+- 项目方向: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App, 做设计、图片或内容
+- AI 潜力: 137
+- 产品看点: 215
+为什么值得先看:
+  - 最近关注增长: 平均每天约 31 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品
+  - 大致方向: 多端手机应用
+  - 可能是: 网页, 应用, 工作室, 手机端, 安卓
+  - 有官网或演示，点开能直接看
+  - 主要技术: Dart
+为什么值得看:
+  - 项目出现于 46 天前，最近更新 16 小时前
+  - 1438 人收藏 / 5 次被别人复制改造
+  - 大致归类: 多端手机应用
+  - 有官网或演示，点开能直接看
+  - 看点: 网页, 开发工具包, 组件库, 应用, 工作室
+</details>
+
+<details>
+<summary><strong>66. SchroederNathan/clarity</strong> · 手机/App 项目 · AI 潜力 124 / 产品看点 215</summary>
+- 项目地址: https://github.com/SchroederNathan/clarity
+- 官网或演示: https://clarityspeech.app
+- 开源协议: MIT
+- 主要技术: TypeScript
+- 创建: 2026-07-23T13:46:07Z
+- 最近更新: 2026-08-31T00:02:29Z
+- 描述: 它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它和真实手机使用场景有关，不只是网页端项目
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 跨平台手机应用, 快速开发的手机应用
+- 项目方向: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
+- AI 潜力: 124
+- 产品看点: 215
+为什么值得先看:
+  - 最近关注增长: 平均每天约 8.1 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
+  - 大致方向: 跨平台手机应用, 快速开发的手机应用
+  - 可能是: 网页界面, 常用网页开发语言, 应用, 手机端, 一套代码做多个平台的 App
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 39 天前，最近更新 5 小时前
+  - 312 人收藏 / 65 次被别人复制改造
+  - 大致归类: 跨平台手机应用, 快速开发的手机应用
+  - 有官网或演示，点开能直接看
+  - 看点: 网页界面, 应用, 手机端, 一套代码做多个平台的 App, 快速做手机 App
+</details>
+
+<details>
+<summary><strong>67. margelo/ai-chat-demo</strong> · 手机/App 项目 · AI 潜力 108 / 产品看点 212</summary>
+- 项目地址: https://github.com/margelo/ai-chat-demo
+- 官网或演示: https://margelo.com/blog/building-native-llm-chat-app-with-rag
+- 主要技术: TypeScript
+- 创建: 2026-08-04T10:09:41Z
+- 最近更新: 2026-08-05T14:24:46Z
+- 描述: 它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它和真实手机使用场景有关，不只是网页端项目
+- 为什么被找到: 手机应用, 苹果手机应用, 跨平台手机应用
+- 项目方向: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
+- AI 潜力: 108
+- 产品看点: 212
+为什么值得先看:
+  - 最近关注增长: 平均每天约 6.9 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
+  - 大致方向: 手机应用, 苹果手机应用, 跨平台手机应用
+  - 可能是: 网页界面, 常用网页开发语言, 应用, 演示, 手机端
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 27 天前，最近更新 26 天前
+  - 184 人收藏 / 18 次被别人复制改造
+  - 大致归类: 手机应用, 苹果手机应用, 跨平台手机应用
+  - 有官网或演示，点开能直接看
+  - 看点: 网页界面, 应用, 演示, 手机端, iOS
+</details>
+
+<details>
+<summary><strong>68. YangJiiii/3105</strong> · 手机/App 项目 · AI 潜力 131 / 产品看点 208</summary>
+- 项目地址: https://github.com/YangJiiii/3105
+- 官网或演示: https://x.com/duongduong0908
+- 开源协议: GPL-3.0
+- 主要技术: Swift
+- 创建: 2026-08-14T02:51:55Z
+- 最近更新: 2026-08-25T14:46:06Z
+- 描述: 它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+  - 它和真实手机使用场景有关，不只是网页端项目
+- 为什么被找到: 苹果手机应用, 苹果应用
+- 项目方向: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
+- AI 潜力: 131
+- 产品看点: 208
+为什么值得先看:
+  - 最近关注增长: 平均每天约 31 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
+  - 大致方向: 苹果手机应用, 苹果应用
+  - 可能是: 应用, 手机端, iOS, 苹果 App, 苹果界面工具
+  - 有官网或演示，点开能直接看
+  - 主要技术: Swift
+为什么值得看:
+  - 项目出现于 17 天前，最近更新 6 天前
+  - 532 人收藏 / 69 次被别人复制改造
+  - 大致归类: 苹果手机应用, 苹果应用
+  - 有官网或演示，点开能直接看
+  - 看点: 浏览器, 应用, 手机端, iOS, 苹果 App
+</details>
+
+<details>
+<summary><strong>69. aws-devtools-labs/aws-blocks</strong> · 手机/App 项目 · AI 潜力 143 / 产品看点 207</summary>
+- 项目地址: https://github.com/aws-devtools-labs/aws-blocks
+- 开源协议: Apache-2.0
+- 主要技术: TypeScript
+- 创建: 2026-06-09T21:42:12Z
+- 最近更新: 2026-08-30T10:15:22Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做 AI 应用、AI 助手、长期记忆功能的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它和真实手机使用场景有关，不只是网页端项目
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 苹果手机应用, 安卓手机应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品
+- AI 潜力: 143
+- 产品看点: 207
+为什么值得先看:
+  - 可能值得看: AI 自动做事
+  - 最近关注增长: 平均每天约 4.7 人收藏
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型
+  - 大致方向: 苹果手机应用, 安卓手机应用
+  - 可能是: 常用网页开发语言, 应用, 手机端, iOS, 安卓
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 82 天前，最近更新 19 小时前
+  - 383 人收藏 / 44 次被别人复制改造
+  - 大致归类: 苹果手机应用, 安卓手机应用
+  - 看点: 完整网站, AI 自动做事, codegen, 终端工具
+</details>
+
+<details>
+<summary><strong>70. LerSent001/orb</strong> · 手机/App 项目 · AI 潜力 157 / 产品看点 205</summary>
+- 项目地址: https://github.com/LerSent001/orb
+- 官网或演示: https://lersent001.github.io/orb/
+- 开源协议: MIT
+- 主要技术: TypeScript
+- 创建: 2026-08-14T15:57:06Z
+- 最近更新: 2026-08-29T03:23:26Z
+- 描述: 它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+- 适合谁看: 想用 AI 写代码、检查项目、自动处理开发任务的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 网站页面项目
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
+- AI 潜力: 157
+- 产品看点: 205
+为什么值得先看:
+  - 可能值得看: 编程助手
+  - 最近关注增长: 平均每天约 34 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品
+  - 大致方向: 网站页面项目
+  - 可能是: 网页, 网页界面, 常用网页开发语言, 苹果 App
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 17 天前，最近更新 2 天前
+  - 569 人收藏 / 67 次被别人复制改造
+  - 大致归类: 网站页面项目
+  - 有官网或演示，点开能直接看
+  - 看点: 网页, 网页界面, openai, 编程助手
+</details>
+
+<details>
+<summary><strong>71. Blaizzy/nativ</strong> · 手机/App 项目 · AI 潜力 142 / 产品看点 204</summary>
+- 项目地址: https://github.com/Blaizzy/nativ
+- 官网或演示: https://blaizzy.github.io/nativ/
+- 开源协议: MIT
+- 主要技术: Swift
+- 创建: 2026-07-20T15:37:29Z
+- 最近更新: 2026-08-31T02:01:41Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 苹果应用
+- 项目方向: 做网站页面和产品原型, 做手机 App 和应用产品
+- AI 潜力: 142
+- 产品看点: 204
+为什么值得先看:
+  - 最近关注增长: 平均每天约 33 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品
+  - 大致方向: 苹果应用
+  - 可能是: 应用, 手机端, 苹果 App
+  - 有官网或演示，点开能直接看
+  - 主要技术: Swift
+为什么值得看:
+  - 项目出现于 42 天前，最近更新 3 小时前
+  - 1374 人收藏 / 91 次被别人复制改造
+  - 大致归类: 苹果应用
+  - 有官网或演示，点开能直接看
+  - 看点: 应用, 手机端, 苹果 App
+</details>
+
+<details>
+<summary><strong>72. FrizzleM/SideInstaller</strong> · 手机/App 项目 · AI 潜力 133 / 产品看点 204</summary>
+- 项目地址: https://github.com/FrizzleM/SideInstaller
+- 官网或演示: https://SideInstaller.net
+- 开源协议: NOASSERTION
+- 主要技术: Swift
+- 创建: 2026-06-21T19:54:59Z
+- 最近更新: 2026-08-31T01:02:41Z
+- 描述: 它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+- 适合谁看: 做 iOS、安卓或跨平台 App 的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它和真实手机使用场景有关，不只是网页端项目
+- 为什么被找到: 苹果手机应用, 苹果应用
+- 项目方向: 做网站页面和产品原型, 做手机 App 和应用产品
+- AI 潜力: 133
+- 产品看点: 204
+为什么值得先看:
+  - 最近关注增长: 平均每天约 8.4 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品
+  - 大致方向: 苹果手机应用, 苹果应用
+  - 可能是: 应用, 手机端, iOS, 苹果 App
+  - 有官网或演示，点开能直接看
+  - 主要技术: Swift
+为什么值得看:
+  - 项目出现于 70 天前，最近更新 4 小时前
+  - 594 人收藏 / 50 次被别人复制改造
+  - 大致归类: 苹果手机应用, 苹果应用
+  - 有官网或演示，点开能直接看
+  - 看点: 应用, 手机端, iOS, 苹果 App
+</details>
+
+<details>
+<summary><strong>73. didriksg/Crisp</strong> · 手机/App 项目 · AI 潜力 151 / 产品看点 202</summary>
+- 项目地址: https://github.com/didriksg/Crisp
+- 官网或演示: http://crispmac.app/
+- 开源协议: MIT
+- 主要技术: Swift
+- 创建: 2026-07-22T14:30:56Z
+- 最近更新: 2026-08-30T20:30:21Z
+- 描述: 从 README 和项目简介看，它主要围绕开源替代品、设计稿和产品原型、命令行或开发工具展开。可以把它当成一个手机或 App 项目线索，先看它解决的问题和演示效果。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 苹果应用
+- 项目方向: 做网站页面和产品原型, 做手机 App 和应用产品
+- AI 潜力: 151
+- 产品看点: 202
+为什么值得先看:
+  - 最近关注增长: 平均每天约 37 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品
+  - 大致方向: 苹果应用
+  - 可能是: 应用, 手机端, 苹果 App
+  - 有官网或演示，点开能直接看
+  - 主要技术: Swift
+为什么值得看:
+  - 项目出现于 40 天前，最近更新 9 小时前
+  - 1451 人收藏 / 59 次被别人复制改造
+  - 大致归类: 苹果应用
+  - 有官网或演示，点开能直接看
+  - 看点: 应用, 手机端, 苹果 App
+</details>
+
+<details>
+<summary><strong>74. afonsojramos/super-calendar</strong> · 手机/App 项目 · AI 潜力 93 / 产品看点 201</summary>
+- 项目地址: https://github.com/afonsojramos/super-calendar
+- 官网或演示: https://super-calendar.afonsojramos.me/
+- 开源协议: MIT
+- 主要技术: TypeScript
+- 创建: 2026-06-22T14:14:43Z
+- 最近更新: 2026-08-26T17:13:43Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做 AI 应用、AI 助手、长期记忆功能的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它和真实手机使用场景有关，不只是网页端项目
+- 为什么被找到: 苹果手机应用, 跨平台手机应用, 快速开发的手机应用
+- 项目方向: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App, 普通用户会用的个人工具, 把重复工作自动化
+- AI 潜力: 93
+- 产品看点: 201
+为什么值得先看:
+  - 最近关注增长: 平均每天约 2.6 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
+  - 大致方向: 苹果手机应用, 跨平台手机应用, 快速开发的手机应用
+  - 可能是: 网页, 网页界面, 常用网页开发语言, 应用, 手机端
+  - 有官网或演示，点开能直接看
+  - 主要技术: TypeScript
+为什么值得看:
+  - 项目出现于 70 天前，最近更新 4 天前
+  - 184 人收藏 / 6 次被别人复制改造
+  - 大致归类: 苹果手机应用, 跨平台手机应用, 快速开发的手机应用
+  - 有官网或演示，点开能直接看
+  - 看点: 网页, 网页界面, 应用, 手机端, iOS
+</details>
+
+<details>
+<summary><strong>75. jxlarrea/kiosk-satellite</strong> · 手机/App 项目 · AI 潜力 158 / 产品看点 200</summary>
+- 项目地址: https://github.com/jxlarrea/kiosk-satellite
+- 开源协议: NOASSERTION
+- 主要技术: Dart
+- 创建: 2026-07-15T04:19:12Z
+- 最近更新: 2026-08-30T22:44:56Z
+- 描述: 它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+- 适合谁看: 做 iOS、安卓或跨平台 App 的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: 安卓手机应用
+- 项目方向: 做网站页面和产品原型, 做手机 App 和应用产品, 普通用户会用的个人工具, 把重复工作自动化
+- AI 潜力: 158
+- 产品看点: 200
+为什么值得先看:
+  - 可能值得看: 自动化, 语音
+  - 最近关注增长: 平均每天约 13 人收藏
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 普通用户会用的个人工具
+  - 大致方向: 安卓手机应用
+  - 可能是: 网页, 应用, 自动化, 手机端, iOS
+  - 主要技术: Dart
+为什么值得看:
+  - 项目出现于 47 天前，最近更新 6 小时前
+  - 592 人收藏 / 20 次被别人复制改造
+  - 大致归类: 安卓手机应用
+  - 看点: 网页, assistant, 自动化, 应用, 手机端
+</details>
+
+<details>
+<summary><strong>76. skydoves/compose-nav-graph</strong> · 手机/App 项目 · AI 潜力 122 / 产品看点 199</summary>
+- 项目地址: https://github.com/skydoves/compose-nav-graph
+- 官网或演示: https://skydoves.github.io/compose-nav-graph/
+- 开源协议: Apache-2.0
+- 主要技术: Kotlin
+- 创建: 2026-06-12T05:58:40Z
+- 最近更新: 2026-07-04T05:07:26Z
+- 描述: 它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: 安卓手机应用, 安卓应用
+- 项目方向: 做网站页面和产品原型, 做手机 App 和应用产品, 做设计、图片或内容
+- AI 潜力: 122
+- 产品看点: 199
+为什么值得先看:
+  - 最近关注增长: 平均每天约 6.4 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 做设计、图片或内容
+  - 大致方向: 安卓手机应用, 安卓应用
+  - 可能是: 应用, 工作室, 手机端, 安卓, 安卓开发
+  - 有官网或演示，点开能直接看
+  - 主要技术: Kotlin
+为什么值得看:
+  - 项目出现于 80 天前，最近更新 58 天前
+  - 511 人收藏 / 22 次被别人复制改造
+  - 大致归类: 安卓手机应用, 安卓应用
+  - 有官网或演示，点开能直接看
+  - 看点: 应用, 平台, 工作室, 手机端, 安卓
+</details>
+
+<details>
+<summary><strong>77. starling-build/starling</strong> · 手机/App 项目 · AI 潜力 127 / 产品看点 199</summary>
+- 项目地址: https://github.com/starling-build/starling
+- 官网或演示: https://starling.build
+- 开源协议: Apache-2.0
+- 主要技术: Swift
+- 创建: 2026-07-28T04:31:38Z
+- 最近更新: 2026-08-30T19:53:22Z
+- 描述: 它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 多端手机应用, 苹果应用
+- 项目方向: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
+- AI 潜力: 127
+- 产品看点: 199
+为什么值得先看:
+  - 最近关注增长: 平均每天约 9.8 人收藏
+  - 有官网或演示，点开更容易看懂
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
+  - 大致方向: 多端手机应用, 苹果应用
+  - 可能是: 应用, 手机端, 一套代码做多个平台的 App, 苹果 App
+  - 有官网或演示，点开能直接看
+  - 主要技术: Swift
+为什么值得看:
+  - 项目出现于 34 天前，最近更新 9 小时前
+  - 334 人收藏 / 18 次被别人复制改造
+  - 大致归类: 多端手机应用, 苹果应用
+  - 有官网或演示，点开能直接看
+  - 看点: 开发框架, 应用, 手机端, 一套代码做多个平台的 App, 苹果 App
+</details>
+
+<details>
+<summary><strong>78. Mekotofeuka/MTPROTO_FIX_By_MEKO</strong> · 手机/App 项目 · AI 潜力 139 / 产品看点 198</summary>
+- 项目地址: https://github.com/Mekotofeuka/MTPROTO_FIX_By_MEKO
+- 开源协议: NOASSERTION
+- 主要技术: Shell
+- 创建: 2026-06-23T11:12:12Z
+- 最近更新: 2026-08-30T10:43:09Z
+- 描述: Universal VPN and MTProto/WEB proxy installer & fix - one‑click setup of Telemt, MTG, MTProtoZig etc MTProxy. Solves iOS/Android/Desktop connection i...。
+- 适合谁看: 做 iOS、安卓或跨平台 App 的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它和真实手机使用场景有关，不只是网页端项目
+  - 最近几天仍在更新，说明项目还活跃
+- 为什么被找到: 网站项目
+- 项目方向: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品, 做设计、图片或内容
+- AI 潜力: 139
+- 产品看点: 198
+为什么值得先看:
+  - 最近关注增长: 平均每天约 17 人收藏
+  - 最近还在更新
+产品看点:
+  - 它代表的趋势: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品
+  - 大致方向: 网站项目
+  - 可能是: 网页, 网页界面, 编辑器, iOS, 安卓
+  - 主要技术: Shell
+为什么值得看:
+  - 项目出现于 69 天前，最近更新 18 小时前
+  - 1199 人收藏 / 23 次被别人复制改造
+  - 大致归类: 网站项目
+  - 看点: 网页, 网页界面, 终端工具, 编辑器, iOS
+</details>
+
+<details>
+<summary><strong>79. gwitko/Conduit</strong> · 手机/App 项目 · AI 潜力 135 / 产品看点 197</summary>
+- 项目地址: https://github.com/gwitko/Conduit
+- 官网或演示: https://conduit.gwitko.dev
+- 开源协议: Apache-2.0
+- 主要技术: Dart
+- 创建: 2026-06-02T11:22:03Z
+- 最近更新: 2026-07-24T08:41:33Z
+- 描述: 它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 项目主打开源，别人可以直接学习、改造或二次开发
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+  - 它不只是代码，也提供可观察的案例、截图或数据
+- 为什么被找到: 苹果手机应用, 安卓手机应用, 多端手机应用
+- 项目方向: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App, 检查安全风险
+- AI 潜力: 135
+- 产品看点: 197
+为什么值得先看:
+  - 可能值得看: AI 自动做事
+  - 最近关注增长: 平均每天约 4.1 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品
+  - 大致方向: 苹果手机应用, 安卓手机应用, 多端手机应用
+  - 可能是: 应用, 手机端, iOS, 安卓, 一套代码做多个平台的 App
+  - 有官网或演示，点开能直接看
+  - 主要技术: Dart
+为什么值得看:
+  - 项目出现于 90 天前，最近更新 38 天前
+  - 368 人收藏 / 21 次被别人复制改造
+  - 大致归类: 苹果手机应用, 安卓手机应用, 多端手机应用
+  - 有官网或演示，点开能直接看
+  - 看点: AI 自动做事, 应用, 工作台, 手机端, iOS
+</details>
+
+<details>
+<summary><strong>80. tdeverx/contained-app</strong> · 手机/App 项目 · AI 潜力 134 / 产品看点 195</summary>
+- 项目地址: https://github.com/tdeverx/contained-app
+- 官网或演示: https://github.com/tdeverx/contained-app/wiki
+- 开源协议: NOASSERTION
+- 主要技术: Swift
+- 创建: 2026-06-25T22:02:07Z
+- 最近更新: 2026-08-24T08:36:46Z
+- 描述: 它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。
+- 适合谁看: 做产品设计、页面原型、营销页或视觉内容的人
+- README 里看到的重点:
+  - 有官网、演示或下载入口，点开后更容易判断实际效果
+- 为什么被找到: 苹果应用
+- 项目方向: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App
+- AI 潜力: 134
+- 产品看点: 195
+为什么值得先看:
+  - 最近关注增长: 平均每天约 12 人收藏
+  - 有官网或演示，点开更容易看懂
+产品看点:
+  - 它代表的趋势: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品
+  - 大致方向: 苹果应用
+  - 可能是: 应用, 手机端, 苹果 App, 苹果界面工具
+  - 有官网或演示，点开能直接看
+  - 主要技术: Swift
+为什么值得看:
+  - 项目出现于 66 天前，最近更新 7 天前
+  - 781 人收藏 / 30 次被别人复制改造
+  - 大致归类: 苹果应用
+  - 有官网或演示，点开能直接看
+  - 看点: 终端工具, 开发工具, 应用, 手机端, 苹果 App
+</details>]]></content:encoded>
+    </item>
     <item>
       <title>GitHub 新项目雷达 2026-08-29</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-08-29/new-projects</link>
@@ -38639,175 +42457,6 @@ IDE/工具集成    ████████████████            
 </ul>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI 社区动态日报 2026-05-27</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-05-27/ai-hn</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-27/ai-hn</guid>
-      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI 社区动态日报 2026-05-27 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-05-27 00:26 UTC Hacker News AI 社区动态日报 | 2026-05-27 今日速览 今日 HN 社区围绕 AI 的讨论呈现**&amp;quot;务实焦虑&amp;quot;基调：最高热帖聚焦 LLM 的&amp;quot;睡眠式记忆巩固&amp;quot;新机制，引发对模型学习效率的深层讨论；产业层面，Uber 一个季度烧穿 AI 预算、Sam Altman retract 此前&amp;quot;AI 导致就业末日&amp;quot;的预言成为焦点，显示社区对企业 AI 成本失控和领袖言论反转的高度敏感；Claude 生态持续发酵，从安全管控到代码质量退化监测形成多条讨论线。整体情绪从早期的技术狂热转向对成本、可控性与实际落地**的冷静审视。 热门新闻与讨论 🔬 模型与研究 标题 分数/评论 一句话说明 A sleep-like consolidation mechanism for LLMs · HN 讨论 180 分 / 129 评论 受生物睡眠启发的...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-05-27</h1>
-<blockquote>
-<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-05-27 00:26 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI 社区动态日报 | 2026-05-27</h1>
-<hr>
-<h2>今日速览</h2>
-<p>今日 HN 社区围绕 AI 的讨论呈现**&quot;务实焦虑&quot;<strong>基调：最高热帖聚焦 LLM 的&quot;睡眠式记忆巩固&quot;新机制，引发对模型学习效率的深层讨论；产业层面，Uber 一个季度烧穿 AI 预算、Sam Altman  retract 此前&quot;AI 导致就业末日&quot;的预言成为焦点，显示社区对企业 AI 成本失控和领袖言论反转的高度敏感；Claude 生态持续发酵，从安全管控到代码质量退化监测形成多条讨论线。整体情绪从早期的技术狂热转向对</strong>成本、可控性与实际落地**的冷静审视。</p>
-<hr>
-<h2>热门新闻与讨论</h2>
-<h3>🔬 模型与研究</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">分数/评论</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://arxiv.org/abs/2605.26099">A sleep-like consolidation mechanism for LLMs</a></strong> · <a href="https://news.ycombinator.com/item?id=48281226">HN 讨论</a></td>
-<td align="left"><strong>180 分 / 129 评论</strong></td>
-<td align="left">受生物睡眠启发的记忆巩固机制，社区热议其能否突破 LLM 灾难性遗忘瓶颈，评论数接近分数显示深度技术辩论</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.computerworld.com/article/4059383/openai-admits-ai-hallucinations-are-mathematically-inevitable-not-just-engineering-flaws.html">OpenAI admits AI hallucinations are mathematically inevitable</a></strong> · <a href="https://news.ycombinator.com/item?id=48285723">HN 讨论</a></td>
-<td align="left">6 分 / 1 评论</td>
-<td align="left">2025 年旧闻被翻出，社区反应平淡，或暗示&quot;幻觉不可消除&quot;已从震惊变为行业默认前提</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench">Evaluating Claude&#39;s bioinformatics research capabilities with BioMysteryBench</a></strong> · <a href="https://news.ycombinator.com/item?id=48279055">HN 讨论</a></td>
-<td align="left">3 分 / 0 评论</td>
-<td align="left">Anthropic 垂直领域评估新基准，关注者寥寥，反映专业领域基准测试的社区参与度局限</td>
-</tr>
-</tbody></table>
-<h3>🛠️ 工具与工程</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">分数/评论</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://www.minicor.com/">Launch HN: Minicor (YC P26) – Windows desktop automations at scale</a></strong> · <a href="https://news.ycombinator.com/item?id=48280729">HN 讨论</a></td>
-<td align="left"><strong>68 分 / 45 评论</strong></td>
-<td align="left">YC 夏季批次项目，瞄准 Windows 企业自动化这一被忽视的蓝海，评论聚焦与现有 RPA 工具的差异化</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://timeglass.ai">Show HN: MCPs aren&#39;t enough, give Codex/Claude accurate memory of everything</a></strong> · <a href="https://news.ycombinator.com/item?id=48281066">HN 讨论</a></td>
-<td align="left">16 分 / 2 评论</td>
-<td align="left">直击 AI 编码助手上下文记忆痛点，但评论稀少暗示社区对&quot;又一个记忆层&quot;方案持观望态度</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://signoz.io/blog/claude-code-measure-degradation-opentelemetry/">Is Claude Code Getting Worse? How to Measure Degradation with OpenTelemetry</a></strong> · <a href="https://news.ycombinator.com/item?id=48279429">HN 讨论</a></td>
-<td align="left">5 分 / 0 评论</td>
-<td align="left">工程化监测模型退化的新思路，零评论反映开发者对&quot;模型即黑箱&quot;质量监控的实操困境</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://github.com/AlphaBitCore/nexus-gateway">Nexus – open-source AI gateway for enterprise LLM traffic</a></strong> · <a href="https://news.ycombinator.com/item?id=48286488">HN 讨论</a></td>
-<td align="left">4 分 / 0 评论</td>
-<td align="left">企业级 LLM 流量网关，契合成本管控需求，但同类工具泛滥导致辨识度不足</td>
-</tr>
-</tbody></table>
-<h3>🏢 产业动态</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">分数/评论</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code/">Uber blows through its AI budget in 1 quarter</a></strong> · <a href="https://news.ycombinator.com/item?id=48287025">HN 讨论</a></td>
-<td align="left"><strong>26 分 / 31 评论</strong></td>
-<td align="left">评论超分数的罕见结构，社区激烈争论 AI ROI 计算方式与 Token 经济的不可持续性</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.reuters.com/world/asia-pacific/openais-altman-says-ai-unlikely-lead-jobs-apocalypse-2026-05-26/">Sam Altman: I was wrong, AI unlikely to lead to jobs apocalypse</a></strong> · <a href="https://news.ycombinator.com/item?id=48278138">HN 讨论</a></td>
-<td align="left">18 分 / 15 评论</td>
-<td align="left">Altman 立场大转弯，社区质疑其为 OpenAI IPO 铺路，与 Dario Amodei 同步 retract 形成&quot;巧合&quot;</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.bloomberg.com/news/articles/2026-05-26/china-expands-travel-curbs-to-top-ai-talent-at-private-firms">China Limits Overseas Travel for AI Talent at DeepSeek, Alibaba, Private Firms</a></strong> · <a href="https://news.ycombinator.com/item?id=48281156">HN 讨论</a></td>
-<td align="left">11 分 / 0 评论</td>
-<td align="left">零评论的沉默反应，或反映地缘政治议题在 HN 的技术社区中的讨论边界</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://platform.xiaomimimo.com/docs/en-US/welcome">Xiaomi MiMo-v2.5 price drops 99% – AI pricing war</a></strong> · <a href="https://news.ycombinator.com/item?id=48287220">HN 讨论</a></td>
-<td align="left">5 分 / 3 评论</td>
-<td align="left">中国模型价格战白热化，社区关注其是否引发全球 API 定价重构</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.theregister.com/security/2026/05/25/anthropic-to-release-mythos-class-models-to-the-public/5245596">Anthropic to release Mythos-class models to the public</a></strong> · <a href="https://news.ycombinator.com/item?id=48278370">HN 讨论</a></td>
-<td align="left">5 分 / 0 评论</td>
-<td align="left">&quot;Mythos-class&quot;命名引发好奇，但零评论显示信息不足难以形成讨论</td>
-</tr>
-</tbody></table>
-<h3>💬 观点与争议</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="left">分数/评论</th>
-<th align="left">一句话说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://lucumr.pocoo.org/2026/5/26/clankers/">Clanker: A Word for the Machine</a></strong> · <a href="https://news.ycombinator.com/item?id=48280673">HN 讨论</a></td>
-<td align="left">12 分 / 7 评论</td>
-<td align="left">Armin Ronacher 造词运动，&quot;Clanker&quot; vs &quot;AI&quot; 的命名政治学，社区分裂于实用主义与批判性话语之间</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/">Altman and Amodei both walking back on AI jobs apocalypse prophecies before IPOs</a></strong> · <a href="https://news.ycombinator.com/item?id=48287203">HN 讨论</a></td>
-<td align="left">4 分 / 0 评论</td>
-<td align="left">阴谋论视角整合两位领袖的&quot;巧合&quot;转向，零评论或因观点过于直白缺乏辩论空间</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://cryptobriefing.com/meta-google-ai-safety-controls-removable/">Meta and Google AI safety controls can be stripped in minutes</a></strong> · <a href="https://news.ycombinator.com/item?id=48286881">HN 讨论</a></td>
-<td align="left">4 分 / 0 评论</td>
-<td align="left">安全研究的可复现性危机，社区沉默暗示对此类&quot;耸动标题&quot;的疲劳</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://ronaknathani.com/blog/2026/02/trading-peace-for-pace-a-few-weeks-with-claude-code/">Trading Peace for Pace: A Few Weeks with Claude Code</a></strong> · <a href="https://news.ycombinator.com/item?id=48279460">HN 讨论</a></td>
-<td align="left">4 分 / 0 评论</td>
-<td align="left">个人开发者使用 Claude Code 的诚实反思，零评论折射个体经验分享的传播困境</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>社区情绪信号</h2>
-<p><strong>最活跃话题</strong>：&quot;LLM 睡眠巩固机制&quot;以 180 分/129 评论的绝对热度领跑，技术深度与评论密度兼具，显示社区对<strong>仿生学习范式</strong>的持久兴趣。Uber AI 预算失控（26 分/31 评论）呈现&quot;评论倒挂&quot;，表明成本焦虑已超越技术讨论成为情绪出口。</p>
-<p><strong>核心争议点</strong>：Altman/Amodei 同步 retract &quot;AI 就业末日&quot;预言，社区共识倾向于**&quot;IPO 前的监管套利&quot;<strong>解读，对 AI 领袖的公信力形成集体质疑。与此相对，&quot;幻觉数学不可避免&quot;的旧闻重提仅获 6 分，说明社区已将此问题</strong>常态化**而非持续抗争。</p>
-<p><strong>方向变化</strong>：相较此前周期对&quot;下一个 GPT&quot;的期待，今日讨论明显<strong>下沉至基础设施层</strong>——企业网关、成本监控、Windows 自动化等&quot;无聊但必要&quot;的工程问题占据显著份额，标志 AI 社区从 demo 文化向<strong>运维务实</strong>的转型。</p>
-<hr>
-<h2>值得深读</h2>
-<table>
-<thead>
-<tr>
-<th align="left">推荐内容</th>
-<th align="left">理由</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong><a href="https://arxiv.org/abs/2605.26099">A sleep-like consolidation mechanism for LLMs</a></strong> · <a href="https://news.ycombinator.com/item?id=48281226">HN 讨论</a></td>
-<td align="left">129 条评论的技术密度罕见，涵盖神经科学类比的可行性、与现有持续学习方法的对比、以及工程实现路径的争论。对研究者和关注 LLM 长期记忆架构的工程师而言，这是理解下一代模型训练范式的关键入口。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code/">Uber blows through its AI budget in 1 quarter</a></strong> · <a href="https://news.ycombinator.com/item?id=48287025">HN 讨论</a></td>
-<td align="left">31 条评论中充斥一线工程师的预算 war story，从 Token 计价陷阱到内部 chargeback 机制设计，构成企业 AI 成本治理的<strong>实战手册</strong>。适合技术管理者和正在经历&quot;创新预算&quot;向&quot;运营成本&quot;转型的团队。</td>
-</tr>
-<tr>
-<td align="left"><strong><a href="https://www.anthropic.com/engineering/how-we-contain-claude">How we contain Claude across products</a></strong> · <a href="https://news.ycombinator.com/item?id=48284832">HN 讨论</a></td>
-<td align="left">Anthropic 官方工程博客的模型安全部署实践，虽零评论但内容硬核，涉及多产品线的提示注入防御、能力边界控制和降级策略。对构建生产级 AI 系统的安全工程师具有直接参考价值，建议结合其 <a href="https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench">BioMysteryBench</a> 评估方法论一并阅读。</td>
-</tr>
-</tbody></table>
-<hr>
-<hr>
-<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
 ]]></content:encoded>
     </item>
   </channel>
