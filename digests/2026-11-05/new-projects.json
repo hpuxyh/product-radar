@@ -1,0 +1,4884 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-05T06:18:43.155Z",
+  "date": "2026-11-05",
+  "since": "2026-08-07",
+  "lookbackDays": 90,
+  "source": "GitHub 搜索数据 + 项目 README",
+  "rawResults": 630,
+  "uniqueRepos": 499,
+  "queryTracks": [
+    {
+      "label": "网站项目",
+      "category": "网站/网页",
+      "weight": 12
+    },
+    {
+      "label": "网页界面项目",
+      "category": "网站/网页",
+      "weight": 12
+    },
+    {
+      "label": "网站页面项目",
+      "category": "网站/网页",
+      "weight": 10
+    },
+    {
+      "label": "完整网站应用",
+      "category": "网站/网页",
+      "weight": 10
+    },
+    {
+      "label": "轻量网站项目",
+      "category": "网站/网页",
+      "weight": 8
+    },
+    {
+      "label": "网页应用",
+      "category": "网站/网页",
+      "weight": 9
+    },
+    {
+      "label": "手机应用",
+      "category": "手机/App",
+      "weight": 12
+    },
+    {
+      "label": "苹果手机应用",
+      "category": "手机/App",
+      "weight": 11
+    },
+    {
+      "label": "安卓手机应用",
+      "category": "手机/App",
+      "weight": 11
+    },
+    {
+      "label": "多端手机应用",
+      "category": "手机/App",
+      "weight": 10
+    },
+    {
+      "label": "跨平台手机应用",
+      "category": "手机/App",
+      "weight": 10
+    },
+    {
+      "label": "快速开发的手机应用",
+      "category": "手机/App",
+      "weight": 9
+    },
+    {
+      "label": "苹果应用",
+      "category": "手机/App",
+      "weight": 9
+    },
+    {
+      "label": "安卓应用",
+      "category": "手机/App",
+      "weight": 9
+    },
+    {
+      "label": "产品应用",
+      "category": "产品应用",
+      "weight": 10
+    },
+    {
+      "label": "开发工具",
+      "category": "开发工具",
+      "weight": 11
+    },
+    {
+      "label": "终端工具",
+      "category": "开发工具",
+      "weight": 8
+    },
+    {
+      "label": "AI 写代码工具",
+      "category": "AI 工具",
+      "weight": 13
+    },
+    {
+      "label": "自动生成代码",
+      "category": "AI 工具",
+      "weight": 12
+    },
+    {
+      "label": "让 AI 连接外部工具",
+      "category": "AI 工具",
+      "weight": 11
+    },
+    {
+      "label": "聊天 AI 应用",
+      "category": "AI 应用",
+      "weight": 9
+    }
+  ],
+  "rankings": {
+    "aiFrontier": [
+      "google/elephant-goldfish-model",
+      "yetone/magpie",
+      "Ebony-Vinyl/dsh-our-free-model",
+      "CopilotKit/OpenBot",
+      "tangency-labs/solidcraft",
+      "QingYunA/answer-me-with-html",
+      "KKKKhazix/agent-autoloop",
+      "wangzan101/Mika",
+      "microsoft/TokenEconomizer",
+      "kajisho5/ffmpeg-skill",
+      "tigerless-labs/agent-memory",
+      "KKKKhazix/AIHOT",
+      "HarnessRouter/harnessrouter",
+      "jiwoochris/artex-global",
+      "rehan-remade/universal-modder",
+      "deeplethe/utopia",
+      "onehumanbeing/esp32-iphone-agent",
+      "ccch1mneyyy/dsh-Go",
+      "nano-muse/nanoMuse",
+      "scenario-labs/skills"
+    ],
+    "productTrends": [
+      "milind-soni/OpenMausBot",
+      "elie222/rakazo",
+      "Louis-CFM/coucou",
+      "Appllama/appllama-skills",
+      "wangzan101/Mika",
+      "jev-chat/jev-chat-jarvis",
+      "nano-muse/nanoMuse",
+      "lnkiai/m3e-canvas",
+      "google/artemis",
+      "LNPANDY/NX2Apple",
+      "InukaAsith/TwinDesk",
+      "Appllama/top-welcome-screens",
+      "ccch1mneyyy/dsh-Go",
+      "Saffsanity/sill",
+      "kuafuai/andee",
+      "ng-native/ng-native",
+      "Chuloo/mural",
+      "l0ng-ai/openidea",
+      "Ebony-Vinyl/dsh-our-free-model",
+      "Verlintas/NOIR"
+    ],
+    "mobileApps": [
+      "milind-soni/OpenMausBot",
+      "elie222/rakazo",
+      "Louis-CFM/coucou",
+      "Appllama/appllama-skills",
+      "wangzan101/Mika",
+      "jev-chat/jev-chat-jarvis",
+      "nano-muse/nanoMuse",
+      "google/artemis",
+      "LNPANDY/NX2Apple",
+      "InukaAsith/TwinDesk",
+      "Appllama/top-welcome-screens",
+      "ccch1mneyyy/dsh-Go",
+      "Saffsanity/sill",
+      "kuafuai/andee",
+      "ng-native/ng-native",
+      "Chuloo/mural",
+      "Verlintas/NOIR",
+      "vicoa-ai/vicoa",
+      "omlahore/RemoveMacAI",
+      "jhaizhou-ops/d2r-mobile",
+      "flectar/mail",
+      "Leviidev/Husk",
+      "Clarklevis1995/dsh-mobile",
+      "bryllim/workout-guide",
+      "LerSent001/orb",
+      "pauljoda/Crest",
+      "ly05010419/MacNativeGames",
+      "metasequoiaime/msime",
+      "rddmwmddr/android-ad-cleaner",
+      "KKKKhazix/AIHOT"
+    ]
+  },
+  "trendInsights": {
+    "zh": "- **做网站页面和产品原型**: 66 个项目，例子: [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model), [yetone/magpie](https://github.com/yetone/magpie), [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)\n- **用 AI 帮人写代码或自动做事**: 62 个项目，例子: [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model), [yetone/magpie](https://github.com/yetone/magpie), [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)\n- **做手机 App 和应用产品**: 32 个项目，例子: [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot), [wangzan101/Mika](https://github.com/wangzan101/Mika), [elie222/rakazo](https://github.com/elie222/rakazo)\n- **帮做软件的人看懂项目、少踩坑**: 27 个项目，例子: [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model), [yetone/magpie](https://github.com/yetone/magpie), [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)\n- **一套代码做多个平台的 App**: 22 个项目，例子: [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot), [elie222/rakazo](https://github.com/elie222/rakazo), [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill)\n- **做设计、图片或内容**: 18 个项目，例子: [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model), [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill), [Appllama/appllama-skills](https://github.com/Appllama/appllama-skills)"
+  },
+  "projects": [
+    {
+      "fullName": "google/elephant-goldfish-model",
+      "url": "https://github.com/google/elephant-goldfish-model",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Python",
+      "stars": 11940,
+      "forks": 837,
+      "openIssues": 65,
+      "topics": [],
+      "homepage": "https://egm.dev",
+      "license": "Apache-2.0",
+      "owner": "google",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/1342004?v=4",
+      "createdAt": "2026-09-13T16:31:06Z",
+      "pushedAt": "2026-11-04T20:36:04Z",
+      "updatedAt": "2026-11-05T06:18:57Z",
+      "matchedQueries": [
+        "开发工具",
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "开发工具",
+        "AI 应用"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 345,
+      "aiPotentialScore": 274,
+      "webTrendScore": 223,
+      "reasonsZh": [
+        "项目出现于 53 天前，最近更新 10 小时前",
+        "11940 人收藏 / 837 次被别人复制改造",
+        "大致归类: 开发工具, 聊天 AI 应用",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, 聊天 AI, 给 AI 的指令, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 聊天 AI, 编程助手",
+        "大致方向: 聊天 AI 应用",
+        "最近关注增长: 平均每天约 227 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型",
+        "大致方向: 开发工具",
+        "可能是: 应用",
+        "有官网或演示，点开能直接看",
+        "主要技术: Python"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型",
+        "做设计、图片或内容"
+      ]
+    },
+    {
+      "fullName": "yetone/magpie",
+      "url": "https://github.com/yetone/magpie",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "想把手机当开发环境、或者喜欢折腾 Linux/安卓的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Go",
+      "stars": 29967,
+      "forks": 2582,
+      "openIssues": 3123,
+      "topics": [],
+      "homepage": "https://usemagpie.ai",
+      "license": "MIT",
+      "owner": "yetone",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/1206493?v=4",
+      "createdAt": "2026-09-23T16:22:35Z",
+      "pushedAt": "2026-11-05T06:06:03Z",
+      "updatedAt": "2026-11-05T06:17:36Z",
+      "matchedQueries": [
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "AI 应用"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 356,
+      "aiPotentialScore": 273,
+      "webTrendScore": 219,
+      "reasonsZh": [
+        "项目出现于 43 天前，最近更新 1 小时前",
+        "29967 人收藏 / 2582 次被别人复制改造",
+        "大致归类: 聊天 AI 应用",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, 聊天 AI, 编程助手, 终端工具"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 聊天 AI, 编程助手",
+        "大致方向: 聊天 AI 应用",
+        "最近关注增长: 平均每天约 704 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型",
+        "可能是: 应用",
+        "有官网或演示，点开能直接看",
+        "主要技术: Go"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型"
+      ]
+    },
+    {
+      "fullName": "Ebony-Vinyl/dsh-our-free-model",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "README 强调门槛低，尽量少配置或少依赖外部服务",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "JavaScript",
+      "stars": 61195,
+      "forks": 1655,
+      "openIssues": 124,
+      "topics": [],
+      "homepage": "",
+      "license": "MIT",
+      "owner": "Ebony-Vinyl",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/245557608?v=4",
+      "createdAt": "2026-09-24T16:17:19Z",
+      "pushedAt": "2026-11-04T05:41:27Z",
+      "updatedAt": "2026-11-05T06:18:49Z",
+      "matchedQueries": [
+        "开发工具",
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "开发工具",
+        "AI 应用"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 380,
+      "aiPotentialScore": 270,
+      "webTrendScore": 232,
+      "reasonsZh": [
+        "项目出现于 42 天前，最近更新 1 天前",
+        "61195 人收藏 / 1655 次被别人复制改造",
+        "大致归类: 开发工具, 聊天 AI 应用",
+        "看点: AI 自动做事, 聊天 AI, openai, 数据接口"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 聊天 AI",
+        "大致方向: 聊天 AI 应用",
+        "最近关注增长: 平均每天约 1472 人收藏"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型",
+        "大致方向: 开发工具",
+        "可能是: 应用",
+        "主要技术: JavaScript"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型"
+      ]
+    },
+    {
+      "fullName": "CopilotKit/OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "想把手机当开发环境、或者喜欢折腾 Linux/安卓的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "TypeScript",
+      "stars": 10184,
+      "forks": 1257,
+      "openIssues": 66,
+      "topics": [],
+      "homepage": "https://www.copilotkit.ai/openbot",
+      "license": "MIT",
+      "owner": "CopilotKit",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/131273140?v=4",
+      "createdAt": "2026-08-17T00:44:59Z",
+      "pushedAt": "2026-11-05T06:10:05Z",
+      "updatedAt": "2026-11-05T06:18:56Z",
+      "matchedQueries": [
+        "让 AI 连接外部工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 332,
+      "aiPotentialScore": 264,
+      "webTrendScore": 222,
+      "reasonsZh": [
+        "项目出现于 80 天前，最近更新 1 小时前",
+        "10184 人收藏 / 1257 次被别人复制改造",
+        "大致归类: 让 AI 连接外部工具",
+        "有官网或演示，点开能直接看",
+        "看点: 浏览器, AI 自动做事, 编程助手, 让 AI 连接外部工具"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 让 AI 连接外部工具, 编程助手, 自动化",
+        "大致方向: 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 127 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 现成模板，方便快速开工",
+        "可能是: 常用网页开发语言, 应用, 自动化",
+        "有官网或演示，点开能直接看",
+        "主要技术: TypeScript"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "现成模板，方便快速开工",
+        "把重复工作自动化"
+      ]
+    },
+    {
+      "fullName": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "descriptionZh": "它和 MCP/工具连接有关，重点是让 AI 能接入更多外部能力，而不是只停留在聊天回答。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "TypeScript",
+      "stars": 12256,
+      "forks": 1707,
+      "openIssues": 740,
+      "topics": [],
+      "homepage": "https://www.openmausbot.com/",
+      "license": "Apache-2.0",
+      "owner": "milind-soni",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/46266943?v=4",
+      "createdAt": "2026-08-11T18:58:55Z",
+      "pushedAt": "2026-11-05T05:14:05Z",
+      "updatedAt": "2026-11-05T06:13:34Z",
+      "matchedQueries": [
+        "快速开发的手机应用"
+      ],
+      "matchedCategories": [
+        "手机/App"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 336,
+      "aiPotentialScore": 235,
+      "webTrendScore": 260,
+      "reasonsZh": [
+        "项目出现于 85 天前，最近更新 1 小时前",
+        "12256 人收藏 / 1707 次被别人复制改造",
+        "大致归类: 快速开发的手机应用",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, 编程助手, 应用"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 编程助手",
+        "最近关注增长: 平均每天约 143 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品",
+        "大致方向: 快速开发的手机应用",
+        "可能是: 常用网页开发语言, 应用, 手机端, 快速做手机 App, 桌面应用工具",
+        "有官网或演示，点开能直接看",
+        "主要技术: TypeScript"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "一套代码做多个平台的 App"
+      ]
+    },
+    {
+      "fullName": "tangency-labs/solidcraft",
+      "url": "https://github.com/tangency-labs/solidcraft",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Rust",
+      "stars": 13783,
+      "forks": 1828,
+      "openIssues": 5562,
+      "topics": [],
+      "homepage": "https://solidcraft.io",
+      "license": "Apache-2.0",
+      "owner": "tangency-labs",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/343519248?v=4",
+      "createdAt": "2026-10-07T18:57:48Z",
+      "pushedAt": "2026-11-05T06:02:30Z",
+      "updatedAt": "2026-11-05T06:19:00Z",
+      "matchedQueries": [
+        "让 AI 连接外部工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 336,
+      "aiPotentialScore": 259,
+      "webTrendScore": 218,
+      "reasonsZh": [
+        "项目出现于 28 天前，最近更新 1 小时前",
+        "13783 人收藏 / 1828 次被别人复制改造",
+        "大致归类: 让 AI 连接外部工具",
+        "有官网或演示，点开能直接看",
+        "看点: 网页, AI 自动做事, 让 AI 连接外部工具, 自动化, 应用"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 让 AI 连接外部工具, 自动化",
+        "大致方向: 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 484 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 把重复工作自动化",
+        "可能是: 网页, 应用, 自动化",
+        "有官网或演示，点开能直接看",
+        "主要技术: Rust"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "把重复工作自动化"
+      ]
+    },
+    {
+      "fullName": "QingYunA/answer-me-with-html",
+      "url": "https://github.com/QingYunA/answer-me-with-html",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做 AI 应用、AI 助手、长期记忆功能的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "JavaScript",
+      "stars": 5312,
+      "forks": 355,
+      "openIssues": 6,
+      "topics": [],
+      "homepage": "https://answer-me-with-html.com/",
+      "license": "MIT",
+      "owner": "QingYunA",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/41177312?v=4",
+      "createdAt": "2026-10-02T09:57:40Z",
+      "pushedAt": "2026-11-05T02:31:02Z",
+      "updatedAt": "2026-11-05T06:14:27Z",
+      "matchedQueries": [
+        "终端工具",
+        "AI 写代码工具",
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "开发工具",
+        "AI 工具",
+        "AI 应用"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 334,
+      "aiPotentialScore": 257,
+      "webTrendScore": 216,
+      "reasonsZh": [
+        "项目出现于 34 天前，最近更新 4 小时前",
+        "5312 人收藏 / 355 次被别人复制改造",
+        "大致归类: 终端工具, AI 写代码工具, 聊天 AI 应用",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, AI 帮写代码, 聊天 AI, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码, 聊天 AI, 编程助手",
+        "大致方向: AI 写代码工具, 聊天 AI 应用",
+        "最近关注增长: 平均每天约 157 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型",
+        "大致方向: 终端工具",
+        "可能是: 应用",
+        "有官网或演示，点开能直接看",
+        "主要技术: JavaScript"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型"
+      ]
+    },
+    {
+      "fullName": "KKKKhazix/agent-autoloop",
+      "url": "https://github.com/KKKKhazix/agent-autoloop",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "想用 AI 写代码、检查项目、自动处理开发任务的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "TypeScript",
+      "stars": 2814,
+      "forks": 541,
+      "openIssues": 2,
+      "topics": [],
+      "homepage": "",
+      "license": "MIT",
+      "owner": "KKKKhazix",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/239590580?v=4",
+      "createdAt": "2026-11-03T08:02:11Z",
+      "pushedAt": "2026-11-05T06:09:48Z",
+      "updatedAt": "2026-11-05T06:18:27Z",
+      "matchedQueries": [
+        "终端工具",
+        "让 AI 连接外部工具"
+      ],
+      "matchedCategories": [
+        "开发工具",
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 307,
+      "aiPotentialScore": 256,
+      "webTrendScore": 205,
+      "reasonsZh": [
+        "项目出现于 2 天前，最近更新 1 小时前",
+        "2814 人收藏 / 541 次被别人复制改造",
+        "大致归类: 终端工具, 让 AI 连接外部工具",
+        "看点: AI 自动做事, 让 AI 连接外部工具, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 让 AI 连接外部工具, 编程助手",
+        "大致方向: 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 1459 人收藏",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型",
+        "大致方向: 终端工具",
+        "可能是: 常用网页开发语言, 工作流, 自动化",
+        "主要技术: TypeScript"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型",
+        "把重复工作自动化"
+      ]
+    },
+    {
+      "fullName": "wangzan101/Mika",
+      "url": "https://github.com/wangzan101/Mika",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "想把手机当开发环境、或者喜欢折腾 Linux/安卓的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Kotlin",
+      "stars": 6798,
+      "forks": 1487,
+      "openIssues": 127,
+      "topics": [],
+      "homepage": "",
+      "license": "Apache-2.0",
+      "owner": "wangzan101",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/102038245?v=4",
+      "createdAt": "2026-10-29T14:34:07Z",
+      "pushedAt": "2026-11-05T05:50:33Z",
+      "updatedAt": "2026-11-05T06:18:13Z",
+      "matchedQueries": [
+        "安卓手机应用",
+        "安卓应用",
+        "AI 写代码工具",
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "手机/App",
+        "AI 工具",
+        "AI 应用"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 361,
+      "aiPotentialScore": 254,
+      "webTrendScore": 247,
+      "reasonsZh": [
+        "项目出现于 7 天前，最近更新 1 小时前",
+        "6798 人收藏 / 1487 次被别人复制改造",
+        "大致归类: 安卓手机应用, 安卓应用, AI 写代码工具",
+        "看点: 网页, AI 自动做事, AI 帮写代码, 聊天 AI"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码, 聊天 AI, 自动化",
+        "大致方向: AI 写代码工具, 聊天 AI 应用",
+        "最近关注增长: 平均每天约 1021 人收藏",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品",
+        "大致方向: 安卓手机应用, 安卓应用",
+        "可能是: 网页, 应用, 自动化, 手机端, 安卓",
+        "主要技术: Kotlin"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "把重复工作自动化"
+      ]
+    },
+    {
+      "fullName": "elie222/rakazo",
+      "url": "https://github.com/elie222/rakazo",
+      "descriptionZh": "它和 MCP/工具连接有关，重点是让 AI 能接入更多外部能力，而不是只停留在聊天回答。",
+      "audienceZh": "想把手机当开发环境、或者喜欢折腾 Linux/安卓的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它和真实手机使用场景有关，不只是网页端项目"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "TypeScript",
+      "stars": 7063,
+      "forks": 1245,
+      "openIssues": 143,
+      "topics": [],
+      "homepage": "https://rakazo.com",
+      "license": "Apache-2.0",
+      "owner": "elie222",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/3090527?v=4",
+      "createdAt": "2026-08-13T06:28:56Z",
+      "pushedAt": "2026-11-05T05:09:24Z",
+      "updatedAt": "2026-11-05T06:13:51Z",
+      "matchedQueries": [
+        "快速开发的手机应用",
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "手机/App",
+        "AI 应用"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 334,
+      "aiPotentialScore": 241,
+      "webTrendScore": 253,
+      "reasonsZh": [
+        "项目出现于 84 天前，最近更新 1 小时前",
+        "7063 人收藏 / 1245 次被别人复制改造",
+        "大致归类: 快速开发的手机应用, 聊天 AI 应用",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, 聊天 AI, 应用, 手机端"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 聊天 AI",
+        "大致方向: 聊天 AI 应用",
+        "最近关注增长: 平均每天约 84 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品",
+        "大致方向: 快速开发的手机应用",
+        "可能是: 常用网页开发语言, 应用, 手机端, 快速做手机 App, 桌面应用工具",
+        "有官网或演示，点开能直接看",
+        "主要技术: TypeScript"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "一套代码做多个平台的 App"
+      ]
+    },
+    {
+      "fullName": "microsoft/TokenEconomizer",
+      "url": "https://github.com/microsoft/TokenEconomizer",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "README 强调门槛低，尽量少配置或少依赖外部服务",
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Python",
+      "stars": 4795,
+      "forks": 289,
+      "openIssues": 11,
+      "topics": [],
+      "homepage": "",
+      "license": "Apache-2.0",
+      "owner": "microsoft",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "createdAt": "2026-10-13T04:16:50Z",
+      "pushedAt": "2026-11-04T23:00:36Z",
+      "updatedAt": "2026-11-05T06:18:26Z",
+      "matchedQueries": [
+        "开发工具",
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "开发工具",
+        "AI 应用"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 312,
+      "aiPotentialScore": 252,
+      "webTrendScore": 198,
+      "reasonsZh": [
+        "项目出现于 23 天前，最近更新 7 小时前",
+        "4795 人收藏 / 289 次被别人复制改造",
+        "大致归类: 开发工具, 聊天 AI 应用",
+        "看点: AI 自动做事, AI 帮写代码, 编程助手, assistant, 聊天 AI"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码, 聊天 AI, 编程助手",
+        "大致方向: 聊天 AI 应用",
+        "最近关注增长: 平均每天约 208 人收藏",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型",
+        "大致方向: 开发工具",
+        "可能是: 应用, 产品",
+        "主要技术: Python"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型"
+      ]
+    },
+    {
+      "fullName": "kajisho5/ffmpeg-skill",
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "README 强调门槛低，尽量少配置或少依赖外部服务",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Python",
+      "stars": 4546,
+      "forks": 365,
+      "openIssues": 10,
+      "topics": [],
+      "homepage": "https://www.npmjs.com/package/ffmpeg-skill",
+      "license": "MIT",
+      "owner": "kajisho5",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/20648875?v=4",
+      "createdAt": "2026-09-03T14:33:38Z",
+      "pushedAt": "2026-10-31T22:51:32Z",
+      "updatedAt": "2026-11-05T06:09:05Z",
+      "matchedQueries": [
+        "让 AI 连接外部工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 298,
+      "aiPotentialScore": 252,
+      "webTrendScore": 202,
+      "reasonsZh": [
+        "项目出现于 63 天前，最近更新 4 天前",
+        "4546 人收藏 / 365 次被别人复制改造",
+        "大致归类: 让 AI 连接外部工具",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 编程助手",
+        "大致方向: 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 73 人收藏",
+        "有官网或演示，点开更容易看懂"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做手机 App 和应用产品",
+        "可能是: 编辑器, 快速做手机 App, 平台",
+        "有官网或演示，点开能直接看",
+        "主要技术: Python"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "帮做软件的人看懂项目、少踩坑",
+        "做手机 App 和应用产品",
+        "一套代码做多个平台的 App",
+        "做设计、图片或内容"
+      ]
+    },
+    {
+      "fullName": "tigerless-labs/agent-memory",
+      "url": "https://github.com/tigerless-labs/agent-memory",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "README 强调门槛低，尽量少配置或少依赖外部服务",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Python",
+      "stars": 4305,
+      "forks": 203,
+      "openIssues": 14,
+      "topics": [],
+      "homepage": "",
+      "license": "MIT",
+      "owner": "tigerless-labs",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/285825190?v=4",
+      "createdAt": "2026-09-01T21:52:29Z",
+      "pushedAt": "2026-11-03T17:53:53Z",
+      "updatedAt": "2026-11-05T04:15:35Z",
+      "matchedQueries": [
+        "让 AI 连接外部工具",
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "AI 工具",
+        "AI 应用"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 304,
+      "aiPotentialScore": 252,
+      "webTrendScore": 174,
+      "reasonsZh": [
+        "项目出现于 64 天前，最近更新 2 天前",
+        "4305 人收藏 / 203 次被别人复制改造",
+        "大致归类: 让 AI 连接外部工具, 聊天 AI 应用",
+        "看点: AI 自动做事, 聊天 AI, 让 AI 连接外部工具, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 让 AI 连接外部工具, 聊天 AI, 效果评测",
+        "大致方向: 让 AI 连接外部工具, 聊天 AI 应用",
+        "最近关注增长: 平均每天约 67 人收藏"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型",
+        "可能是: 应用",
+        "主要技术: Python"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型"
+      ]
+    },
+    {
+      "fullName": "KKKKhazix/AIHOT",
+      "url": "https://github.com/KKKKhazix/AIHOT",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "想把手机当开发环境、或者喜欢折腾 Linux/安卓的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "TypeScript",
+      "stars": 9590,
+      "forks": 2243,
+      "openIssues": 4,
+      "topics": [],
+      "homepage": "https://aihot.news",
+      "license": "MIT",
+      "owner": "KKKKhazix",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/239590580?v=4",
+      "createdAt": "2026-09-28T23:40:05Z",
+      "pushedAt": "2026-11-03T10:31:35Z",
+      "updatedAt": "2026-11-05T06:17:47Z",
+      "matchedQueries": [
+        "让 AI 连接外部工具",
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "AI 工具",
+        "AI 应用"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 334,
+      "aiPotentialScore": 251,
+      "webTrendScore": 209,
+      "reasonsZh": [
+        "项目出现于 37 天前，最近更新 2 天前",
+        "9590 人收藏 / 2243 次被别人复制改造",
+        "大致归类: 让 AI 连接外部工具, 聊天 AI 应用",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, 聊天 AI, 让 AI 连接外部工具, 应用"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 让 AI 连接外部工具, 聊天 AI",
+        "大致方向: 让 AI 连接外部工具, 聊天 AI 应用",
+        "最近关注增长: 平均每天约 257 人收藏",
+        "有官网或演示，点开更容易看懂"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型",
+        "可能是: 常用网页开发语言, 应用",
+        "有官网或演示，点开能直接看",
+        "主要技术: TypeScript"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型"
+      ]
+    },
+    {
+      "fullName": "HarnessRouter/harnessrouter",
+      "url": "https://github.com/HarnessRouter/harnessrouter",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "想把手机当开发环境、或者喜欢折腾 Linux/安卓的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Python",
+      "stars": 4179,
+      "forks": 460,
+      "openIssues": 26,
+      "topics": [],
+      "homepage": "https://harnessrouter.ai/",
+      "license": "Apache-2.0",
+      "owner": "HarnessRouter",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/306618541?v=4",
+      "createdAt": "2026-08-09T20:19:14Z",
+      "pushedAt": "2026-11-05T03:59:06Z",
+      "updatedAt": "2026-11-05T06:06:45Z",
+      "matchedQueries": [
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "AI 应用"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 302,
+      "aiPotentialScore": 251,
+      "webTrendScore": 192,
+      "reasonsZh": [
+        "项目出现于 87 天前，最近更新 2 小时前",
+        "4179 人收藏 / 460 次被别人复制改造",
+        "大致归类: 聊天 AI 应用",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, 聊天 AI, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 聊天 AI, 编程助手",
+        "大致方向: 聊天 AI 应用",
+        "最近关注增长: 平均每天约 48 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型",
+        "可能是: 应用",
+        "有官网或演示，点开能直接看",
+        "主要技术: Python"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型"
+      ]
+    },
+    {
+      "fullName": "jiwoochris/artex-global",
+      "url": "https://github.com/jiwoochris/artex-global",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Go",
+      "stars": 2720,
+      "forks": 2615,
+      "openIssues": 22,
+      "topics": [],
+      "homepage": "",
+      "license": "AGPL-3.0",
+      "owner": "jiwoochris",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/83687471?v=4",
+      "createdAt": "2026-10-03T14:49:48Z",
+      "pushedAt": "2026-10-14T07:52:45Z",
+      "updatedAt": "2026-11-05T05:53:05Z",
+      "matchedQueries": [
+        "AI 写代码工具",
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "AI 工具",
+        "AI 应用"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 310,
+      "aiPotentialScore": 251,
+      "webTrendScore": 177,
+      "reasonsZh": [
+        "项目出现于 33 天前，最近更新 22 天前",
+        "2720 人收藏 / 2615 次被别人复制改造",
+        "大致归类: AI 写代码工具, 聊天 AI 应用",
+        "看点: AI 自动做事, AI 帮写代码, 聊天 AI, 开发框架"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码, AI 自己执行, 聊天 AI",
+        "大致方向: AI 写代码工具, 聊天 AI 应用",
+        "最近关注增长: 平均每天约 83 人收藏"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 检查安全风险",
+        "可能是: 应用",
+        "主要技术: Go"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "检查安全风险"
+      ]
+    },
+    {
+      "fullName": "Louis-CFM/coucou",
+      "url": "https://github.com/Louis-CFM/coucou",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "README 强调门槛低，尽量少配置或少依赖外部服务",
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Swift",
+      "stars": 6971,
+      "forks": 1143,
+      "openIssues": 494,
+      "topics": [],
+      "homepage": "https://louis-cfm.github.io/coucou/",
+      "license": "MIT",
+      "owner": "Louis-CFM",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/72659375?v=4",
+      "createdAt": "2026-09-27T21:54:12Z",
+      "pushedAt": "2026-11-04T23:57:01Z",
+      "updatedAt": "2026-11-05T06:11:20Z",
+      "matchedQueries": [
+        "苹果手机应用"
+      ],
+      "matchedCategories": [
+        "手机/App"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 322,
+      "aiPotentialScore": 238,
+      "webTrendScore": 250,
+      "reasonsZh": [
+        "项目出现于 38 天前，最近更新 6 小时前",
+        "6971 人收藏 / 1143 次被别人复制改造",
+        "大致归类: 苹果手机应用",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, AI 帮写代码, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码, 编程助手",
+        "最近关注增长: 平均每天约 182 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型",
+        "大致方向: 苹果手机应用",
+        "可能是: 应用, 手机端, iOS, 苹果 App, 苹果界面工具",
+        "有官网或演示，点开能直接看",
+        "主要技术: Swift"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "一套代码做多个平台的 App"
+      ]
+    },
+    {
+      "fullName": "rehan-remade/universal-modder",
+      "url": "https://github.com/rehan-remade/universal-modder",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "README 强调门槛低，尽量少配置或少依赖外部服务",
+        "它不只是代码，也提供可观察的案例、截图或数据",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Python",
+      "stars": 9427,
+      "forks": 1054,
+      "openIssues": 43,
+      "topics": [],
+      "homepage": "",
+      "license": "MIT",
+      "owner": "rehan-remade",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/173837546?v=4",
+      "createdAt": "2026-09-30T05:00:35Z",
+      "pushedAt": "2026-11-04T23:38:46Z",
+      "updatedAt": "2026-11-05T05:53:11Z",
+      "matchedQueries": [
+        "让 AI 连接外部工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 315,
+      "aiPotentialScore": 249,
+      "webTrendScore": 175,
+      "reasonsZh": [
+        "项目出现于 36 天前，最近更新 7 小时前",
+        "9427 人收藏 / 1054 次被别人复制改造",
+        "大致归类: 让 AI 连接外部工具",
+        "看点: AI 自动做事, 让 AI 连接外部工具, 编程助手, 测试"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 让 AI 连接外部工具, 编程助手",
+        "大致方向: 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 261 人收藏",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事",
+        "主要技术: Python"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事"
+      ]
+    },
+    {
+      "fullName": "deeplethe/utopia",
+      "url": "https://github.com/deeplethe/utopia",
+      "descriptionZh": "它和 MCP/工具连接有关，重点是让 AI 能接入更多外部能力，而不是只停留在聊天回答。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "它和真实手机使用场景有关，不只是网页端项目",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Rust",
+      "stars": 8677,
+      "forks": 1185,
+      "openIssues": 72,
+      "topics": [],
+      "homepage": "",
+      "license": "Apache-2.0",
+      "owner": "deeplethe",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/282846749?v=4",
+      "createdAt": "2026-08-07T19:33:17Z",
+      "pushedAt": "2026-11-05T00:20:02Z",
+      "updatedAt": "2026-11-05T02:34:02Z",
+      "matchedQueries": [
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "AI 应用"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 310,
+      "aiPotentialScore": 249,
+      "webTrendScore": 185,
+      "reasonsZh": [
+        "项目出现于 89 天前，最近更新 6 小时前",
+        "8677 人收藏 / 1185 次被别人复制改造",
+        "大致归类: 聊天 AI 应用",
+        "看点: AI 自动做事, 聊天 AI, 让 AI 查资料后回答, 应用"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 聊天 AI, 让 AI 查资料后回答",
+        "大致方向: 聊天 AI 应用",
+        "最近关注增长: 平均每天约 97 人收藏",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型",
+        "可能是: 应用",
+        "主要技术: Rust"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型"
+      ]
+    },
+    {
+      "fullName": "onehumanbeing/esp32-iphone-agent",
+      "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做 AI 应用、AI 助手、长期记忆功能的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据",
+        "它和真实手机使用场景有关，不只是网页端项目"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "C",
+      "stars": 4390,
+      "forks": 591,
+      "openIssues": 19,
+      "topics": [],
+      "homepage": "https://handsy.tech?ref=github",
+      "license": "MIT",
+      "owner": "onehumanbeing",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/20528382?v=4",
+      "createdAt": "2026-10-11T19:10:25Z",
+      "pushedAt": "2026-11-05T05:02:42Z",
+      "updatedAt": "2026-11-05T05:58:26Z",
+      "matchedQueries": [
+        "AI 写代码工具",
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "AI 工具",
+        "AI 应用"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 322,
+      "aiPotentialScore": 249,
+      "webTrendScore": 199,
+      "reasonsZh": [
+        "项目出现于 24 天前，最近更新 1 小时前",
+        "4390 人收藏 / 591 次被别人复制改造",
+        "大致归类: AI 写代码工具, 聊天 AI 应用",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, AI 帮写代码, 聊天 AI, openai"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码, 聊天 AI, 自动化",
+        "大致方向: AI 写代码工具, 聊天 AI 应用",
+        "最近关注增长: 平均每天约 179 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品",
+        "可能是: 应用, 自动化",
+        "有官网或演示，点开能直接看",
+        "主要技术: C"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "把重复工作自动化"
+      ]
+    },
+    {
+      "fullName": "ccch1mneyyy/dsh-Go",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做 AI 应用、AI 助手、长期记忆功能的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它和真实手机使用场景有关，不只是网页端项目",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Dart",
+      "stars": 10124,
+      "forks": 458,
+      "openIssues": 295,
+      "topics": [],
+      "homepage": "",
+      "license": "AGPL-3.0",
+      "owner": "ccch1mneyyy",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/268149062?v=4",
+      "createdAt": "2026-10-25T08:09:52Z",
+      "pushedAt": "2026-11-05T06:15:18Z",
+      "updatedAt": "2026-11-05T06:17:47Z",
+      "matchedQueries": [
+        "安卓手机应用",
+        "多端手机应用",
+        "AI 写代码工具",
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "手机/App",
+        "AI 工具",
+        "AI 应用"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 361,
+      "aiPotentialScore": 248,
+      "webTrendScore": 236,
+      "reasonsZh": [
+        "项目出现于 11 天前，最近更新 1 小时前",
+        "10124 人收藏 / 458 次被别人复制改造",
+        "大致归类: 安卓手机应用, 多端手机应用, AI 写代码工具",
+        "看点: AI 自动做事, AI 帮写代码, 聊天 AI, 应用"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码, 聊天 AI",
+        "大致方向: AI 写代码工具, 聊天 AI 应用",
+        "最近关注增长: 平均每天约 927 人收藏",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品",
+        "大致方向: 安卓手机应用, 多端手机应用",
+        "可能是: 应用, 手机端, 安卓, 一套代码做多个平台的 App",
+        "主要技术: Dart"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "一套代码做多个平台的 App"
+      ]
+    },
+    {
+      "fullName": "Appllama/appllama-skills",
+      "url": "https://github.com/Appllama/appllama-skills",
+      "descriptionZh": "它收集真实 iOS 订阅 App 的付费墙、价格页和新用户引导截图，方便研究 App 怎么收费、怎么转化用户。",
+      "audienceZh": "做手机 App、订阅收费、增长转化的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据",
+        "它和真实手机使用场景有关，不只是网页端项目"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "",
+      "stars": 4873,
+      "forks": 248,
+      "openIssues": 2,
+      "topics": [],
+      "homepage": "https://appllama.io/mcp",
+      "license": "MIT",
+      "owner": "Appllama",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/313732614?v=4",
+      "createdAt": "2026-08-13T07:19:54Z",
+      "pushedAt": "2026-09-06T09:01:39Z",
+      "updatedAt": "2026-11-05T06:01:11Z",
+      "matchedQueries": [
+        "手机应用",
+        "跨平台手机应用",
+        "快速开发的手机应用",
+        "让 AI 连接外部工具"
+      ],
+      "matchedCategories": [
+        "手机/App",
+        "AI 工具"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 340,
+      "aiPotentialScore": 241,
+      "webTrendScore": 248,
+      "reasonsZh": [
+        "项目出现于 84 天前，最近更新 60 天前",
+        "4873 人收藏 / 248 次被别人复制改造",
+        "大致归类: 手机应用, 跨平台手机应用, 快速开发的手机应用",
+        "有官网或演示，点开能直接看",
+        "看点: 网页界面, AI 自动做事, 让 AI 连接外部工具, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 让 AI 连接外部工具, 编程助手",
+        "大致方向: 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 58 人收藏",
+        "有官网或演示，点开更容易看懂"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品",
+        "大致方向: 手机应用, 跨平台手机应用, 快速开发的手机应用",
+        "可能是: 网页界面, 应用, 搭建器, 手机端, 一套代码做多个平台的 App",
+        "有官网或演示，点开能直接看"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "一套代码做多个平台的 App",
+        "做设计、图片或内容"
+      ]
+    },
+    {
+      "fullName": "nano-muse/nanoMuse",
+      "url": "https://github.com/nano-muse/nanoMuse",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "想把手机当开发环境、或者喜欢折腾 Linux/安卓的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Swift",
+      "stars": 3200,
+      "forks": 383,
+      "openIssues": 138,
+      "topics": [],
+      "homepage": "https://nanomuse.cn/",
+      "license": "GPL-3.0",
+      "owner": "nano-muse",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/332792686?v=4",
+      "createdAt": "2026-09-23T06:13:06Z",
+      "pushedAt": "2026-11-05T02:43:10Z",
+      "updatedAt": "2026-11-05T05:07:43Z",
+      "matchedQueries": [
+        "苹果手机应用",
+        "安卓手机应用",
+        "苹果应用",
+        "AI 写代码工具",
+        "让 AI 连接外部工具",
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "手机/App",
+        "AI 工具",
+        "AI 应用"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 361,
+      "aiPotentialScore": 248,
+      "webTrendScore": 245,
+      "reasonsZh": [
+        "项目出现于 43 天前，最近更新 4 小时前",
+        "3200 人收藏 / 383 次被别人复制改造",
+        "大致归类: 苹果手机应用, 安卓手机应用, 苹果应用",
+        "有官网或演示，点开能直接看",
+        "看点: 浏览器, AI 自动做事, AI 帮写代码, 聊天 AI"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 聊天 AI",
+        "大致方向: AI 写代码工具, 让 AI 连接外部工具, 聊天 AI 应用",
+        "最近关注增长: 平均每天约 74 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品",
+        "大致方向: 苹果手机应用, 安卓手机应用, 苹果应用",
+        "可能是: 应用, 手机端, iOS, 安卓, 苹果 App",
+        "有官网或演示，点开能直接看",
+        "主要技术: Swift"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品"
+      ]
+    },
+    {
+      "fullName": "scenario-labs/skills",
+      "url": "https://github.com/scenario-labs/skills",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做手机 App、订阅收费、增长转化的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据",
+        "它和真实手机使用场景有关，不只是网页端项目"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Python",
+      "stars": 2588,
+      "forks": 251,
+      "openIssues": 40,
+      "topics": [],
+      "homepage": "https://www.skills.sh/scenario-labs/skills",
+      "license": "MIT",
+      "owner": "scenario-labs",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/71755875?v=4",
+      "createdAt": "2026-08-12T10:08:49Z",
+      "pushedAt": "2026-11-05T01:29:55Z",
+      "updatedAt": "2026-11-05T06:18:20Z",
+      "matchedQueries": [
+        "让 AI 连接外部工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 286,
+      "aiPotentialScore": 248,
+      "webTrendScore": 176,
+      "reasonsZh": [
+        "项目出现于 85 天前，最近更新 5 小时前",
+        "2588 人收藏 / 251 次被别人复制改造",
+        "大致归类: 让 AI 连接外部工具",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, 让 AI 连接外部工具, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 让 AI 连接外部工具, 编程助手",
+        "大致方向: 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 31 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做设计、图片或内容",
+        "可能是: 产品",
+        "有官网或演示，点开能直接看",
+        "主要技术: Python"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做设计、图片或内容"
+      ]
+    },
+    {
+      "fullName": "Human-Agent-Society/reef",
+      "url": "https://github.com/Human-Agent-Society/reef",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它和真实手机使用场景有关，不只是网页端项目"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Python",
+      "stars": 7799,
+      "forks": 732,
+      "openIssues": 168,
+      "topics": [],
+      "homepage": "https://reefinfra.ai",
+      "license": "Apache-2.0",
+      "owner": "Human-Agent-Society",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/268553699?v=4",
+      "createdAt": "2026-08-31T01:39:18Z",
+      "pushedAt": "2026-11-05T04:48:16Z",
+      "updatedAt": "2026-11-05T05:33:58Z",
+      "matchedQueries": [
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "AI 应用"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 311,
+      "aiPotentialScore": 247,
+      "webTrendScore": 194,
+      "reasonsZh": [
+        "项目出现于 66 天前，最近更新 2 小时前",
+        "7799 人收藏 / 732 次被别人复制改造",
+        "大致归类: 聊天 AI 应用",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, 聊天 AI, 应用"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 聊天 AI",
+        "大致方向: 聊天 AI 应用",
+        "最近关注增长: 平均每天约 118 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型",
+        "可能是: 应用",
+        "有官网或演示，点开能直接看",
+        "主要技术: Python"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型"
+      ]
+    },
+    {
+      "fullName": "Ryze-AI-Adgent/open-seo-mcp-skills",
+      "url": "https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做 AI 应用、AI 助手、长期记忆功能的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Shell",
+      "stars": 8828,
+      "forks": 394,
+      "openIssues": 4,
+      "topics": [],
+      "homepage": "https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp",
+      "license": "MIT",
+      "owner": "Ryze-AI-Adgent",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/239315082?v=4",
+      "createdAt": "2026-08-29T23:37:01Z",
+      "pushedAt": "2026-10-27T08:57:55Z",
+      "updatedAt": "2026-11-05T06:18:21Z",
+      "matchedQueries": [
+        "让 AI 连接外部工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 306,
+      "aiPotentialScore": 246,
+      "webTrendScore": 176,
+      "reasonsZh": [
+        "项目出现于 67 天前，最近更新 9 天前",
+        "8828 人收藏 / 394 次被别人复制改造",
+        "大致归类: 让 AI 连接外部工具",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, 聊天 AI, 让 AI 连接外部工具, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 让 AI 连接外部工具, 聊天 AI, 编程助手",
+        "大致方向: 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 131 人收藏",
+        "有官网或演示，点开更容易看懂"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事",
+        "有官网或演示，点开能直接看",
+        "主要技术: Shell"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事"
+      ]
+    },
+    {
+      "fullName": "jev-chat/jev-chat-jarvis",
+      "url": "https://github.com/jev-chat/jev-chat-jarvis",
+      "descriptionZh": "它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。",
+      "audienceZh": "做 AI 应用、AI 助手、长期记忆功能的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Kotlin",
+      "stars": 8262,
+      "forks": 1326,
+      "openIssues": 33,
+      "topics": [],
+      "homepage": "https://chatjevs.com",
+      "license": "MIT",
+      "owner": "jev-chat",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/332283779?v=4",
+      "createdAt": "2026-09-21T11:12:53Z",
+      "pushedAt": "2026-11-01T14:42:30Z",
+      "updatedAt": "2026-11-05T06:02:32Z",
+      "matchedQueries": [
+        "安卓手机应用",
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "手机/App",
+        "AI 应用"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 334,
+      "aiPotentialScore": 232,
+      "webTrendScore": 246,
+      "reasonsZh": [
+        "项目出现于 45 天前，最近更新 4 天前",
+        "8262 人收藏 / 1326 次被别人复制改造",
+        "大致归类: 安卓手机应用, 聊天 AI 应用",
+        "有官网或演示，点开能直接看",
+        "看点: 编程助手, assistant, 聊天 AI, 应用, 手机端"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: 聊天 AI, 编程助手",
+        "大致方向: 聊天 AI 应用",
+        "最近关注增长: 平均每天约 184 人收藏",
+        "有官网或演示，点开更容易看懂"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品",
+        "大致方向: 安卓手机应用",
+        "可能是: 应用, 手机端, iOS, 安卓, 安卓开发",
+        "有官网或演示，点开能直接看",
+        "主要技术: Kotlin"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品"
+      ]
+    },
+    {
+      "fullName": "totec448-spec/chat-on-steroids",
+      "url": "https://github.com/totec448-spec/chat-on-steroids",
+      "descriptionZh": "它围绕“让 AI 操作浏览器”展开，适合做自动测试、自动操作网页、自动完成重复流程。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "TypeScript",
+      "stars": 5133,
+      "forks": 670,
+      "openIssues": 29,
+      "topics": [],
+      "homepage": "",
+      "license": "MIT",
+      "owner": "totec448-spec",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/227782719?v=4",
+      "createdAt": "2026-08-22T14:16:24Z",
+      "pushedAt": "2026-11-04T23:55:00Z",
+      "updatedAt": "2026-11-05T04:32:03Z",
+      "matchedQueries": [
+        "让 AI 连接外部工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 306,
+      "aiPotentialScore": 245,
+      "webTrendScore": 209,
+      "reasonsZh": [
+        "项目出现于 75 天前，最近更新 6 小时前",
+        "5133 人收藏 / 670 次被别人复制改造",
+        "大致归类: 让 AI 连接外部工具",
+        "看点: 浏览器扩展, AI 自动做事, 让 AI 连接外部工具, 工作流, 自动化"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 让 AI 连接外部工具, 工作流, 自动化",
+        "大致方向: 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 69 人收藏",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 一套代码做多个平台的 App",
+        "可能是: 常用网页开发语言, 浏览器扩展, 工作流, 自动化, 平台",
+        "主要技术: TypeScript"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "一套代码做多个平台的 App",
+        "把重复工作自动化"
+      ]
+    },
+    {
+      "fullName": "aoci-spec/aoci-code",
+      "url": "https://github.com/aoci-spec/aoci-code",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据",
+        "它和真实手机使用场景有关，不只是网页端项目"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Go",
+      "stars": 1854,
+      "forks": 224,
+      "openIssues": 19,
+      "topics": [],
+      "homepage": "www.aoci.ai",
+      "license": "NOASSERTION",
+      "owner": "aoci-spec",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/282869362?v=4",
+      "createdAt": "2026-08-08T11:33:08Z",
+      "pushedAt": "2026-11-05T06:17:06Z",
+      "updatedAt": "2026-11-05T06:17:10Z",
+      "matchedQueries": [
+        "让 AI 连接外部工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 280,
+      "aiPotentialScore": 245,
+      "webTrendScore": 167,
+      "reasonsZh": [
+        "项目出现于 89 天前，最近更新 1 小时前",
+        "1854 人收藏 / 224 次被别人复制改造",
+        "大致归类: 让 AI 连接外部工具",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, AI 帮写代码, 聊天 AI, 让 AI 连接外部工具, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 聊天 AI, 编程助手",
+        "大致方向: 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 21 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑",
+        "有官网或演示，点开能直接看",
+        "主要技术: Go"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "帮做软件的人看懂项目、少踩坑"
+      ]
+    },
+    {
+      "fullName": "Nanako0129/sepia",
+      "url": "https://github.com/Nanako0129/sepia",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做 AI 应用、AI 助手、长期记忆功能的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Python",
+      "stars": 3647,
+      "forks": 226,
+      "openIssues": 6,
+      "topics": [],
+      "homepage": "",
+      "license": "MIT",
+      "owner": "Nanako0129",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/44753291?v=4",
+      "createdAt": "2026-08-28T05:56:49Z",
+      "pushedAt": "2026-11-03T05:53:57Z",
+      "updatedAt": "2026-11-05T06:03:25Z",
+      "matchedQueries": [
+        "开发工具",
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "开发工具",
+        "AI 应用"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 300,
+      "aiPotentialScore": 244,
+      "webTrendScore": 188,
+      "reasonsZh": [
+        "项目出现于 69 天前，最近更新 2 天前",
+        "3647 人收藏 / 226 次被别人复制改造",
+        "大致归类: 开发工具, 聊天 AI 应用",
+        "看点: AI 自动做事, 聊天 AI, 给 AI 的指令, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 聊天 AI, 编程助手, 给 AI 的指令",
+        "大致方向: 聊天 AI 应用",
+        "最近关注增长: 平均每天约 53 人收藏"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型",
+        "大致方向: 开发工具",
+        "可能是: 应用",
+        "主要技术: Python"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型"
+      ]
+    },
+    {
+      "fullName": "Leonxlnx/unlazy",
+      "url": "https://github.com/Leonxlnx/unlazy",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它和真实手机使用场景有关，不只是网页端项目"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "JavaScript",
+      "stars": 4301,
+      "forks": 339,
+      "openIssues": 9,
+      "topics": [],
+      "homepage": "",
+      "license": "MIT",
+      "owner": "Leonxlnx",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/219127460?v=4",
+      "createdAt": "2026-08-09T23:39:12Z",
+      "pushedAt": "2026-09-03T09:31:17Z",
+      "updatedAt": "2026-11-05T03:03:56Z",
+      "matchedQueries": [
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "AI 应用"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 289,
+      "aiPotentialScore": 242,
+      "webTrendScore": 181,
+      "reasonsZh": [
+        "项目出现于 87 天前，最近更新 63 天前",
+        "4301 人收藏 / 339 次被别人复制改造",
+        "大致归类: 聊天 AI 应用",
+        "看点: AI 自动做事, 聊天 AI, 给 AI 的指令, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 聊天 AI, 编程助手, 给 AI 的指令",
+        "大致方向: 聊天 AI 应用",
+        "最近关注增长: 平均每天约 49 人收藏"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型",
+        "可能是: 应用, 产品",
+        "主要技术: JavaScript"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型"
+      ]
+    },
+    {
+      "fullName": "qybaihe/bla",
+      "url": "https://github.com/qybaihe/bla",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "TypeScript",
+      "stars": 2348,
+      "forks": 310,
+      "openIssues": 19,
+      "topics": [],
+      "homepage": "https://bla.tools",
+      "license": "MIT",
+      "owner": "qybaihe",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/137127051?v=4",
+      "createdAt": "2026-10-25T05:25:45Z",
+      "pushedAt": "2026-11-05T02:11:38Z",
+      "updatedAt": "2026-11-05T06:12:21Z",
+      "matchedQueries": [
+        "让 AI 连接外部工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 288,
+      "aiPotentialScore": 242,
+      "webTrendScore": 206,
+      "reasonsZh": [
+        "项目出现于 11 天前，最近更新 4 小时前",
+        "2348 人收藏 / 310 次被别人复制改造",
+        "大致归类: 让 AI 连接外部工具",
+        "有官网或演示，点开能直接看",
+        "看点: 网页, AI 自动做事, 聊天 AI, 让 AI 连接外部工具, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 让 AI 连接外部工具, 聊天 AI, 编程助手, 智能编辑器",
+        "大致方向: 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 213 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 一套代码做多个平台的 App",
+        "可能是: 网页, 常用网页开发语言, 应用, 桌面应用工具",
+        "有官网或演示，点开能直接看",
+        "主要技术: TypeScript"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "一套代码做多个平台的 App",
+        "检查安全风险"
+      ]
+    },
+    {
+      "fullName": "lnkiai/m3e-canvas",
+      "url": "https://github.com/lnkiai/m3e-canvas",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "TypeScript",
+      "stars": 10053,
+      "forks": 1115,
+      "openIssues": 15,
+      "topics": [],
+      "homepage": "https://lnkiai.github.io/m3e-canvas/",
+      "license": "MIT",
+      "owner": "lnkiai",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/187016380?v=4",
+      "createdAt": "2026-09-02T04:36:34Z",
+      "pushedAt": "2026-11-01T10:57:54Z",
+      "updatedAt": "2026-11-05T06:13:47Z",
+      "matchedQueries": [
+        "网站页面项目",
+        "完整网站应用"
+      ],
+      "matchedCategories": [
+        "网站/网页"
+      ],
+      "categoryZh": "网站/网页项目",
+      "score": 337,
+      "aiPotentialScore": 204,
+      "webTrendScore": 240,
+      "reasonsZh": [
+        "项目出现于 64 天前，最近更新 4 天前",
+        "10053 人收藏 / 1115 次被别人复制改造",
+        "大致归类: 网站页面项目, 完整网站应用",
+        "有官网或演示，点开能直接看",
+        "看点: 网页, 网页界面, 完整网站应用"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: 给 AI 的指令",
+        "最近关注增长: 平均每天约 157 人收藏",
+        "有官网或演示，点开更容易看懂"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做设计、图片或内容",
+        "大致方向: 网站页面项目, 完整网站应用",
+        "可能是: 网页, 网页界面, 完整网站应用",
+        "有官网或演示，点开能直接看",
+        "主要技术: TypeScript"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "做设计、图片或内容"
+      ]
+    },
+    {
+      "fullName": "XiaoDuoYa/codex-with-chatgpt",
+      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做 AI 应用、AI 助手、长期记忆功能的人",
+      "readmeHighlightsZh": [
+        "README 强调门槛低，尽量少配置或少依赖外部服务",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "TypeScript",
+      "stars": 7645,
+      "forks": 703,
+      "openIssues": 20,
+      "topics": [],
+      "homepage": "",
+      "license": "MIT",
+      "owner": "XiaoDuoYa",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/113528266?v=4",
+      "createdAt": "2026-08-28T12:57:24Z",
+      "pushedAt": "2026-10-01T05:19:24Z",
+      "updatedAt": "2026-11-05T04:17:34Z",
+      "matchedQueries": [
+        "让 AI 连接外部工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 300,
+      "aiPotentialScore": 240,
+      "webTrendScore": 180,
+      "reasonsZh": [
+        "项目出现于 69 天前，最近更新 35 天前",
+        "7645 人收藏 / 703 次被别人复制改造",
+        "大致归类: 让 AI 连接外部工具",
+        "看点: AI 自动做事, 让 AI 连接外部工具, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 让 AI 连接外部工具, 编程助手",
+        "大致方向: 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 111 人收藏"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型",
+        "可能是: 常用网页开发语言",
+        "主要技术: TypeScript"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型"
+      ]
+    },
+    {
+      "fullName": "z91772524-ai/pojia-next",
+      "url": "https://github.com/z91772524-ai/pojia-next",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "想用 AI 写代码、检查项目、自动处理开发任务的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Python",
+      "stars": 1048,
+      "forks": 283,
+      "openIssues": 19,
+      "topics": [],
+      "homepage": "https://aaaa.yiye.pw/",
+      "license": "MIT",
+      "owner": "z91772524-ai",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/242431379?v=4",
+      "createdAt": "2026-09-17T12:36:10Z",
+      "pushedAt": "2026-11-04T18:24:26Z",
+      "updatedAt": "2026-11-05T04:45:31Z",
+      "matchedQueries": [
+        "AI 写代码工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 270,
+      "aiPotentialScore": 240,
+      "webTrendScore": 173,
+      "reasonsZh": [
+        "项目出现于 49 天前，最近更新 12 小时前",
+        "1048 人收藏 / 283 次被别人复制改造",
+        "大致归类: AI 写代码工具",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, AI 帮写代码, 给 AI 的指令, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码, 编程助手",
+        "大致方向: AI 写代码工具",
+        "最近关注增长: 平均每天约 22 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 检查安全风险",
+        "可能是: 自动化",
+        "有官网或演示，点开能直接看",
+        "主要技术: Python"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "帮做软件的人看懂项目、少踩坑",
+        "检查安全风险",
+        "把重复工作自动化"
+      ]
+    },
+    {
+      "fullName": "yanliudesign/mono-color-skill",
+      "url": "https://github.com/yanliudesign/mono-color-skill",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Python",
+      "stars": 3598,
+      "forks": 112,
+      "openIssues": 7,
+      "topics": [],
+      "homepage": "",
+      "license": "MIT",
+      "owner": "yanliudesign",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/232981236?v=4",
+      "createdAt": "2026-08-19T06:07:45Z",
+      "pushedAt": "2026-09-02T18:49:42Z",
+      "updatedAt": "2026-11-05T05:39:58Z",
+      "matchedQueries": [
+        "AI 写代码工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 279,
+      "aiPotentialScore": 239,
+      "webTrendScore": 166,
+      "reasonsZh": [
+        "项目出现于 78 天前，最近更新 63 天前",
+        "3598 人收藏 / 112 次被别人复制改造",
+        "大致归类: AI 写代码工具",
+        "看点: AI 自动做事, AI 帮写代码, 给 AI 的指令, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码, 编程助手, 给 AI 的指令",
+        "大致方向: AI 写代码工具",
+        "最近关注增长: 平均每天约 46 人收藏"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 普通用户会用的个人工具, 做设计、图片或内容",
+        "可能是: 编辑器",
+        "主要技术: Python"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "普通用户会用的个人工具",
+        "做设计、图片或内容"
+      ]
+    },
+    {
+      "fullName": "google/artemis",
+      "url": "https://github.com/google/artemis",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "想用 AI 写代码、检查项目、自动处理开发任务的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据",
+        "它和真实手机使用场景有关，不只是网页端项目"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Python",
+      "stars": 16621,
+      "forks": 1831,
+      "openIssues": 183,
+      "topics": [],
+      "homepage": "",
+      "license": "Apache-2.0",
+      "owner": "google",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/1342004?v=4",
+      "createdAt": "2026-08-13T17:59:37Z",
+      "pushedAt": "2026-10-01T21:37:15Z",
+      "updatedAt": "2026-11-05T06:09:35Z",
+      "matchedQueries": [
+        "安卓手机应用"
+      ],
+      "matchedCategories": [
+        "手机/App"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 331,
+      "aiPotentialScore": 238,
+      "webTrendScore": 238,
+      "reasonsZh": [
+        "项目出现于 84 天前，最近更新 34 天前",
+        "16621 人收藏 / 1831 次被别人复制改造",
+        "大致归类: 安卓手机应用",
+        "看点: AI 自动做事, assistant, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 对比评测, 编程助手",
+        "最近关注增长: 平均每天约 199 人收藏"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品",
+        "大致方向: 安卓手机应用",
+        "可能是: 应用, 工作流, 自动化, 手机端, 安卓",
+        "主要技术: Python"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "把重复工作自动化"
+      ]
+    },
+    {
+      "fullName": "ZJU-REAL/Easel",
+      "url": "https://github.com/ZJU-REAL/Easel",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做 AI 应用、AI 助手、长期记忆功能的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Python",
+      "stars": 4430,
+      "forks": 731,
+      "openIssues": 29,
+      "topics": [],
+      "homepage": "https://zju-real.github.io/Easel/",
+      "license": "Apache-2.0",
+      "owner": "ZJU-REAL",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/203928864?v=4",
+      "createdAt": "2026-08-28T02:22:27Z",
+      "pushedAt": "2026-11-02T08:18:55Z",
+      "updatedAt": "2026-11-05T06:12:29Z",
+      "matchedQueries": [
+        "让 AI 连接外部工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 294,
+      "aiPotentialScore": 238,
+      "webTrendScore": 186,
+      "reasonsZh": [
+        "项目出现于 69 天前，最近更新 3 天前",
+        "4430 人收藏 / 731 次被别人复制改造",
+        "大致归类: 让 AI 连接外部工具",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, 让 AI 连接外部工具, 自动化"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 让 AI 连接外部工具, 自动化",
+        "大致方向: 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 64 人收藏",
+        "有官网或演示，点开更容易看懂"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 普通用户会用的个人工具, 把重复工作自动化",
+        "可能是: 自动化",
+        "有官网或演示，点开能直接看",
+        "主要技术: Python"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "普通用户会用的个人工具",
+        "把重复工作自动化"
+      ]
+    },
+    {
+      "fullName": "Vincentwei1021/video-talkcraft",
+      "url": "https://github.com/Vincentwei1021/video-talkcraft",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "HTML",
+      "stars": 2090,
+      "forks": 209,
+      "openIssues": 2,
+      "topics": [],
+      "homepage": "https://vincentwei1021.github.io/video-talkcraft/",
+      "license": "NOASSERTION",
+      "owner": "Vincentwei1021",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/18239147?v=4",
+      "createdAt": "2026-08-22T17:11:05Z",
+      "pushedAt": "2026-10-12T05:29:10Z",
+      "updatedAt": "2026-11-05T06:07:50Z",
+      "matchedQueries": [
+        "AI 写代码工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 278,
+      "aiPotentialScore": 238,
+      "webTrendScore": 176,
+      "reasonsZh": [
+        "项目出现于 75 天前，最近更新 24 天前",
+        "2090 人收藏 / 209 次被别人复制改造",
+        "大致归类: AI 写代码工具",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, AI 帮写代码, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码, 编程助手",
+        "大致方向: AI 写代码工具",
+        "最近关注增长: 平均每天约 28 人收藏",
+        "有官网或演示，点开更容易看懂"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做设计、图片或内容",
+        "可能是: 工作室, 产品",
+        "有官网或演示，点开能直接看",
+        "主要技术: HTML"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做设计、图片或内容"
+      ]
+    },
+    {
+      "fullName": "LNPANDY/NX2Apple",
+      "url": "https://github.com/LNPANDY/NX2Apple",
+      "descriptionZh": "它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。",
+      "audienceZh": "做 iOS、安卓或跨平台 App 的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据",
+        "它和真实手机使用场景有关，不只是网页端项目"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Swift",
+      "stars": 3548,
+      "forks": 484,
+      "openIssues": 133,
+      "topics": [],
+      "homepage": "https://github.com/LNPANDY/NX2Apple#readme",
+      "license": "MIT",
+      "owner": "LNPANDY",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/90243050?v=4",
+      "createdAt": "2026-10-20T18:16:07Z",
+      "pushedAt": "2026-11-04T21:56:17Z",
+      "updatedAt": "2026-11-05T06:14:53Z",
+      "matchedQueries": [
+        "苹果手机应用",
+        "苹果应用"
+      ],
+      "matchedCategories": [
+        "手机/App"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 308,
+      "aiPotentialScore": 173,
+      "webTrendScore": 237,
+      "reasonsZh": [
+        "项目出现于 16 天前，最近更新 8 小时前",
+        "3548 人收藏 / 484 次被别人复制改造",
+        "大致归类: 苹果手机应用, 苹果应用",
+        "有官网或演示，点开能直接看",
+        "看点: 终端工具, 应用, 手机端, iOS, 苹果 App"
+      ],
+      "frontierReasonsZh": [
+        "最近关注增长: 平均每天约 229 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品",
+        "大致方向: 苹果手机应用, 苹果应用",
+        "可能是: 应用, 手机端, iOS, 苹果 App",
+        "有官网或演示，点开能直接看",
+        "主要技术: Swift"
+      ],
+      "trendLabelsZh": [
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品"
+      ]
+    },
+    {
+      "fullName": "InukaAsith/TwinDesk",
+      "url": "https://github.com/InukaAsith/TwinDesk",
+      "descriptionZh": "它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "JavaScript",
+      "stars": 3438,
+      "forks": 264,
+      "openIssues": 12,
+      "topics": [],
+      "homepage": "https://twin-desk.vercel.app",
+      "license": "GPL-3.0",
+      "owner": "InukaAsith",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/70461117?v=4",
+      "createdAt": "2026-10-14T01:19:02Z",
+      "pushedAt": "2026-11-05T04:55:23Z",
+      "updatedAt": "2026-11-05T06:17:34Z",
+      "matchedQueries": [
+        "安卓手机应用"
+      ],
+      "matchedCategories": [
+        "手机/App"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 293,
+      "aiPotentialScore": 169,
+      "webTrendScore": 237,
+      "reasonsZh": [
+        "项目出现于 22 天前，最近更新 1 小时前",
+        "3438 人收藏 / 264 次被别人复制改造",
+        "大致归类: 安卓手机应用",
+        "有官网或演示，点开能直接看",
+        "看点: 终端工具, 应用, 产品, 手机端, 安卓"
+      ],
+      "frontierReasonsZh": [
+        "最近关注增长: 平均每天约 155 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品",
+        "大致方向: 安卓手机应用",
+        "可能是: 应用, 手机端, 安卓, 产品, 桌面应用工具",
+        "有官网或演示，点开能直接看",
+        "主要技术: JavaScript"
+      ],
+      "trendLabelsZh": [
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "一套代码做多个平台的 App"
+      ]
+    },
+    {
+      "fullName": "Appllama/top-welcome-screens",
+      "url": "https://github.com/Appllama/top-welcome-screens",
+      "descriptionZh": "它收集真实 iOS 订阅 App 的付费墙、价格页和新用户引导截图，方便研究 App 怎么收费、怎么转化用户。",
+      "audienceZh": "做手机 App、订阅收费、增长转化的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "TypeScript",
+      "stars": 610,
+      "forks": 53,
+      "openIssues": 0,
+      "topics": [],
+      "homepage": "https://appllama.io",
+      "license": "GPL-3.0",
+      "owner": "Appllama",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/313732614?v=4",
+      "createdAt": "2026-08-08T12:44:52Z",
+      "pushedAt": "2026-08-08T15:54:13Z",
+      "updatedAt": "2026-10-30T08:33:29Z",
+      "matchedQueries": [
+        "网站页面项目",
+        "苹果手机应用",
+        "跨平台手机应用",
+        "快速开发的手机应用"
+      ],
+      "matchedCategories": [
+        "网站/网页",
+        "手机/App"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 279,
+      "aiPotentialScore": 129,
+      "webTrendScore": 237,
+      "reasonsZh": [
+        "项目出现于 89 天前，最近更新 89 天前",
+        "610 人收藏 / 53 次被别人复制改造",
+        "大致归类: 网站页面项目, 苹果手机应用, 跨平台手机应用",
+        "有官网或演示，点开能直接看",
+        "看点: 网页, 网页界面, 应用, 手机端"
+      ],
+      "frontierReasonsZh": [
+        "最近关注增长: 平均每天约 6.9 人收藏",
+        "有官网或演示，点开更容易看懂"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App",
+        "大致方向: 网站页面项目, 苹果手机应用, 跨平台手机应用",
+        "可能是: 网页, 网页界面, 常用网页开发语言, 应用",
+        "有官网或演示，点开能直接看",
+        "主要技术: TypeScript"
+      ],
+      "trendLabelsZh": [
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "一套代码做多个平台的 App",
+        "做设计、图片或内容"
+      ]
+    },
+    {
+      "fullName": "Saffsanity/sill",
+      "url": "https://github.com/Saffsanity/sill",
+      "descriptionZh": "它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Swift",
+      "stars": 4527,
+      "forks": 270,
+      "openIssues": 147,
+      "topics": [],
+      "homepage": "https://getsill.app",
+      "license": "Apache-2.0",
+      "owner": "Saffsanity",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/19507835?v=4",
+      "createdAt": "2026-09-22T08:06:15Z",
+      "pushedAt": "2026-11-03T14:24:45Z",
+      "updatedAt": "2026-11-05T06:02:47Z",
+      "matchedQueries": [
+        "苹果手机应用"
+      ],
+      "matchedCategories": [
+        "手机/App"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 291,
+      "aiPotentialScore": 169,
+      "webTrendScore": 236,
+      "reasonsZh": [
+        "项目出现于 44 天前，最近更新 2 天前",
+        "4527 人收藏 / 270 次被别人复制改造",
+        "大致归类: 苹果手机应用",
+        "有官网或演示，点开能直接看",
+        "看点: 应用, 手机端, iOS, 苹果 App"
+      ],
+      "frontierReasonsZh": [
+        "最近关注增长: 平均每天约 103 人收藏",
+        "有官网或演示，点开更容易看懂"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App",
+        "大致方向: 苹果手机应用",
+        "可能是: 应用, 手机端, iOS, 苹果 App, 苹果界面工具",
+        "有官网或演示，点开能直接看",
+        "主要技术: Swift"
+      ],
+      "trendLabelsZh": [
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "一套代码做多个平台的 App",
+        "现成模板，方便快速开工"
+      ]
+    },
+    {
+      "fullName": "kuafuai/andee",
+      "url": "https://github.com/kuafuai/andee",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Kotlin",
+      "stars": 3540,
+      "forks": 248,
+      "openIssues": 13,
+      "topics": [],
+      "homepage": "https://heyandee.com",
+      "license": "NOASSERTION",
+      "owner": "kuafuai",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/139326231?v=4",
+      "createdAt": "2026-09-17T13:20:59Z",
+      "pushedAt": "2026-11-05T05:52:06Z",
+      "updatedAt": "2026-11-05T06:16:17Z",
+      "matchedQueries": [
+        "安卓应用"
+      ],
+      "matchedCategories": [
+        "手机/App"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 293,
+      "aiPotentialScore": 201,
+      "webTrendScore": 236,
+      "reasonsZh": [
+        "项目出现于 49 天前，最近更新 1 小时前",
+        "3540 人收藏 / 248 次被别人复制改造",
+        "大致归类: 安卓应用",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, 自动化, 应用, 手机端"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 自动化",
+        "最近关注增长: 平均每天约 73 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品",
+        "大致方向: 安卓应用",
+        "可能是: 应用, 自动化, 手机端, 安卓, 安卓开发",
+        "有官网或演示，点开能直接看",
+        "主要技术: Kotlin"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "把重复工作自动化"
+      ]
+    },
+    {
+      "fullName": "kgoedecke/doop",
+      "url": "https://github.com/kgoedecke/doop",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做手机 App、订阅收费、增长转化的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "TypeScript",
+      "stars": 1724,
+      "forks": 202,
+      "openIssues": 77,
+      "topics": [],
+      "homepage": "https://doop.design",
+      "license": "AGPL-3.0",
+      "owner": "kgoedecke",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/5519740?v=4",
+      "createdAt": "2026-08-22T15:40:51Z",
+      "pushedAt": "2026-11-05T04:28:01Z",
+      "updatedAt": "2026-11-05T06:06:05Z",
+      "matchedQueries": [
+        "让 AI 连接外部工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 272,
+      "aiPotentialScore": 236,
+      "webTrendScore": 181,
+      "reasonsZh": [
+        "项目出现于 75 天前，最近更新 2 小时前",
+        "1724 人收藏 / 202 次被别人复制改造",
+        "大致归类: 让 AI 连接外部工具",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, 让 AI 连接外部工具, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 让 AI 连接外部工具, 编程助手",
+        "大致方向: 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 23 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做设计、图片或内容",
+        "可能是: 常用网页开发语言",
+        "有官网或演示，点开能直接看",
+        "主要技术: TypeScript"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "做设计、图片或内容"
+      ]
+    },
+    {
+      "fullName": "ng-native/ng-native",
+      "url": "https://github.com/ng-native/ng-native",
+      "descriptionZh": "它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。",
+      "audienceZh": "做 AI 应用、AI 助手、长期记忆功能的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它和真实手机使用场景有关，不只是网页端项目"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "TypeScript",
+      "stars": 608,
+      "forks": 25,
+      "openIssues": 14,
+      "topics": [],
+      "homepage": "https://ng-native.com",
+      "license": "MIT",
+      "owner": "ng-native",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/333407484?v=4",
+      "createdAt": "2026-09-27T19:15:46Z",
+      "pushedAt": "2026-11-04T14:45:23Z",
+      "updatedAt": "2026-11-04T14:45:27Z",
+      "matchedQueries": [
+        "苹果手机应用",
+        "跨平台手机应用",
+        "快速开发的手机应用"
+      ],
+      "matchedCategories": [
+        "手机/App"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 266,
+      "aiPotentialScore": 136,
+      "webTrendScore": 236,
+      "reasonsZh": [
+        "项目出现于 38 天前，最近更新 16 小时前",
+        "608 人收藏 / 25 次被别人复制改造",
+        "大致归类: 苹果手机应用, 跨平台手机应用, 快速开发的手机应用",
+        "有官网或演示，点开能直接看",
+        "看点: 网页界面, 应用, 手机端, iOS, 安卓"
+      ],
+      "frontierReasonsZh": [
+        "最近关注增长: 平均每天约 16 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App",
+        "大致方向: 苹果手机应用, 跨平台手机应用, 快速开发的手机应用",
+        "可能是: 网页界面, 常用网页开发语言, 应用, 手机端, iOS",
+        "有官网或演示，点开能直接看",
+        "主要技术: TypeScript"
+      ],
+      "trendLabelsZh": [
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "一套代码做多个平台的 App"
+      ]
+    },
+    {
+      "fullName": "duty1g/x64dbg-mcp-server",
+      "url": "https://github.com/duty1g/x64dbg-mcp-server",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做 AI 应用、AI 助手、长期记忆功能的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Zig",
+      "stars": 2777,
+      "forks": 316,
+      "openIssues": 0,
+      "topics": [],
+      "homepage": "https://duty1g.online",
+      "license": "MIT",
+      "owner": "duty1g",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/3162883?v=4",
+      "createdAt": "2026-08-22T14:28:41Z",
+      "pushedAt": "2026-11-03T11:09:20Z",
+      "updatedAt": "2026-11-05T03:05:28Z",
+      "matchedQueries": [
+        "让 AI 连接外部工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 289,
+      "aiPotentialScore": 235,
+      "webTrendScore": 183,
+      "reasonsZh": [
+        "项目出现于 75 天前，最近更新 2 天前",
+        "2777 人收藏 / 316 次被别人复制改造",
+        "大致归类: 让 AI 连接外部工具",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, assistant, 让 AI 连接外部工具, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 让 AI 连接外部工具, 编程助手",
+        "大致方向: 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 37 人收藏",
+        "有官网或演示，点开更容易看懂"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做手机 App 和应用产品, 一套代码做多个平台的 App",
+        "可能是: 快速做手机 App",
+        "有官网或演示，点开能直接看",
+        "主要技术: Zig"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做手机 App 和应用产品",
+        "一套代码做多个平台的 App"
+      ]
+    },
+    {
+      "fullName": "modelflare-ai/AnyModelBot",
+      "url": "https://github.com/modelflare-ai/AnyModelBot",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Python",
+      "stars": 2703,
+      "forks": 32,
+      "openIssues": 0,
+      "topics": [],
+      "homepage": "https://anymodel.bot/",
+      "license": "MIT",
+      "owner": "modelflare-ai",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/267078600?v=4",
+      "createdAt": "2026-10-27T08:51:18Z",
+      "pushedAt": "2026-11-04T18:18:55Z",
+      "updatedAt": "2026-11-05T06:03:59Z",
+      "matchedQueries": [
+        "AI 写代码工具",
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "AI 工具",
+        "AI 应用"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 290,
+      "aiPotentialScore": 235,
+      "webTrendScore": 181,
+      "reasonsZh": [
+        "项目出现于 9 天前，最近更新 12 小时前",
+        "2703 人收藏 / 32 次被别人复制改造",
+        "大致归类: AI 写代码工具, 聊天 AI 应用",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, AI 帮写代码, assistant, 聊天 AI"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码, 聊天 AI, 编程助手",
+        "大致方向: AI 写代码工具, 聊天 AI 应用",
+        "最近关注增长: 平均每天约 304 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 一套代码做多个平台的 App",
+        "可能是: 应用, 桌面应用工具",
+        "有官网或演示，点开能直接看",
+        "主要技术: Python"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "一套代码做多个平台的 App"
+      ]
+    },
+    {
+      "fullName": "amontlabs/lcu",
+      "url": "https://github.com/amontlabs/lcu",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "想用 AI 写代码、检查项目、自动处理开发任务的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "JavaScript",
+      "stars": 2388,
+      "forks": 158,
+      "openIssues": 0,
+      "topics": [],
+      "homepage": "https://lcu.amontlabs.com",
+      "license": "MIT",
+      "owner": "amontlabs",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/337367162?v=4",
+      "createdAt": "2026-09-22T15:08:18Z",
+      "pushedAt": "2026-11-02T09:35:34Z",
+      "updatedAt": "2026-11-05T06:02:48Z",
+      "matchedQueries": [
+        "让 AI 连接外部工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 280,
+      "aiPotentialScore": 235,
+      "webTrendScore": 191,
+      "reasonsZh": [
+        "项目出现于 44 天前，最近更新 3 天前",
+        "2388 人收藏 / 158 次被别人复制改造",
+        "大致归类: 让 AI 连接外部工具",
+        "有官网或演示，点开能直接看",
+        "看点: 浏览器, AI 自动做事, 让 AI 连接外部工具, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 让 AI 连接外部工具, 编程助手, 自动化",
+        "大致方向: 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 55 人收藏",
+        "有官网或演示，点开更容易看懂"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型",
+        "可能是: 应用, 自动化",
+        "有官网或演示，点开能直接看",
+        "主要技术: JavaScript"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型",
+        "把重复工作自动化"
+      ]
+    },
+    {
+      "fullName": "Chuloo/mural",
+      "url": "https://github.com/Chuloo/mural",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做 AI 应用、AI 助手、长期记忆功能的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "TypeScript",
+      "stars": 1759,
+      "forks": 341,
+      "openIssues": 40,
+      "topics": [],
+      "homepage": "https://mural.chat",
+      "license": "MIT",
+      "owner": "Chuloo",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/22301208?v=4",
+      "createdAt": "2026-09-12T11:51:08Z",
+      "pushedAt": "2026-10-31T05:48:18Z",
+      "updatedAt": "2026-11-04T00:47:57Z",
+      "matchedQueries": [
+        "苹果手机应用"
+      ],
+      "matchedCategories": [
+        "手机/App"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 262,
+      "aiPotentialScore": 151,
+      "webTrendScore": 234,
+      "reasonsZh": [
+        "项目出现于 54 天前，最近更新 5 天前",
+        "1759 人收藏 / 341 次被别人复制改造",
+        "大致归类: 苹果手机应用",
+        "有官网或演示，点开能直接看",
+        "看点: 应用, 手机端, iOS, 苹果 App"
+      ],
+      "frontierReasonsZh": [
+        "最近关注增长: 平均每天约 33 人收藏",
+        "有官网或演示，点开更容易看懂"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App",
+        "大致方向: 苹果手机应用",
+        "可能是: 常用网页开发语言, 应用, 手机端, iOS, 苹果 App",
+        "有官网或演示，点开能直接看",
+        "主要技术: TypeScript"
+      ],
+      "trendLabelsZh": [
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "一套代码做多个平台的 App"
+      ]
+    },
+    {
+      "fullName": "l0ng-ai/openidea",
+      "url": "https://github.com/l0ng-ai/openidea",
+      "descriptionZh": "从 README 和项目简介看，它主要围绕命令行或开发工具、模板或快速启动项目展开。可以把它当成一个开发工具线索，先看它解决的问题和演示效果。",
+      "audienceZh": "开发者、独立产品作者、做内部效率工具的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "TypeScript",
+      "stars": 6338,
+      "forks": 543,
+      "openIssues": 226,
+      "topics": [],
+      "homepage": "",
+      "license": "Apache-2.0",
+      "owner": "l0ng-ai",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/24760907?v=4",
+      "createdAt": "2026-10-21T12:23:14Z",
+      "pushedAt": "2026-11-05T06:14:47Z",
+      "updatedAt": "2026-11-05T06:17:48Z",
+      "matchedQueries": [
+        "开发工具"
+      ],
+      "matchedCategories": [
+        "开发工具"
+      ],
+      "categoryZh": "开发工具",
+      "score": 310,
+      "aiPotentialScore": 176,
+      "webTrendScore": 233,
+      "reasonsZh": [
+        "项目出现于 15 天前，最近更新 1 小时前",
+        "6338 人收藏 / 543 次被别人复制改造",
+        "大致归类: 开发工具",
+        "看点: 终端工具, 做软件的人, 调试, 应用, 平台"
+      ],
+      "frontierReasonsZh": [
+        "最近关注增长: 平均每天约 430 人收藏",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 一套代码做多个平台的 App",
+        "大致方向: 开发工具",
+        "可能是: 常用网页开发语言, 应用, 编辑器, 平台, 桌面应用工具",
+        "主要技术: TypeScript"
+      ],
+      "trendLabelsZh": [
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型",
+        "一套代码做多个平台的 App",
+        "做设计、图片或内容"
+      ]
+    },
+    {
+      "fullName": "Ephemeral-AI-Lab/layerfs",
+      "url": "https://github.com/Ephemeral-AI-Lab/layerfs",
+      "descriptionZh": "从 README 和项目简介看，它主要围绕让 AI 调用外部工具、手机 App、Linux 容器或开发环境展开。可以把它当成一个AI 工具线索，先看它解决的问题和演示效果。",
+      "audienceZh": "想把手机当开发环境、或者喜欢折腾 Linux/安卓的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它和真实手机使用场景有关，不只是网页端项目",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Rust",
+      "stars": 2683,
+      "forks": 147,
+      "openIssues": 78,
+      "topics": [],
+      "homepage": "https://layerfs.ai/",
+      "license": "MIT",
+      "owner": "Ephemeral-AI-Lab",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/301956475?v=4",
+      "createdAt": "2026-08-10T00:26:10Z",
+      "pushedAt": "2026-11-04T21:43:54Z",
+      "updatedAt": "2026-11-05T06:02:27Z",
+      "matchedQueries": [
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "AI 应用"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 281,
+      "aiPotentialScore": 233,
+      "webTrendScore": 183,
+      "reasonsZh": [
+        "项目出现于 87 天前，最近更新 9 小时前",
+        "2683 人收藏 / 147 次被别人复制改造",
+        "大致归类: 聊天 AI 应用",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, 聊天 AI, 让 AI 查资料后回答, 应用"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 聊天 AI, 让 AI 查资料后回答",
+        "大致方向: 聊天 AI 应用",
+        "最近关注增长: 平均每天约 31 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型",
+        "可能是: 应用, 工作台",
+        "有官网或演示，点开能直接看",
+        "主要技术: Rust"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型"
+      ]
+    },
+    {
+      "fullName": "nanaism/yomiyasu",
+      "url": "https://github.com/nanaism/yomiyasu",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做 AI 应用、AI 助手、长期记忆功能的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据",
+        "它和真实手机使用场景有关，不只是网页端项目"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Python",
+      "stars": 2852,
+      "forks": 74,
+      "openIssues": 1,
+      "topics": [],
+      "homepage": "",
+      "license": "MIT",
+      "owner": "nanaism",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/72681409?v=4",
+      "createdAt": "2026-09-30T11:49:32Z",
+      "pushedAt": "2026-11-04T10:12:49Z",
+      "updatedAt": "2026-11-05T06:04:24Z",
+      "matchedQueries": [
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "AI 应用"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 273,
+      "aiPotentialScore": 232,
+      "webTrendScore": 164,
+      "reasonsZh": [
+        "项目出现于 36 天前，最近更新 20 小时前",
+        "2852 人收藏 / 74 次被别人复制改造",
+        "大致归类: 聊天 AI 应用",
+        "看点: AI 自动做事, assistant, 聊天 AI, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 聊天 AI, 编程助手, 智能编辑器",
+        "大致方向: 聊天 AI 应用",
+        "最近关注增长: 平均每天约 80 人收藏",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型",
+        "可能是: 应用",
+        "主要技术: Python"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型"
+      ]
+    },
+    {
+      "fullName": "Verlintas/NOIR",
+      "url": "https://github.com/Verlintas/NOIR",
+      "descriptionZh": "它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。",
+      "audienceZh": "做 iOS、安卓或跨平台 App 的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它和真实手机使用场景有关，不只是网页端项目",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Kotlin",
+      "stars": 2190,
+      "forks": 188,
+      "openIssues": 0,
+      "topics": [],
+      "homepage": "https://verlintas.dev/noir/",
+      "license": "MIT",
+      "owner": "Verlintas",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/310443301?v=4",
+      "createdAt": "2026-10-31T21:34:39Z",
+      "pushedAt": "2026-11-04T14:01:10Z",
+      "updatedAt": "2026-11-05T06:17:37Z",
+      "matchedQueries": [
+        "安卓手机应用",
+        "终端工具"
+      ],
+      "matchedCategories": [
+        "手机/App",
+        "开发工具"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 294,
+      "aiPotentialScore": 162,
+      "webTrendScore": 232,
+      "reasonsZh": [
+        "项目出现于 4 天前，最近更新 16 小时前",
+        "2190 人收藏 / 188 次被别人复制改造",
+        "大致归类: 安卓手机应用, 终端工具",
+        "有官网或演示，点开能直接看",
+        "看点: 终端工具, 做软件的人, 应用, 平台, 手机端"
+      ],
+      "frontierReasonsZh": [
+        "最近关注增长: 平均每天约 502 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品",
+        "大致方向: 安卓手机应用, 终端工具",
+        "可能是: 应用, 手机端, 安卓, 安卓开发, 平台",
+        "有官网或演示，点开能直接看",
+        "主要技术: Kotlin"
+      ],
+      "trendLabelsZh": [
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "检查安全风险"
+      ]
+    },
+    {
+      "fullName": "rddmwmddr/android-ad-cleaner",
+      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "想用 AI 写代码、检查项目、自动处理开发任务的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Python",
+      "stars": 6382,
+      "forks": 581,
+      "openIssues": 173,
+      "topics": [],
+      "homepage": "",
+      "license": "MIT",
+      "owner": "rddmwmddr",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/5119232?v=4",
+      "createdAt": "2026-10-24T05:35:47Z",
+      "pushedAt": "2026-11-05T05:56:04Z",
+      "updatedAt": "2026-11-05T06:14:09Z",
+      "matchedQueries": [
+        "安卓手机应用",
+        "AI 写代码工具"
+      ],
+      "matchedCategories": [
+        "手机/App",
+        "AI 工具"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 325,
+      "aiPotentialScore": 231,
+      "webTrendScore": 217,
+      "reasonsZh": [
+        "项目出现于 12 天前，最近更新 1 小时前",
+        "6382 人收藏 / 581 次被别人复制改造",
+        "大致归类: 安卓手机应用, AI 写代码工具",
+        "看点: AI 自动做事, AI 帮写代码, 应用, 手机端"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码",
+        "大致方向: AI 写代码工具",
+        "最近关注增长: 平均每天约 531 人收藏",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品",
+        "大致方向: 安卓手机应用",
+        "可能是: 应用, 手机端, 安卓",
+        "主要技术: Python"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品"
+      ]
+    },
+    {
+      "fullName": "Leonxlnx/earshot",
+      "url": "https://github.com/Leonxlnx/earshot",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Python",
+      "stars": 3917,
+      "forks": 248,
+      "openIssues": 14,
+      "topics": [],
+      "homepage": "",
+      "license": "MIT",
+      "owner": "Leonxlnx",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/219127460?v=4",
+      "createdAt": "2026-10-15T06:52:46Z",
+      "pushedAt": "2026-10-22T23:12:59Z",
+      "updatedAt": "2026-11-05T06:09:54Z",
+      "matchedQueries": [
+        "让 AI 连接外部工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 278,
+      "aiPotentialScore": 231,
+      "webTrendScore": 157,
+      "reasonsZh": [
+        "项目出现于 21 天前，最近更新 13 天前",
+        "3917 人收藏 / 248 次被别人复制改造",
+        "大致归类: 让 AI 连接外部工具",
+        "看点: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具, 编程助手",
+        "大致方向: 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 187 人收藏"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做设计、图片或内容",
+        "主要技术: Python"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做设计、图片或内容"
+      ]
+    },
+    {
+      "fullName": "shader-effects-inc/shaders",
+      "url": "https://github.com/shader-effects-inc/shaders",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "TypeScript",
+      "stars": 5827,
+      "forks": 272,
+      "openIssues": 6,
+      "topics": [],
+      "homepage": "https://shaders.com",
+      "license": "MIT",
+      "owner": "shader-effects-inc",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/265144305?v=4",
+      "createdAt": "2026-09-29T16:36:26Z",
+      "pushedAt": "2026-11-03T16:24:48Z",
+      "updatedAt": "2026-11-05T03:41:53Z",
+      "matchedQueries": [
+        "网站页面项目",
+        "终端工具",
+        "让 AI 连接外部工具"
+      ],
+      "matchedCategories": [
+        "网站/网页",
+        "开发工具",
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 331,
+      "aiPotentialScore": 229,
+      "webTrendScore": 230,
+      "reasonsZh": [
+        "项目出现于 37 天前，最近更新 2 天前",
+        "5827 人收藏 / 272 次被别人复制改造",
+        "大致归类: 网站页面项目, 终端工具, 让 AI 连接外部工具",
+        "有官网或演示，点开能直接看",
+        "看点: 网页, 网页界面"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 让 AI 连接外部工具",
+        "大致方向: 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 159 人收藏",
+        "有官网或演示，点开更容易看懂"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型",
+        "大致方向: 网站页面项目, 终端工具",
+        "可能是: 网页, 网页界面, 常用网页开发语言, 组件",
+        "有官网或演示，点开能直接看",
+        "主要技术: TypeScript"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型",
+        "现成模板，方便快速开工"
+      ]
+    },
+    {
+      "fullName": "AienTech/dossier",
+      "url": "https://github.com/AienTech/dossier",
+      "descriptionZh": "它和 MCP/工具连接有关，重点是让 AI 能接入更多外部能力，而不是只停留在聊天回答。",
+      "audienceZh": "想把手机当开发环境、或者喜欢折腾 Linux/安卓的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "TypeScript",
+      "stars": 4364,
+      "forks": 931,
+      "openIssues": 13,
+      "topics": [],
+      "homepage": "https://dossier.aien.me",
+      "license": "AGPL-3.0",
+      "owner": "AienTech",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/2676700?v=4",
+      "createdAt": "2026-10-03T21:26:15Z",
+      "pushedAt": "2026-11-04T22:20:01Z",
+      "updatedAt": "2026-11-05T06:14:37Z",
+      "matchedQueries": [
+        "完整网站应用",
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "网站/网页",
+        "AI 应用"
+      ],
+      "categoryZh": "网站/网页项目",
+      "score": 320,
+      "aiPotentialScore": 223,
+      "webTrendScore": 230,
+      "reasonsZh": [
+        "项目出现于 32 天前，最近更新 8 小时前",
+        "4364 人收藏 / 931 次被别人复制改造",
+        "大致归类: 完整网站应用, 聊天 AI 应用",
+        "有官网或演示，点开能直接看",
+        "看点: 网页, 网页界面, 完整网站应用, 聊天 AI"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: 聊天 AI",
+        "大致方向: 聊天 AI 应用",
+        "最近关注增长: 平均每天约 135 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 做网站页面和产品原型",
+        "大致方向: 完整网站应用",
+        "可能是: 网页, 网页界面, 完整网站应用, 常用网页开发语言",
+        "有官网或演示，点开能直接看",
+        "主要技术: TypeScript"
+      ],
+      "trendLabelsZh": [
+        "做网站页面和产品原型"
+      ]
+    },
+    {
+      "fullName": "shanliuling/dsh-image-gen",
+      "url": "https://github.com/shanliuling/dsh-image-gen",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "想用 AI 写代码、检查项目、自动处理开发任务的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "TypeScript",
+      "stars": 1110,
+      "forks": 67,
+      "openIssues": 14,
+      "topics": [],
+      "homepage": "https://github.com/shanliuling/dsh-image-gen#readme",
+      "license": "Apache-2.0",
+      "owner": "shanliuling",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/83563400?v=4",
+      "createdAt": "2026-08-17T10:16:37Z",
+      "pushedAt": "2026-11-05T01:10:01Z",
+      "updatedAt": "2026-11-05T06:05:27Z",
+      "matchedQueries": [
+        "AI 写代码工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 261,
+      "aiPotentialScore": 230,
+      "webTrendScore": 187,
+      "reasonsZh": [
+        "项目出现于 80 天前，最近更新 5 小时前",
+        "1110 人收藏 / 67 次被别人复制改造",
+        "大致归类: AI 写代码工具",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, AI 帮写代码, 给 AI 的指令, openai"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码, 给 AI 的指令, 工作流",
+        "大致方向: AI 写代码工具",
+        "最近关注增长: 平均每天约 14 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型",
+        "可能是: 常用网页开发语言, 工作室, 工作流",
+        "有官网或演示，点开能直接看",
+        "主要技术: TypeScript"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型",
+        "做设计、图片或内容",
+        "把重复工作自动化"
+      ]
+    },
+    {
+      "fullName": "vicoa-ai/vicoa",
+      "url": "https://github.com/vicoa-ai/vicoa",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "想把手机当开发环境、或者喜欢折腾 Linux/安卓的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它和真实手机使用场景有关，不只是网页端项目"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Python",
+      "stars": 531,
+      "forks": 62,
+      "openIssues": 4,
+      "topics": [],
+      "homepage": "https://vicoa.ai",
+      "license": "AGPL-3.0",
+      "owner": "vicoa-ai",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/249546925?v=4",
+      "createdAt": "2026-08-28T16:30:26Z",
+      "pushedAt": "2026-11-03T02:47:30Z",
+      "updatedAt": "2026-11-04T11:57:26Z",
+      "matchedQueries": [
+        "完整网站应用",
+        "苹果手机应用",
+        "多端手机应用"
+      ],
+      "matchedCategories": [
+        "网站/网页",
+        "手机/App"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 267,
+      "aiPotentialScore": 180,
+      "webTrendScore": 230,
+      "reasonsZh": [
+        "项目出现于 69 天前，最近更新 2 天前",
+        "531 人收藏 / 62 次被别人复制改造",
+        "大致归类: 完整网站应用, 苹果手机应用, 多端手机应用",
+        "有官网或演示，点开能直接看",
+        "看点: 网页, 网页界面, 完整网站应用, AI 自动做事"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码, 编程助手",
+        "最近关注增长: 平均每天约 7.7 人收藏",
+        "有官网或演示，点开更容易看懂"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型",
+        "大致方向: 完整网站应用, 苹果手机应用, 多端手机应用",
+        "可能是: 网页, 网页界面, 完整网站应用, 常用网页开发语言",
+        "有官网或演示，点开能直接看",
+        "主要技术: Python"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "一套代码做多个平台的 App"
+      ]
+    },
+    {
+      "fullName": "omlahore/RemoveMacAI",
+      "url": "https://github.com/omlahore/RemoveMacAI",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做 AI 应用、AI 助手、长期记忆功能的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Swift",
+      "stars": 5843,
+      "forks": 167,
+      "openIssues": 10,
+      "topics": [],
+      "homepage": "https://omlahore.github.io/RemoveMacAI/",
+      "license": "MIT",
+      "owner": "omlahore",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/119071446?v=4",
+      "createdAt": "2026-09-29T11:02:39Z",
+      "pushedAt": "2026-11-04T18:06:13Z",
+      "updatedAt": "2026-11-05T05:26:05Z",
+      "matchedQueries": [
+        "苹果应用",
+        "终端工具"
+      ],
+      "matchedCategories": [
+        "手机/App",
+        "开发工具"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 309,
+      "aiPotentialScore": 173,
+      "webTrendScore": 229,
+      "reasonsZh": [
+        "项目出现于 37 天前，最近更新 12 小时前",
+        "5843 人收藏 / 167 次被别人复制改造",
+        "大致归类: 苹果应用, 终端工具",
+        "有官网或演示，点开能直接看",
+        "看点: 终端工具, 做软件的人, 应用, 手机端, 苹果 App"
+      ],
+      "frontierReasonsZh": [
+        "最近关注增长: 平均每天约 159 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品",
+        "大致方向: 苹果应用, 终端工具",
+        "可能是: 应用, 手机端, 苹果 App",
+        "有官网或演示，点开能直接看",
+        "主要技术: Swift"
+      ],
+      "trendLabelsZh": [
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品"
+      ]
+    },
+    {
+      "fullName": "jhaizhou-ops/d2r-mobile",
+      "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+      "descriptionZh": "它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它和真实手机使用场景有关，不只是网页端项目"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "C",
+      "stars": 5138,
+      "forks": 1312,
+      "openIssues": 80,
+      "topics": [],
+      "homepage": "",
+      "license": "MIT",
+      "owner": "jhaizhou-ops",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/258432107?v=4",
+      "createdAt": "2026-10-12T08:41:19Z",
+      "pushedAt": "2026-11-04T21:07:53Z",
+      "updatedAt": "2026-11-05T05:01:31Z",
+      "matchedQueries": [
+        "苹果手机应用",
+        "安卓手机应用"
+      ],
+      "matchedCategories": [
+        "手机/App"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 318,
+      "aiPotentialScore": 179,
+      "webTrendScore": 229,
+      "reasonsZh": [
+        "项目出现于 24 天前，最近更新 9 小时前",
+        "5138 人收藏 / 1312 次被别人复制改造",
+        "大致归类: 苹果手机应用, 安卓手机应用",
+        "看点: 应用, 手机端, iOS, 安卓"
+      ],
+      "frontierReasonsZh": [
+        "最近关注增长: 平均每天约 215 人收藏",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品",
+        "大致方向: 苹果手机应用, 安卓手机应用",
+        "可能是: 应用, 手机端, iOS, 安卓",
+        "主要技术: C"
+      ],
+      "trendLabelsZh": [
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品"
+      ]
+    },
+    {
+      "fullName": "flectar/mail",
+      "url": "https://github.com/flectar/mail",
+      "descriptionZh": "从 README 和项目简介看，它主要围绕开源替代品、设计稿和产品原型、网站页面和前端界面展开。可以把它当成一个手机或 App 项目线索，先看它解决的问题和演示效果。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Rust",
+      "stars": 1767,
+      "forks": 130,
+      "openIssues": 17,
+      "topics": [],
+      "homepage": "http://flectar.com/mail/",
+      "license": "AGPL-3.0",
+      "owner": "flectar",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/92962995?v=4",
+      "createdAt": "2026-09-03T00:12:32Z",
+      "pushedAt": "2026-11-05T04:00:51Z",
+      "updatedAt": "2026-11-05T04:57:51Z",
+      "matchedQueries": [
+        "苹果手机应用",
+        "安卓手机应用"
+      ],
+      "matchedCategories": [
+        "手机/App"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 288,
+      "aiPotentialScore": 157,
+      "webTrendScore": 229,
+      "reasonsZh": [
+        "项目出现于 63 天前，最近更新 2 小时前",
+        "1767 人收藏 / 130 次被别人复制改造",
+        "大致归类: 苹果手机应用, 安卓手机应用",
+        "有官网或演示，点开能直接看",
+        "看点: 终端工具, 应用, 平台, 手机端, iOS"
+      ],
+      "frontierReasonsZh": [
+        "最近关注增长: 平均每天约 28 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型, 做手机 App 和应用产品",
+        "大致方向: 苹果手机应用, 安卓手机应用",
+        "可能是: 应用, 手机端, iOS, 安卓, 平台",
+        "有官网或演示，点开能直接看",
+        "主要技术: Rust"
+      ],
+      "trendLabelsZh": [
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "普通用户会用的个人工具"
+      ]
+    },
+    {
+      "fullName": "jundizhou/easy-stock",
+      "url": "https://github.com/jundizhou/easy-stock",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做 AI 应用、AI 助手、长期记忆功能的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Go",
+      "stars": 1742,
+      "forks": 187,
+      "openIssues": 12,
+      "topics": [],
+      "homepage": "https://github.com/jundizhou/easy-stock/blob/main/docs/user-guide.md",
+      "license": "NOASSERTION",
+      "owner": "jundizhou",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/92794317?v=4",
+      "createdAt": "2026-08-07T16:25:36Z",
+      "pushedAt": "2026-11-05T04:11:18Z",
+      "updatedAt": "2026-11-05T05:14:36Z",
+      "matchedQueries": [
+        "网站页面项目",
+        "AI 写代码工具"
+      ],
+      "matchedCategories": [
+        "网站/网页",
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 293,
+      "aiPotentialScore": 229,
+      "webTrendScore": 212,
+      "reasonsZh": [
+        "项目出现于 90 天前，最近更新 2 小时前",
+        "1742 人收藏 / 187 次被别人复制改造",
+        "大致归类: 网站页面项目, AI 写代码工具",
+        "有官网或演示，点开能直接看",
+        "看点: 网页, 网页界面, AI 自动做事"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码, 聊天 AI",
+        "大致方向: AI 写代码工具",
+        "最近关注增长: 平均每天约 19 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 一套代码做多个平台的 App",
+        "大致方向: 网站页面项目",
+        "可能是: 网页, 网页界面, 应用, 桌面应用工具",
+        "有官网或演示，点开能直接看",
+        "主要技术: Go"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "一套代码做多个平台的 App",
+        "普通用户会用的个人工具"
+      ]
+    },
+    {
+      "fullName": "Derpyu520/qq-bridge",
+      "url": "https://github.com/Derpyu520/qq-bridge",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "想用 AI 写代码、检查项目、自动处理开发任务的人",
+      "readmeHighlightsZh": [
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "JavaScript",
+      "stars": 3540,
+      "forks": 217,
+      "openIssues": 50,
+      "topics": [],
+      "homepage": "",
+      "license": "NOASSERTION",
+      "owner": "Derpyu520",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/299827845?v=4",
+      "createdAt": "2026-08-25T07:46:42Z",
+      "pushedAt": "2026-11-03T12:36:35Z",
+      "updatedAt": "2026-11-05T05:41:56Z",
+      "matchedQueries": [
+        "AI 写代码工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 280,
+      "aiPotentialScore": 228,
+      "webTrendScore": 166,
+      "reasonsZh": [
+        "项目出现于 72 天前，最近更新 2 天前",
+        "3540 人收藏 / 217 次被别人复制改造",
+        "大致归类: AI 写代码工具",
+        "看点: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码, 让 AI 连接外部工具",
+        "大致方向: AI 写代码工具",
+        "最近关注增长: 平均每天约 49 人收藏"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 普通用户会用的个人工具",
+        "主要技术: JavaScript"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "普通用户会用的个人工具"
+      ]
+    },
+    {
+      "fullName": "Folkbench/folkbench",
+      "url": "https://github.com/Folkbench/folkbench",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做 AI 应用、AI 助手、长期记忆功能的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Rust",
+      "stars": 4323,
+      "forks": 21,
+      "openIssues": 0,
+      "topics": [],
+      "homepage": "https://folkbench.com",
+      "license": "NOASSERTION",
+      "owner": "Folkbench",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/336879625?v=4",
+      "createdAt": "2026-10-02T09:50:45Z",
+      "pushedAt": "2026-11-01T12:01:43Z",
+      "updatedAt": "2026-11-05T03:38:56Z",
+      "matchedQueries": [
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "AI 应用"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 275,
+      "aiPotentialScore": 227,
+      "webTrendScore": 180,
+      "reasonsZh": [
+        "项目出现于 34 天前，最近更新 4 天前",
+        "4323 人收藏 / 21 次被别人复制改造",
+        "大致归类: 聊天 AI 应用",
+        "有官网或演示，点开能直接看",
+        "看点: 聊天 AI, 编程助手, openai, 数据接口"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: 聊天 AI, 效果评测, 对比评测, 编程助手",
+        "大致方向: 聊天 AI 应用",
+        "最近关注增长: 平均每天约 128 人收藏",
+        "有官网或演示，点开更容易看懂"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型",
+        "可能是: 应用, 桌面应用工具",
+        "有官网或演示，点开能直接看",
+        "主要技术: Rust"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型",
+        "一套代码做多个平台的 App"
+      ]
+    },
+    {
+      "fullName": "xzf-thu/VoiceMem",
+      "url": "https://github.com/xzf-thu/VoiceMem",
+      "descriptionZh": "它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Python",
+      "stars": 2885,
+      "forks": 267,
+      "openIssues": 7,
+      "topics": [],
+      "homepage": "",
+      "license": "Apache-2.0",
+      "owner": "xzf-thu",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/201621992?v=4",
+      "createdAt": "2026-08-17T09:49:10Z",
+      "pushedAt": "2026-09-14T06:01:08Z",
+      "updatedAt": "2026-11-05T05:49:29Z",
+      "matchedQueries": [
+        "聊天 AI 应用"
+      ],
+      "matchedCategories": [
+        "AI 应用"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 273,
+      "aiPotentialScore": 227,
+      "webTrendScore": 168,
+      "reasonsZh": [
+        "项目出现于 80 天前，最近更新 52 天前",
+        "2885 人收藏 / 267 次被别人复制改造",
+        "大致归类: 聊天 AI 应用",
+        "看点: AI 自动做事, assistant, 聊天 AI, 应用"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 聊天 AI, 语音",
+        "大致方向: 聊天 AI 应用",
+        "最近关注增长: 平均每天约 36 人收藏"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做设计、图片或内容",
+        "可能是: 应用",
+        "主要技术: Python"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "做设计、图片或内容"
+      ]
+    },
+    {
+      "fullName": "marclou/mailcheap",
+      "url": "https://github.com/marclou/mailcheap",
+      "descriptionZh": "它收集真实 iOS 订阅 App 的付费墙、价格页和新用户引导截图，方便研究 App 怎么收费、怎么转化用户。",
+      "audienceZh": "做手机 App、订阅收费、增长转化的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "JavaScript",
+      "stars": 1629,
+      "forks": 408,
+      "openIssues": 16,
+      "topics": [],
+      "homepage": "https://mailcheap.ai",
+      "license": "AGPL-3.0",
+      "owner": "marclou",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/12645328?v=4",
+      "createdAt": "2026-10-10T12:55:36Z",
+      "pushedAt": "2026-11-04T14:30:46Z",
+      "updatedAt": "2026-11-05T06:17:59Z",
+      "matchedQueries": [
+        "完整网站应用",
+        "让 AI 连接外部工具"
+      ],
+      "matchedCategories": [
+        "网站/网页",
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 295,
+      "aiPotentialScore": 227,
+      "webTrendScore": 208,
+      "reasonsZh": [
+        "项目出现于 26 天前，最近更新 16 小时前",
+        "1629 人收藏 / 408 次被别人复制改造",
+        "大致归类: 完整网站应用, 让 AI 连接外部工具",
+        "有官网或演示，点开能直接看",
+        "看点: 网页, 网页界面, 完整网站应用, AI 自动做事"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 让 AI 连接外部工具",
+        "大致方向: 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 63 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型",
+        "大致方向: 完整网站应用",
+        "可能是: 网页, 网页界面, 完整网站应用",
+        "有官网或演示，点开能直接看",
+        "主要技术: JavaScript"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型"
+      ]
+    },
+    {
+      "fullName": "Leviidev/Husk",
+      "url": "https://github.com/Leviidev/Husk",
+      "descriptionZh": "从 README 和项目简介看，它主要围绕手机 App、真实产品案例数据展开。可以把它当成一个手机或 App 项目线索，先看它解决的问题和演示效果。",
+      "audienceZh": "做 iOS、安卓或跨平台 App 的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据",
+        "它和真实手机使用场景有关，不只是网页端项目"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Java",
+      "stars": 3049,
+      "forks": 215,
+      "openIssues": 10,
+      "topics": [],
+      "homepage": "https://itslevii.dev",
+      "license": "GPL-2.0",
+      "owner": "Leviidev",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/281482210?v=4",
+      "createdAt": "2026-09-12T03:08:51Z",
+      "pushedAt": "2026-11-05T03:34:24Z",
+      "updatedAt": "2026-11-05T06:18:21Z",
+      "matchedQueries": [
+        "苹果手机应用",
+        "安卓手机应用"
+      ],
+      "matchedCategories": [
+        "手机/App"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 290,
+      "aiPotentialScore": 161,
+      "webTrendScore": 226,
+      "reasonsZh": [
+        "项目出现于 54 天前，最近更新 3 小时前",
+        "3049 人收藏 / 215 次被别人复制改造",
+        "大致归类: 苹果手机应用, 安卓手机应用",
+        "有官网或演示，点开能直接看",
+        "看点: 应用, 手机端, iOS, 安卓"
+      ],
+      "frontierReasonsZh": [
+        "最近关注增长: 平均每天约 56 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品",
+        "大致方向: 苹果手机应用, 安卓手机应用",
+        "可能是: 应用, 手机端, iOS, 安卓",
+        "有官网或演示，点开能直接看",
+        "主要技术: Java"
+      ],
+      "trendLabelsZh": [
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品"
+      ]
+    },
+    {
+      "fullName": "zhuyansen/new-term-radar",
+      "url": "https://github.com/zhuyansen/new-term-radar",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Python",
+      "stars": 2106,
+      "forks": 635,
+      "openIssues": 2,
+      "topics": [],
+      "homepage": "",
+      "license": "MIT",
+      "owner": "zhuyansen",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/24306647?v=4",
+      "createdAt": "2026-10-12T07:11:01Z",
+      "pushedAt": "2026-11-02T23:42:54Z",
+      "updatedAt": "2026-11-05T06:11:33Z",
+      "matchedQueries": [
+        "让 AI 连接外部工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 274,
+      "aiPotentialScore": 226,
+      "webTrendScore": 163,
+      "reasonsZh": [
+        "项目出现于 24 天前，最近更新 2 天前",
+        "2106 人收藏 / 635 次被别人复制改造",
+        "大致归类: 让 AI 连接外部工具",
+        "看点: AI 自动做事, 让 AI 连接外部工具, 编程助手, 产品"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 让 AI 连接外部工具, 编程助手",
+        "大致方向: 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 88 人收藏"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑",
+        "可能是: 产品",
+        "主要技术: Python"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "帮做软件的人看懂项目、少踩坑"
+      ]
+    },
+    {
+      "fullName": "Clarklevis1995/dsh-mobile",
+      "url": "https://github.com/Clarklevis1995/dsh-mobile",
+      "descriptionZh": "它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据",
+        "它和真实手机使用场景有关，不只是网页端项目"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Kotlin",
+      "stars": 728,
+      "forks": 78,
+      "openIssues": 15,
+      "topics": [],
+      "homepage": "https://clarklevis1995.github.io/dsh-mobile/",
+      "license": "MIT",
+      "owner": "Clarklevis1995",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/68770750?v=4",
+      "createdAt": "2026-08-17T15:52:40Z",
+      "pushedAt": "2026-11-05T03:42:05Z",
+      "updatedAt": "2026-11-05T04:01:01Z",
+      "matchedQueries": [
+        "苹果手机应用"
+      ],
+      "matchedCategories": [
+        "手机/App"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 251,
+      "aiPotentialScore": 166,
+      "webTrendScore": 225,
+      "reasonsZh": [
+        "项目出现于 80 天前，最近更新 3 小时前",
+        "728 人收藏 / 78 次被别人复制改造",
+        "大致归类: 苹果手机应用",
+        "有官网或演示，点开能直接看",
+        "看点: 网页, AI 自动做事, 应用, 平台, 手机端"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事",
+        "最近关注增长: 平均每天约 9.1 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品",
+        "大致方向: 苹果手机应用",
+        "可能是: 网页, 应用, 手机端, iOS, 安卓",
+        "有官网或演示，点开能直接看",
+        "主要技术: Kotlin"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "做设计、图片或内容"
+      ]
+    },
+    {
+      "fullName": "designfuchen/word-atlas",
+      "url": "https://github.com/designfuchen/word-atlas",
+      "descriptionZh": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "TypeScript",
+      "stars": 4203,
+      "forks": 904,
+      "openIssues": 43,
+      "topics": [],
+      "homepage": "https://0xlei.tech/words/",
+      "license": "NOASSERTION",
+      "owner": "designfuchen",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/17679892?v=4",
+      "createdAt": "2026-10-25T08:27:22Z",
+      "pushedAt": "2026-10-31T11:37:01Z",
+      "updatedAt": "2026-11-05T06:13:54Z",
+      "matchedQueries": [
+        "网站页面项目"
+      ],
+      "matchedCategories": [
+        "网站/网页"
+      ],
+      "categoryZh": "网站/网页项目",
+      "score": 294,
+      "aiPotentialScore": 173,
+      "webTrendScore": 224,
+      "reasonsZh": [
+        "项目出现于 11 天前，最近更新 5 天前",
+        "4203 人收藏 / 904 次被别人复制改造",
+        "大致归类: 网站页面项目",
+        "有官网或演示，点开能直接看",
+        "看点: 网页, 网页界面, 应用"
+      ],
+      "frontierReasonsZh": [
+        "最近关注增长: 平均每天约 385 人收藏",
+        "有官网或演示，点开更容易看懂"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 做网站页面和产品原型, 做设计、图片或内容",
+        "大致方向: 网站页面项目",
+        "可能是: 网页, 网页界面, 常用网页开发语言, 应用",
+        "有官网或演示，点开能直接看",
+        "主要技术: TypeScript"
+      ],
+      "trendLabelsZh": [
+        "做网站页面和产品原型",
+        "做设计、图片或内容"
+      ]
+    },
+    {
+      "fullName": "leemysw/yovoice",
+      "url": "https://github.com/leemysw/yovoice",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "TypeScript",
+      "stars": 2068,
+      "forks": 156,
+      "openIssues": 15,
+      "topics": [],
+      "homepage": "https://yovoice.leemysw.com",
+      "license": "Apache-2.0",
+      "owner": "leemysw",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/40636507?v=4",
+      "createdAt": "2026-09-15T15:18:35Z",
+      "pushedAt": "2026-11-05T05:23:56Z",
+      "updatedAt": "2026-11-05T05:47:50Z",
+      "matchedQueries": [
+        "让 AI 连接外部工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 275,
+      "aiPotentialScore": 224,
+      "webTrendScore": 202,
+      "reasonsZh": [
+        "项目出现于 51 天前，最近更新 1 小时前",
+        "2068 人收藏 / 156 次被别人复制改造",
+        "大致归类: 让 AI 连接外部工具",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, 让 AI 连接外部工具, 数据接口, 应用, 工作室"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, 让 AI 连接外部工具, 语音",
+        "大致方向: 让 AI 连接外部工具",
+        "最近关注增长: 平均每天约 41 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 做网站页面和产品原型",
+        "可能是: 常用网页开发语言, 应用, 工作室",
+        "有官网或演示，点开能直接看",
+        "主要技术: TypeScript"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "帮做软件的人看懂项目、少踩坑",
+        "做网站页面和产品原型",
+        "普通用户会用的个人工具",
+        "做设计、图片或内容"
+      ]
+    },
+    {
+      "fullName": "bryllim/workout-guide",
+      "url": "https://github.com/bryllim/workout-guide",
+      "descriptionZh": "它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。",
+      "audienceZh": "做 iOS、安卓或跨平台 App 的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Astro",
+      "stars": 1399,
+      "forks": 202,
+      "openIssues": 2,
+      "topics": [],
+      "homepage": "https://bryllim.github.io/workout-guide/",
+      "license": "MIT",
+      "owner": "bryllim",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/37092544?v=4",
+      "createdAt": "2026-08-24T02:14:20Z",
+      "pushedAt": "2026-08-26T16:05:37Z",
+      "updatedAt": "2026-11-05T02:39:12Z",
+      "matchedQueries": [
+        "跨平台手机应用",
+        "快速开发的手机应用"
+      ],
+      "matchedCategories": [
+        "手机/App"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 277,
+      "aiPotentialScore": 148,
+      "webTrendScore": 224,
+      "reasonsZh": [
+        "项目出现于 73 天前，最近更新 71 天前",
+        "1399 人收藏 / 202 次被别人复制改造",
+        "大致归类: 跨平台手机应用, 快速开发的手机应用",
+        "有官网或演示，点开能直接看",
+        "看点: 网页界面, 开发框架, 应用, 手机端, 一套代码做多个平台的 App"
+      ],
+      "frontierReasonsZh": [
+        "最近关注增长: 平均每天约 19 人收藏",
+        "有官网或演示，点开更容易看懂"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App",
+        "大致方向: 跨平台手机应用, 快速开发的手机应用",
+        "可能是: 网页界面, 应用, 手机端, 一套代码做多个平台的 App, 快速做手机 App",
+        "有官网或演示，点开能直接看",
+        "主要技术: Astro"
+      ],
+      "trendLabelsZh": [
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "一套代码做多个平台的 App",
+        "普通用户会用的个人工具",
+        "做设计、图片或内容"
+      ]
+    },
+    {
+      "fullName": "Zyrexnn/Cybermes",
+      "url": "https://github.com/Zyrexnn/Cybermes",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它不只是代码，也提供可观察的案例、截图或数据"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Python",
+      "stars": 1004,
+      "forks": 165,
+      "openIssues": 1,
+      "topics": [],
+      "homepage": "",
+      "license": "Apache-2.0",
+      "owner": "Zyrexnn",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/177414770?v=4",
+      "createdAt": "2026-08-19T13:25:08Z",
+      "pushedAt": "2026-11-05T05:55:46Z",
+      "updatedAt": "2026-11-04T14:23:09Z",
+      "matchedQueries": [
+        "AI 写代码工具"
+      ],
+      "matchedCategories": [
+        "AI 工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 260,
+      "aiPotentialScore": 224,
+      "webTrendScore": 161,
+      "reasonsZh": [
+        "项目出现于 78 天前，最近更新 1 小时前",
+        "1004 人收藏 / 165 次被别人复制改造",
+        "大致归类: AI 写代码工具",
+        "看点: AI 自动做事, AI 帮写代码, 聊天 AI, 开发框架"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码, AI 自己执行, 聊天 AI",
+        "大致方向: AI 写代码工具",
+        "最近关注增长: 平均每天约 13 人收藏",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 检查安全风险",
+        "可能是: 应用",
+        "主要技术: Python"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "检查安全风险"
+      ]
+    },
+    {
+      "fullName": "LerSent001/orb",
+      "url": "https://github.com/LerSent001/orb",
+      "descriptionZh": "它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。",
+      "audienceZh": "想用 AI 写代码、检查项目、自动处理开发任务的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "TypeScript",
+      "stars": 746,
+      "forks": 92,
+      "openIssues": 3,
+      "topics": [],
+      "homepage": "https://lersent001.github.io/orb/",
+      "license": "MIT",
+      "owner": "LerSent001",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/266635008?v=4",
+      "createdAt": "2026-08-14T15:57:06Z",
+      "pushedAt": "2026-10-22T04:22:30Z",
+      "updatedAt": "2026-11-04T14:07:21Z",
+      "matchedQueries": [
+        "网站页面项目"
+      ],
+      "matchedCategories": [
+        "网站/网页"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 245,
+      "aiPotentialScore": 158,
+      "webTrendScore": 224,
+      "reasonsZh": [
+        "项目出现于 83 天前，最近更新 14 天前",
+        "746 人收藏 / 92 次被别人复制改造",
+        "大致归类: 网站页面项目",
+        "有官网或演示，点开能直接看",
+        "看点: 网页, 网页界面, openai, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: 编程助手",
+        "最近关注增长: 平均每天约 9.0 人收藏",
+        "有官网或演示，点开更容易看懂"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 做网站页面和产品原型, 做手机 App 和应用产品",
+        "大致方向: 网站页面项目",
+        "可能是: 网页, 网页界面, 常用网页开发语言, 编辑器",
+        "有官网或演示，点开能直接看",
+        "主要技术: TypeScript"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "一套代码做多个平台的 App",
+        "做设计、图片或内容"
+      ]
+    },
+    {
+      "fullName": "lennney/stop-that-shit",
+      "url": "https://github.com/lennney/stop-that-shit",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "想用 AI 写代码、检查项目、自动处理开发任务的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "JavaScript",
+      "stars": 3638,
+      "forks": 74,
+      "openIssues": 4,
+      "topics": [],
+      "homepage": "https://lennney.com/zh/stop-that-shit",
+      "license": "MIT",
+      "owner": "lennney",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/94768569?v=4",
+      "createdAt": "2026-08-11T15:31:45Z",
+      "pushedAt": "2026-11-05T03:38:30Z",
+      "updatedAt": "2026-11-05T06:15:17Z",
+      "matchedQueries": [
+        "开发工具"
+      ],
+      "matchedCategories": [
+        "开发工具"
+      ],
+      "categoryZh": "AI 工具项目",
+      "score": 287,
+      "aiPotentialScore": 223,
+      "webTrendScore": 205,
+      "reasonsZh": [
+        "项目出现于 86 天前，最近更新 3 小时前",
+        "3638 人收藏 / 74 次被别人复制改造",
+        "大致归类: 开发工具",
+        "有官网或演示，点开能直接看",
+        "看点: AI 自动做事, AI 帮写代码, 编程助手"
+      ],
+      "frontierReasonsZh": [
+        "可能值得看: AI 自动做事, AI 帮写代码, 编程助手",
+        "最近关注增长: 平均每天约 42 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 用 AI 帮人写代码或自动做事, 帮做软件的人看懂项目、少踩坑, 把重复工作自动化",
+        "大致方向: 开发工具",
+        "可能是: 工作流, 平台",
+        "有官网或演示，点开能直接看",
+        "主要技术: JavaScript"
+      ],
+      "trendLabelsZh": [
+        "用 AI 帮人写代码或自动做事",
+        "帮做软件的人看懂项目、少踩坑",
+        "把重复工作自动化"
+      ]
+    },
+    {
+      "fullName": "pauljoda/Crest",
+      "url": "https://github.com/pauljoda/Crest",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做产品设计、页面原型、营销页或视觉内容的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它和真实手机使用场景有关，不只是网页端项目"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Swift",
+      "stars": 1099,
+      "forks": 105,
+      "openIssues": 251,
+      "topics": [],
+      "homepage": "https://crestbrowser.com",
+      "license": "MPL-2.0",
+      "owner": "pauljoda",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/3199533?v=4",
+      "createdAt": "2026-08-15T21:50:11Z",
+      "pushedAt": "2026-11-05T04:07:25Z",
+      "updatedAt": "2026-11-05T05:16:05Z",
+      "matchedQueries": [
+        "苹果手机应用"
+      ],
+      "matchedCategories": [
+        "手机/App"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 258,
+      "aiPotentialScore": 150,
+      "webTrendScore": 223,
+      "reasonsZh": [
+        "项目出现于 81 天前，最近更新 2 小时前",
+        "1099 人收藏 / 105 次被别人复制改造",
+        "大致归类: 苹果手机应用",
+        "有官网或演示，点开能直接看",
+        "看点: 网页, 浏览器, 应用, 手机端, iOS"
+      ],
+      "frontierReasonsZh": [
+        "最近关注增长: 平均每天约 14 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 一套代码做多个平台的 App",
+        "大致方向: 苹果手机应用",
+        "可能是: 网页, 应用, 手机端, iOS, 苹果 App",
+        "有官网或演示，点开能直接看",
+        "主要技术: Swift"
+      ],
+      "trendLabelsZh": [
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "一套代码做多个平台的 App",
+        "现成模板，方便快速开工"
+      ]
+    },
+    {
+      "fullName": "ly05010419/MacNativeGames",
+      "url": "https://github.com/ly05010419/MacNativeGames",
+      "descriptionZh": "它围绕 AI 写代码和自动处理开发任务展开，重点是让 AI 更像一个能协助执行的开发助手。",
+      "audienceZh": "做 AI 应用、AI 助手、长期记忆功能的人",
+      "readmeHighlightsZh": [
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它和真实手机使用场景有关，不只是网页端项目",
+        "最近几天仍在更新，说明项目还活跃"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "C",
+      "stars": 7054,
+      "forks": 1041,
+      "openIssues": 152,
+      "topics": [],
+      "homepage": "",
+      "license": "MIT",
+      "owner": "ly05010419",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/1425386?v=4",
+      "createdAt": "2026-10-17T19:52:00Z",
+      "pushedAt": "2026-11-04T21:04:45Z",
+      "updatedAt": "2026-11-05T06:10:31Z",
+      "matchedQueries": [
+        "苹果手机应用"
+      ],
+      "matchedCategories": [
+        "手机/App"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 306,
+      "aiPotentialScore": 181,
+      "webTrendScore": 219,
+      "reasonsZh": [
+        "项目出现于 18 天前，最近更新 9 小时前",
+        "7054 人收藏 / 1041 次被别人复制改造",
+        "大致归类: 苹果手机应用",
+        "看点: 应用, 手机端, iOS"
+      ],
+      "frontierReasonsZh": [
+        "最近关注增长: 平均每天约 383 人收藏",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品",
+        "大致方向: 苹果手机应用",
+        "可能是: 应用, 手机端, iOS",
+        "主要技术: C"
+      ],
+      "trendLabelsZh": [
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品"
+      ]
+    },
+    {
+      "fullName": "metasequoiaime/msime",
+      "url": "https://github.com/metasequoiaime/msime",
+      "descriptionZh": "它属于手机 App 方向，重点是把某个具体功能、组件或产品体验做成可以安装或复用的应用项目。",
+      "audienceZh": "做 iOS、安卓或跨平台 App 的人",
+      "readmeHighlightsZh": [
+        "项目主打开源，别人可以直接学习、改造或二次开发",
+        "有官网、演示或下载入口，点开后更容易判断实际效果",
+        "它和真实手机使用场景有关，不只是网页端项目"
+      ],
+      "summarySourceZh": "项目 README + GitHub 简介",
+      "language": "Rust",
+      "stars": 1162,
+      "forks": 86,
+      "openIssues": 115,
+      "topics": [],
+      "homepage": "https://msime.app/",
+      "license": "GPL-3.0",
+      "owner": "metasequoiaime",
+      "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/324869696?v=4",
+      "createdAt": "2026-09-02T23:44:10Z",
+      "pushedAt": "2026-11-05T06:17:45Z",
+      "updatedAt": "2026-11-05T05:02:08Z",
+      "matchedQueries": [
+        "苹果手机应用",
+        "安卓手机应用"
+      ],
+      "matchedCategories": [
+        "手机/App"
+      ],
+      "categoryZh": "手机/App 项目",
+      "score": 269,
+      "aiPotentialScore": 150,
+      "webTrendScore": 219,
+      "reasonsZh": [
+        "项目出现于 63 天前，最近更新 1 小时前",
+        "1162 人收藏 / 86 次被别人复制改造",
+        "大致归类: 苹果手机应用, 安卓手机应用",
+        "有官网或演示，点开能直接看",
+        "看点: 应用, 手机端, iOS, 安卓"
+      ],
+      "frontierReasonsZh": [
+        "最近关注增长: 平均每天约 18 人收藏",
+        "有官网或演示，点开更容易看懂",
+        "最近还在更新"
+      ],
+      "webTrendReasonsZh": [
+        "它代表的趋势: 做网站页面和产品原型, 做手机 App 和应用产品, 现成模板，方便快速开工",
+        "大致方向: 苹果手机应用, 安卓手机应用",
+        "可能是: 应用, 手机端, iOS, 安卓",
+        "有官网或演示，点开能直接看",
+        "主要技术: Rust"
+      ],
+      "trendLabelsZh": [
+        "做网站页面和产品原型",
+        "做手机 App 和应用产品",
+        "现成模板，方便快速开工"
+      ]
+    }
+  ]
+}
