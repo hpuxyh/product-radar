@@ -1,6 +1,12 @@
 {
-  "generated": "2026-11-13T06:16:26.234Z",
+  "generated": "2026-11-15T06:01:41.266Z",
   "dates": [
+    {
+      "date": "2026-11-15",
+      "reports": [
+        "new-projects"
+      ]
+    },
     {
       "date": "2026-11-13",
       "reports": [
